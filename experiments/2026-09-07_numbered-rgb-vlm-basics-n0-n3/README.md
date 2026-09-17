@@ -129,7 +129,7 @@ N3는 좌→우와 카메라 기준 앞→뒤를 분리하고, complete ordering
 
 ## 4. 이 snapshot에 포함된 로그
 
-이 폴더에는 총 **14,375개의 call-level record**를 포함합니다.
+이 폴더에는 최종 분석에 사용한 **14,375개의 main call-level record**를 포함합니다. 여기에 N1 schema key-order 검증 중 제외된 163개 호출도 `logs/discarded_wrong_json_key_order/`에 별도로 보존했습니다. 제외 로그는 아래 표의 main record 수와 결과 지표에는 포함되지 않습니다.
 
 | 단계 | 실험 | call-level records | 형태 |
 |---|---|---:|---|

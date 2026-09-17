@@ -1,0 +1,9 @@
+{
+  "expected": 3600,
+  "completed": 163,
+  "processed_this_invocation": 163,
+  "elapsed_seconds": 100.404,
+  "last_run_id": "T05_ENUM_TEXT__b0_l3_random_7objects_04__r01_s28101",
+  "last_finish_reason": "stop",
+  "last_output_tokens": 80
+}

@@ -1,0 +1,84 @@
+Examine the numbered RGB image.
+
+The following IDs are confirmed to be the complete and correct set of all visible object-marker IDs:
+{visible_ids_json}
+
+User request:
+"{target_description}"
+
+First, decompose the user request into the following two constraints:
+
+1. The required object type
+2. The required color
+
+If the user does not specify a color, set the required color to null.
+Use open-vocabulary descriptions. Do not use a predefined object or color vocabulary.
+
+Process every confirmed ID exactly once.
+
+For each ID:
+
+1. Identify the physical object associated with the numbered marker.
+2. Identify the primary visible color of the object as a whole.
+3. Determine whether the identified object type matches the required object type.
+4. If the user specified a color, determine whether the identified color matches the required color.
+5. Compute whether the object satisfies the entire user request.
+
+For the primary color, use the color a person would most naturally use to distinguish the object.
+Base the decision on the largest visible region of the main body or main label.
+Ignore the cap or lid, handle, logo, printed text, small graphics, narrow accent colors,
+the red ID marker, highlights, and shadows.
+
+Apply the following logical rule exactly.
+
+If a color is required:
+
+matches_request = object_type_matches AND color_matches
+
+If no color is required:
+
+matches_request = object_type_matches
+
+When both an object type and a color are required, follow this truth table:
+
+object_type_matches | color_matches | matches_request
+true                | true          | true
+true                | false         | false
+false               | true          | false
+false               | false         | false
+
+Matching only the required object type is not sufficient.
+Matching only the required color is not sufficient.
+
+The matching_ids array must contain exactly the IDs whose matches_request value is true.
+
+Before returning the response, verify all of the following:
+
+1. Every confirmed ID appears exactly once in instances.
+2. Every matches_request value follows the logical rule above.
+3. matching_ids contains all and only the IDs with matches_request=true.
+4. No ID outside the confirmed ID set has been added.
+
+Return only one valid JSON object using the following structure:
+
+{{
+  "request_constraints": {{
+    "object_type": string,
+    "color": string or null
+  }},
+  "instances": [
+    {{
+      "id": integer,
+      "object_type": string,
+      "color": string,
+      "object_type_matches": boolean,
+      "color_matches": boolean or null,
+      "matches_request": boolean
+    }}
+  ],
+  "matching_ids": [integer, ...]
+}}
+
+If the user does not specify a color, return null for color_matches.
+
+Do not output explanations, Markdown, or additional fields.

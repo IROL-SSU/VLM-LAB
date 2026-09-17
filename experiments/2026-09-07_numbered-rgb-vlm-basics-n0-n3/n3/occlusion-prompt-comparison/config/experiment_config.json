@@ -1,0 +1,64 @@
+{
+  "experiment_id": "n3_occlusion_rgb_missing20_5methods_5seeds_20260907",
+  "generation": {
+    "frequency_penalty": 0.0,
+    "max_tokens": 1024,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9
+  },
+  "input": "one numbered RGB image",
+  "input_condition": "numbered_rgb",
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "methods": [
+    "minimal_direct",
+    "detailed_direct",
+    "contact_point",
+    "explicit_pairs",
+    "single_target"
+  ],
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "original_rgb_baselines": {
+    "contact_point": "/home/ssu/ShelfScene/experiments/n3_occlusion_contact_point_20scenes_5seeds_20260831",
+    "detailed_direct": "/home/ssu/ShelfScene/experiments/n3_occlusion_detailed_direct_20scenes_5seeds_20260831",
+    "explicit_pairs": "/home/ssu/ShelfScene/experiments/n3_occlusion_explicit_pairs_20scenes_5seeds_20260831",
+    "minimal_direct": "/home/ssu/ShelfScene/experiments/n3_occlusion_minimal_direct_20scenes_5seeds_20260831",
+    "single_target": "/home/ssu/ShelfScene/experiments/n3_occlusion_single_target_20scenes_5seeds_20260831"
+  },
+  "output": "forced JSON",
+  "prompt_language": "English",
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "images_per_prompt": 1,
+    "limit_mm_per_prompt": {
+      "image": 1
+    },
+    "max_model_len": 8192,
+    "max_num_seqs": 1,
+    "moe_backend": "triton"
+  },
+  "scene_count": 20,
+  "scene_count_per_type": 20,
+  "scene_labels": {
+    "structured_occlusion": "Structured occlusion"
+  },
+  "scene_types": [
+    "structured_occlusion"
+  ],
+  "scheduled_calls": 500,
+  "skip_external_baseline_comparison": true,
+  "source_rgbd_experiment": "/home/ssu/ShelfScene/experiments/n3_rgbd_3scene_40each_5methods_5seeds_20260831",
+  "supplement_for": "complete 40-scene RGB/Gray/Numbered-Gray comparison",
+  "system_prompt": null
+}

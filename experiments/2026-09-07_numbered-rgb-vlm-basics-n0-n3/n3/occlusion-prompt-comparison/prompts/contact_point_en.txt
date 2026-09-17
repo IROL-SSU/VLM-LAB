@@ -1,0 +1,75 @@
+Examine the numbered RGB image.
+
+The following IDs are confirmed to be the complete and correct set of all visible object-marker IDs:
+{visible_ids_json}
+
+Order all confirmed IDs from the physical object closest to the camera
+to the physical object farthest from the camera.
+
+In this prompt:
+
+- "Front" means closer to the camera.
+- "Back" means farther from the camera.
+- front_to_back means ordering the objects from closest to farthest from the camera.
+
+Determine the front-to-back position using the depth of the physical object associated
+with each numbered marker, not the numbered marker itself.
+
+The red numbered marker only identifies the object.
+Do not use the position or size of the numbered marker as evidence of object depth.
+
+All objects in this image rest on the same horizontal shelf plane, and the camera
+is positioned above the shelf while looking downward.
+
+For each confirmed ID, locate the bottom-center point where the associated physical
+object body touches the shelf. Use this shelf-contact point as the primary depth cue.
+
+Do not use the numbered marker position, the top of the object, or the center of the
+object's visible bounding box as the shelf-contact point.
+
+Under this camera geometry:
+
+- A shelf-contact point appearing lower in the image means that the object is closer to the camera.
+- A shelf-contact point appearing higher in the image means that the object is farther from the camera.
+
+First compare the shelf-contact points of the physical objects. Then order all IDs
+from the lowest shelf-contact point in the image to the highest shelf-contact point.
+This order is the front_to_back order.
+
+Do not determine front-to-back order using apparent object size alone.
+Different objects may have different physical sizes.
+
+If objects overlap or partially occlude one another, use all visible spatial evidence,
+including the occlusion relationships between the physical objects.
+
+Do not determine front-to-back order using horizontal position alone.
+
+Process every confirmed ID exactly once.
+
+In the visible_ids array, return the complete provided ID list in its original order.
+
+In the front_to_back array, return the same complete set of IDs ordered
+from the physical object closest to the camera to the physical object
+farthest from the camera.
+
+Before returning the response, verify all of the following:
+
+1. visible_ids exactly matches the complete provided ID list.
+2. Every confirmed ID appears exactly once in front_to_back.
+3. No ID is duplicated in front_to_back.
+4. No ID outside the confirmed ID set has been added.
+5. The first ID in front_to_back is the object closest to the camera.
+6. The final ID in front_to_back is the object farthest from the camera.
+7. front_to_back is correctly ordered using the depths of the physical objects.
+8. For every adjacent pair in front_to_back, the first object's shelf-contact point
+   appears lower in the image than the second object's shelf-contact point.
+
+Return only one valid JSON object using the following structure:
+
+{
+"visible_ids": [],
+"front_to_back": []
+}
+
+Do not output explanations, Markdown, confidence scores, coordinates,
+object descriptions, or additional fields.

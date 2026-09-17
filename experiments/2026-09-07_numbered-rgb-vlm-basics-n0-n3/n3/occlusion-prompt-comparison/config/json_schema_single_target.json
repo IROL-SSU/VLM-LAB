@@ -1,0 +1,47 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "relations_to_target": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "relation": {
+            "enum": [
+              "FRONT_OF_TARGET",
+              "BEHIND_TARGET"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "relation"
+        ],
+        "type": "object"
+      },
+      "maxItems": 3,
+      "minItems": 2,
+      "type": "array"
+    },
+    "target_id": {
+      "type": "integer"
+    },
+    "visible_ids": {
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 4,
+      "minItems": 3,
+      "type": "array"
+    }
+  },
+  "required": [
+    "visible_ids",
+    "target_id",
+    "relations_to_target"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,7 @@
+query_id,error_type,count,pct_of_query_calls
+Q2_CATEGORY_COLOR_PRESENT,gt_target_set_disagreement_with_semantic_inventory_exact,76,25.333
+Q2_CATEGORY_COLOR_PRESENT,truth_table_violation,4,1.333
+Q3_HARD_NEGATIVE_ABSENT,gt_target_set_disagreement_with_semantic_inventory_exact,16,5.333
+Q3_HARD_NEGATIVE_ABSENT,object_type_comparison_failure,25,8.333
+Q3_HARD_NEGATIVE_ABSENT,target_failure_with_semantic_error,9,3.0
+Q3_HARD_NEGATIVE_ABSENT,truth_table_violation,4,1.333

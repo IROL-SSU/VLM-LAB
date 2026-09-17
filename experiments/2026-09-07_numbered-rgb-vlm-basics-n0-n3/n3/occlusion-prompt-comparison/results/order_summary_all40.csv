@@ -1,0 +1,5 @@
+scene_type,method,calls,scenes,full_order_exact_count,full_order_exact_pct,all_object_pairs_correct,all_object_pairs_total,all_object_pairs_accuracy_pct,response_structure_valid_pct,visible_ids_exact_pct,format_valid_pct,scenes_5of5,scenes_1to4of5,scenes_0of5
+structured_occlusion,minimal_direct,100,20,80,80.0,428,450,95.111,100.0,95.0,100.0,16,0,4
+structured_occlusion,detailed_direct,100,20,78,78.0,427,450,94.889,100.0,100.0,100.0,14,3,3
+structured_occlusion,contact_point,100,20,77,77.0,422,450,93.778,100.0,100.0,100.0,13,3,4
+structured_occlusion,explicit_pairs,100,20,10,10.0,247,450,54.889,38.0,100.0,100.0,2,0,18

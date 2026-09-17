@@ -1,0 +1,9 @@
+{
+  "expected": 375,
+  "completed": 375,
+  "processed_this_invocation": 375,
+  "elapsed_seconds": 90.545,
+  "last_run_id": "D0_LEFT_TO_RIGHT__n3_d1_o3_neutral_moderate_v4__r05_s28105",
+  "last_finish_reason": "stop",
+  "last_output_tokens": 34
+}

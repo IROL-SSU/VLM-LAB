@@ -1,0 +1,43 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "pairwise_relations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "front_id": {
+            "type": "integer"
+          },
+          "id_a": {
+            "type": "integer"
+          },
+          "id_b": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id_a",
+          "id_b",
+          "front_id"
+        ],
+        "type": "object"
+      },
+      "maxItems": 6,
+      "minItems": 3,
+      "type": "array"
+    },
+    "visible_ids": {
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 4,
+      "minItems": 3,
+      "type": "array"
+    }
+  },
+  "required": [
+    "visible_ids",
+    "pairwise_relations"
+  ],
+  "type": "object"
+}

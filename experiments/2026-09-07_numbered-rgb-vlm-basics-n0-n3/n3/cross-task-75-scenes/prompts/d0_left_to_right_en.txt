@@ -1,0 +1,44 @@
+Examine the numbered RGB image.
+
+The following IDs are confirmed to be the complete and correct set of all visible object-marker IDs:
+{visible_ids_json}
+
+Order all confirmed IDs from left to right according to the positions of their associated physical objects in the image.
+
+Determine the horizontal position of each object using the horizontal center
+of the complete physical body of the object.
+
+The red numbered marker only identifies the object.
+Do not use the position of the numbered marker itself as the horizontal position of the object.
+
+If an object is partially occluded by another object, use the estimated horizontal center
+of the complete physical body rather than the center of only its visible region
+or the position of its numbered marker.
+
+Do not use vertical position, apparent size, camera distance, or depth
+to determine horizontal order.
+
+Process every confirmed ID exactly once.
+
+In the visible_ids array, return the complete provided ID list in its original order.
+
+In the left_to_right array, return the same complete set of IDs ordered
+from the leftmost physical object to the rightmost physical object in the image.
+
+Before returning the response, verify all of the following:
+
+1. visible_ids exactly matches the complete provided ID list.
+2. Every confirmed ID appears exactly once in left_to_right.
+3. No ID is duplicated in left_to_right.
+4. No ID outside the confirmed ID set has been added.
+5. left_to_right is ordered using the horizontal centers of the complete physical objects.
+
+Return only one valid JSON object using the following structure:
+
+{
+"visible_ids": [],
+"left_to_right": []
+}
+
+Do not output explanations, Markdown, confidence scores, coordinates,
+object descriptions, or additional fields.

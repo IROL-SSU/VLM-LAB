@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "visible_ids": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "front_to_back": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    }
+  },
+  "required": [
+    "visible_ids",
+    "front_to_back"
+  ],
+  "additionalProperties": false
+}

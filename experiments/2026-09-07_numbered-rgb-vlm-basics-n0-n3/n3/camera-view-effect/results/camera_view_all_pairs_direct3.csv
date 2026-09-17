@@ -1,0 +1,28 @@
+scene_family,input,prompt,4deg_all_pairs_pct,16deg_all_pairs_pct,24deg_all_pairs_pct,scenes_per_angle,seeds,calls_per_angle_cell
+분리 비가림,Numbered RGB,Detailed direct,66.222,75.889,85.667,40,5,200
+분리 비가림,Numbered RGB,Minimal direct,60.889,70.333,76.667,40,5,200
+분리 비가림,Numbered RGB,Contact point,64.556,73.667,82.778,40,5,200
+분리 비가림,RGB + Gray,Detailed direct,62.667,70.444,80.111,40,5,200
+분리 비가림,RGB + Gray,Minimal direct,60.444,68.222,74.778,40,5,200
+분리 비가림,RGB + Gray,Contact point,62.556,69.333,77.889,40,5,200
+분리 비가림,RGB + Numbered Gray,Detailed direct,57.667,71.444,78.889,40,5,200
+분리 비가림,RGB + Numbered Gray,Minimal direct,58.111,66.778,76.111,40,5,200
+분리 비가림,RGB + Numbered Gray,Contact point,58.556,68.889,78.0,40,5,200
+밀집 비가림,Numbered RGB,Detailed direct,69.889,86.0,94.111,40,5,200
+밀집 비가림,Numbered RGB,Minimal direct,66.0,78.111,85.667,40,5,200
+밀집 비가림,Numbered RGB,Contact point,68.0,84.667,95.0,40,5,200
+밀집 비가림,RGB + Gray,Detailed direct,72.889,88.444,91.0,40,5,200
+밀집 비가림,RGB + Gray,Minimal direct,69.889,82.111,89.0,40,5,200
+밀집 비가림,RGB + Gray,Contact point,72.444,83.333,90.556,40,5,200
+밀집 비가림,RGB + Numbered Gray,Detailed direct,71.444,85.222,89.444,40,5,200
+밀집 비가림,RGB + Numbered Gray,Minimal direct,70.111,83.222,87.778,40,5,200
+밀집 비가림,RGB + Numbered Gray,Contact point,71.556,83.778,88.556,40,5,200
+구조적 가림,Numbered RGB,Detailed direct,83.333,95.333,96.556,40,5,200
+구조적 가림,Numbered RGB,Minimal direct,79.333,94.111,94.889,40,5,200
+구조적 가림,Numbered RGB,Contact point,82.222,93.556,97.111,40,5,200
+구조적 가림,RGB + Gray,Detailed direct,81.0,94.222,95.222,40,5,200
+구조적 가림,RGB + Gray,Minimal direct,78.222,94.111,94.556,40,5,200
+구조적 가림,RGB + Gray,Contact point,81.667,94.0,95.333,40,5,200
+구조적 가림,RGB + Numbered Gray,Detailed direct,82.556,94.222,96.333,40,5,200
+구조적 가림,RGB + Numbered Gray,Minimal direct,79.889,93.0,95.778,40,5,200
+구조적 가림,RGB + Numbered Gray,Contact point,82.0,94.667,97.222,40,5,200

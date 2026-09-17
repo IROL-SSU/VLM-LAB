@@ -1,0 +1,25 @@
+contrast,metric,left_condition,right_condition,paired_trials,both_correct,left_only_correct,right_only_correct,neither_correct,right_minus_left_percentage_points,mcnemar_exact_two_sided_p
+"enumeration at T=0.3, TEXT",full_output_joint_exact,T03_DIRECT_TEXT,T03_ENUM_TEXT,300,283,5,6,6,0.333,1.0
+"enumeration at T=0.3, JSON",full_output_joint_exact,T03_DIRECT_JSON,T03_ENUM_JSON,300,299,1,0,0,-0.333,1.0
+"JSON at T=0.3, DIRECT",full_output_joint_exact,T03_DIRECT_TEXT,T03_DIRECT_JSON,300,288,0,12,0,4.0,0.00048828125
+"JSON at T=0.3, ENUM",full_output_joint_exact,T03_ENUM_TEXT,T03_ENUM_JSON,300,289,0,10,1,3.333,0.001953125
+"enumeration at T=0.5, TEXT",full_output_joint_exact,T05_DIRECT_TEXT,T05_ENUM_TEXT,300,284,5,7,4,0.667,0.7744140625
+"enumeration at T=0.5, JSON",full_output_joint_exact,T05_DIRECT_JSON,T05_ENUM_JSON,300,298,1,1,0,0.0,1.0
+"JSON at T=0.5, DIRECT",full_output_joint_exact,T05_DIRECT_TEXT,T05_DIRECT_JSON,300,288,1,11,0,3.333,0.00634765625
+"JSON at T=0.5, ENUM",full_output_joint_exact,T05_ENUM_TEXT,T05_ENUM_JSON,300,291,0,8,1,2.667,0.0078125
+"enumeration at T=0.7, TEXT",full_output_joint_exact,T07_DIRECT_TEXT,T07_ENUM_TEXT,300,278,7,11,4,1.333,0.480682373046875
+"enumeration at T=0.7, JSON",full_output_joint_exact,T07_DIRECT_JSON,T07_ENUM_JSON,300,295,4,1,0,-1.0,0.375
+"JSON at T=0.7, DIRECT",full_output_joint_exact,T07_DIRECT_TEXT,T07_DIRECT_JSON,300,284,1,15,0,4.667,0.000518798828125
+"JSON at T=0.7, ENUM",full_output_joint_exact,T07_ENUM_TEXT,T07_ENUM_JSON,300,286,3,10,1,2.333,0.09228515625
+"temperature 0.3 to 0.5, DIRECT, TEXT",full_output_joint_exact,T03_DIRECT_TEXT,T05_DIRECT_TEXT,300,286,2,3,9,0.333,1.0
+"temperature 0.3 to 0.5, DIRECT, JSON",full_output_joint_exact,T03_DIRECT_JSON,T05_DIRECT_JSON,300,299,1,0,0,-0.333,1.0
+"temperature 0.3 to 0.5, ENUM, TEXT",full_output_joint_exact,T03_ENUM_TEXT,T05_ENUM_TEXT,300,289,0,2,9,0.667,0.5
+"temperature 0.3 to 0.5, ENUM, JSON",full_output_joint_exact,T03_ENUM_JSON,T05_ENUM_JSON,300,299,0,0,1,0.0,1.0
+"temperature 0.3 to 0.7, DIRECT, TEXT",full_output_joint_exact,T03_DIRECT_TEXT,T07_DIRECT_TEXT,300,282,6,3,9,-1.0,0.5078125
+"temperature 0.3 to 0.7, DIRECT, JSON",full_output_joint_exact,T03_DIRECT_JSON,T07_DIRECT_JSON,300,299,1,0,0,-0.333,1.0
+"temperature 0.3 to 0.7, ENUM, TEXT",full_output_joint_exact,T03_ENUM_TEXT,T07_ENUM_TEXT,300,285,4,4,7,0.0,1.0
+"temperature 0.3 to 0.7, ENUM, JSON",full_output_joint_exact,T03_ENUM_JSON,T07_ENUM_JSON,300,296,3,0,1,-1.0,0.25
+"temperature 0.5 to 0.7, DIRECT, TEXT",full_output_joint_exact,T05_DIRECT_TEXT,T07_DIRECT_TEXT,300,285,4,0,11,-1.333,0.125
+"temperature 0.5 to 0.7, DIRECT, JSON",full_output_joint_exact,T05_DIRECT_JSON,T07_DIRECT_JSON,300,299,0,0,1,0.0,1.0
+"temperature 0.5 to 0.7, ENUM, TEXT",full_output_joint_exact,T05_ENUM_TEXT,T07_ENUM_TEXT,300,287,4,2,7,-0.667,0.6875
+"temperature 0.5 to 0.7, ENUM, JSON",full_output_joint_exact,T05_ENUM_JSON,T07_ENUM_JSON,300,296,3,0,1,-1.0,0.25

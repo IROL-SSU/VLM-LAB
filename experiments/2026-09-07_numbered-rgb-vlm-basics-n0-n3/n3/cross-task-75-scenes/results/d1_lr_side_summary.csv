@@ -1,0 +1,3 @@
+occluder_side,scope,calls,scenes,order_exact_count,order_exact_pct,pairwise_correct,pairwise_total,pairwise_accuracy_pct,visible_ids_exact_pct,permutation_valid_pct,format_valid_pct,scenes_5of5,scenes_1to4of5,scenes_0of5,parse_failures
+left,occluder_side=left,120,24,120,100.0,240,240,100.0,100.0,100.0,100.0,24,0,0,0
+right,occluder_side=right,120,24,120,100.0,240,240,100.0,100.0,100.0,100.0,24,0,0,0

@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1740" height="1230" viewBox="0 0 1740 1230">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:"Noto Sans CJK KR","Noto Sans KR",sans-serif;fill:#111827}.title{font-size:30px;font-weight:700}.subtitle{font-size:17px;fill:#4b5563}.input{font-size:20px;font-weight:700}.family{font-size:20px;font-weight:700}.angle{font-size:16px;font-weight:600;fill:#374151}.method{font-size:15px;fill:#374151}.value{font-size:17px;font-weight:700}.foot{font-size:15px;fill:#6b7280}</style>
+<text x="870.0" y="48" text-anchor="middle" class="title">카메라 시점별 All-pairs accuracy (%)</text>
+<text x="870.0" y="80" text-anchor="middle" class="subtitle">Exact 지표 및 Explicit all pairs 프롬프트 제외 · 각 cell: 40 scenes × 5 seeds = 200 calls</text>
+<text x="372.5" y="132" text-anchor="middle" class="input">Numbered RGB</text>
+<text x="907.5" y="132" text-anchor="middle" class="input">RGB + Gray</text>
+<text x="1442.5" y="132" text-anchor="middle" class="input">RGB + Numbered Gray</text>
+<text x="28" y="305" text-anchor="middle" class="family" transform="rotate(-90 28 305)">분리 비가림</text>
+<text x="304.0" y="167" text-anchor="middle" class="angle">4°</text>
+<text x="422.0" y="167" text-anchor="middle" class="angle">16°</text>
+<text x="540.0" y="167" text-anchor="middle" class="angle">24°</text>
+<text x="231" y="217.0" text-anchor="end" class="method">Detailed</text>
+<rect x="245" y="180" width="114" height="60" rx="8" fill="#acc9d5"/>
+<text x="302.0" y="216.0" text-anchor="middle" class="value" style="fill:#111827">66.2</text>
+<rect x="363" y="180" width="114" height="60" rx="8" fill="#7fa5bd"/>
+<text x="420.0" y="216.0" text-anchor="middle" class="value" style="fill:#111827">75.9</text>
+<rect x="481" y="180" width="114" height="60" rx="8" fill="#5281a5"/>
+<text x="538.0" y="216.0" text-anchor="middle" class="value" style="fill:white">85.7</text>
+<text x="231" y="281.0" text-anchor="end" class="method">Minimal</text>
+<rect x="245" y="244" width="114" height="60" rx="8" fill="#c5dce2"/>
+<text x="302.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">60.9</text>
+<rect x="363" y="244" width="114" height="60" rx="8" fill="#99b9cb"/>
+<text x="420.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">70.3</text>
+<rect x="481" y="244" width="114" height="60" rx="8" fill="#7ba2bb"/>
+<text x="538.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">76.7</text>
+<text x="231" y="345.0" text-anchor="end" class="method">Contact</text>
+<rect x="245" y="308" width="114" height="60" rx="8" fill="#b4cfd9"/>
+<text x="302.0" y="344.0" text-anchor="middle" class="value" style="fill:#111827">64.6</text>
+<rect x="363" y="308" width="114" height="60" rx="8" fill="#89adc3"/>
+<text x="420.0" y="344.0" text-anchor="middle" class="value" style="fill:#111827">73.7</text>
+<rect x="481" y="308" width="114" height="60" rx="8" fill="#5f8cac"/>
+<text x="538.0" y="344.0" text-anchor="middle" class="value" style="fill:white">82.8</text>
+<line x1="245" y1="384" x2="595" y2="384" stroke="#e5e7eb"/>
+<text x="839.0" y="167" text-anchor="middle" class="angle">4°</text>
+<text x="957.0" y="167" text-anchor="middle" class="angle">16°</text>
+<text x="1075.0" y="167" text-anchor="middle" class="angle">24°</text>
+<text x="766" y="217.0" text-anchor="end" class="method">Detailed</text>
+<rect x="780" y="180" width="114" height="60" rx="8" fill="#bcd6de"/>
+<text x="837.0" y="216.0" text-anchor="middle" class="value" style="fill:#111827">62.7</text>
+<rect x="898" y="180" width="114" height="60" rx="8" fill="#98b9cb"/>
+<text x="955.0" y="216.0" text-anchor="middle" class="value" style="fill:#111827">70.4</text>
+<rect x="1016" y="180" width="114" height="60" rx="8" fill="#6b95b3"/>
+<text x="1073.0" y="216.0" text-anchor="middle" class="value" style="fill:white">80.1</text>
+<text x="766" y="281.0" text-anchor="end" class="method">Minimal</text>
+<rect x="780" y="244" width="114" height="60" rx="8" fill="#c7dee3"/>
+<text x="837.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">60.4</text>
+<rect x="898" y="244" width="114" height="60" rx="8" fill="#a3c1d0"/>
+<text x="955.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">68.2</text>
+<rect x="1016" y="244" width="114" height="60" rx="8" fill="#84a9c0"/>
+<text x="1073.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">74.8</text>
+<text x="766" y="345.0" text-anchor="end" class="method">Contact</text>
+<rect x="780" y="308" width="114" height="60" rx="8" fill="#bdd6de"/>
+<text x="837.0" y="344.0" text-anchor="middle" class="value" style="fill:#111827">62.6</text>
+<rect x="898" y="308" width="114" height="60" rx="8" fill="#9dbdcd"/>
+<text x="955.0" y="344.0" text-anchor="middle" class="value" style="fill:#111827">69.3</text>
+<rect x="1016" y="308" width="114" height="60" rx="8" fill="#769eb8"/>
+<text x="1073.0" y="344.0" text-anchor="middle" class="value" style="fill:#111827">77.9</text>
+<line x1="780" y1="384" x2="1130" y2="384" stroke="#e5e7eb"/>
+<text x="1374.0" y="167" text-anchor="middle" class="angle">4°</text>
+<text x="1492.0" y="167" text-anchor="middle" class="angle">16°</text>
+<text x="1610.0" y="167" text-anchor="middle" class="angle">24°</text>
+<text x="1301" y="217.0" text-anchor="end" class="method">Detailed</text>
+<rect x="1315" y="180" width="114" height="60" rx="8" fill="#d4e8ea"/>
+<text x="1372.0" y="216.0" text-anchor="middle" class="value" style="fill:#111827">57.7</text>
+<rect x="1433" y="180" width="114" height="60" rx="8" fill="#94b5c8"/>
+<text x="1490.0" y="216.0" text-anchor="middle" class="value" style="fill:#111827">71.4</text>
+<rect x="1551" y="180" width="114" height="60" rx="8" fill="#719ab6"/>
+<text x="1608.0" y="216.0" text-anchor="middle" class="value" style="fill:white">78.9</text>
+<text x="1301" y="281.0" text-anchor="end" class="method">Minimal</text>
+<rect x="1315" y="244" width="114" height="60" rx="8" fill="#d2e7e9"/>
+<text x="1372.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">58.1</text>
+<rect x="1433" y="244" width="114" height="60" rx="8" fill="#a9c7d4"/>
+<text x="1490.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">66.8</text>
+<rect x="1551" y="244" width="114" height="60" rx="8" fill="#7ea4bc"/>
+<text x="1608.0" y="280.0" text-anchor="middle" class="value" style="fill:#111827">76.1</text>
+<text x="1301" y="345.0" text-anchor="end" class="method">Contact</text>
+<rect x="1315" y="308" width="114" height="60" rx="8" fill="#cfe5e8"/>
+<text x="1372.0" y="344.0" text-anchor="middle" class="value" style="fill:#111827">58.6</text>
+<rect x="1433" y="308" width="114" height="60" rx="8" fill="#9fbfce"/>
+<text x="1490.0" y="344.0" text-anchor="middle" class="value" style="fill:#111827">68.9</text>
+<rect x="1551" y="308" width="114" height="60" rx="8" fill="#759db8"/>
+<text x="1608.0" y="344.0" text-anchor="middle" class="value" style="fill:white">78.0</text>
+<line x1="1315" y1="384" x2="1665" y2="384" stroke="#e5e7eb"/>
+<text x="28" y="620" text-anchor="middle" class="family" transform="rotate(-90 28 620)">밀집 비가림</text>
+<text x="304.0" y="482" text-anchor="middle" class="angle">4°</text>
+<text x="422.0" y="482" text-anchor="middle" class="angle">16°</text>
+<text x="540.0" y="482" text-anchor="middle" class="angle">24°</text>
+<text x="231" y="532.0" text-anchor="end" class="method">Detailed</text>
+<rect x="245" y="495" width="114" height="60" rx="8" fill="#9bbbcc"/>
+<text x="302.0" y="531.0" text-anchor="middle" class="value" style="fill:#111827">69.9</text>
+<rect x="363" y="495" width="114" height="60" rx="8" fill="#5080a4"/>
+<text x="420.0" y="531.0" text-anchor="middle" class="value" style="fill:white">86.0</text>
+<rect x="481" y="495" width="114" height="60" rx="8" fill="#2a6290"/>
+<text x="538.0" y="531.0" text-anchor="middle" class="value" style="fill:white">94.1</text>
+<text x="231" y="596.0" text-anchor="end" class="method">Minimal</text>
+<rect x="245" y="559" width="114" height="60" rx="8" fill="#adc9d6"/>
+<text x="302.0" y="595.0" text-anchor="middle" class="value" style="fill:#111827">66.0</text>
+<rect x="363" y="559" width="114" height="60" rx="8" fill="#759db7"/>
+<text x="420.0" y="595.0" text-anchor="middle" class="value" style="fill:white">78.1</text>
+<rect x="481" y="559" width="114" height="60" rx="8" fill="#5281a5"/>
+<text x="538.0" y="595.0" text-anchor="middle" class="value" style="fill:white">85.7</text>
+<text x="231" y="660.0" text-anchor="end" class="method">Contact</text>
+<rect x="245" y="623" width="114" height="60" rx="8" fill="#a4c2d1"/>
+<text x="302.0" y="659.0" text-anchor="middle" class="value" style="fill:#111827">68.0</text>
+<rect x="363" y="623" width="114" height="60" rx="8" fill="#5685a7"/>
+<text x="420.0" y="659.0" text-anchor="middle" class="value" style="fill:white">84.7</text>
+<rect x="481" y="623" width="114" height="60" rx="8" fill="#265e8d"/>
+<text x="538.0" y="659.0" text-anchor="middle" class="value" style="fill:white">95.0</text>
+<line x1="245" y1="699" x2="595" y2="699" stroke="#e5e7eb"/>
+<text x="839.0" y="482" text-anchor="middle" class="angle">4°</text>
+<text x="957.0" y="482" text-anchor="middle" class="angle">16°</text>
+<text x="1075.0" y="482" text-anchor="middle" class="angle">24°</text>
+<text x="766" y="532.0" text-anchor="end" class="method">Detailed</text>
+<rect x="780" y="495" width="114" height="60" rx="8" fill="#8db0c4"/>
+<text x="837.0" y="531.0" text-anchor="middle" class="value" style="fill:#111827">72.9</text>
+<rect x="898" y="495" width="114" height="60" rx="8" fill="#45779e"/>
+<text x="955.0" y="531.0" text-anchor="middle" class="value" style="fill:white">88.4</text>
+<rect x="1016" y="495" width="114" height="60" rx="8" fill="#396d97"/>
+<text x="1073.0" y="531.0" text-anchor="middle" class="value" style="fill:white">91.0</text>
+<text x="766" y="596.0" text-anchor="end" class="method">Minimal</text>
+<rect x="780" y="559" width="114" height="60" rx="8" fill="#9bbbcc"/>
+<text x="837.0" y="595.0" text-anchor="middle" class="value" style="fill:#111827">69.9</text>
+<rect x="898" y="559" width="114" height="60" rx="8" fill="#628eae"/>
+<text x="955.0" y="595.0" text-anchor="middle" class="value" style="fill:white">82.1</text>
+<rect x="1016" y="559" width="114" height="60" rx="8" fill="#42759c"/>
+<text x="1073.0" y="595.0" text-anchor="middle" class="value" style="fill:white">89.0</text>
+<text x="766" y="660.0" text-anchor="end" class="method">Contact</text>
+<rect x="780" y="623" width="114" height="60" rx="8" fill="#8fb2c6"/>
+<text x="837.0" y="659.0" text-anchor="middle" class="value" style="fill:#111827">72.4</text>
+<rect x="898" y="623" width="114" height="60" rx="8" fill="#5c89aa"/>
+<text x="955.0" y="659.0" text-anchor="middle" class="value" style="fill:white">83.3</text>
+<rect x="1016" y="623" width="114" height="60" rx="8" fill="#3b6f99"/>
+<text x="1073.0" y="659.0" text-anchor="middle" class="value" style="fill:white">90.6</text>
+<line x1="780" y1="699" x2="1130" y2="699" stroke="#e5e7eb"/>
+<text x="1374.0" y="482" text-anchor="middle" class="angle">4°</text>
+<text x="1492.0" y="482" text-anchor="middle" class="angle">16°</text>
+<text x="1610.0" y="482" text-anchor="middle" class="angle">24°</text>
+<text x="1301" y="532.0" text-anchor="end" class="method">Detailed</text>
+<rect x="1315" y="495" width="114" height="60" rx="8" fill="#94b5c8"/>
+<text x="1372.0" y="531.0" text-anchor="middle" class="value" style="fill:#111827">71.4</text>
+<rect x="1433" y="495" width="114" height="60" rx="8" fill="#5483a6"/>
+<text x="1490.0" y="531.0" text-anchor="middle" class="value" style="fill:white">85.2</text>
+<rect x="1551" y="495" width="114" height="60" rx="8" fill="#40739b"/>
+<text x="1608.0" y="531.0" text-anchor="middle" class="value" style="fill:white">89.4</text>
+<text x="1301" y="596.0" text-anchor="end" class="method">Minimal</text>
+<rect x="1315" y="559" width="114" height="60" rx="8" fill="#9abacb"/>
+<text x="1372.0" y="595.0" text-anchor="middle" class="value" style="fill:#111827">70.1</text>
+<rect x="1433" y="559" width="114" height="60" rx="8" fill="#5d8aab"/>
+<text x="1490.0" y="595.0" text-anchor="middle" class="value" style="fill:white">83.2</text>
+<rect x="1551" y="559" width="114" height="60" rx="8" fill="#48799f"/>
+<text x="1608.0" y="595.0" text-anchor="middle" class="value" style="fill:white">87.8</text>
+<text x="1301" y="660.0" text-anchor="end" class="method">Contact</text>
+<rect x="1315" y="623" width="114" height="60" rx="8" fill="#93b5c8"/>
+<text x="1372.0" y="659.0" text-anchor="middle" class="value" style="fill:#111827">71.6</text>
+<rect x="1433" y="623" width="114" height="60" rx="8" fill="#5a88a9"/>
+<text x="1490.0" y="659.0" text-anchor="middle" class="value" style="fill:white">83.8</text>
+<rect x="1551" y="623" width="114" height="60" rx="8" fill="#44769d"/>
+<text x="1608.0" y="659.0" text-anchor="middle" class="value" style="fill:white">88.6</text>
+<line x1="1315" y1="699" x2="1665" y2="699" stroke="#e5e7eb"/>
+<text x="28" y="935" text-anchor="middle" class="family" transform="rotate(-90 28 935)">구조적 가림</text>
+<text x="304.0" y="797" text-anchor="middle" class="angle">4°</text>
+<text x="422.0" y="797" text-anchor="middle" class="angle">16°</text>
+<text x="540.0" y="797" text-anchor="middle" class="angle">24°</text>
+<text x="231" y="847.0" text-anchor="end" class="method">Detailed</text>
+<rect x="245" y="810" width="114" height="60" rx="8" fill="#5c89aa"/>
+<text x="302.0" y="846.0" text-anchor="middle" class="value" style="fill:white">83.3</text>
+<rect x="363" y="810" width="114" height="60" rx="8" fill="#255d8d"/>
+<text x="420.0" y="846.0" text-anchor="middle" class="value" style="fill:white">95.3</text>
+<rect x="481" y="810" width="114" height="60" rx="8" fill="#1f598a"/>
+<text x="538.0" y="846.0" text-anchor="middle" class="value" style="fill:white">96.6</text>
+<text x="231" y="911.0" text-anchor="end" class="method">Minimal</text>
+<rect x="245" y="874" width="114" height="60" rx="8" fill="#6f98b4"/>
+<text x="302.0" y="910.0" text-anchor="middle" class="value" style="fill:white">79.3</text>
+<rect x="363" y="874" width="114" height="60" rx="8" fill="#2a6290"/>
+<text x="420.0" y="910.0" text-anchor="middle" class="value" style="fill:white">94.1</text>
+<rect x="481" y="874" width="114" height="60" rx="8" fill="#275f8e"/>
+<text x="538.0" y="910.0" text-anchor="middle" class="value" style="fill:white">94.9</text>
+<text x="231" y="975.0" text-anchor="end" class="method">Contact</text>
+<rect x="245" y="938" width="114" height="60" rx="8" fill="#628ead"/>
+<text x="302.0" y="974.0" text-anchor="middle" class="value" style="fill:white">82.2</text>
+<rect x="363" y="938" width="114" height="60" rx="8" fill="#2d6491"/>
+<text x="420.0" y="974.0" text-anchor="middle" class="value" style="fill:white">93.6</text>
+<rect x="481" y="938" width="114" height="60" rx="8" fill="#1c5788"/>
+<text x="538.0" y="974.0" text-anchor="middle" class="value" style="fill:white">97.1</text>
+<line x1="245" y1="1014" x2="595" y2="1014" stroke="#e5e7eb"/>
+<text x="839.0" y="797" text-anchor="middle" class="angle">4°</text>
+<text x="957.0" y="797" text-anchor="middle" class="angle">16°</text>
+<text x="1075.0" y="797" text-anchor="middle" class="angle">24°</text>
+<text x="766" y="847.0" text-anchor="end" class="method">Detailed</text>
+<rect x="780" y="810" width="114" height="60" rx="8" fill="#6792b0"/>
+<text x="837.0" y="846.0" text-anchor="middle" class="value" style="fill:white">81.0</text>
+<rect x="898" y="810" width="114" height="60" rx="8" fill="#2a618f"/>
+<text x="955.0" y="846.0" text-anchor="middle" class="value" style="fill:white">94.2</text>
+<rect x="1016" y="810" width="114" height="60" rx="8" fill="#255e8d"/>
+<text x="1073.0" y="846.0" text-anchor="middle" class="value" style="fill:white">95.2</text>
+<text x="766" y="911.0" text-anchor="end" class="method">Minimal</text>
+<rect x="780" y="874" width="114" height="60" rx="8" fill="#749cb7"/>
+<text x="837.0" y="910.0" text-anchor="middle" class="value" style="fill:white">78.2</text>
+<rect x="898" y="874" width="114" height="60" rx="8" fill="#2a6290"/>
+<text x="955.0" y="910.0" text-anchor="middle" class="value" style="fill:white">94.1</text>
+<rect x="1016" y="874" width="114" height="60" rx="8" fill="#28608f"/>
+<text x="1073.0" y="910.0" text-anchor="middle" class="value" style="fill:white">94.6</text>
+<text x="766" y="975.0" text-anchor="end" class="method">Contact</text>
+<rect x="780" y="938" width="114" height="60" rx="8" fill="#6490af"/>
+<text x="837.0" y="974.0" text-anchor="middle" class="value" style="fill:white">81.7</text>
+<rect x="898" y="938" width="114" height="60" rx="8" fill="#2b6290"/>
+<text x="955.0" y="974.0" text-anchor="middle" class="value" style="fill:white">94.0</text>
+<rect x="1016" y="938" width="114" height="60" rx="8" fill="#255d8d"/>
+<text x="1073.0" y="974.0" text-anchor="middle" class="value" style="fill:white">95.3</text>
+<line x1="780" y1="1014" x2="1130" y2="1014" stroke="#e5e7eb"/>
+<text x="1374.0" y="797" text-anchor="middle" class="angle">4°</text>
+<text x="1492.0" y="797" text-anchor="middle" class="angle">16°</text>
+<text x="1610.0" y="797" text-anchor="middle" class="angle">24°</text>
+<text x="1301" y="847.0" text-anchor="end" class="method">Detailed</text>
+<rect x="1315" y="810" width="114" height="60" rx="8" fill="#608cac"/>
+<text x="1372.0" y="846.0" text-anchor="middle" class="value" style="fill:white">82.6</text>
+<rect x="1433" y="810" width="114" height="60" rx="8" fill="#2a618f"/>
+<text x="1490.0" y="846.0" text-anchor="middle" class="value" style="fill:white">94.2</text>
+<rect x="1551" y="810" width="114" height="60" rx="8" fill="#205a8a"/>
+<text x="1608.0" y="846.0" text-anchor="middle" class="value" style="fill:white">96.3</text>
+<text x="1301" y="911.0" text-anchor="end" class="method">Minimal</text>
+<rect x="1315" y="874" width="114" height="60" rx="8" fill="#6c96b3"/>
+<text x="1372.0" y="910.0" text-anchor="middle" class="value" style="fill:white">79.9</text>
+<rect x="1433" y="874" width="114" height="60" rx="8" fill="#306692"/>
+<text x="1490.0" y="910.0" text-anchor="middle" class="value" style="fill:white">93.0</text>
+<rect x="1551" y="874" width="114" height="60" rx="8" fill="#235c8c"/>
+<text x="1608.0" y="910.0" text-anchor="middle" class="value" style="fill:white">95.8</text>
+<text x="1301" y="975.0" text-anchor="end" class="method">Contact</text>
+<rect x="1315" y="938" width="114" height="60" rx="8" fill="#638eae"/>
+<text x="1372.0" y="974.0" text-anchor="middle" class="value" style="fill:white">82.0</text>
+<rect x="1433" y="938" width="114" height="60" rx="8" fill="#28608e"/>
+<text x="1490.0" y="974.0" text-anchor="middle" class="value" style="fill:white">94.7</text>
+<rect x="1551" y="938" width="114" height="60" rx="8" fill="#1c5688"/>
+<text x="1608.0" y="974.0" text-anchor="middle" class="value" style="fill:white">97.2</text>
+<line x1="1315" y1="1014" x2="1665" y2="1014" stroke="#e5e7eb"/>
+<text x="870.0" y="1202" text-anchor="middle" class="foot">행: scene family · 열: 입력 조건 · 각 패널의 행: prompt · 수치는 All-pairs accuracy (%)</text>
+</svg>

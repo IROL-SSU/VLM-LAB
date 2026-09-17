@@ -1,0 +1,254 @@
+{
+  "audit": {
+    "all_cells_40_scenes_200_calls": true,
+    "camera": {
+      "downward_from_horizontal_deg": 24.0,
+      "focal_length_mm": 32.0,
+      "position_cm": [
+        25.0,
+        -95.0,
+        90.0
+      ],
+      "render_resolution": [
+        1280,
+        960
+      ]
+    },
+    "condition_audits": {
+      "rgb_only": {
+        "calls": 2400,
+        "finish_stop": 2400,
+        "format_failures": 0,
+        "method_counts": {
+          "contact_point": 600,
+          "detailed_direct": 600,
+          "explicit_pairs": 600,
+          "minimal_direct": 600
+        },
+        "scene_type_counts": {
+          "packed_nonoverlap": 800,
+          "separated_nonoverlap": 800,
+          "structured_occlusion": 800
+        },
+        "seed_counts": {
+          "28101": 480,
+          "28102": 480,
+          "28103": 480,
+          "28104": 480,
+          "28105": 480
+        },
+        "setup_geometry_audit": true,
+        "unique_run_ids": 2400
+      },
+      "rgb_plus_gray": {
+        "calls": 2400,
+        "finish_stop": 2400,
+        "format_failures": 0,
+        "method_counts": {
+          "contact_point": 600,
+          "detailed_direct": 600,
+          "explicit_pairs": 600,
+          "minimal_direct": 600
+        },
+        "scene_type_counts": {
+          "packed_nonoverlap": 800,
+          "separated_nonoverlap": 800,
+          "structured_occlusion": 800
+        },
+        "seed_counts": {
+          "28101": 480,
+          "28102": 480,
+          "28103": 480,
+          "28104": 480,
+          "28105": 480
+        },
+        "setup_geometry_audit": true,
+        "unique_run_ids": 2400
+      },
+      "rgb_plus_numbered_gray": {
+        "calls": 2400,
+        "finish_stop": 2400,
+        "format_failures": 0,
+        "method_counts": {
+          "contact_point": 600,
+          "detailed_direct": 600,
+          "explicit_pairs": 600,
+          "minimal_direct": 600
+        },
+        "scene_type_counts": {
+          "packed_nonoverlap": 800,
+          "separated_nonoverlap": 800,
+          "structured_occlusion": 800
+        },
+        "seed_counts": {
+          "28101": 480,
+          "28102": 480,
+          "28103": 480,
+          "28104": 480,
+          "28105": 480
+        },
+        "setup_geometry_audit": true,
+        "unique_run_ids": 2400
+      }
+    },
+    "cross_condition_audit": {
+      "rgb_hashes_identical": {
+        "rgb_only": true,
+        "rgb_plus_gray": true,
+        "rgb_plus_numbered_gray": true
+      },
+      "scene_gt_geometry_signatures_identical": {
+        "rgb_only": true,
+        "rgb_plus_gray": true,
+        "rgb_plus_numbered_gray": true
+      }
+    },
+    "matrix_rows": 12,
+    "total_calls": 7200
+  },
+  "matrix": [
+    {
+      "method": "Minimal direct",
+      "rgb_only_all_pairs_pct": 76.667,
+      "rgb_only_exact_pct": 30.0,
+      "rgb_plus_gray_all_pairs_pct": 74.778,
+      "rgb_plus_gray_exact_pct": 37.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 76.111,
+      "rgb_plus_numbered_gray_exact_pct": 37.5,
+      "scene_family": "분리 비가림"
+    },
+    {
+      "method": "Detailed direct",
+      "rgb_only_all_pairs_pct": 85.667,
+      "rgb_only_exact_pct": 46.0,
+      "rgb_plus_gray_all_pairs_pct": 80.111,
+      "rgb_plus_gray_exact_pct": 45.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 78.889,
+      "rgb_plus_numbered_gray_exact_pct": 43.0,
+      "scene_family": "분리 비가림"
+    },
+    {
+      "method": "Contact point",
+      "rgb_only_all_pairs_pct": 82.778,
+      "rgb_only_exact_pct": 40.5,
+      "rgb_plus_gray_all_pairs_pct": 77.889,
+      "rgb_plus_gray_exact_pct": 39.5,
+      "rgb_plus_numbered_gray_all_pairs_pct": 78.0,
+      "rgb_plus_numbered_gray_exact_pct": 42.5,
+      "scene_family": "분리 비가림"
+    },
+    {
+      "method": "Explicit all pairs",
+      "rgb_only_all_pairs_pct": 68.556,
+      "rgb_only_exact_pct": 24.0,
+      "rgb_plus_gray_all_pairs_pct": 63.556,
+      "rgb_plus_gray_exact_pct": 18.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 61.444,
+      "rgb_plus_numbered_gray_exact_pct": 18.0,
+      "scene_family": "분리 비가림"
+    },
+    {
+      "method": "Minimal direct",
+      "rgb_only_all_pairs_pct": 85.667,
+      "rgb_only_exact_pct": 56.5,
+      "rgb_plus_gray_all_pairs_pct": 89.0,
+      "rgb_plus_gray_exact_pct": 60.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 87.778,
+      "rgb_plus_numbered_gray_exact_pct": 59.5,
+      "scene_family": "밀집 비가림"
+    },
+    {
+      "method": "Detailed direct",
+      "rgb_only_all_pairs_pct": 94.111,
+      "rgb_only_exact_pct": 74.5,
+      "rgb_plus_gray_all_pairs_pct": 91.0,
+      "rgb_plus_gray_exact_pct": 65.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 89.444,
+      "rgb_plus_numbered_gray_exact_pct": 59.0,
+      "scene_family": "밀집 비가림"
+    },
+    {
+      "method": "Contact point",
+      "rgb_only_all_pairs_pct": 95.0,
+      "rgb_only_exact_pct": 79.5,
+      "rgb_plus_gray_all_pairs_pct": 90.556,
+      "rgb_plus_gray_exact_pct": 63.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 88.556,
+      "rgb_plus_numbered_gray_exact_pct": 59.0,
+      "scene_family": "밀집 비가림"
+    },
+    {
+      "method": "Explicit all pairs",
+      "rgb_only_all_pairs_pct": 75.667,
+      "rgb_only_exact_pct": 41.5,
+      "rgb_plus_gray_all_pairs_pct": 68.556,
+      "rgb_plus_gray_exact_pct": 27.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 66.667,
+      "rgb_plus_numbered_gray_exact_pct": 28.5,
+      "scene_family": "밀집 비가림"
+    },
+    {
+      "method": "Minimal direct",
+      "rgb_only_all_pairs_pct": 94.889,
+      "rgb_only_exact_pct": 85.5,
+      "rgb_plus_gray_all_pairs_pct": 94.556,
+      "rgb_plus_gray_exact_pct": 84.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 95.778,
+      "rgb_plus_numbered_gray_exact_pct": 86.0,
+      "scene_family": "구조적 가림"
+    },
+    {
+      "method": "Detailed direct",
+      "rgb_only_all_pairs_pct": 96.556,
+      "rgb_only_exact_pct": 84.5,
+      "rgb_plus_gray_all_pairs_pct": 95.222,
+      "rgb_plus_gray_exact_pct": 83.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 96.333,
+      "rgb_plus_numbered_gray_exact_pct": 86.5,
+      "scene_family": "구조적 가림"
+    },
+    {
+      "method": "Contact point",
+      "rgb_only_all_pairs_pct": 97.111,
+      "rgb_only_exact_pct": 87.5,
+      "rgb_plus_gray_all_pairs_pct": 95.333,
+      "rgb_plus_gray_exact_pct": 83.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 97.222,
+      "rgb_plus_numbered_gray_exact_pct": 88.5,
+      "scene_family": "구조적 가림"
+    },
+    {
+      "method": "Explicit all pairs",
+      "rgb_only_all_pairs_pct": 79.0,
+      "rgb_only_exact_pct": 50.5,
+      "rgb_plus_gray_all_pairs_pct": 72.333,
+      "rgb_plus_gray_exact_pct": 42.0,
+      "rgb_plus_numbered_gray_all_pairs_pct": 66.778,
+      "rgb_plus_numbered_gray_exact_pct": 38.5,
+      "scene_family": "구조적 가림"
+    }
+  ],
+  "pooled": [
+    {
+      "all_pairs_accuracy_pct": 85.972,
+      "calls": 2400,
+      "condition": "rgb_only",
+      "full_order_exact_pct": 58.375,
+      "input": "Numbered RGB"
+    },
+    {
+      "all_pairs_accuracy_pct": 82.741,
+      "calls": 2400,
+      "condition": "rgb_plus_gray",
+      "full_order_exact_pct": 53.875,
+      "input": "RGB + Gray"
+    },
+    {
+      "all_pairs_accuracy_pct": 81.917,
+      "calls": 2400,
+      "condition": "rgb_plus_numbered_gray",
+      "full_order_exact_pct": 53.875,
+      "input": "RGB + Numbered Gray"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Return only a JSON object with exactly one key named "instances".
+Each element of "instances" must contain exactly:
+- "id": the integer shown inside the red marker
+- "object_type": the physical object type
+- "color": the primary visible color of the object as a whole
+
+Do not use Markdown and do not add any other keys or text.

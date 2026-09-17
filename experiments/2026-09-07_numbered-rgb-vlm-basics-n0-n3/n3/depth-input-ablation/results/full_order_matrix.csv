@@ -1,0 +1,13 @@
+scene_type,method,numbered_rgb_calls,numbered_rgb_scenes,numbered_rgb_full_order_exact_pct,numbered_rgb_all_pairs_accuracy_pct,rgb_plus_gray_calls,rgb_plus_gray_scenes,rgb_plus_gray_full_order_exact_pct,rgb_plus_gray_all_pairs_accuracy_pct,rgb_plus_numbered_gray_calls,rgb_plus_numbered_gray_scenes,rgb_plus_numbered_gray_full_order_exact_pct,rgb_plus_numbered_gray_all_pairs_accuracy_pct
+separated_nonoverlap,minimal_direct,200,40,22.0,70.333,200,40,24.0,68.222,200,40,26.0,66.778
+separated_nonoverlap,detailed_direct,200,40,30.0,75.889,200,40,28.0,70.444,200,40,32.5,71.444
+separated_nonoverlap,contact_point,200,40,26.0,73.667,200,40,25.5,69.333,200,40,27.5,68.889
+separated_nonoverlap,explicit_pairs,200,40,20.0,64.667,200,40,16.0,57.222,200,40,16.0,58.667
+packed_nonoverlap,minimal_direct,200,40,46.5,78.111,200,40,47.0,82.111,200,40,49.0,83.222
+packed_nonoverlap,detailed_direct,200,40,49.5,86.0,200,40,56.5,88.444,200,40,49.5,85.222
+packed_nonoverlap,contact_point,200,40,54.0,84.667,200,40,46.0,83.333,200,40,52.0,83.778
+packed_nonoverlap,explicit_pairs,200,40,37.0,72.556,200,40,24.0,67.0,200,40,28.0,69.0
+structured_occlusion,minimal_direct,200,40,76.5,94.111,200,40,79.0,94.111,200,40,77.0,93.0
+structured_occlusion,detailed_direct,200,40,80.0,95.333,200,40,79.0,94.222,200,40,77.0,94.222
+structured_occlusion,contact_point,200,40,76.0,93.556,200,40,79.5,94.0,200,40,79.0,94.667
+structured_occlusion,explicit_pairs,200,40,14.0,54.111,200,40,38.0,70.0,200,40,33.0,65.333

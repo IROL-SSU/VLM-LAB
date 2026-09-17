@@ -1,0 +1,5 @@
+Return one instance per line using exactly this format:
+
+<ID> | <object_type> | <color>
+
+Do not include a header, Markdown, or any explanation.

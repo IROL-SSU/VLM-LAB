@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "visible_ids": {
+      "type": "array",
+      "items": {"type": "integer"}
+    },
+    "instances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "integer"},
+          "object_type": {"type": "string"},
+          "color": {"type": "string"}
+        },
+        "required": ["id", "object_type", "color"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["visible_ids", "instances"],
+  "additionalProperties": false
+}

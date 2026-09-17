@@ -1,0 +1,15 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "visible_ids": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "visible_ids"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,80 @@
+{
+  "basic_asset_color": {
+    "Cup_2": "white",
+    "Cup_4": "blue",
+    "Mug_2": "black",
+    "Mug_4": "yellow",
+    "acafela": "blue",
+    "biracsikhye": "yellow",
+    "cantata": "brown",
+    "cocopalm": "pink",
+    "coldgrape": "purple",
+    "cup_7": "purple",
+    "cup_8": "purple",
+    "letsbe": "blue",
+    "minutemad": "yellow",
+    "mug_7": "orange",
+    "top": "green"
+  },
+  "basic_colors": [
+    "black",
+    "blue",
+    "brown",
+    "green",
+    "orange",
+    "pink",
+    "purple",
+    "white",
+    "yellow"
+  ],
+  "color_policy": {
+    "beige_tan_light_or_dark_brown": "brown",
+    "dark_blue_and_navy": "blue",
+    "dark_green_and_teal": "green",
+    "dark_purple_and_violet": "purple",
+    "gold_and_golden_yellow": "yellow"
+  },
+  "design": {
+    "Q1": "category-only present",
+    "Q1.5": "coarse-color-only present",
+    "Q2": "category plus present coarse color",
+    "Q3": "category plus visible but compositionally absent coarse color",
+    "repeats_per_scene_query": 5,
+    "same_prompt_template_for_all_queries": true
+  },
+  "experiment_id": "b0_n2_basic_unified_coarse_60scenes_20260903",
+  "generation": {
+    "frequency_penalty": 0.0,
+    "max_tokens": 1024,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9
+  },
+  "input": "numbered RGB + confirmed visible-ID candidates + natural request",
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "output": "forced JSON unified optional constraints + coarse-color inventory + matching_ids",
+  "primary_metric": "matching_id_set_exact_against_n2_basic_coarse_color",
+  "prompt_language": "English",
+  "query_count_per_scene": 4,
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 8192,
+    "max_num_seqs": 1,
+    "moe_backend": "triton"
+  },
+  "scene_count": 60,
+  "scheduled_calls": 1200,
+  "source_experiment": "/home/ssu/ShelfScene/experiments/b0_n2_explicit_constraint_scaffold_60scenes_20260828"
+}

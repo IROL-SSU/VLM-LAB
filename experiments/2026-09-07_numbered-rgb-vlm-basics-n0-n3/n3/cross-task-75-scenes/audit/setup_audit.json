@@ -1,0 +1,25 @@
+{
+  "all_candidate_ids_ascending": true,
+  "all_expected_orders_are_permutations": true,
+  "all_images_match": true,
+  "all_prompt_hashes_match_original_experiment": true,
+  "all_source_images_match_original_experiment": true,
+  "batch_size": 1,
+  "d1_centroid_and_bbox_midpoint_orders_agree": true,
+  "new_prompt_hashes": {
+    "d0_left_to_right": "09a5162f4574219c8a5fa5865328588c1a73b5d62c6626ac1ea5df3b6567b128",
+    "d1_front_to_back": "aa73c390ccfb507d2a29a48a3d6d9badc124e01a07a57ee08207e0b8f22341ed"
+  },
+  "original_prompt_hashes": {
+    "d0_left_to_right": "09a5162f4574219c8a5fa5865328588c1a73b5d62c6626ac1ea5df3b6567b128",
+    "d1_front_to_back": "aa73c390ccfb507d2a29a48a3d6d9badc124e01a07a57ee08207e0b8f22341ed"
+  },
+  "scene_count": 75,
+  "scheduled_calls": 375,
+  "schemas_have_no_array_or_id_bounds": true,
+  "split_scene_counts": {
+    "N3-D0-FB-CROSS": 27,
+    "N3-D1-LR-CROSS": 48
+  },
+  "system_prompt_absent": true
+}

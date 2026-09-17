@@ -1,0 +1,10 @@
+{
+  "expected": 500,
+  "completed": 500,
+  "processed_this_invocation": 500,
+  "elapsed_seconds": 258.215,
+  "last_run_id": "single_target__structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v08__r05_s28105",
+  "last_finish_reason": "stop",
+  "last_input_tokens": 1626,
+  "last_output_tokens": 108
+}

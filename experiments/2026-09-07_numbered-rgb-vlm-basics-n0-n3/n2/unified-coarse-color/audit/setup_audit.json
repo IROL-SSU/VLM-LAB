@@ -1,0 +1,56 @@
+{
+  "all_expected_targets_subset_candidates": true,
+  "all_four_queries_present": true,
+  "all_images_match": true,
+  "all_q1_5_and_q2_targets_present": true,
+  "all_q3_hard_negatives_valid": true,
+  "batch_size": 1,
+  "level_counts": {
+    "L3": 20,
+    "L4": 20,
+    "L5": 20
+  },
+  "q1_5_target_cardinality_scene_counts": {
+    "1": 17,
+    "2": 33,
+    "3": 9,
+    "5": 1
+  },
+  "q2_color_scene_counts": {
+    "blue": 17,
+    "brown": 10,
+    "green": 6,
+    "pink": 5,
+    "purple": 6,
+    "yellow": 16
+  },
+  "q2_target_cardinality_scene_counts": {
+    "1": 43,
+    "2": 15,
+    "3": 2
+  },
+  "q3_color_scene_counts": {
+    "black": 8,
+    "blue": 7,
+    "brown": 8,
+    "green": 7,
+    "orange": 1,
+    "pink": 7,
+    "purple": 7,
+    "white": 8,
+    "yellow": 7
+  },
+  "q3_mug7_fallback_scenes": [
+    "b0_l4_random_45_60_02"
+  ],
+  "query_counts": {
+    "Q1_5_COLOR_ONLY_PRESENT": 60,
+    "Q1_CATEGORY_PRESENT": 60,
+    "Q2_CATEGORY_COLOR_PRESENT": 60,
+    "Q3_HARD_NEGATIVE_ABSENT": 60
+  },
+  "same_prompt_template_for_all_queries": true,
+  "scene_count": 60,
+  "scheduled_calls": 1200,
+  "schema_has_no_id_or_array_bounds": true
+}

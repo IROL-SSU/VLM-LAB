@@ -1,0 +1,3 @@
+Return only a JSON object with exactly one key named "visible_ids".
+The value must be an array of integers.
+Do not use Markdown and do not add any other keys or text.

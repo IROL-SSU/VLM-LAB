@@ -1,0 +1,27 @@
+{
+  "all_batch_size_one": true,
+  "all_finished_stop": true,
+  "all_images_in_expected_order": true,
+  "depth_annotator": null,
+  "depth_measure": null,
+  "format_failures": 0,
+  "images_per_prompt": 1,
+  "max_context_tokens_if_full_cap": 2874,
+  "max_input_tokens": 1850,
+  "max_model_len": 8192,
+  "max_output_tokens": 226,
+  "method_counts": {
+    "contact_point": 100,
+    "detailed_direct": 100,
+    "explicit_pairs": 100,
+    "minimal_direct": 100,
+    "single_target": 100
+  },
+  "observed_calls": 500,
+  "scene_count": 20,
+  "scene_type_counts": {
+    "structured_occlusion": 20
+  },
+  "scheduled_calls": 500,
+  "unique_run_ids": 500
+}

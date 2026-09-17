@@ -1,0 +1,9 @@
+Return the visible-ID list first using exactly this format:
+
+visible_ids: [<integer>, ...]
+
+Then return exactly one instance per line using exactly this format:
+
+<ID> | <object_type> | <color>
+
+Do not include Markdown, an explanation, or any other text.

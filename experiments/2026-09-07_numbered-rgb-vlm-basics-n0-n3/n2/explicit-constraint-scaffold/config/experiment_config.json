@@ -1,0 +1,38 @@
+{
+  "experiment_id": "b0_n2_explicit_constraint_scaffold_60scenes_20260828",
+  "generation": {
+    "frequency_penalty": 0.0,
+    "max_tokens": 1024,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9
+  },
+  "input": "numbered RGB + GT visible-ID candidates + natural user request",
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "output": "forced JSON request decomposition + explicit per-condition booleans + matching_ids",
+  "paired_baseline": "/home/ssu/ShelfScene/experiments/b0_n2_numbered_rgb_semantic_scaffold_60scenes_20260827",
+  "primary_metric": "matching_id_set_exact",
+  "prompt_language": "English",
+  "query_count_per_scene": 3,
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 8192,
+    "max_num_seqs": 1,
+    "moe_backend": "triton"
+  },
+  "scene_count": 60,
+  "scheduled_calls": 900,
+  "source_experiment": "/home/ssu/ShelfScene/experiments/b0_n2_numbered_rgb_semantic_scaffold_60scenes_20260827"
+}

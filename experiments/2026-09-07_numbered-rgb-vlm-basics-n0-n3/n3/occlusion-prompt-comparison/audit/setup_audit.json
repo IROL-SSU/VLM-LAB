@@ -1,0 +1,38 @@
+{
+  "all_gt_orders_are_permutations": true,
+  "all_images_match_frozen_hash": true,
+  "all_targets_are_valid": true,
+  "batch_size": 1,
+  "images_per_prompt": 1,
+  "method_count": 5,
+  "missing_rgb_scene_count": 20,
+  "missing_structure_counts": {
+    "o3_single_pair_extra_front": 4,
+    "o3_three_object_chain": 6,
+    "o4_four_object_chain": 2,
+    "o4_three_chain_extra_front": 4,
+    "o4_two_disjoint_pairs": 4
+  },
+  "missing_structure_counts_expected": true,
+  "original_and_missing_disjoint": true,
+  "original_plus_missing_is_full_40": true,
+  "original_rgb_scene_count": 20,
+  "prompt_hash_matches_original_rgb_baseline": {
+    "contact_point": true,
+    "detailed_direct": true,
+    "explicit_pairs": true,
+    "minimal_direct": true,
+    "single_target": true
+  },
+  "scheduled_calls": 500,
+  "schema_hash_matches_original_rgb_baseline": {
+    "contact_point": true,
+    "detailed_direct": true,
+    "explicit_pairs": true,
+    "minimal_direct": true,
+    "single_target": true
+  },
+  "seed_count": 5,
+  "source_structured_scene_count": 40,
+  "system_prompt_absent": true
+}

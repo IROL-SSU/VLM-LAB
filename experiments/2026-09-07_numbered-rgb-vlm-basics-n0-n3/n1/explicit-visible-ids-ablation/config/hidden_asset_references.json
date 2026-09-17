@@ -1,0 +1,199 @@
+{
+  "Cup_2": {
+    "accepted_color_tokens": [
+      "white"
+    ],
+    "accepted_object_tokens": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "color_reference": "white",
+    "object_family": "cup_or_mug",
+    "object_reference": "cup"
+  },
+  "Cup_4": {
+    "accepted_color_tokens": [
+      "blue"
+    ],
+    "accepted_object_tokens": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "color_reference": "blue",
+    "object_family": "cup_or_mug",
+    "object_reference": "cup"
+  },
+  "Mug_2": {
+    "accepted_color_tokens": [
+      "black"
+    ],
+    "accepted_object_tokens": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "color_reference": "black",
+    "object_family": "cup_or_mug",
+    "object_reference": "mug"
+  },
+  "Mug_4": {
+    "accepted_color_tokens": [
+      "yellow"
+    ],
+    "accepted_object_tokens": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "color_reference": "yellow",
+    "object_family": "cup_or_mug",
+    "object_reference": "mug"
+  },
+  "acafela": {
+    "accepted_color_tokens": [
+      "blue",
+      "navy"
+    ],
+    "accepted_object_tokens": [
+      "bottle"
+    ],
+    "color_reference": "dark blue",
+    "object_family": "bottle",
+    "object_reference": "plastic beverage bottle"
+  },
+  "biracsikhye": {
+    "accepted_color_tokens": [
+      "yellow",
+      "gold",
+      "golden"
+    ],
+    "accepted_object_tokens": [
+      "can",
+      "tin"
+    ],
+    "color_reference": "yellow-gold",
+    "object_family": "can",
+    "object_reference": "beverage can"
+  },
+  "cantata": {
+    "accepted_color_tokens": [
+      "beige",
+      "brown",
+      "tan",
+      "cream"
+    ],
+    "accepted_object_tokens": [
+      "can",
+      "tin"
+    ],
+    "color_reference": "beige-brown",
+    "object_family": "can",
+    "object_reference": "beverage can"
+  },
+  "cocopalm": {
+    "accepted_color_tokens": [
+      "pink"
+    ],
+    "accepted_object_tokens": [
+      "bottle"
+    ],
+    "color_reference": "pink",
+    "object_family": "bottle",
+    "object_reference": "plastic beverage bottle"
+  },
+  "coldgrape": {
+    "accepted_color_tokens": [
+      "purple",
+      "violet",
+      "blue",
+      "navy"
+    ],
+    "accepted_object_tokens": [
+      "bottle"
+    ],
+    "color_reference": "dark purple-blue",
+    "object_family": "bottle",
+    "object_reference": "plastic beverage bottle"
+  },
+  "cup_7": {
+    "accepted_color_tokens": [
+      "purple",
+      "violet"
+    ],
+    "accepted_object_tokens": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "color_reference": "purple",
+    "object_family": "cup_or_mug",
+    "object_reference": "cup"
+  },
+  "cup_8": {
+    "accepted_color_tokens": [
+      "purple",
+      "violet"
+    ],
+    "accepted_object_tokens": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "color_reference": "purple",
+    "object_family": "cup_or_mug",
+    "object_reference": "cup"
+  },
+  "letsbe": {
+    "accepted_color_tokens": [
+      "blue"
+    ],
+    "accepted_object_tokens": [
+      "can",
+      "tin"
+    ],
+    "color_reference": "blue",
+    "object_family": "can",
+    "object_reference": "beverage can"
+  },
+  "minutemad": {
+    "accepted_color_tokens": [
+      "yellow",
+      "gold",
+      "golden"
+    ],
+    "accepted_object_tokens": [
+      "bottle"
+    ],
+    "color_reference": "yellow-gold",
+    "object_family": "bottle",
+    "object_reference": "plastic beverage bottle"
+  },
+  "mug_7": {
+    "accepted_color_tokens": [
+      "orange",
+      "brown"
+    ],
+    "accepted_object_tokens": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "color_reference": "orange-brown",
+    "object_family": "cup_or_mug",
+    "object_reference": "mug"
+  },
+  "top": {
+    "accepted_color_tokens": [
+      "green",
+      "teal"
+    ],
+    "accepted_object_tokens": [
+      "bottle"
+    ],
+    "color_reference": "dark green",
+    "object_family": "bottle",
+    "object_reference": "plastic beverage bottle"
+  }
+}

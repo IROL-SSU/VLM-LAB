@@ -1,0 +1,18 @@
+{
+  "all_batch_size_one": true,
+  "all_context_budgets_valid": true,
+  "all_finish_reasons_stop": true,
+  "all_images_hash_stable": true,
+  "expected_calls": 375,
+  "observed_calls": 375,
+  "parse_failures": 0,
+  "source_split_call_counts": {
+    "N3-D0": 135,
+    "N3-D1": 240
+  },
+  "task_call_counts": {
+    "D0_LEFT_TO_RIGHT": 240,
+    "D1_FRONT_TO_BACK": 135
+  },
+  "unique_run_ids": 375
+}

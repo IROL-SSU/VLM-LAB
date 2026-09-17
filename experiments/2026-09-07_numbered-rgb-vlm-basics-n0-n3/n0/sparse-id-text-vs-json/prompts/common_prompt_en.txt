@@ -1,0 +1,1 @@
+List all integer IDs visible inside the red circular markers in the image.

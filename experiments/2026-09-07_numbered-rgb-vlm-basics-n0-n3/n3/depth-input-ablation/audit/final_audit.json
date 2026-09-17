@@ -1,0 +1,26 @@
+{
+  "all_batch_size_one": true,
+  "all_finish_reasons_stop": true,
+  "all_order_cells_have_40_scenes_200_calls": true,
+  "all_target_cells_have_200_calls": true,
+  "fixed_target_matrix_rows": 15,
+  "format_failures": 0,
+  "full_order_matrix_rows": 12,
+  "scene_gt_target_signatures_match_across_inputs_and_methods": {
+    "packed_nonoverlap": {
+      "scene_and_gt": true,
+      "single_target_id": true
+    },
+    "separated_nonoverlap": {
+      "scene_and_gt": true,
+      "single_target_id": true
+    },
+    "structured_occlusion": {
+      "scene_and_gt": true,
+      "single_target_id": true
+    }
+  },
+  "supplement_expected_calls": 500,
+  "supplement_observed_calls": 500,
+  "supplement_unique_run_ids": 500
+}

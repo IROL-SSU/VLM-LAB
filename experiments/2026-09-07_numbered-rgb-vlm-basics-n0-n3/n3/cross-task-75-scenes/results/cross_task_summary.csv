@@ -1,0 +1,3 @@
+source_benchmark_split,task_id,scope,calls,scenes,order_exact_count,order_exact_pct,pairwise_correct,pairwise_total,pairwise_accuracy_pct,visible_ids_exact_pct,permutation_valid_pct,format_valid_pct,scenes_5of5,scenes_1to4of5,scenes_0of5,parse_failures
+N3-D0,D1_FRONT_TO_BACK,source_benchmark_split=N3-D0 | task_id=D1_FRONT_TO_BACK,135,27,47,34.815,336,450,74.667,100.0,100.0,100.0,8,4,15,0
+N3-D1,D0_LEFT_TO_RIGHT,source_benchmark_split=N3-D1 | task_id=D0_LEFT_TO_RIGHT,240,48,240,100.0,480,480,100.0,100.0,100.0,100.0,48,0,0,0

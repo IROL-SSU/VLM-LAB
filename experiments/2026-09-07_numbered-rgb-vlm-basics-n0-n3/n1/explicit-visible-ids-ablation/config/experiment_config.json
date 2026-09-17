@@ -1,0 +1,157 @@
+{
+  "color_vocabulary_in_prompt": null,
+  "conditions": [
+    {
+      "condition_id": "T03_DIRECT_TEXT",
+      "enumeration": false,
+      "output_format": "TEXT",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T03_DIRECT_JSON",
+      "enumeration": false,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T03_ENUM_TEXT",
+      "enumeration": true,
+      "output_format": "TEXT",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T03_ENUM_JSON",
+      "enumeration": true,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T05_DIRECT_TEXT",
+      "enumeration": false,
+      "output_format": "TEXT",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T05_DIRECT_JSON",
+      "enumeration": false,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T05_ENUM_TEXT",
+      "enumeration": true,
+      "output_format": "TEXT",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T05_ENUM_JSON",
+      "enumeration": true,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T07_DIRECT_TEXT",
+      "enumeration": false,
+      "output_format": "TEXT",
+      "temperature": 0.7
+    },
+    {
+      "condition_id": "T07_DIRECT_JSON",
+      "enumeration": false,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.7
+    },
+    {
+      "condition_id": "T07_ENUM_TEXT",
+      "enumeration": true,
+      "output_format": "TEXT",
+      "temperature": 0.7
+    },
+    {
+      "condition_id": "T07_ENUM_JSON",
+      "enumeration": true,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.7
+    }
+  ],
+  "design": {
+    "explicit_visible_id_enumeration": [
+      false,
+      true
+    ],
+    "output_format": [
+      "TEXT",
+      "JSON_FORCED"
+    ],
+    "paired_by": [
+      "scene_id",
+      "seed"
+    ],
+    "repeats_per_scene_condition": 5,
+    "temperature": [
+      0.3,
+      0.5,
+      0.7
+    ]
+  },
+  "experiment_id": "b0_n1_explicit_visible_ids_ablation_60scenes_20260827",
+  "generation": {
+    "frequency_penalty": 0.0,
+    "max_tokens": 1024,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "temperature": "condition-specific",
+    "top_k": 0,
+    "top_p": 0.9
+  },
+  "ground_truth_order": "none; match predictions by instance ID",
+  "held_constant": [
+    "60 frozen numbered-RGB scenes",
+    "five seeds 28101-28105",
+    "Qwen3-VL-30B-A3B-Instruct",
+    "batch size 1",
+    "top_p 0.9",
+    "top_k 0",
+    "max_tokens 1024",
+    "same whole-object primary-color rule",
+    "same hidden open-vocabulary scoring references"
+  ],
+  "input": "numbered RGB only",
+  "json_constraint": "factor-specific strict vLLM structured output; no array length, ID, object, or color bounds",
+  "level_counts": {
+    "L3": 20,
+    "L4": 20,
+    "L5": 20
+  },
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "modes": [
+    "TEXT",
+    "JSON_FORCED"
+  ],
+  "object_vocabulary_in_prompt": null,
+  "preflight_scene_ids": [],
+  "preflight_seeds": [],
+  "primary_metric": "full_output_joint_exact",
+  "prompt_ablation": "explicit visible-ID enumeration before ID-to-attribute mapping",
+  "prompt_language": "English",
+  "reference_policy": "hidden asset-level semantic references frozen before inference; accepted aliases are not shown to the evaluated model",
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 8192,
+    "moe_backend": "triton"
+  },
+  "scene_count": 60,
+  "scheduled_main_calls": 3600,
+  "scheduled_preflight_calls": 0,
+  "task": "open-vocabulary ID-to-object-type-and-color mapping"
+}

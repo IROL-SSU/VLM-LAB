@@ -1,0 +1,10 @@
+{
+  "both_correct": 300,
+  "json_only_correct": 0,
+  "mcnemar_exact_two_sided_p": 1.0,
+  "neither_correct": 0,
+  "paired_scene_seed_trials": 300,
+  "same_predicted_id_multiset_count": 300,
+  "same_predicted_id_multiset_pct": 100.0,
+  "text_only_correct": 0
+}

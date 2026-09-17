@@ -1,0 +1,76 @@
+scene_id,source_benchmark_split,task_id,object_count,occluder_side,occlusion_level,size_cue,variant_index,expected_order,successes_out_of_5,pairwise_accuracy_pct
+n3_d0_o2_congruent_v1,N3-D0,D1_FRONT_TO_BACK,2,,none,congruent,1,"[56, 71]",5,100.0
+n3_d0_o2_congruent_v2,N3-D0,D1_FRONT_TO_BACK,2,,none,congruent,2,"[92, 16]",5,100.0
+n3_d0_o2_congruent_v3,N3-D0,D1_FRONT_TO_BACK,2,,none,congruent,3,"[81, 32]",0,0.0
+n3_d0_o2_conflict_v1,N3-D0,D1_FRONT_TO_BACK,2,,none,conflict,1,"[21, 81]",5,100.0
+n3_d0_o2_conflict_v2,N3-D0,D1_FRONT_TO_BACK,2,,none,conflict,2,"[99, 19]",0,0.0
+n3_d0_o2_conflict_v3,N3-D0,D1_FRONT_TO_BACK,2,,none,conflict,3,"[36, 68]",5,100.0
+n3_d0_o2_neutral_v1,N3-D0,D1_FRONT_TO_BACK,2,,none,neutral,1,"[23, 14]",0,0.0
+n3_d0_o2_neutral_v2,N3-D0,D1_FRONT_TO_BACK,2,,none,neutral,2,"[92, 14]",1,20.0
+n3_d0_o2_neutral_v3,N3-D0,D1_FRONT_TO_BACK,2,,none,neutral,3,"[69, 43]",0,0.0
+n3_d0_o3_congruent_v1,N3-D0,D1_FRONT_TO_BACK,3,,none,congruent,1,"[88, 39, 46]",0,66.667
+n3_d0_o3_congruent_v2,N3-D0,D1_FRONT_TO_BACK,3,,none,congruent,2,"[14, 87, 60]",5,100.0
+n3_d0_o3_congruent_v3,N3-D0,D1_FRONT_TO_BACK,3,,none,congruent,3,"[46, 62, 49]",0,66.667
+n3_d0_o3_conflict_v1,N3-D0,D1_FRONT_TO_BACK,3,,none,conflict,1,"[55, 86, 44]",1,73.333
+n3_d0_o3_conflict_v2,N3-D0,D1_FRONT_TO_BACK,3,,none,conflict,2,"[39, 62, 75]",1,73.333
+n3_d0_o3_conflict_v3,N3-D0,D1_FRONT_TO_BACK,3,,none,conflict,3,"[30, 65, 46]",0,66.667
+n3_d0_o3_neutral_v1,N3-D0,D1_FRONT_TO_BACK,3,,none,neutral,1,"[64, 50, 15]",0,66.667
+n3_d0_o3_neutral_v2,N3-D0,D1_FRONT_TO_BACK,3,,none,neutral,2,"[23, 48, 88]",5,100.0
+n3_d0_o3_neutral_v3,N3-D0,D1_FRONT_TO_BACK,3,,none,neutral,3,"[63, 39, 67]",0,66.667
+n3_d0_o4_congruent_v1,N3-D0,D1_FRONT_TO_BACK,4,,none,congruent,1,"[60, 56, 79, 97]",5,100.0
+n3_d0_o4_congruent_v2,N3-D0,D1_FRONT_TO_BACK,4,,none,congruent,2,"[52, 86, 33, 45]",5,100.0
+n3_d0_o4_congruent_v3,N3-D0,D1_FRONT_TO_BACK,4,,none,congruent,3,"[19, 73, 98, 12]",0,66.667
+n3_d0_o4_conflict_v1,N3-D0,D1_FRONT_TO_BACK,4,,none,conflict,1,"[40, 79, 36, 32]",4,96.667
+n3_d0_o4_conflict_v2,N3-D0,D1_FRONT_TO_BACK,4,,none,conflict,2,"[14, 49, 42, 70]",0,80.0
+n3_d0_o4_conflict_v3,N3-D0,D1_FRONT_TO_BACK,4,,none,conflict,3,"[58, 39, 48, 95]",0,66.667
+n3_d0_o4_neutral_v1,N3-D0,D1_FRONT_TO_BACK,4,,none,neutral,1,"[24, 64, 29, 67]",0,66.667
+n3_d0_o4_neutral_v2,N3-D0,D1_FRONT_TO_BACK,4,,none,neutral,2,"[42, 55, 60, 14]",0,83.333
+n3_d0_o4_neutral_v3,N3-D0,D1_FRONT_TO_BACK,4,,none,neutral,3,"[61, 79, 95, 51]",0,50.0
+n3_d1_o2_congruent_mild_v1,N3-D1,D0_LEFT_TO_RIGHT,2,left,mild,congruent,1,"[95, 65]",5,100.0
+n3_d1_o2_congruent_mild_v2,N3-D1,D0_LEFT_TO_RIGHT,2,right,mild,congruent,2,"[74, 42]",5,100.0
+n3_d1_o2_congruent_mild_v3,N3-D1,D0_LEFT_TO_RIGHT,2,right,mild,congruent,3,"[94, 64]",5,100.0
+n3_d1_o2_congruent_mild_v4,N3-D1,D0_LEFT_TO_RIGHT,2,left,mild,congruent,4,"[66, 86]",5,100.0
+n3_d1_o2_congruent_moderate_v1,N3-D1,D0_LEFT_TO_RIGHT,2,left,moderate,congruent,1,"[58, 52]",5,100.0
+n3_d1_o2_congruent_moderate_v2,N3-D1,D0_LEFT_TO_RIGHT,2,right,moderate,congruent,2,"[96, 87]",5,100.0
+n3_d1_o2_congruent_moderate_v3,N3-D1,D0_LEFT_TO_RIGHT,2,left,moderate,congruent,3,"[81, 43]",5,100.0
+n3_d1_o2_congruent_moderate_v4,N3-D1,D0_LEFT_TO_RIGHT,2,right,moderate,congruent,4,"[62, 53]",5,100.0
+n3_d1_o2_conflict_mild_v1,N3-D1,D0_LEFT_TO_RIGHT,2,right,mild,conflict,1,"[58, 71]",5,100.0
+n3_d1_o2_conflict_mild_v2,N3-D1,D0_LEFT_TO_RIGHT,2,left,mild,conflict,2,"[28, 41]",5,100.0
+n3_d1_o2_conflict_mild_v3,N3-D1,D0_LEFT_TO_RIGHT,2,right,mild,conflict,3,"[88, 43]",5,100.0
+n3_d1_o2_conflict_mild_v4,N3-D1,D0_LEFT_TO_RIGHT,2,left,mild,conflict,4,"[73, 65]",5,100.0
+n3_d1_o2_conflict_moderate_v1,N3-D1,D0_LEFT_TO_RIGHT,2,left,moderate,conflict,1,"[72, 36]",5,100.0
+n3_d1_o2_conflict_moderate_v2,N3-D1,D0_LEFT_TO_RIGHT,2,right,moderate,conflict,2,"[31, 74]",5,100.0
+n3_d1_o2_conflict_moderate_v3,N3-D1,D0_LEFT_TO_RIGHT,2,right,moderate,conflict,3,"[75, 48]",5,100.0
+n3_d1_o2_conflict_moderate_v4,N3-D1,D0_LEFT_TO_RIGHT,2,left,moderate,conflict,4,"[17, 78]",5,100.0
+n3_d1_o2_neutral_mild_v1,N3-D1,D0_LEFT_TO_RIGHT,2,right,mild,neutral,1,"[72, 14]",5,100.0
+n3_d1_o2_neutral_mild_v2,N3-D1,D0_LEFT_TO_RIGHT,2,left,mild,neutral,2,"[36, 62]",5,100.0
+n3_d1_o2_neutral_mild_v3,N3-D1,D0_LEFT_TO_RIGHT,2,left,mild,neutral,3,"[14, 36]",5,100.0
+n3_d1_o2_neutral_mild_v4,N3-D1,D0_LEFT_TO_RIGHT,2,right,mild,neutral,4,"[54, 91]",5,100.0
+n3_d1_o2_neutral_moderate_v1,N3-D1,D0_LEFT_TO_RIGHT,2,right,moderate,neutral,1,"[43, 16]",5,100.0
+n3_d1_o2_neutral_moderate_v2,N3-D1,D0_LEFT_TO_RIGHT,2,left,moderate,neutral,2,"[37, 72]",5,100.0
+n3_d1_o2_neutral_moderate_v3,N3-D1,D0_LEFT_TO_RIGHT,2,left,moderate,neutral,3,"[22, 89]",5,100.0
+n3_d1_o2_neutral_moderate_v4,N3-D1,D0_LEFT_TO_RIGHT,2,right,moderate,neutral,4,"[51, 37]",5,100.0
+n3_d1_o3_congruent_mild_v1,N3-D1,D0_LEFT_TO_RIGHT,3,right,mild,congruent,1,"[25, 55, 50]",5,100.0
+n3_d1_o3_congruent_mild_v2,N3-D1,D0_LEFT_TO_RIGHT,3,left,mild,congruent,2,"[60, 22, 84]",5,100.0
+n3_d1_o3_congruent_mild_v3,N3-D1,D0_LEFT_TO_RIGHT,3,left,mild,congruent,3,"[26, 37, 23]",5,100.0
+n3_d1_o3_congruent_mild_v4,N3-D1,D0_LEFT_TO_RIGHT,3,right,mild,congruent,4,"[91, 95, 80]",5,100.0
+n3_d1_o3_congruent_moderate_v1,N3-D1,D0_LEFT_TO_RIGHT,3,right,moderate,congruent,1,"[74, 45, 32]",5,100.0
+n3_d1_o3_congruent_moderate_v2,N3-D1,D0_LEFT_TO_RIGHT,3,right,moderate,congruent,2,"[97, 82, 29]",5,100.0
+n3_d1_o3_congruent_moderate_v3,N3-D1,D0_LEFT_TO_RIGHT,3,left,moderate,congruent,3,"[45, 25, 36]",5,100.0
+n3_d1_o3_congruent_moderate_v4,N3-D1,D0_LEFT_TO_RIGHT,3,left,moderate,congruent,4,"[64, 56, 92]",5,100.0
+n3_d1_o3_conflict_mild_v1,N3-D1,D0_LEFT_TO_RIGHT,3,left,mild,conflict,1,"[21, 96, 82]",5,100.0
+n3_d1_o3_conflict_mild_v2,N3-D1,D0_LEFT_TO_RIGHT,3,left,mild,conflict,2,"[47, 75, 83]",5,100.0
+n3_d1_o3_conflict_mild_v3,N3-D1,D0_LEFT_TO_RIGHT,3,right,mild,conflict,3,"[34, 19, 60]",5,100.0
+n3_d1_o3_conflict_mild_v4,N3-D1,D0_LEFT_TO_RIGHT,3,right,mild,conflict,4,"[17, 99, 32]",5,100.0
+n3_d1_o3_conflict_moderate_v1,N3-D1,D0_LEFT_TO_RIGHT,3,left,moderate,conflict,1,"[68, 62, 93]",5,100.0
+n3_d1_o3_conflict_moderate_v2,N3-D1,D0_LEFT_TO_RIGHT,3,right,moderate,conflict,2,"[96, 36, 19]",5,100.0
+n3_d1_o3_conflict_moderate_v3,N3-D1,D0_LEFT_TO_RIGHT,3,right,moderate,conflict,3,"[99, 85, 82]",5,100.0
+n3_d1_o3_conflict_moderate_v4,N3-D1,D0_LEFT_TO_RIGHT,3,left,moderate,conflict,4,"[31, 97, 17]",5,100.0
+n3_d1_o3_neutral_mild_v1,N3-D1,D0_LEFT_TO_RIGHT,3,right,mild,neutral,1,"[37, 86, 27]",5,100.0
+n3_d1_o3_neutral_mild_v2,N3-D1,D0_LEFT_TO_RIGHT,3,left,mild,neutral,2,"[47, 70, 94]",5,100.0
+n3_d1_o3_neutral_mild_v3,N3-D1,D0_LEFT_TO_RIGHT,3,right,mild,neutral,3,"[76, 32, 44]",5,100.0
+n3_d1_o3_neutral_mild_v4,N3-D1,D0_LEFT_TO_RIGHT,3,left,mild,neutral,4,"[53, 56, 59]",5,100.0
+n3_d1_o3_neutral_moderate_v1,N3-D1,D0_LEFT_TO_RIGHT,3,right,moderate,neutral,1,"[15, 44, 90]",5,100.0
+n3_d1_o3_neutral_moderate_v2,N3-D1,D0_LEFT_TO_RIGHT,3,left,moderate,neutral,2,"[52, 64, 70]",5,100.0
+n3_d1_o3_neutral_moderate_v3,N3-D1,D0_LEFT_TO_RIGHT,3,left,moderate,neutral,3,"[13, 27, 71]",5,100.0
+n3_d1_o3_neutral_moderate_v4,N3-D1,D0_LEFT_TO_RIGHT,3,right,moderate,neutral,4,"[19, 60, 91]",5,100.0

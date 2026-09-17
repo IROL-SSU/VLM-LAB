@@ -1,0 +1,9 @@
+Return only one valid JSON object.
+The first key must be "visible_ids", containing the explicit visible-ID list.
+The second key must be "instances", containing exactly one mapping for every ID in "visible_ids".
+Each element of "instances" must contain exactly:
+- "id": the integer shown inside the red marker
+- "object_type": the physical object type
+- "color": the primary visible color of the object as a whole
+
+Do not use Markdown and do not add any other keys or text.

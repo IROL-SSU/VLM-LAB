@@ -1,0 +1,13 @@
+level,factor,value,mode,calls,format_valid_count,format_valid_pct,id_set_exact_count,id_set_exact_pct,id_micro_precision_pct,id_micro_recall_pct,id_micro_f1_pct,missing_id_count,extra_id_count,duplicate_output_calls,left_to_right_exact_diagnostic_pct,numerically_sorted_output_pct,parse_failures,length_finishes,mean_output_tokens,mean_wall_seconds
+L3,object_count,5,TEXT,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,100.0,0.0,0,0,15.0,0.1292
+L3,object_count,5,JSON_FORCED,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,100.0,0.0,0,0,25.0,0.1954
+L3,object_count,7,TEXT,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,84.0,0.0,0,0,21.0,0.1681
+L3,object_count,7,JSON_FORCED,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,86.0,0.0,0,0,33.0,0.2442
+L4,occlusion_band,30_45,TEXT,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,100.0,0.0,0,0,24.0,0.1884
+L4,occlusion_band,30_45,JSON_FORCED,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,100.0,0.0,0,0,37.0,0.2711
+L4,occlusion_band,45_60,TEXT,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,100.0,0.0,0,0,24.0,0.1885
+L4,occlusion_band,45_60,JSON_FORCED,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,100.0,0.0,0,0,37.0,0.271
+L5,occlusion_band,30_45,TEXT,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,34.0,0.0,0,0,27.0,0.2106
+L5,occlusion_band,30_45,JSON_FORCED,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,32.0,0.0,0,0,41.0,0.2969
+L5,occlusion_band,45_60,TEXT,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,34.0,0.0,0,0,27.0,0.2112
+L5,occlusion_band,45_60,JSON_FORCED,50,50,100.0,50,100.0,100.0,100.0,100.0,0,0,0,32.0,0.0,0,0,41.0,0.2968

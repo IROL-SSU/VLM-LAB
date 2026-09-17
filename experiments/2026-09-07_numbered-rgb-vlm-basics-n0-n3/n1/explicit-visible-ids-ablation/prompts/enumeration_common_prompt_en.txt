@@ -1,0 +1,27 @@
+Examine the numbered RGB image.
+
+First, read every visible numeric ID inside a red circular marker and record all of those IDs in an explicit visible-ID list.
+
+Then, for every ID in that visible-ID list, identify the physical object associated with that marker.
+
+For each ID, report the primary color of the object as a whole:
+the color a person would most naturally use to distinguish that object.
+
+Base the answer on the largest visible region of the main body or main label.
+Ignore the cap or lid, handle, logo, printed text, small graphics,
+narrow accent colors, the red ID marker, highlights, and shadows.
+
+Do not choose the color of a small accessory or accent region unless
+that color also dominates the main body or main label.
+For a partially occluded object, use only its identifiable visible
+main-body or main-label regions.
+
+Use a short singular English noun phrase for the object type.
+Use a concise English description for the color.
+Identify the object only from its visible appearance.
+Do not use a predefined object or color vocabulary.
+
+Include every visible marker ID exactly once in the visible-ID list.
+Return exactly one instance for every ID in that list.
+The set of IDs in the instance mappings must exactly match the set in the visible-ID list.
+Do not include an ID that is not visibly present in the image.

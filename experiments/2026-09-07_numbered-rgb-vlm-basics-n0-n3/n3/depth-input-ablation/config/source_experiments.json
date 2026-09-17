@@ -1,0 +1,28 @@
+{
+  "gray": "/home/ssu/ShelfScene/experiments/n3_rgbd_3scene_40each_5methods_5seeds_20260831",
+  "numbered_gray": "/home/ssu/ShelfScene/experiments/n3_numbered_depth_3scene_40each_5methods_5seeds_20260831",
+  "original_rgb_baselines": {
+    "packed_nonoverlap": {
+      "contact_point": "n3_packed_contact_prompt_40scenes_5seeds_20260829",
+      "detailed_direct": "n3_packed_detailed_direct_40scenes_5seeds_20260829",
+      "explicit_pairs": "n3_packed_pairwise_40scenes_5seeds_20260829",
+      "minimal_direct": "n3_packed_minimal_direct_40scenes_5seeds_20260829",
+      "single_target": "n3_packed_anchor_target_40scenes_5seeds_20260829"
+    },
+    "separated_nonoverlap": {
+      "contact_point": "n3_clear_depth_contact_prompt_40scenes_5seeds_20260828",
+      "detailed_direct": "n3_clear_depth_40scenes_5seeds_20260828",
+      "explicit_pairs": "n3_clear_depth_pairwise_40scenes_5seeds_20260828",
+      "minimal_direct": "n3_clear_depth_minimal_direct_40scenes_5seeds_20260831",
+      "single_target": "n3_clear_depth_anchor_target_40scenes_5seeds_20260828"
+    },
+    "structured_occlusion": {
+      "contact_point": "n3_occlusion_contact_point_20scenes_5seeds_20260831",
+      "detailed_direct": "n3_occlusion_detailed_direct_20scenes_5seeds_20260831",
+      "explicit_pairs": "n3_occlusion_explicit_pairs_20scenes_5seeds_20260831",
+      "minimal_direct": "n3_occlusion_minimal_direct_20scenes_5seeds_20260831",
+      "single_target": "n3_occlusion_single_target_20scenes_5seeds_20260831"
+    }
+  },
+  "rgb_missing20_supplement": "/home/ssu/ShelfScene/experiments/n3_occlusion_rgb_missing20_5methods_5seeds_20260907"
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "full",
+  "expected": 600,
+  "completed": 600,
+  "processed_this_invocation": 600,
+  "elapsed_seconds": 134.808,
+  "last_run_id": "JSON_FORCED__b0_l5_random_45_60_10__r05_s28105",
+  "last_finish_reason": "stop",
+  "last_output_tokens": 41
+}

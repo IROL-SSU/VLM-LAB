@@ -1,0 +1,5 @@
+source_split,task,status,calls,scenes,order_exact_count,order_exact_pct,pairwise_accuracy_pct,scenes_5of5,scenes_0of5
+N3-D0,Left-to-right,original,135,27,135,100.0,100.0,27,0
+N3-D0,Front-to-back,cross-task added,135,27,47,34.815,74.667,8,15
+N3-D1,Left-to-right,cross-task added,240,48,240,100.0,100.0,48,0
+N3-D1,Front-to-back,original,240,48,240,100.0,100.0,48,0

@@ -1,0 +1,4 @@
+input,full_order_calls,full_order_exact_pct,all_pairs_accuracy_pct,fixed_target_calls,target_partition_exact_pct,target_relation_accuracy_pct
+numbered_rgb,2400,44.292,78.583,3000,58.633,78.907
+rgb_plus_gray,2400,45.208,78.204,3000,59.133,78.253
+rgb_plus_numbered_gray,2400,45.542,77.852,3000,58.467,77.427

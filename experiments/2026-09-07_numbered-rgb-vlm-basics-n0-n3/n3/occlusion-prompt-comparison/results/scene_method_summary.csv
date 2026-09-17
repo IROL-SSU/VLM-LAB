@@ -1,0 +1,101 @@
+scene_uid,scene_type,source_scene_id,method,visible_ids,expected_order,target_id,successes_out_of_5,component_accuracy_pct,metric
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v05,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v05,contact_point,"[52, 87, 99]","[52, 87, 99]",52,4,93.333,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v05,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v05,detailed_direct,"[52, 87, 99]","[52, 87, 99]",52,3,86.667,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v05,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v05,explicit_pairs,"[52, 87, 99]","[52, 87, 99]",52,0,33.333,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v05,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v05,minimal_direct,"[52, 87, 99]","[52, 87, 99]",52,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v05,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v05,single_target,"[52, 87, 99]","[52, 87, 99]",52,0,50.0,target relations
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v06,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v06,contact_point,"[28, 78, 86]","[86, 78, 28]",78,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v06,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v06,detailed_direct,"[28, 78, 86]","[86, 78, 28]",78,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v06,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v06,explicit_pairs,"[28, 78, 86]","[86, 78, 28]",78,0,40.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v06,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v06,minimal_direct,"[28, 78, 86]","[86, 78, 28]",78,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v06,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v06,single_target,"[28, 78, 86]","[86, 78, 28]",78,2,70.0,target relations
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v07,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v07,contact_point,"[40, 53, 79]","[40, 53, 79]",79,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v07,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v07,detailed_direct,"[40, 53, 79]","[40, 53, 79]",79,1,73.333,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v07,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v07,explicit_pairs,"[40, 53, 79]","[40, 53, 79]",79,0,33.333,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v07,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v07,minimal_direct,"[40, 53, 79]","[40, 53, 79]",79,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v07,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v07,single_target,"[40, 53, 79]","[40, 53, 79]",79,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v08,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v08,contact_point,"[16, 38, 73]","[16, 73, 38]",16,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v08,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v08,detailed_direct,"[16, 38, 73]","[16, 73, 38]",16,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v08,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v08,explicit_pairs,"[16, 38, 73]","[16, 73, 38]",16,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v08,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v08,minimal_direct,"[16, 38, 73]","[16, 73, 38]",16,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v08,structured_occlusion,n3_fb1_occ_o3_single_pair_extra_front_v08,single_target,"[16, 38, 73]","[16, 73, 38]",16,4,80.0,target relations
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v07,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v07,contact_point,"[43, 92, 97]","[92, 97, 43]",97,4,93.333,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v07,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v07,detailed_direct,"[43, 92, 97]","[92, 97, 43]",97,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v07,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v07,explicit_pairs,"[43, 92, 97]","[92, 97, 43]",97,0,33.333,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v07,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v07,minimal_direct,"[43, 92, 97]","[92, 97, 43]",97,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v07,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v07,single_target,"[43, 92, 97]","[92, 97, 43]",97,0,50.0,target relations
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v08,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v08,contact_point,"[35, 49, 58]","[35, 58, 49]",49,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v08,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v08,detailed_direct,"[35, 49, 58]","[35, 58, 49]",49,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v08,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v08,explicit_pairs,"[35, 49, 58]","[35, 58, 49]",49,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v08,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v08,minimal_direct,"[35, 49, 58]","[35, 58, 49]",49,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v08,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v08,single_target,"[35, 49, 58]","[35, 58, 49]",49,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v09,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v09,contact_point,"[70, 94, 97]","[70, 94, 97]",70,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v09,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v09,detailed_direct,"[70, 94, 97]","[70, 94, 97]",70,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v09,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v09,explicit_pairs,"[70, 94, 97]","[70, 94, 97]",70,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v09,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v09,minimal_direct,"[70, 94, 97]","[70, 94, 97]",70,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v09,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v09,single_target,"[70, 94, 97]","[70, 94, 97]",70,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v10,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v10,contact_point,"[10, 85, 90]","[90, 10, 85]",10,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v10,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v10,detailed_direct,"[10, 85, 90]","[90, 10, 85]",10,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v10,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v10,explicit_pairs,"[10, 85, 90]","[90, 10, 85]",10,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v10,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v10,minimal_direct,"[10, 85, 90]","[90, 10, 85]",10,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v10,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v10,single_target,"[10, 85, 90]","[90, 10, 85]",10,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v11,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v11,contact_point,"[28, 50, 62]","[62, 50, 28]",28,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v11,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v11,detailed_direct,"[28, 50, 62]","[62, 50, 28]",28,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v11,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v11,explicit_pairs,"[28, 50, 62]","[62, 50, 28]",28,0,33.333,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v11,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v11,minimal_direct,"[28, 50, 62]","[62, 50, 28]",28,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v11,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v11,single_target,"[28, 50, 62]","[62, 50, 28]",28,0,50.0,target relations
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v12,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v12,contact_point,"[19, 76, 88]","[76, 88, 19]",76,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v12,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v12,detailed_direct,"[19, 76, 88]","[76, 88, 19]",76,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v12,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v12,explicit_pairs,"[19, 76, 88]","[76, 88, 19]",76,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v12,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v12,minimal_direct,"[19, 76, 88]","[76, 88, 19]",76,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o3_three_object_chain_v12,structured_occlusion,n3_fb1_occ_o3_three_object_chain_v12,single_target,"[19, 76, 88]","[76, 88, 19]",76,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v03,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v03,contact_point,"[60, 69, 96, 99]","[99, 60, 69, 96]",99,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v03,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v03,detailed_direct,"[60, 69, 96, 99]","[99, 60, 69, 96]",99,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v03,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v03,explicit_pairs,"[60, 69, 96, 99]","[99, 60, 69, 96]",99,0,50.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v03,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v03,minimal_direct,"[60, 69, 96, 99]","[99, 60, 69, 96]",99,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v03,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v03,single_target,"[60, 69, 96, 99]","[99, 60, 69, 96]",99,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v04,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v04,contact_point,"[14, 28, 34, 78]","[34, 78, 14, 28]",78,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v04,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v04,detailed_direct,"[14, 28, 34, 78]","[34, 78, 14, 28]",78,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v04,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v04,explicit_pairs,"[14, 28, 34, 78]","[34, 78, 14, 28]",78,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v04,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v04,minimal_direct,"[14, 28, 34, 78]","[34, 78, 14, 28]",78,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_four_object_chain_v04,structured_occlusion,n3_fb1_occ_o4_four_object_chain_v04,single_target,"[14, 28, 34, 78]","[34, 78, 14, 28]",78,0,66.667,target relations
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v05,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v05,contact_point,"[25, 54, 74, 86]","[54, 25, 86, 74]",86,4,96.667,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v05,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v05,detailed_direct,"[25, 54, 74, 86]","[54, 25, 86, 74]",86,4,96.667,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v05,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v05,explicit_pairs,"[25, 54, 74, 86]","[54, 25, 86, 74]",86,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v05,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v05,minimal_direct,"[25, 54, 74, 86]","[54, 25, 86, 74]",86,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v05,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v05,single_target,"[25, 54, 74, 86]","[54, 25, 86, 74]",86,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v06,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v06,contact_point,"[14, 21, 58, 72]","[14, 21, 72, 58]",58,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v06,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v06,detailed_direct,"[14, 21, 58, 72]","[14, 21, 72, 58]",58,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v06,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v06,explicit_pairs,"[14, 21, 58, 72]","[14, 21, 72, 58]",58,0,83.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v06,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v06,minimal_direct,"[14, 21, 58, 72]","[14, 21, 72, 58]",58,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v06,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v06,single_target,"[14, 21, 58, 72]","[14, 21, 72, 58]",58,0,66.667,target relations
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v07,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v07,contact_point,"[17, 23, 47, 67]","[47, 67, 23, 17]",47,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v07,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v07,detailed_direct,"[17, 23, 47, 67]","[47, 67, 23, 17]",47,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v07,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v07,explicit_pairs,"[17, 23, 47, 67]","[47, 67, 23, 17]",47,0,23.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v07,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v07,minimal_direct,"[17, 23, 47, 67]","[47, 67, 23, 17]",47,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v07,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v07,single_target,"[17, 23, 47, 67]","[47, 67, 23, 17]",47,2,53.333,target relations
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v08,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v08,contact_point,"[13, 32, 49, 69]","[69, 49, 32, 13]",49,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v08,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v08,detailed_direct,"[13, 32, 49, 69]","[69, 49, 32, 13]",49,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v08,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v08,explicit_pairs,"[13, 32, 49, 69]","[69, 49, 32, 13]",49,0,50.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v08,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v08,minimal_direct,"[13, 32, 49, 69]","[69, 49, 32, 13]",49,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v08,structured_occlusion,n3_fb1_occ_o4_three_chain_extra_front_v08,single_target,"[13, 32, 49, 69]","[69, 49, 32, 13]",49,5,100.0,target relations
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v05,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v05,contact_point,"[17, 22, 66, 70]","[17, 70, 66, 22]",66,0,83.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v05,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v05,detailed_direct,"[17, 22, 66, 70]","[17, 70, 66, 22]",66,0,83.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v05,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v05,explicit_pairs,"[17, 22, 66, 70]","[17, 70, 66, 22]",66,0,60.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v05,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v05,minimal_direct,"[17, 22, 66, 70]","[17, 70, 66, 22]",66,0,83.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v05,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v05,single_target,"[17, 22, 66, 70]","[17, 70, 66, 22]",66,0,66.667,target relations
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v06,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v06,contact_point,"[33, 51, 60, 79]","[60, 79, 51, 33]",33,0,83.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v06,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v06,detailed_direct,"[33, 51, 60, 79]","[60, 79, 51, 33]",33,0,83.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v06,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v06,explicit_pairs,"[33, 51, 60, 79]","[60, 79, 51, 33]",33,0,20.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v06,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v06,minimal_direct,"[33, 51, 60, 79]","[60, 79, 51, 33]",33,0,83.333,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v06,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v06,single_target,"[33, 51, 60, 79]","[60, 79, 51, 33]",33,0,66.667,target relations
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v07,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v07,contact_point,"[15, 20, 54, 57]","[15, 20, 57, 54]",15,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v07,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v07,detailed_direct,"[15, 20, 54, 57]","[15, 20, 57, 54]",15,0,80.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v07,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v07,explicit_pairs,"[15, 20, 54, 57]","[15, 20, 57, 54]",15,0,66.667,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v07,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v07,minimal_direct,"[15, 20, 54, 57]","[15, 20, 57, 54]",15,0,76.667,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v07,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v07,single_target,"[15, 20, 54, 57]","[15, 20, 57, 54]",15,0,66.667,target relations
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v08,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v08,contact_point,"[29, 42, 71, 93]","[71, 93, 29, 42]",93,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v08,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v08,detailed_direct,"[29, 42, 71, 93]","[71, 93, 29, 42]",93,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v08,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v08,explicit_pairs,"[29, 42, 71, 93]","[71, 93, 29, 42]",93,0,50.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v08,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v08,minimal_direct,"[29, 42, 71, 93]","[71, 93, 29, 42]",93,5,100.0,all object pairs
+structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v08,structured_occlusion,n3_fb1_occ_o4_two_disjoint_pairs_v08,single_target,"[29, 42, 71, 93]","[71, 93, 29, 42]",93,2,80.0,target relations

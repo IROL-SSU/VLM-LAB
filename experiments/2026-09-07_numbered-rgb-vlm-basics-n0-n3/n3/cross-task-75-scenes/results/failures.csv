@@ -1,0 +1,89 @@
+run_id,scene_id,source_benchmark_split,task_id,repeat_index,seed,object_count,size_cue,occlusion_level,occluder_side,expected_order,predicted_order,pairwise_correct,pairwise_total,error_type
+D1_FRONT_TO_BACK__n3_d0_o2_congruent_v3__r01_s28101,n3_d0_o2_congruent_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,2,congruent,none,,"[81, 32]","[32, 81]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_conflict_v2__r01_s28101,n3_d0_o2_conflict_v2,N3-D0,D1_FRONT_TO_BACK,1,28101,2,conflict,none,,"[99, 19]","[19, 99]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v1__r01_s28101,n3_d0_o2_neutral_v1,N3-D0,D1_FRONT_TO_BACK,1,28101,2,neutral,none,,"[23, 14]","[14, 23]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v2__r01_s28101,n3_d0_o2_neutral_v2,N3-D0,D1_FRONT_TO_BACK,1,28101,2,neutral,none,,"[92, 14]","[14, 92]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v3__r01_s28101,n3_d0_o2_neutral_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,2,neutral,none,,"[69, 43]","[43, 69]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v1__r01_s28101,n3_d0_o3_congruent_v1,N3-D0,D1_FRONT_TO_BACK,1,28101,3,congruent,none,,"[88, 39, 46]","[88, 46, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v3__r01_s28101,n3_d0_o3_congruent_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,3,congruent,none,,"[46, 62, 49]","[46, 49, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v2__r01_s28101,n3_d0_o3_conflict_v2,N3-D0,D1_FRONT_TO_BACK,1,28101,3,conflict,none,,"[39, 62, 75]","[39, 75, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v3__r01_s28101,n3_d0_o3_conflict_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,3,conflict,none,,"[30, 65, 46]","[30, 46, 65]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v1__r01_s28101,n3_d0_o3_neutral_v1,N3-D0,D1_FRONT_TO_BACK,1,28101,3,neutral,none,,"[64, 50, 15]","[64, 15, 50]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v3__r01_s28101,n3_d0_o3_neutral_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,3,neutral,none,,"[63, 39, 67]","[63, 67, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_congruent_v3__r01_s28101,n3_d0_o4_congruent_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,4,congruent,none,,"[19, 73, 98, 12]","[19, 12, 73, 98]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v2__r01_s28101,n3_d0_o4_conflict_v2,N3-D0,D1_FRONT_TO_BACK,1,28101,4,conflict,none,,"[14, 49, 42, 70]","[14, 42, 70, 49]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v3__r01_s28101,n3_d0_o4_conflict_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,4,conflict,none,,"[58, 39, 48, 95]","[39, 58, 95, 48]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v1__r01_s28101,n3_d0_o4_neutral_v1,N3-D0,D1_FRONT_TO_BACK,1,28101,4,neutral,none,,"[24, 64, 29, 67]","[24, 67, 64, 29]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v2__r01_s28101,n3_d0_o4_neutral_v2,N3-D0,D1_FRONT_TO_BACK,1,28101,4,neutral,none,,"[42, 55, 60, 14]","[42, 55, 14, 60]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v3__r01_s28101,n3_d0_o4_neutral_v3,N3-D0,D1_FRONT_TO_BACK,1,28101,4,neutral,none,,"[61, 79, 95, 51]","[51, 61, 79, 95]",3,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_congruent_v3__r02_s28102,n3_d0_o2_congruent_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,2,congruent,none,,"[81, 32]","[32, 81]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_conflict_v2__r02_s28102,n3_d0_o2_conflict_v2,N3-D0,D1_FRONT_TO_BACK,2,28102,2,conflict,none,,"[99, 19]","[19, 99]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v1__r02_s28102,n3_d0_o2_neutral_v1,N3-D0,D1_FRONT_TO_BACK,2,28102,2,neutral,none,,"[23, 14]","[14, 23]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v2__r02_s28102,n3_d0_o2_neutral_v2,N3-D0,D1_FRONT_TO_BACK,2,28102,2,neutral,none,,"[92, 14]","[14, 92]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v3__r02_s28102,n3_d0_o2_neutral_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,2,neutral,none,,"[69, 43]","[43, 69]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v1__r02_s28102,n3_d0_o3_congruent_v1,N3-D0,D1_FRONT_TO_BACK,2,28102,3,congruent,none,,"[88, 39, 46]","[88, 46, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v3__r02_s28102,n3_d0_o3_congruent_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,3,congruent,none,,"[46, 62, 49]","[46, 49, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v1__r02_s28102,n3_d0_o3_conflict_v1,N3-D0,D1_FRONT_TO_BACK,2,28102,3,conflict,none,,"[55, 86, 44]","[86, 55, 44]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v2__r02_s28102,n3_d0_o3_conflict_v2,N3-D0,D1_FRONT_TO_BACK,2,28102,3,conflict,none,,"[39, 62, 75]","[39, 75, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v3__r02_s28102,n3_d0_o3_conflict_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,3,conflict,none,,"[30, 65, 46]","[30, 46, 65]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v1__r02_s28102,n3_d0_o3_neutral_v1,N3-D0,D1_FRONT_TO_BACK,2,28102,3,neutral,none,,"[64, 50, 15]","[64, 15, 50]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v3__r02_s28102,n3_d0_o3_neutral_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,3,neutral,none,,"[63, 39, 67]","[63, 67, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_congruent_v3__r02_s28102,n3_d0_o4_congruent_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,4,congruent,none,,"[19, 73, 98, 12]","[19, 12, 73, 98]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v2__r02_s28102,n3_d0_o4_conflict_v2,N3-D0,D1_FRONT_TO_BACK,2,28102,4,conflict,none,,"[14, 49, 42, 70]","[14, 42, 49, 70]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v3__r02_s28102,n3_d0_o4_conflict_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,4,conflict,none,,"[58, 39, 48, 95]","[39, 58, 95, 48]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v1__r02_s28102,n3_d0_o4_neutral_v1,N3-D0,D1_FRONT_TO_BACK,2,28102,4,neutral,none,,"[24, 64, 29, 67]","[24, 67, 64, 29]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v2__r02_s28102,n3_d0_o4_neutral_v2,N3-D0,D1_FRONT_TO_BACK,2,28102,4,neutral,none,,"[42, 55, 60, 14]","[42, 55, 14, 60]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v3__r02_s28102,n3_d0_o4_neutral_v3,N3-D0,D1_FRONT_TO_BACK,2,28102,4,neutral,none,,"[61, 79, 95, 51]","[51, 61, 79, 95]",3,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_congruent_v3__r03_s28103,n3_d0_o2_congruent_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,2,congruent,none,,"[81, 32]","[32, 81]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_conflict_v2__r03_s28103,n3_d0_o2_conflict_v2,N3-D0,D1_FRONT_TO_BACK,3,28103,2,conflict,none,,"[99, 19]","[19, 99]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v1__r03_s28103,n3_d0_o2_neutral_v1,N3-D0,D1_FRONT_TO_BACK,3,28103,2,neutral,none,,"[23, 14]","[14, 23]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v2__r03_s28103,n3_d0_o2_neutral_v2,N3-D0,D1_FRONT_TO_BACK,3,28103,2,neutral,none,,"[92, 14]","[14, 92]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v3__r03_s28103,n3_d0_o2_neutral_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,2,neutral,none,,"[69, 43]","[43, 69]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v1__r03_s28103,n3_d0_o3_congruent_v1,N3-D0,D1_FRONT_TO_BACK,3,28103,3,congruent,none,,"[88, 39, 46]","[88, 46, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v3__r03_s28103,n3_d0_o3_congruent_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,3,congruent,none,,"[46, 62, 49]","[46, 49, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v1__r03_s28103,n3_d0_o3_conflict_v1,N3-D0,D1_FRONT_TO_BACK,3,28103,3,conflict,none,,"[55, 86, 44]","[86, 55, 44]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v3__r03_s28103,n3_d0_o3_conflict_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,3,conflict,none,,"[30, 65, 46]","[30, 46, 65]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v1__r03_s28103,n3_d0_o3_neutral_v1,N3-D0,D1_FRONT_TO_BACK,3,28103,3,neutral,none,,"[64, 50, 15]","[64, 15, 50]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v3__r03_s28103,n3_d0_o3_neutral_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,3,neutral,none,,"[63, 39, 67]","[63, 67, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_congruent_v3__r03_s28103,n3_d0_o4_congruent_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,4,congruent,none,,"[19, 73, 98, 12]","[19, 12, 73, 98]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v1__r03_s28103,n3_d0_o4_conflict_v1,N3-D0,D1_FRONT_TO_BACK,3,28103,4,conflict,none,,"[40, 79, 36, 32]","[40, 79, 32, 36]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v2__r03_s28103,n3_d0_o4_conflict_v2,N3-D0,D1_FRONT_TO_BACK,3,28103,4,conflict,none,,"[14, 49, 42, 70]","[14, 42, 49, 70]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v3__r03_s28103,n3_d0_o4_conflict_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,4,conflict,none,,"[58, 39, 48, 95]","[39, 58, 95, 48]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v1__r03_s28103,n3_d0_o4_neutral_v1,N3-D0,D1_FRONT_TO_BACK,3,28103,4,neutral,none,,"[24, 64, 29, 67]","[24, 67, 64, 29]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v2__r03_s28103,n3_d0_o4_neutral_v2,N3-D0,D1_FRONT_TO_BACK,3,28103,4,neutral,none,,"[42, 55, 60, 14]","[42, 55, 14, 60]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v3__r03_s28103,n3_d0_o4_neutral_v3,N3-D0,D1_FRONT_TO_BACK,3,28103,4,neutral,none,,"[61, 79, 95, 51]","[51, 61, 79, 95]",3,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_congruent_v3__r04_s28104,n3_d0_o2_congruent_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,2,congruent,none,,"[81, 32]","[32, 81]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_conflict_v2__r04_s28104,n3_d0_o2_conflict_v2,N3-D0,D1_FRONT_TO_BACK,4,28104,2,conflict,none,,"[99, 19]","[19, 99]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v1__r04_s28104,n3_d0_o2_neutral_v1,N3-D0,D1_FRONT_TO_BACK,4,28104,2,neutral,none,,"[23, 14]","[14, 23]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v2__r04_s28104,n3_d0_o2_neutral_v2,N3-D0,D1_FRONT_TO_BACK,4,28104,2,neutral,none,,"[92, 14]","[14, 92]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v3__r04_s28104,n3_d0_o2_neutral_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,2,neutral,none,,"[69, 43]","[43, 69]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v1__r04_s28104,n3_d0_o3_congruent_v1,N3-D0,D1_FRONT_TO_BACK,4,28104,3,congruent,none,,"[88, 39, 46]","[88, 46, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v3__r04_s28104,n3_d0_o3_congruent_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,3,congruent,none,,"[46, 62, 49]","[46, 49, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v1__r04_s28104,n3_d0_o3_conflict_v1,N3-D0,D1_FRONT_TO_BACK,4,28104,3,conflict,none,,"[55, 86, 44]","[86, 55, 44]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v2__r04_s28104,n3_d0_o3_conflict_v2,N3-D0,D1_FRONT_TO_BACK,4,28104,3,conflict,none,,"[39, 62, 75]","[39, 75, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v3__r04_s28104,n3_d0_o3_conflict_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,3,conflict,none,,"[30, 65, 46]","[30, 46, 65]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v1__r04_s28104,n3_d0_o3_neutral_v1,N3-D0,D1_FRONT_TO_BACK,4,28104,3,neutral,none,,"[64, 50, 15]","[64, 15, 50]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v3__r04_s28104,n3_d0_o3_neutral_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,3,neutral,none,,"[63, 39, 67]","[63, 67, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_congruent_v3__r04_s28104,n3_d0_o4_congruent_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,4,congruent,none,,"[19, 73, 98, 12]","[19, 12, 73, 98]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v2__r04_s28104,n3_d0_o4_conflict_v2,N3-D0,D1_FRONT_TO_BACK,4,28104,4,conflict,none,,"[14, 49, 42, 70]","[14, 42, 49, 70]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v3__r04_s28104,n3_d0_o4_conflict_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,4,conflict,none,,"[58, 39, 48, 95]","[39, 58, 95, 48]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v1__r04_s28104,n3_d0_o4_neutral_v1,N3-D0,D1_FRONT_TO_BACK,4,28104,4,neutral,none,,"[24, 64, 29, 67]","[24, 67, 64, 29]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v2__r04_s28104,n3_d0_o4_neutral_v2,N3-D0,D1_FRONT_TO_BACK,4,28104,4,neutral,none,,"[42, 55, 60, 14]","[42, 55, 14, 60]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v3__r04_s28104,n3_d0_o4_neutral_v3,N3-D0,D1_FRONT_TO_BACK,4,28104,4,neutral,none,,"[61, 79, 95, 51]","[51, 61, 79, 95]",3,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_congruent_v3__r05_s28105,n3_d0_o2_congruent_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,2,congruent,none,,"[81, 32]","[32, 81]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_conflict_v2__r05_s28105,n3_d0_o2_conflict_v2,N3-D0,D1_FRONT_TO_BACK,5,28105,2,conflict,none,,"[99, 19]","[19, 99]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v1__r05_s28105,n3_d0_o2_neutral_v1,N3-D0,D1_FRONT_TO_BACK,5,28105,2,neutral,none,,"[23, 14]","[14, 23]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o2_neutral_v3__r05_s28105,n3_d0_o2_neutral_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,2,neutral,none,,"[69, 43]","[43, 69]",0,1,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v1__r05_s28105,n3_d0_o3_congruent_v1,N3-D0,D1_FRONT_TO_BACK,5,28105,3,congruent,none,,"[88, 39, 46]","[88, 46, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_congruent_v3__r05_s28105,n3_d0_o3_congruent_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,3,congruent,none,,"[46, 62, 49]","[46, 49, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v1__r05_s28105,n3_d0_o3_conflict_v1,N3-D0,D1_FRONT_TO_BACK,5,28105,3,conflict,none,,"[55, 86, 44]","[86, 55, 44]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v2__r05_s28105,n3_d0_o3_conflict_v2,N3-D0,D1_FRONT_TO_BACK,5,28105,3,conflict,none,,"[39, 62, 75]","[39, 75, 62]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_conflict_v3__r05_s28105,n3_d0_o3_conflict_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,3,conflict,none,,"[30, 65, 46]","[30, 46, 65]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v1__r05_s28105,n3_d0_o3_neutral_v1,N3-D0,D1_FRONT_TO_BACK,5,28105,3,neutral,none,,"[64, 50, 15]","[64, 15, 50]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o3_neutral_v3__r05_s28105,n3_d0_o3_neutral_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,3,neutral,none,,"[63, 39, 67]","[63, 67, 39]",2,3,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_congruent_v3__r05_s28105,n3_d0_o4_congruent_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,4,congruent,none,,"[19, 73, 98, 12]","[19, 12, 73, 98]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v2__r05_s28105,n3_d0_o4_conflict_v2,N3-D0,D1_FRONT_TO_BACK,5,28105,4,conflict,none,,"[14, 49, 42, 70]","[14, 42, 49, 70]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_conflict_v3__r05_s28105,n3_d0_o4_conflict_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,4,conflict,none,,"[58, 39, 48, 95]","[39, 58, 95, 48]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v1__r05_s28105,n3_d0_o4_neutral_v1,N3-D0,D1_FRONT_TO_BACK,5,28105,4,neutral,none,,"[24, 64, 29, 67]","[24, 67, 64, 29]",4,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v2__r05_s28105,n3_d0_o4_neutral_v2,N3-D0,D1_FRONT_TO_BACK,5,28105,4,neutral,none,,"[42, 55, 60, 14]","[42, 55, 14, 60]",5,6,spatial_order_failure
+D1_FRONT_TO_BACK__n3_d0_o4_neutral_v3__r05_s28105,n3_d0_o4_neutral_v3,N3-D0,D1_FRONT_TO_BACK,5,28105,4,neutral,none,,"[61, 79, 95, 51]","[51, 61, 79, 95]",3,6,spatial_order_failure

@@ -1,0 +1,94 @@
+{
+  "batch_size": 1,
+  "condition_count": 12,
+  "conditions": [
+    {
+      "condition_id": "T03_DIRECT_TEXT",
+      "enumeration": false,
+      "output_format": "TEXT",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T03_DIRECT_JSON",
+      "enumeration": false,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T03_ENUM_TEXT",
+      "enumeration": true,
+      "output_format": "TEXT",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T03_ENUM_JSON",
+      "enumeration": true,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.3
+    },
+    {
+      "condition_id": "T05_DIRECT_TEXT",
+      "enumeration": false,
+      "output_format": "TEXT",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T05_DIRECT_JSON",
+      "enumeration": false,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T05_ENUM_TEXT",
+      "enumeration": true,
+      "output_format": "TEXT",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T05_ENUM_JSON",
+      "enumeration": true,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.5
+    },
+    {
+      "condition_id": "T07_DIRECT_TEXT",
+      "enumeration": false,
+      "output_format": "TEXT",
+      "temperature": 0.7
+    },
+    {
+      "condition_id": "T07_DIRECT_JSON",
+      "enumeration": false,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.7
+    },
+    {
+      "condition_id": "T07_ENUM_TEXT",
+      "enumeration": true,
+      "output_format": "TEXT",
+      "temperature": 0.7
+    },
+    {
+      "condition_id": "T07_ENUM_JSON",
+      "enumeration": true,
+      "output_format": "JSON_FORCED",
+      "temperature": 0.7
+    }
+  ],
+  "image_hashes_match_source": true,
+  "prompt_hashes": {
+    "direct_common_prompt_en.txt": "6fb0a62d79ea1b66d5067722513c86283db23294094d32366240f010a8cd85ad",
+    "enumeration_common_prompt_en.txt": "dea7362d95ab4428a624e114eddf0250bef92bf099c8fcd8842dc0beb89dddbe",
+    "json_suffix_direct_en.txt": "8275de2934ee01e1d3f9b7216ddbe0211a4b978cec3a3165c17d2587cac18d19",
+    "json_suffix_enumeration_en.txt": "e15c48bd041bc9a95a07c68c333d56af2d01a09e8079833e451c73f768eb22ce",
+    "text_suffix_direct_en.txt": "14f6a161ce501cb3c0b490de649b8b8d71b16ddc73121a6569e78a7ce11dd78c",
+    "text_suffix_enumeration_en.txt": "a533eb83dd774b5e69e4fdafd8829ca79d98464a8de537998ec742911b225bb5"
+  },
+  "scene_count": 60,
+  "scheduled_calls": 3600,
+  "schema_hashes": {
+    "direct": "6a88540aab3e1dd847c732fccd7815d73d789e9d6781fe29237ea42b6f980129",
+    "enumeration": "593854e96055f4a12ddb110dd4d168acacaab7fbbaad0b0f2217fd1fafe70967"
+  },
+  "source_experiment": "/home/ssu/ShelfScene/experiments/b0_n1_primary_color_prompt_ablation_60scenes_20260827"
+}

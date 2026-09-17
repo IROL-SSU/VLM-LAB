@@ -1,0 +1,157 @@
+{
+  "audit": {
+    "all_batch_size_one": true,
+    "all_finished_stop": true,
+    "all_images_in_expected_order": true,
+    "depth_annotator": null,
+    "depth_measure": null,
+    "format_failures": 0,
+    "images_per_prompt": 1,
+    "max_context_tokens_if_full_cap": 2874,
+    "max_input_tokens": 1850,
+    "max_model_len": 8192,
+    "max_output_tokens": 226,
+    "method_counts": {
+      "contact_point": 100,
+      "detailed_direct": 100,
+      "explicit_pairs": 100,
+      "minimal_direct": 100,
+      "single_target": 100
+    },
+    "observed_calls": 500,
+    "scene_count": 20,
+    "scene_type_counts": {
+      "structured_occlusion": 20
+    },
+    "scheduled_calls": 500,
+    "unique_run_ids": 500
+  },
+  "order_summary_all_40_scenes": [
+    {
+      "all_object_pairs_accuracy_pct": 95.111,
+      "all_object_pairs_correct": 428,
+      "all_object_pairs_total": 450,
+      "calls": 100,
+      "format_valid_pct": 100.0,
+      "full_order_exact_count": 80,
+      "full_order_exact_pct": 80.0,
+      "method": "minimal_direct",
+      "response_structure_valid_pct": 100.0,
+      "scene_type": "structured_occlusion",
+      "scenes": 20,
+      "scenes_0of5": 4,
+      "scenes_1to4of5": 0,
+      "scenes_5of5": 16,
+      "visible_ids_exact_pct": 95.0
+    },
+    {
+      "all_object_pairs_accuracy_pct": 94.889,
+      "all_object_pairs_correct": 427,
+      "all_object_pairs_total": 450,
+      "calls": 100,
+      "format_valid_pct": 100.0,
+      "full_order_exact_count": 78,
+      "full_order_exact_pct": 78.0,
+      "method": "detailed_direct",
+      "response_structure_valid_pct": 100.0,
+      "scene_type": "structured_occlusion",
+      "scenes": 20,
+      "scenes_0of5": 3,
+      "scenes_1to4of5": 3,
+      "scenes_5of5": 14,
+      "visible_ids_exact_pct": 100.0
+    },
+    {
+      "all_object_pairs_accuracy_pct": 93.778,
+      "all_object_pairs_correct": 422,
+      "all_object_pairs_total": 450,
+      "calls": 100,
+      "format_valid_pct": 100.0,
+      "full_order_exact_count": 77,
+      "full_order_exact_pct": 77.0,
+      "method": "contact_point",
+      "response_structure_valid_pct": 100.0,
+      "scene_type": "structured_occlusion",
+      "scenes": 20,
+      "scenes_0of5": 4,
+      "scenes_1to4of5": 3,
+      "scenes_5of5": 13,
+      "visible_ids_exact_pct": 100.0
+    },
+    {
+      "all_object_pairs_accuracy_pct": 54.889,
+      "all_object_pairs_correct": 247,
+      "all_object_pairs_total": 450,
+      "calls": 100,
+      "format_valid_pct": 100.0,
+      "full_order_exact_count": 10,
+      "full_order_exact_pct": 10.0,
+      "method": "explicit_pairs",
+      "response_structure_valid_pct": 38.0,
+      "scene_type": "structured_occlusion",
+      "scenes": 20,
+      "scenes_0of5": 18,
+      "scenes_1to4of5": 0,
+      "scenes_5of5": 2,
+      "visible_ids_exact_pct": 100.0
+    }
+  ],
+  "paired_rgb_vs_rgbd_order": [],
+  "paired_rgb_vs_rgbd_same_target": [],
+  "same_target_summary_all_40_scenes": [
+    {
+      "calls": 100,
+      "method": "minimal_direct",
+      "scene_type": "structured_occlusion",
+      "target_partition_exact_count": 90,
+      "target_partition_exact_pct": 90.0,
+      "target_relation_accuracy_pct": 96.0,
+      "target_relation_correct": 240,
+      "target_relation_total": 250
+    },
+    {
+      "calls": 100,
+      "method": "detailed_direct",
+      "scene_type": "structured_occlusion",
+      "target_partition_exact_count": 86,
+      "target_partition_exact_pct": 86.0,
+      "target_relation_accuracy_pct": 94.4,
+      "target_relation_correct": 236,
+      "target_relation_total": 250
+    },
+    {
+      "calls": 100,
+      "method": "contact_point",
+      "scene_type": "structured_occlusion",
+      "target_partition_exact_count": 82,
+      "target_partition_exact_pct": 82.0,
+      "target_relation_accuracy_pct": 92.8,
+      "target_relation_correct": 232,
+      "target_relation_total": 250
+    },
+    {
+      "calls": 100,
+      "method": "explicit_pairs",
+      "scene_type": "structured_occlusion",
+      "target_partition_exact_count": 23,
+      "target_partition_exact_pct": 23.0,
+      "target_relation_accuracy_pct": 54.8,
+      "target_relation_correct": 137,
+      "target_relation_total": 250
+    },
+    {
+      "calls": 100,
+      "format_valid_pct": 100.0,
+      "method": "single_target",
+      "response_structure_valid_pct": 100.0,
+      "scene_type": "structured_occlusion",
+      "scenes": 20,
+      "target_partition_exact_count": 50,
+      "target_partition_exact_pct": 50.0,
+      "target_relation_accuracy_pct": 78.0,
+      "target_relation_correct": 195,
+      "target_relation_total": 250,
+      "visible_ids_exact_pct": 96.0
+    }
+  ]
+}

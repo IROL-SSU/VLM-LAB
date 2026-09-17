@@ -1,0 +1,36 @@
+{
+  "batch_size_values": [
+    1
+  ],
+  "condition_counts": {
+    "T03_DIRECT_JSON": 300,
+    "T03_DIRECT_TEXT": 300,
+    "T03_ENUM_JSON": 300,
+    "T03_ENUM_TEXT": 300,
+    "T05_DIRECT_JSON": 300,
+    "T05_DIRECT_TEXT": 300,
+    "T05_ENUM_JSON": 300,
+    "T05_ENUM_TEXT": 300,
+    "T07_DIRECT_JSON": 300,
+    "T07_DIRECT_TEXT": 300,
+    "T07_ENUM_JSON": 300,
+    "T07_ENUM_TEXT": 300
+  },
+  "expected_records": 3600,
+  "excluded_validation_records": 163,
+  "excluded_validation_reason": "JSON schema key order placed instances before visible_ids; archived before the final run and excluded from all analyses",
+  "finish_reason_counts": {
+    "stop": 3600
+  },
+  "length_finishes": 0,
+  "observed_records": 3600,
+  "parse_failures": 0,
+  "seed_values": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "unique_run_ids": 3600
+}

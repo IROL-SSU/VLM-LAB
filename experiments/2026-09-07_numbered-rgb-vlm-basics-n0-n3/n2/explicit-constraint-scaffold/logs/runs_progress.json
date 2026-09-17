@@ -1,0 +1,9 @@
+{
+  "expected": 900,
+  "completed": 900,
+  "processed_this_invocation": 900,
+  "elapsed_seconds": 2476.875,
+  "last_run_id": "Q3_HARD_NEGATIVE_ABSENT__b0_l5_random_45_60_10__r05_s28105",
+  "last_finish_reason": "stop",
+  "last_output_tokens": 487
+}

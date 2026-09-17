@@ -1,0 +1,5 @@
+{
+  "rgb_only": "/home/ssu/ShelfScene/experiments/n3_tilted24_height90_rgb_3scene_40each_4methods_5seeds_20260907",
+  "rgb_plus_gray": "/home/ssu/ShelfScene/experiments/n3_tilted24_height90_gray_3scene_40each_4methods_5seeds_20260907",
+  "rgb_plus_numbered_gray": "/home/ssu/ShelfScene/experiments/n3_tilted24_height90_numbered_gray_3scene_40each_4methods_5seeds_20260907"
+}

@@ -1,0 +1,6 @@
+source_benchmark_split,task_id,object_count,scope,calls,scenes,order_exact_count,order_exact_pct,pairwise_correct,pairwise_total,pairwise_accuracy_pct,visible_ids_exact_pct,permutation_valid_pct,format_valid_pct,scenes_5of5,scenes_1to4of5,scenes_0of5,parse_failures
+N3-D0,D1_FRONT_TO_BACK,2,source_benchmark_split=N3-D0 | task_id=D1_FRONT_TO_BACK | object_count=2,45,9,21,46.667,21,45,46.667,100.0,100.0,100.0,4,1,4,0
+N3-D0,D1_FRONT_TO_BACK,3,source_benchmark_split=N3-D0 | task_id=D1_FRONT_TO_BACK | object_count=3,45,9,12,26.667,102,135,75.556,100.0,100.0,100.0,2,2,5,0
+N3-D0,D1_FRONT_TO_BACK,4,source_benchmark_split=N3-D0 | task_id=D1_FRONT_TO_BACK | object_count=4,45,9,14,31.111,213,270,78.889,100.0,100.0,100.0,2,1,6,0
+N3-D1,D0_LEFT_TO_RIGHT,2,source_benchmark_split=N3-D1 | task_id=D0_LEFT_TO_RIGHT | object_count=2,120,24,120,100.0,120,120,100.0,100.0,100.0,100.0,24,0,0,0
+N3-D1,D0_LEFT_TO_RIGHT,3,source_benchmark_split=N3-D1 | task_id=D0_LEFT_TO_RIGHT | object_count=3,120,24,120,100.0,360,360,100.0,100.0,100.0,100.0,24,0,0,0

@@ -1,0 +1,5 @@
+scope,paired_records,both_correct,baseline_only_correct,explicit_constraint_only_correct,neither_correct,explicit_minus_baseline_pp,mcnemar_exact_p
+OVERALL,900,639,12,127,122,12.778,2.108124581703748e-25
+Q1_CATEGORY_PRESENT,300,295,0,5,0,1.667,0.0625
+Q2_CATEGORY_COLOR_PRESENT,300,207,11,13,69,0.667,0.8388197422027588
+Q3_HARD_NEGATIVE_ABSENT,300,137,1,109,53,36.0,1.7102257906158654e-31

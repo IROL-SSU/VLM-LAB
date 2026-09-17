@@ -1,0 +1,26 @@
+{
+  "batch_sizes": [
+    1
+  ],
+  "expected": 900,
+  "finish_reasons": {
+    "stop": 900
+  },
+  "length_finishes": 0,
+  "observed": 900,
+  "outside_candidate_failures": 0,
+  "parse_failures": 0,
+  "query_counts": {
+    "Q1_CATEGORY_PRESENT": 300,
+    "Q2_CATEGORY_COLOR_PRESENT": 300,
+    "Q3_HARD_NEGATIVE_ABSENT": 300
+  },
+  "seed_counts": {
+    "28101": 180,
+    "28102": 180,
+    "28103": 180,
+    "28104": 180,
+    "28105": 180
+  },
+  "unique_run_ids": 900
+}

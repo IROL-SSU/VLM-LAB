@@ -1,0 +1,4 @@
+condition,input,calls,full_order_exact_pct,all_pairs_accuracy_pct
+rgb_only,Numbered RGB,2400,58.375,85.972
+rgb_plus_gray,RGB + Gray,2400,53.875,82.741
+rgb_plus_numbered_gray,RGB + Numbered Gray,2400,53.875,81.917

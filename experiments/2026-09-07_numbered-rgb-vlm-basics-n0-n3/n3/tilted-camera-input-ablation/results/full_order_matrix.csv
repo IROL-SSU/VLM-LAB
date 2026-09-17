@@ -1,0 +1,13 @@
+scene_family,method,rgb_only_exact_pct,rgb_only_all_pairs_pct,rgb_plus_gray_exact_pct,rgb_plus_gray_all_pairs_pct,rgb_plus_numbered_gray_exact_pct,rgb_plus_numbered_gray_all_pairs_pct
+분리 비가림,Minimal direct,30.0,76.667,37.0,74.778,37.5,76.111
+분리 비가림,Detailed direct,46.0,85.667,45.0,80.111,43.0,78.889
+분리 비가림,Contact point,40.5,82.778,39.5,77.889,42.5,78.0
+분리 비가림,Explicit all pairs,24.0,68.556,18.0,63.556,18.0,61.444
+밀집 비가림,Minimal direct,56.5,85.667,60.0,89.0,59.5,87.778
+밀집 비가림,Detailed direct,74.5,94.111,65.0,91.0,59.0,89.444
+밀집 비가림,Contact point,79.5,95.0,63.0,90.556,59.0,88.556
+밀집 비가림,Explicit all pairs,41.5,75.667,27.0,68.556,28.5,66.667
+구조적 가림,Minimal direct,85.5,94.889,84.0,94.556,86.0,95.778
+구조적 가림,Detailed direct,84.5,96.556,83.0,95.222,86.5,96.333
+구조적 가림,Contact point,87.5,97.111,83.0,95.333,88.5,97.222
+구조적 가림,Explicit all pairs,50.5,79.0,42.0,72.333,38.5,66.778

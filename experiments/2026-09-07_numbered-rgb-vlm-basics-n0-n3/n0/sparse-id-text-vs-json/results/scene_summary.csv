@@ -1,0 +1,121 @@
+scene_id,level,mode,id_set_exact_out_of_5,parse_success_out_of_5,missing_ids_total,extra_ids_total,ground_truth_ids,image
+b0_l3_random_5objects_01,L3,TEXT,5,5,0,0,"[30, 34, 46, 51, 62]",scenes/images/L3/b0_l3_random_5objects_01_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_01,L3,JSON_FORCED,5,5,0,0,"[30, 34, 46, 51, 62]",scenes/images/L3/b0_l3_random_5objects_01_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_02,L3,TEXT,5,5,0,0,"[15, 34, 56, 75, 94]",scenes/images/L3/b0_l3_random_5objects_02_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_02,L3,JSON_FORCED,5,5,0,0,"[15, 34, 56, 75, 94]",scenes/images/L3/b0_l3_random_5objects_02_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_03,L3,TEXT,5,5,0,0,"[14, 23, 41, 48, 60]",scenes/images/L3/b0_l3_random_5objects_03_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_03,L3,JSON_FORCED,5,5,0,0,"[14, 23, 41, 48, 60]",scenes/images/L3/b0_l3_random_5objects_03_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_04,L3,TEXT,5,5,0,0,"[39, 53, 78, 84, 96]",scenes/images/L3/b0_l3_random_5objects_04_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_04,L3,JSON_FORCED,5,5,0,0,"[39, 53, 78, 84, 96]",scenes/images/L3/b0_l3_random_5objects_04_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_05,L3,TEXT,5,5,0,0,"[28, 45, 65, 79, 93]",scenes/images/L3/b0_l3_random_5objects_05_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_05,L3,JSON_FORCED,5,5,0,0,"[28, 45, 65, 79, 93]",scenes/images/L3/b0_l3_random_5objects_05_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_06,L3,TEXT,5,5,0,0,"[36, 41, 73, 88, 95]",scenes/images/L3/b0_l3_random_5objects_06_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_06,L3,JSON_FORCED,5,5,0,0,"[36, 41, 73, 88, 95]",scenes/images/L3/b0_l3_random_5objects_06_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_07,L3,TEXT,5,5,0,0,"[37, 75, 80, 93, 99]",scenes/images/L3/b0_l3_random_5objects_07_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_07,L3,JSON_FORCED,5,5,0,0,"[37, 75, 80, 93, 99]",scenes/images/L3/b0_l3_random_5objects_07_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_08,L3,TEXT,5,5,0,0,"[23, 36, 46, 77, 80]",scenes/images/L3/b0_l3_random_5objects_08_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_08,L3,JSON_FORCED,5,5,0,0,"[23, 36, 46, 77, 80]",scenes/images/L3/b0_l3_random_5objects_08_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_09,L3,TEXT,5,5,0,0,"[25, 29, 45, 58, 77]",scenes/images/L3/b0_l3_random_5objects_09_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_09,L3,JSON_FORCED,5,5,0,0,"[25, 29, 45, 58, 77]",scenes/images/L3/b0_l3_random_5objects_09_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_10,L3,TEXT,5,5,0,0,"[42, 46, 53, 89, 96]",scenes/images/L3/b0_l3_random_5objects_10_numbered_rgb_sparse_ids.png
+b0_l3_random_5objects_10,L3,JSON_FORCED,5,5,0,0,"[42, 46, 53, 89, 96]",scenes/images/L3/b0_l3_random_5objects_10_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_01,L3,TEXT,5,5,0,0,"[28, 39, 41, 43, 62, 88, 95]",scenes/images/L3/b0_l3_random_7objects_01_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_01,L3,JSON_FORCED,5,5,0,0,"[28, 39, 41, 43, 62, 88, 95]",scenes/images/L3/b0_l3_random_7objects_01_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_02,L3,TEXT,5,5,0,0,"[39, 55, 63, 68, 70, 92, 98]",scenes/images/L3/b0_l3_random_7objects_02_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_02,L3,JSON_FORCED,5,5,0,0,"[39, 55, 63, 68, 70, 92, 98]",scenes/images/L3/b0_l3_random_7objects_02_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_03,L3,TEXT,5,5,0,0,"[12, 24, 38, 63, 69, 88, 92]",scenes/images/L3/b0_l3_random_7objects_03_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_03,L3,JSON_FORCED,5,5,0,0,"[12, 24, 38, 63, 69, 88, 92]",scenes/images/L3/b0_l3_random_7objects_03_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_04,L3,TEXT,5,5,0,0,"[12, 14, 19, 50, 57, 68, 70]",scenes/images/L3/b0_l3_random_7objects_04_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_04,L3,JSON_FORCED,5,5,0,0,"[12, 14, 19, 50, 57, 68, 70]",scenes/images/L3/b0_l3_random_7objects_04_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_05,L3,TEXT,5,5,0,0,"[14, 54, 59, 61, 84, 86, 93]",scenes/images/L3/b0_l3_random_7objects_05_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_05,L3,JSON_FORCED,5,5,0,0,"[14, 54, 59, 61, 84, 86, 93]",scenes/images/L3/b0_l3_random_7objects_05_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_06,L3,TEXT,5,5,0,0,"[20, 25, 28, 49, 59, 63, 77]",scenes/images/L3/b0_l3_random_7objects_06_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_06,L3,JSON_FORCED,5,5,0,0,"[20, 25, 28, 49, 59, 63, 77]",scenes/images/L3/b0_l3_random_7objects_06_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_07,L3,TEXT,5,5,0,0,"[17, 36, 58, 62, 69, 71, 80]",scenes/images/L3/b0_l3_random_7objects_07_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_07,L3,JSON_FORCED,5,5,0,0,"[17, 36, 58, 62, 69, 71, 80]",scenes/images/L3/b0_l3_random_7objects_07_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_08,L3,TEXT,5,5,0,0,"[30, 39, 46, 53, 71, 96, 98]",scenes/images/L3/b0_l3_random_7objects_08_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_08,L3,JSON_FORCED,5,5,0,0,"[30, 39, 46, 53, 71, 96, 98]",scenes/images/L3/b0_l3_random_7objects_08_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_09,L3,TEXT,5,5,0,0,"[19, 21, 23, 25, 47, 53, 90]",scenes/images/L3/b0_l3_random_7objects_09_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_09,L3,JSON_FORCED,5,5,0,0,"[19, 21, 23, 25, 47, 53, 90]",scenes/images/L3/b0_l3_random_7objects_09_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_10,L3,TEXT,5,5,0,0,"[13, 25, 44, 46, 55, 67, 79]",scenes/images/L3/b0_l3_random_7objects_10_numbered_rgb_sparse_ids.png
+b0_l3_random_7objects_10,L3,JSON_FORCED,5,5,0,0,"[13, 25, 44, 46, 55, 67, 79]",scenes/images/L3/b0_l3_random_7objects_10_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_01,L4,TEXT,5,5,0,0,"[28, 32, 35, 59, 69, 81, 97, 99]",scenes/images/L4/b0_l4_random_30_45_01_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_01,L4,JSON_FORCED,5,5,0,0,"[28, 32, 35, 59, 69, 81, 97, 99]",scenes/images/L4/b0_l4_random_30_45_01_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_02,L4,TEXT,5,5,0,0,"[10, 19, 44, 50, 63, 74, 88, 90]",scenes/images/L4/b0_l4_random_30_45_02_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_02,L4,JSON_FORCED,5,5,0,0,"[10, 19, 44, 50, 63, 74, 88, 90]",scenes/images/L4/b0_l4_random_30_45_02_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_03,L4,TEXT,5,5,0,0,"[14, 23, 34, 45, 77, 81, 84, 98]",scenes/images/L4/b0_l4_random_30_45_03_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_03,L4,JSON_FORCED,5,5,0,0,"[14, 23, 34, 45, 77, 81, 84, 98]",scenes/images/L4/b0_l4_random_30_45_03_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_04,L4,TEXT,5,5,0,0,"[10, 29, 31, 35, 46, 51, 62, 73]",scenes/images/L4/b0_l4_random_30_45_04_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_04,L4,JSON_FORCED,5,5,0,0,"[10, 29, 31, 35, 46, 51, 62, 73]",scenes/images/L4/b0_l4_random_30_45_04_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_05,L4,TEXT,5,5,0,0,"[10, 27, 44, 47, 55, 87, 90, 92]",scenes/images/L4/b0_l4_random_30_45_05_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_05,L4,JSON_FORCED,5,5,0,0,"[10, 27, 44, 47, 55, 87, 90, 92]",scenes/images/L4/b0_l4_random_30_45_05_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_06,L4,TEXT,5,5,0,0,"[11, 16, 23, 25, 70, 78, 87, 92]",scenes/images/L4/b0_l4_random_30_45_06_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_06,L4,JSON_FORCED,5,5,0,0,"[11, 16, 23, 25, 70, 78, 87, 92]",scenes/images/L4/b0_l4_random_30_45_06_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_07,L4,TEXT,5,5,0,0,"[49, 51, 61, 71, 75, 79, 87, 97]",scenes/images/L4/b0_l4_random_30_45_07_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_07,L4,JSON_FORCED,5,5,0,0,"[49, 51, 61, 71, 75, 79, 87, 97]",scenes/images/L4/b0_l4_random_30_45_07_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_08,L4,TEXT,5,5,0,0,"[23, 41, 43, 46, 64, 76, 92, 96]",scenes/images/L4/b0_l4_random_30_45_08_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_08,L4,JSON_FORCED,5,5,0,0,"[23, 41, 43, 46, 64, 76, 92, 96]",scenes/images/L4/b0_l4_random_30_45_08_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_09,L4,TEXT,5,5,0,0,"[22, 27, 31, 53, 71, 82, 85, 94]",scenes/images/L4/b0_l4_random_30_45_09_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_09,L4,JSON_FORCED,5,5,0,0,"[22, 27, 31, 53, 71, 82, 85, 94]",scenes/images/L4/b0_l4_random_30_45_09_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_10,L4,TEXT,5,5,0,0,"[11, 22, 39, 50, 55, 57, 87, 89]",scenes/images/L4/b0_l4_random_30_45_10_numbered_rgb_sparse_ids.png
+b0_l4_random_30_45_10,L4,JSON_FORCED,5,5,0,0,"[11, 22, 39, 50, 55, 57, 87, 89]",scenes/images/L4/b0_l4_random_30_45_10_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_01,L4,TEXT,5,5,0,0,"[28, 32, 35, 59, 69, 81, 97, 99]",scenes/images/L4/b0_l4_random_45_60_01_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_01,L4,JSON_FORCED,5,5,0,0,"[28, 32, 35, 59, 69, 81, 97, 99]",scenes/images/L4/b0_l4_random_45_60_01_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_02,L4,TEXT,5,5,0,0,"[10, 19, 44, 50, 63, 74, 88, 90]",scenes/images/L4/b0_l4_random_45_60_02_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_02,L4,JSON_FORCED,5,5,0,0,"[10, 19, 44, 50, 63, 74, 88, 90]",scenes/images/L4/b0_l4_random_45_60_02_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_03,L4,TEXT,5,5,0,0,"[14, 23, 34, 45, 77, 81, 84, 98]",scenes/images/L4/b0_l4_random_45_60_03_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_03,L4,JSON_FORCED,5,5,0,0,"[14, 23, 34, 45, 77, 81, 84, 98]",scenes/images/L4/b0_l4_random_45_60_03_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_04,L4,TEXT,5,5,0,0,"[10, 29, 31, 35, 46, 51, 62, 73]",scenes/images/L4/b0_l4_random_45_60_04_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_04,L4,JSON_FORCED,5,5,0,0,"[10, 29, 31, 35, 46, 51, 62, 73]",scenes/images/L4/b0_l4_random_45_60_04_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_05,L4,TEXT,5,5,0,0,"[10, 27, 44, 47, 55, 87, 90, 92]",scenes/images/L4/b0_l4_random_45_60_05_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_05,L4,JSON_FORCED,5,5,0,0,"[10, 27, 44, 47, 55, 87, 90, 92]",scenes/images/L4/b0_l4_random_45_60_05_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_06,L4,TEXT,5,5,0,0,"[11, 16, 23, 25, 70, 78, 87, 92]",scenes/images/L4/b0_l4_random_45_60_06_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_06,L4,JSON_FORCED,5,5,0,0,"[11, 16, 23, 25, 70, 78, 87, 92]",scenes/images/L4/b0_l4_random_45_60_06_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_07,L4,TEXT,5,5,0,0,"[49, 51, 61, 71, 75, 79, 87, 97]",scenes/images/L4/b0_l4_random_45_60_07_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_07,L4,JSON_FORCED,5,5,0,0,"[49, 51, 61, 71, 75, 79, 87, 97]",scenes/images/L4/b0_l4_random_45_60_07_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_08,L4,TEXT,5,5,0,0,"[23, 41, 43, 46, 64, 76, 92, 96]",scenes/images/L4/b0_l4_random_45_60_08_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_08,L4,JSON_FORCED,5,5,0,0,"[23, 41, 43, 46, 64, 76, 92, 96]",scenes/images/L4/b0_l4_random_45_60_08_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_09,L4,TEXT,5,5,0,0,"[22, 27, 31, 53, 71, 82, 85, 94]",scenes/images/L4/b0_l4_random_45_60_09_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_09,L4,JSON_FORCED,5,5,0,0,"[22, 27, 31, 53, 71, 82, 85, 94]",scenes/images/L4/b0_l4_random_45_60_09_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_10,L4,TEXT,5,5,0,0,"[11, 22, 39, 50, 55, 57, 87, 89]",scenes/images/L4/b0_l4_random_45_60_10_numbered_rgb_sparse_ids.png
+b0_l4_random_45_60_10,L4,JSON_FORCED,5,5,0,0,"[11, 22, 39, 50, 55, 57, 87, 89]",scenes/images/L4/b0_l4_random_45_60_10_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_01,L5,TEXT,5,5,0,0,"[20, 28, 41, 64, 72, 82, 86, 88, 92]",scenes/images/L5/b0_l5_random_30_45_01_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_01,L5,JSON_FORCED,5,5,0,0,"[20, 28, 41, 64, 72, 82, 86, 88, 92]",scenes/images/L5/b0_l5_random_30_45_01_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_02,L5,TEXT,5,5,0,0,"[19, 35, 39, 41, 52, 62, 75, 87, 95]",scenes/images/L5/b0_l5_random_30_45_02_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_02,L5,JSON_FORCED,5,5,0,0,"[19, 35, 39, 41, 52, 62, 75, 87, 95]",scenes/images/L5/b0_l5_random_30_45_02_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_03,L5,TEXT,5,5,0,0,"[28, 30, 39, 41, 46, 49, 52, 59, 77]",scenes/images/L5/b0_l5_random_30_45_03_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_03,L5,JSON_FORCED,5,5,0,0,"[28, 30, 39, 41, 46, 49, 52, 59, 77]",scenes/images/L5/b0_l5_random_30_45_03_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_04,L5,TEXT,5,5,0,0,"[20, 26, 29, 43, 47, 66, 77, 84, 94]",scenes/images/L5/b0_l5_random_30_45_04_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_04,L5,JSON_FORCED,5,5,0,0,"[20, 26, 29, 43, 47, 66, 77, 84, 94]",scenes/images/L5/b0_l5_random_30_45_04_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_05,L5,TEXT,5,5,0,0,"[12, 16, 37, 42, 58, 70, 74, 84, 99]",scenes/images/L5/b0_l5_random_30_45_05_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_05,L5,JSON_FORCED,5,5,0,0,"[12, 16, 37, 42, 58, 70, 74, 84, 99]",scenes/images/L5/b0_l5_random_30_45_05_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_06,L5,TEXT,5,5,0,0,"[13, 31, 35, 37, 45, 60, 73, 75, 95]",scenes/images/L5/b0_l5_random_30_45_06_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_06,L5,JSON_FORCED,5,5,0,0,"[13, 31, 35, 37, 45, 60, 73, 75, 95]",scenes/images/L5/b0_l5_random_30_45_06_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_07,L5,TEXT,5,5,0,0,"[12, 52, 54, 59, 62, 68, 74, 81, 90]",scenes/images/L5/b0_l5_random_30_45_07_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_07,L5,JSON_FORCED,5,5,0,0,"[12, 52, 54, 59, 62, 68, 74, 81, 90]",scenes/images/L5/b0_l5_random_30_45_07_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_08,L5,TEXT,5,5,0,0,"[12, 21, 24, 31, 33, 41, 52, 75, 89]",scenes/images/L5/b0_l5_random_30_45_08_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_08,L5,JSON_FORCED,5,5,0,0,"[12, 21, 24, 31, 33, 41, 52, 75, 89]",scenes/images/L5/b0_l5_random_30_45_08_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_09,L5,TEXT,5,5,0,0,"[23, 30, 35, 50, 52, 56, 88, 93, 95]",scenes/images/L5/b0_l5_random_30_45_09_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_09,L5,JSON_FORCED,5,5,0,0,"[23, 30, 35, 50, 52, 56, 88, 93, 95]",scenes/images/L5/b0_l5_random_30_45_09_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_10,L5,TEXT,5,5,0,0,"[14, 28, 33, 47, 49, 69, 71, 79, 92]",scenes/images/L5/b0_l5_random_30_45_10_numbered_rgb_sparse_ids.png
+b0_l5_random_30_45_10,L5,JSON_FORCED,5,5,0,0,"[14, 28, 33, 47, 49, 69, 71, 79, 92]",scenes/images/L5/b0_l5_random_30_45_10_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_01,L5,TEXT,5,5,0,0,"[20, 28, 41, 64, 72, 82, 86, 88, 92]",scenes/images/L5/b0_l5_random_45_60_01_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_01,L5,JSON_FORCED,5,5,0,0,"[20, 28, 41, 64, 72, 82, 86, 88, 92]",scenes/images/L5/b0_l5_random_45_60_01_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_02,L5,TEXT,5,5,0,0,"[19, 35, 39, 41, 52, 62, 75, 87, 95]",scenes/images/L5/b0_l5_random_45_60_02_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_02,L5,JSON_FORCED,5,5,0,0,"[19, 35, 39, 41, 52, 62, 75, 87, 95]",scenes/images/L5/b0_l5_random_45_60_02_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_03,L5,TEXT,5,5,0,0,"[28, 30, 39, 41, 46, 49, 52, 59, 77]",scenes/images/L5/b0_l5_random_45_60_03_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_03,L5,JSON_FORCED,5,5,0,0,"[28, 30, 39, 41, 46, 49, 52, 59, 77]",scenes/images/L5/b0_l5_random_45_60_03_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_04,L5,TEXT,5,5,0,0,"[20, 26, 29, 43, 47, 66, 77, 84, 94]",scenes/images/L5/b0_l5_random_45_60_04_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_04,L5,JSON_FORCED,5,5,0,0,"[20, 26, 29, 43, 47, 66, 77, 84, 94]",scenes/images/L5/b0_l5_random_45_60_04_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_05,L5,TEXT,5,5,0,0,"[12, 16, 37, 42, 58, 70, 74, 84, 99]",scenes/images/L5/b0_l5_random_45_60_05_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_05,L5,JSON_FORCED,5,5,0,0,"[12, 16, 37, 42, 58, 70, 74, 84, 99]",scenes/images/L5/b0_l5_random_45_60_05_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_06,L5,TEXT,5,5,0,0,"[13, 31, 35, 37, 45, 60, 73, 75, 95]",scenes/images/L5/b0_l5_random_45_60_06_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_06,L5,JSON_FORCED,5,5,0,0,"[13, 31, 35, 37, 45, 60, 73, 75, 95]",scenes/images/L5/b0_l5_random_45_60_06_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_07,L5,TEXT,5,5,0,0,"[12, 52, 54, 59, 62, 68, 74, 81, 90]",scenes/images/L5/b0_l5_random_45_60_07_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_07,L5,JSON_FORCED,5,5,0,0,"[12, 52, 54, 59, 62, 68, 74, 81, 90]",scenes/images/L5/b0_l5_random_45_60_07_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_08,L5,TEXT,5,5,0,0,"[12, 21, 24, 31, 33, 41, 52, 75, 89]",scenes/images/L5/b0_l5_random_45_60_08_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_08,L5,JSON_FORCED,5,5,0,0,"[12, 21, 24, 31, 33, 41, 52, 75, 89]",scenes/images/L5/b0_l5_random_45_60_08_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_09,L5,TEXT,5,5,0,0,"[23, 30, 35, 50, 52, 56, 88, 93, 95]",scenes/images/L5/b0_l5_random_45_60_09_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_09,L5,JSON_FORCED,5,5,0,0,"[23, 30, 35, 50, 52, 56, 88, 93, 95]",scenes/images/L5/b0_l5_random_45_60_09_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_10,L5,TEXT,5,5,0,0,"[14, 28, 33, 47, 49, 69, 71, 79, 92]",scenes/images/L5/b0_l5_random_45_60_10_numbered_rgb_sparse_ids.png
+b0_l5_random_45_60_10,L5,JSON_FORCED,5,5,0,0,"[14, 28, 33, 47, 49, 69, 71, 79, 92]",scenes/images/L5/b0_l5_random_45_60_10_numbered_rgb_sparse_ids.png

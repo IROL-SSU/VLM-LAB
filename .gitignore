@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# Local model/runtime artifacts
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+
+# Temporary and resumable local state
+*.tmp
+*.partial

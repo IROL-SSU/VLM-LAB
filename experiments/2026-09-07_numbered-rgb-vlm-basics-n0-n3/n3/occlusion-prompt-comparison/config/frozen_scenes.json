@@ -1,0 +1,720 @@
+[
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_single_pair_extra_front",
+    "expected_order": [
+      52,
+      87,
+      99
+    ],
+    "factors": {
+      "edge_sides": [
+        "right"
+      ],
+      "object_count": 3,
+      "occluder_side": "right",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_single_pair_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 0,
+      "variant_index": 5
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_single_pair_extra_front_v05_numbered_rgb.png",
+    "rgb_sha256": "32a9b8d0eb0d820bb3aea05286533b67cb5e1bca58d101e5f64775fd1130f2ad",
+    "scene_id": "n3_fb1_occ_o3_single_pair_extra_front_v05",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v05",
+    "target_id": 52,
+    "target_rank_front_zero_based": 0,
+    "visible_ids": [
+      52,
+      87,
+      99
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_single_pair_extra_front",
+    "expected_order": [
+      86,
+      78,
+      28
+    ],
+    "factors": {
+      "edge_sides": [
+        "left"
+      ],
+      "object_count": 3,
+      "occluder_side": "left",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_single_pair_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 1,
+      "variant_index": 6
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_single_pair_extra_front_v06_numbered_rgb.png",
+    "rgb_sha256": "155cfea5d364814ba334697e726668fcd1784dfdb167c88cf5e9a3fbe98d6072",
+    "scene_id": "n3_fb1_occ_o3_single_pair_extra_front_v06",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v06",
+    "target_id": 78,
+    "target_rank_front_zero_based": 1,
+    "visible_ids": [
+      28,
+      78,
+      86
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_single_pair_extra_front",
+    "expected_order": [
+      40,
+      53,
+      79
+    ],
+    "factors": {
+      "edge_sides": [
+        "left"
+      ],
+      "object_count": 3,
+      "occluder_side": "left",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_single_pair_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 2,
+      "variant_index": 7
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_single_pair_extra_front_v07_numbered_rgb.png",
+    "rgb_sha256": "a63e405b04f869fc081a18e2dad561fd9ebbd1e7b3154ae1ab1a8b063b594114",
+    "scene_id": "n3_fb1_occ_o3_single_pair_extra_front_v07",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v07",
+    "target_id": 79,
+    "target_rank_front_zero_based": 2,
+    "visible_ids": [
+      40,
+      53,
+      79
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_single_pair_extra_front",
+    "expected_order": [
+      16,
+      73,
+      38
+    ],
+    "factors": {
+      "edge_sides": [
+        "right"
+      ],
+      "object_count": 3,
+      "occluder_side": "right",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_single_pair_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 0,
+      "variant_index": 8
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_single_pair_extra_front_v08_numbered_rgb.png",
+    "rgb_sha256": "ec4b1a9e5d349368578c63048f6cfe76907354bcda39e05b6b75090c28871a29",
+    "scene_id": "n3_fb1_occ_o3_single_pair_extra_front_v08",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_single_pair_extra_front_v08",
+    "target_id": 16,
+    "target_rank_front_zero_based": 0,
+    "visible_ids": [
+      16,
+      38,
+      73
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_three_object_chain",
+    "expected_order": [
+      92,
+      97,
+      43
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "right"
+      ],
+      "object_count": 3,
+      "occluder_side": "right",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_three_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 1,
+      "variant_index": 7
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_three_object_chain_v07_numbered_rgb.png",
+    "rgb_sha256": "8252870405e324bb57f209ee10cf36c8aa3a81ec7911f1c11d72202130861a1e",
+    "scene_id": "n3_fb1_occ_o3_three_object_chain_v07",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_three_object_chain_v07",
+    "target_id": 97,
+    "target_rank_front_zero_based": 1,
+    "visible_ids": [
+      43,
+      92,
+      97
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_three_object_chain",
+    "expected_order": [
+      35,
+      58,
+      49
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "left"
+      ],
+      "object_count": 3,
+      "occluder_side": "left",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_three_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 2,
+      "variant_index": 8
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_three_object_chain_v08_numbered_rgb.png",
+    "rgb_sha256": "578c74e62aa85e88cd48051b0f815f3b46d8ab4aca1dde572494fd5ce1803402",
+    "scene_id": "n3_fb1_occ_o3_three_object_chain_v08",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_three_object_chain_v08",
+    "target_id": 49,
+    "target_rank_front_zero_based": 2,
+    "visible_ids": [
+      35,
+      49,
+      58
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_three_object_chain",
+    "expected_order": [
+      70,
+      94,
+      97
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "left"
+      ],
+      "object_count": 3,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_three_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 0,
+      "variant_index": 9
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_three_object_chain_v09_numbered_rgb.png",
+    "rgb_sha256": "cad2d454f6b3a8eca65dd9cb3a50e816155ff8e8c012533235e311017cc8f947",
+    "scene_id": "n3_fb1_occ_o3_three_object_chain_v09",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_three_object_chain_v09",
+    "target_id": 70,
+    "target_rank_front_zero_based": 0,
+    "visible_ids": [
+      70,
+      94,
+      97
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_three_object_chain",
+    "expected_order": [
+      90,
+      10,
+      85
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "right"
+      ],
+      "object_count": 3,
+      "occluder_side": "right",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_three_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 1,
+      "variant_index": 10
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_three_object_chain_v10_numbered_rgb.png",
+    "rgb_sha256": "db7a4a006c969ff3f98490dacc493f179861e9fa0ae17925deecaf26cf29c63a",
+    "scene_id": "n3_fb1_occ_o3_three_object_chain_v10",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_three_object_chain_v10",
+    "target_id": 10,
+    "target_rank_front_zero_based": 1,
+    "visible_ids": [
+      10,
+      85,
+      90
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_three_object_chain",
+    "expected_order": [
+      62,
+      50,
+      28
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "right"
+      ],
+      "object_count": 3,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_three_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 2,
+      "variant_index": 11
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_three_object_chain_v11_numbered_rgb.png",
+    "rgb_sha256": "ca40ca546f290de7f8350a31cf21d12882e2c063afc64bca80ea998a4a5c395d",
+    "scene_id": "n3_fb1_occ_o3_three_object_chain_v11",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_three_object_chain_v11",
+    "target_id": 28,
+    "target_rank_front_zero_based": 2,
+    "visible_ids": [
+      28,
+      50,
+      62
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o3_three_object_chain",
+    "expected_order": [
+      76,
+      88,
+      19
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "left"
+      ],
+      "object_count": 3,
+      "occluder_side": "left",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o3_three_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 0,
+      "variant_index": 12
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o3_three_object_chain_v12_numbered_rgb.png",
+    "rgb_sha256": "dbda4c479008ab3d250fce4c34691a913734b5a87c10027ba9f06fcc27067c01",
+    "scene_id": "n3_fb1_occ_o3_three_object_chain_v12",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o3_three_object_chain_v12",
+    "target_id": 76,
+    "target_rank_front_zero_based": 0,
+    "visible_ids": [
+      19,
+      76,
+      88
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_four_object_chain",
+    "expected_order": [
+      99,
+      60,
+      69,
+      96
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "right",
+        "left"
+      ],
+      "object_count": 4,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_four_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 0,
+      "variant_index": 3
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_four_object_chain_v03_numbered_rgb.png",
+    "rgb_sha256": "9db6655e98a340246e0d9a1f3a44e335c0f979cc4912bc2a38a30b2ffe290289",
+    "scene_id": "n3_fb1_occ_o4_four_object_chain_v03",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_four_object_chain_v03",
+    "target_id": 99,
+    "target_rank_front_zero_based": 0,
+    "visible_ids": [
+      60,
+      69,
+      96,
+      99
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_four_object_chain",
+    "expected_order": [
+      34,
+      78,
+      14,
+      28
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "left",
+        "right"
+      ],
+      "object_count": 4,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_four_object_chain",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 1,
+      "variant_index": 4
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_four_object_chain_v04_numbered_rgb.png",
+    "rgb_sha256": "f208dc6e0ed124b5a13e4901215d368871c855289cbd71b27a1b913567a7dd9e",
+    "scene_id": "n3_fb1_occ_o4_four_object_chain_v04",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_four_object_chain_v04",
+    "target_id": 78,
+    "target_rank_front_zero_based": 1,
+    "visible_ids": [
+      14,
+      28,
+      34,
+      78
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_three_chain_extra_front",
+    "expected_order": [
+      54,
+      25,
+      86,
+      74
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "left"
+      ],
+      "object_count": 4,
+      "occluder_side": "left",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_three_chain_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 2,
+      "variant_index": 5
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_three_chain_extra_front_v05_numbered_rgb.png",
+    "rgb_sha256": "364dce2bdd8f4d11ee132dfeddb669e28cf264023fd726b9711a7720e992670f",
+    "scene_id": "n3_fb1_occ_o4_three_chain_extra_front_v05",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v05",
+    "target_id": 86,
+    "target_rank_front_zero_based": 2,
+    "visible_ids": [
+      25,
+      54,
+      74,
+      86
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_three_chain_extra_front",
+    "expected_order": [
+      14,
+      21,
+      72,
+      58
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "left"
+      ],
+      "object_count": 4,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_three_chain_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 3,
+      "variant_index": 6
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_three_chain_extra_front_v06_numbered_rgb.png",
+    "rgb_sha256": "b885aa77ece8b810846237b43948b4679a733ef58b07dbb7336c6c35ccab6f56",
+    "scene_id": "n3_fb1_occ_o4_three_chain_extra_front_v06",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v06",
+    "target_id": 58,
+    "target_rank_front_zero_based": 3,
+    "visible_ids": [
+      14,
+      21,
+      58,
+      72
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_three_chain_extra_front",
+    "expected_order": [
+      47,
+      67,
+      23,
+      17
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "right"
+      ],
+      "object_count": 4,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_three_chain_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 0,
+      "variant_index": 7
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_three_chain_extra_front_v07_numbered_rgb.png",
+    "rgb_sha256": "ad01097a5311de32bc6b7bbaceba2f51f7bffdfadf1505deac5077f4323d5447",
+    "scene_id": "n3_fb1_occ_o4_three_chain_extra_front_v07",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v07",
+    "target_id": 47,
+    "target_rank_front_zero_based": 0,
+    "visible_ids": [
+      17,
+      23,
+      47,
+      67
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_three_chain_extra_front",
+    "expected_order": [
+      69,
+      49,
+      32,
+      13
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "right"
+      ],
+      "object_count": 4,
+      "occluder_side": "right",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_three_chain_extra_front",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 1,
+      "variant_index": 8
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_three_chain_extra_front_v08_numbered_rgb.png",
+    "rgb_sha256": "ce8d3d6ec39f8903d42122a797323cc720468dc71b03d5e17ca6c05dd188ddf3",
+    "scene_id": "n3_fb1_occ_o4_three_chain_extra_front_v08",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_three_chain_extra_front_v08",
+    "target_id": 49,
+    "target_rank_front_zero_based": 1,
+    "visible_ids": [
+      13,
+      32,
+      49,
+      69
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_two_disjoint_pairs",
+    "expected_order": [
+      17,
+      70,
+      66,
+      22
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "left"
+      ],
+      "object_count": 4,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_two_disjoint_pairs",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 2,
+      "variant_index": 5
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_two_disjoint_pairs_v05_numbered_rgb.png",
+    "rgb_sha256": "66b263534d81c3f17c2752f969d6192b7a9efb7769c6344b6b6ebbffce3b24d5",
+    "scene_id": "n3_fb1_occ_o4_two_disjoint_pairs_v05",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v05",
+    "target_id": 66,
+    "target_rank_front_zero_based": 2,
+    "visible_ids": [
+      17,
+      22,
+      66,
+      70
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_two_disjoint_pairs",
+    "expected_order": [
+      60,
+      79,
+      51,
+      33
+    ],
+    "factors": {
+      "edge_sides": [
+        "right",
+        "right"
+      ],
+      "object_count": 4,
+      "occluder_side": "right",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_two_disjoint_pairs",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 3,
+      "variant_index": 6
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_two_disjoint_pairs_v06_numbered_rgb.png",
+    "rgb_sha256": "2dadb7c7216c9e250627f76a3eaed338ae3d76791967797da89c2ec42645340d",
+    "scene_id": "n3_fb1_occ_o4_two_disjoint_pairs_v06",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v06",
+    "target_id": 33,
+    "target_rank_front_zero_based": 3,
+    "visible_ids": [
+      33,
+      51,
+      60,
+      79
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_two_disjoint_pairs",
+    "expected_order": [
+      15,
+      20,
+      57,
+      54
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "right"
+      ],
+      "object_count": 4,
+      "occluder_side": "mixed",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_two_disjoint_pairs",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 0,
+      "variant_index": 7
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_two_disjoint_pairs_v07_numbered_rgb.png",
+    "rgb_sha256": "46ca3dd5de4e05440480b9609755215a6635856752b361ea55b32f0d13ec9f28",
+    "scene_id": "n3_fb1_occ_o4_two_disjoint_pairs_v07",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v07",
+    "target_id": 15,
+    "target_rank_front_zero_based": 0,
+    "visible_ids": [
+      15,
+      20,
+      54,
+      57
+    ]
+  },
+  {
+    "benchmark_split": "N3-FB1-OCCLUSION",
+    "condition_id": "n3_fb1_occ_o4_two_disjoint_pairs",
+    "expected_order": [
+      71,
+      93,
+      29,
+      42
+    ],
+    "factors": {
+      "edge_sides": [
+        "left",
+        "left"
+      ],
+      "object_count": 4,
+      "occluder_side": "left",
+      "occlusion_level": "30_45",
+      "occlusion_structure": "o4_two_disjoint_pairs",
+      "size_cue": "neutral",
+      "size_level": "l1_neutral",
+      "target_rank_front_zero_based": 1,
+      "variant_index": 8
+    },
+    "rgb_image": "scenes/numbered_rgb/n3_fb1_occ_o4_two_disjoint_pairs_v08_numbered_rgb.png",
+    "rgb_sha256": "371623622815d237f220ce4f493424dcff8dcd4b6b2a415ddced517d3c8b0337",
+    "scene_id": "n3_fb1_occ_o4_two_disjoint_pairs_v08",
+    "scene_type": "structured_occlusion",
+    "scene_uid": "structured_occlusion__n3_fb1_occ_o4_two_disjoint_pairs_v08",
+    "target_id": 93,
+    "target_rank_front_zero_based": 1,
+    "visible_ids": [
+      29,
+      42,
+      71,
+      93
+    ]
+  }
+]

@@ -1,0 +1,7962 @@
+[
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        34,
+        62,
+        30,
+        46,
+        51
+      ],
+      "visible_ids_sorted": [
+        30,
+        34,
+        46,
+        51,
+        62
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_01",
+      "position_rank_correlation": 0.2,
+      "seed": 1144443441914349244
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_01_numbered_rgb_sparse_ids.png",
+    "image_sha256": "bc1d42eb7a0177292c49da735c25e83770b5abfa79b3ed2a2e03db6aaac9af13",
+    "instances_left_to_right": [
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          371,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 34,
+        "instance_id": "biracsikhye_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          486,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 62,
+        "instance_id": "minutemad_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          655,
+          467
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 30,
+        "instance_id": "Mug_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          838,
+          463
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 46,
+        "instance_id": "Mug_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          996,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 51,
+        "instance_id": "minutemad_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_01",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_01.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        94,
+        56,
+        15,
+        34,
+        75
+      ],
+      "visible_ids_sorted": [
+        15,
+        34,
+        56,
+        75,
+        94
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_02",
+      "position_rank_correlation": -0.3,
+      "seed": 17450255130445650855
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_02_numbered_rgb_sparse_ids.png",
+    "image_sha256": "0ebfd5be2ed3fa9d7fd06857dabe40822ec0e88ee8acdc136f524294ede125da",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          456,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 94,
+        "instance_id": "Cup_2_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          574,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 56,
+        "instance_id": "Cup_2_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          701,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 15,
+        "instance_id": "cantata_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          806,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 34,
+        "instance_id": "cantata_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          916,
+          422
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 75,
+        "instance_id": "coldgrape_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_02",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_02.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        60,
+        14,
+        41,
+        48,
+        23
+      ],
+      "visible_ids_sorted": [
+        14,
+        23,
+        41,
+        48,
+        60
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_03",
+      "position_rank_correlation": -0.3,
+      "seed": 3934020445215717806
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_03_numbered_rgb_sparse_ids.png",
+    "image_sha256": "555fe8766063b5ee703772a3ecec60d83242a64151d967b9ff3c08a748419425",
+    "instances_left_to_right": [
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          490,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 60,
+        "instance_id": "top_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          600,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 14,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          698,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 41,
+        "instance_id": "Cup_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          817,
+          417
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 48,
+        "instance_id": "top_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          932,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 23,
+        "instance_id": "cantata_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_03",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_03.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        39,
+        84,
+        96,
+        53,
+        78
+      ],
+      "visible_ids_sorted": [
+        39,
+        53,
+        78,
+        84,
+        96
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_04",
+      "position_rank_correlation": 0.2,
+      "seed": 14916097618986906555
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_04_numbered_rgb_sparse_ids.png",
+    "image_sha256": "76be062dec95af4482f5961e66357bb8b5679c6c756194a04c07aab74c77337a",
+    "instances_left_to_right": [
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          452,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 39,
+        "instance_id": "top_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          562,
+          464
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 84,
+        "instance_id": "Cup_4_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          688,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 96,
+        "instance_id": "cantata_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          812,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 53,
+        "instance_id": "cantata_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          910,
+          417
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 78,
+        "instance_id": "top_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_04",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_04.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        45,
+        65,
+        79,
+        28,
+        93
+      ],
+      "visible_ids_sorted": [
+        28,
+        45,
+        65,
+        79,
+        93
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_05",
+      "position_rank_correlation": 0.4,
+      "seed": 1433107799037515019
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_05_numbered_rgb_sparse_ids.png",
+    "image_sha256": "181d1adee70754243539f01f6f9a71d6310a2035aa060d7a3e36d9c46118876d",
+    "instances_left_to_right": [
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          385,
+          424
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 45,
+        "instance_id": "coldgrape_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          523,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 65,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          667,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 79,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          775,
+          470
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 28,
+        "instance_id": "Cup_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          924,
+          427
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 93,
+        "instance_id": "coldgrape_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_05",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_05.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        88,
+        41,
+        73,
+        95,
+        36
+      ],
+      "visible_ids_sorted": [
+        36,
+        41,
+        73,
+        88,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_06",
+      "position_rank_correlation": -0.3,
+      "seed": 9724573051409249898
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_06_numbered_rgb_sparse_ids.png",
+    "image_sha256": "1ba2efc1f39ddbce7965512bbf4477d84632b0a096e374dae6d59a3beb3e5cd8",
+    "instances_left_to_right": [
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          443,
+          417
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 88,
+        "instance_id": "top_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          559,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 41,
+        "instance_id": "top_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          669,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 73,
+        "instance_id": "top_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          771,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 95,
+        "instance_id": "cantata_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          881,
+          456
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 36,
+        "instance_id": "Cup_2_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_06",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_06.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        80,
+        75,
+        93,
+        37,
+        99
+      ],
+      "visible_ids_sorted": [
+        37,
+        75,
+        80,
+        93,
+        99
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_07",
+      "position_rank_correlation": 0.3,
+      "seed": 10698430083652528607
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_07_numbered_rgb_sparse_ids.png",
+    "image_sha256": "f7530e1aed4d1d58b0ed365dab1d036d527b599698ae6226c08767a6aee78543",
+    "instances_left_to_right": [
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          355,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 80,
+        "instance_id": "acafela_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          532,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 75,
+        "instance_id": "Mug_2_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          688,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 93,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          834,
+          466
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 37,
+        "instance_id": "Mug_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          990,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 99,
+        "instance_id": "letsbe_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_07",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_07.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        36,
+        80,
+        46,
+        23,
+        77
+      ],
+      "visible_ids_sorted": [
+        23,
+        36,
+        46,
+        77,
+        80
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_08",
+      "position_rank_correlation": 0.0,
+      "seed": 17610102682983936603
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_08_numbered_rgb_sparse_ids.png",
+    "image_sha256": "a9299c8d382bd68c32618da1126b17d9d17c909e9bd7711e1187ae9e876f5332",
+    "instances_left_to_right": [
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          402,
+          426
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 36,
+        "instance_id": "coldgrape_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          539,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 80,
+        "instance_id": "letsbe_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          657,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 46,
+        "instance_id": "letsbe_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          789,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 23,
+        "instance_id": "cup_7_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          907,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 77,
+        "instance_id": "cup_7_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_08",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_08.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        45,
+        58,
+        29,
+        25,
+        77
+      ],
+      "visible_ids_sorted": [
+        25,
+        29,
+        45,
+        58,
+        77
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_09",
+      "position_rank_correlation": 0.1,
+      "seed": 2102987223928421751
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_09_numbered_rgb_sparse_ids.png",
+    "image_sha256": "6bb25c71178de5ac0266533383e7f42a0a9699837599ec691240a51a283eec1b",
+    "instances_left_to_right": [
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          436,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 45,
+        "instance_id": "coldgrape_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          610,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 58,
+        "instance_id": "Mug_4_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          781,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 29,
+        "instance_id": "Mug_4_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          891,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 25,
+        "instance_id": "letsbe_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1012,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 77,
+        "instance_id": "letsbe_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_09",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_09.png"
+  },
+  {
+    "factors": {
+      "object_count": 5
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        42,
+        96,
+        53,
+        46,
+        89
+      ],
+      "visible_ids_sorted": [
+        42,
+        46,
+        53,
+        89,
+        96
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_5objects_10",
+      "position_rank_correlation": 0.3,
+      "seed": 17216100041918838690
+    },
+    "image": "scenes/images/L3/b0_l3_random_5objects_10_numbered_rgb_sparse_ids.png",
+    "image_sha256": "ba4e0f094e987fd8efb0877417831e9210b2b8531dd4f95380c88fc3f5db15f4",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          401,
+          413
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 42,
+        "instance_id": "cocopalm_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          543,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 96,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          659,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 53,
+        "instance_id": "cup_7_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          773,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 46,
+        "instance_id": "cup_7_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          897,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 89,
+        "instance_id": "cantata_05",
+        "left_to_right_position": 5
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_5objects_10",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_5objects_10.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        43,
+        41,
+        62,
+        95,
+        39,
+        88,
+        28
+      ],
+      "visible_ids_sorted": [
+        28,
+        39,
+        41,
+        43,
+        62,
+        88,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_01",
+      "position_rank_correlation": -0.214286,
+      "seed": 16338408008206439961
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_01_numbered_rgb_sparse_ids.png",
+    "image_sha256": "c64a29bb5b3d20819b5c7347d7a3e852acdc122b25760b1cf2579f33bdceb931",
+    "instances_left_to_right": [
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          196,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 43,
+        "instance_id": "acafela_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          344,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 41,
+        "instance_id": "mug_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          510,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 62,
+        "instance_id": "cantata_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          641,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 95,
+        "instance_id": "cantata_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          791,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 39,
+        "instance_id": "mug_7_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          979,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 88,
+        "instance_id": "acafela_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          1128,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 28,
+        "instance_id": "mug_7_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_01",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_01.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        92,
+        63,
+        70,
+        98,
+        39,
+        55,
+        68
+      ],
+      "visible_ids_sorted": [
+        39,
+        55,
+        63,
+        68,
+        70,
+        92,
+        98
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_02",
+      "position_rank_correlation": -0.428571,
+      "seed": 184456807565932348
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_02_numbered_rgb_sparse_ids.png",
+    "image_sha256": "918eab522e46979e8d5d8d4ce8f24e4b5801f1074964b94152f597eb0cf5c0d0",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          270,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 92,
+        "instance_id": "cantata_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          388,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 63,
+        "instance_id": "minutemad_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          535,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 70,
+        "instance_id": "cantata_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          655,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 98,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          779,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 39,
+        "instance_id": "Cup_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          888,
+          467
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 55,
+        "instance_id": "Cup_4_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          987,
+          463
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 68,
+        "instance_id": "Cup_4_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_02",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_02.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        69,
+        63,
+        24,
+        88,
+        92,
+        38,
+        12
+      ],
+      "visible_ids_sorted": [
+        12,
+        24,
+        38,
+        63,
+        69,
+        88,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_03",
+      "position_rank_correlation": -0.321429,
+      "seed": 5518036475695057095
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_03_numbered_rgb_sparse_ids.png",
+    "image_sha256": "7c25faba4efddd5bbb1930f40ad30df440cdf0c05b3d69f6f22a9a6bb3ed7345",
+    "instances_left_to_right": [
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          304,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 69,
+        "instance_id": "letsbe_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          432,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 63,
+        "instance_id": "Cup_2_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          545,
+          417
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 24,
+        "instance_id": "top_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          659,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 88,
+        "instance_id": "Cup_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          769,
+          417
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 92,
+        "instance_id": "top_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          878,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 38,
+        "instance_id": "Cup_2_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          982,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 12,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_03",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_03.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        57,
+        50,
+        14,
+        68,
+        19,
+        12,
+        70
+      ],
+      "visible_ids_sorted": [
+        12,
+        14,
+        19,
+        50,
+        57,
+        68,
+        70
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_04",
+      "position_rank_correlation": 0.035714,
+      "seed": 7131905368521670625
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_04_numbered_rgb_sparse_ids.png",
+    "image_sha256": "89e43d1709320a97a9b078001585bcfdec44fee46b32145c3a4c9d634d48121f",
+    "instances_left_to_right": [
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          218,
+          456
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 57,
+        "instance_id": "biracsikhye_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          362,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 50,
+        "instance_id": "mug_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          584,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 14,
+        "instance_id": "mug_7_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          729,
+          412
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 68,
+        "instance_id": "cocopalm_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          859,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 19,
+        "instance_id": "biracsikhye_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          970,
+          412
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 12,
+        "instance_id": "cocopalm_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          1084,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 70,
+        "instance_id": "biracsikhye_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_04",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_04.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        84,
+        59,
+        93,
+        61,
+        54,
+        86,
+        14
+      ],
+      "visible_ids_sorted": [
+        14,
+        54,
+        59,
+        61,
+        84,
+        86,
+        93
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_05",
+      "position_rank_correlation": -0.392857,
+      "seed": 425506861032245926
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_05_numbered_rgb_sparse_ids.png",
+    "image_sha256": "58ec0ff49ca8ae44eda1845a7e93a98ed30157f137329958086900d8eaabd982",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          274,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 84,
+        "instance_id": "cantata_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          408,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 59,
+        "instance_id": "mug_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          551,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 93,
+        "instance_id": "cantata_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          633,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 61,
+        "instance_id": "top_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          737,
+          415
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 54,
+        "instance_id": "top_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          842,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 86,
+        "instance_id": "cantata_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          965,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 14,
+        "instance_id": "mug_7_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_05",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_05.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        49,
+        20,
+        59,
+        28,
+        63,
+        77,
+        25
+      ],
+      "visible_ids_sorted": [
+        20,
+        25,
+        28,
+        49,
+        59,
+        63,
+        77
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_06",
+      "position_rank_correlation": 0.25,
+      "seed": 16968556056263742069
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_06_numbered_rgb_sparse_ids.png",
+    "image_sha256": "c8c9408655d9f84e8bc95c6be6b90906ce13a30cd8143d1a670b913568acee9c",
+    "instances_left_to_right": [
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          309,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 49,
+        "instance_id": "minutemad_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          456,
+          434
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 20,
+        "instance_id": "minutemad_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          562,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 59,
+        "instance_id": "cantata_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          675,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 28,
+        "instance_id": "Cup_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          788,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 63,
+        "instance_id": "cantata_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          900,
+          434
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 77,
+        "instance_id": "minutemad_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1011,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 25,
+        "instance_id": "cantata_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_06",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_06.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        71,
+        58,
+        36,
+        62,
+        69,
+        80,
+        17
+      ],
+      "visible_ids_sorted": [
+        17,
+        36,
+        58,
+        62,
+        69,
+        71,
+        80
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_07",
+      "position_rank_correlation": -0.142857,
+      "seed": 8471800196716931074
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_07_numbered_rgb_sparse_ids.png",
+    "image_sha256": "76dcf5926f154a220ee87d018d5b3df37a3e340f8387fffddb21989efba0ad9e",
+    "instances_left_to_right": [
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          284,
+          434
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 71,
+        "instance_id": "acafela_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          416,
+          440
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 58,
+        "instance_id": "cup_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          564,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 36,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          728,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 62,
+        "instance_id": "cup_7_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          860,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 69,
+        "instance_id": "acafela_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          978,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 80,
+        "instance_id": "letsbe_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1098,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 17,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_07",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_07.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        96,
+        46,
+        53,
+        39,
+        30,
+        71,
+        98
+      ],
+      "visible_ids_sorted": [
+        30,
+        39,
+        46,
+        53,
+        71,
+        96,
+        98
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_08",
+      "position_rank_correlation": 0.142857,
+      "seed": 9141772476184884925
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_08_numbered_rgb_sparse_ids.png",
+    "image_sha256": "5427dc0564c49675e089ae4e09913c2ae13092cf9cd21df7acdbcdfb65355823",
+    "instances_left_to_right": [
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          307,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 96,
+        "instance_id": "acafela_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          458,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 46,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          591,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 53,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          710,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 39,
+        "instance_id": "Cup_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          820,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 30,
+        "instance_id": "Cup_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          937,
+          434
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 71,
+        "instance_id": "acafela_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          1099,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 98,
+        "instance_id": "biracsikhye_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_08",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_08.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        25,
+        47,
+        21,
+        53,
+        23,
+        19,
+        90
+      ],
+      "visible_ids_sorted": [
+        19,
+        21,
+        23,
+        25,
+        47,
+        53,
+        90
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_09",
+      "position_rank_correlation": 0.071429,
+      "seed": 15674732438815824597
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_09_numbered_rgb_sparse_ids.png",
+    "image_sha256": "23a59ff8c1b696e56f563cb302240c5183e75d4d5023dc274959a330c8474ca5",
+    "instances_left_to_right": [
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          281,
+          434
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 25,
+        "instance_id": "minutemad_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          405,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 47,
+        "instance_id": "Mug_2_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          561,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 21,
+        "instance_id": "Mug_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          705,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 53,
+        "instance_id": "letsbe_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          834,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 23,
+        "instance_id": "letsbe_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          974,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 19,
+        "instance_id": "minutemad_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          1098,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 90,
+        "instance_id": "Mug_2_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_09",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_09.png"
+  },
+  {
+    "factors": {
+      "object_count": 7
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        79,
+        25,
+        67,
+        13,
+        44,
+        55,
+        46
+      ],
+      "visible_ids_sorted": [
+        13,
+        25,
+        44,
+        46,
+        55,
+        67,
+        79
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l3_random_7objects_10",
+      "position_rank_correlation": -0.214286,
+      "seed": 14423498757868820863
+    },
+    "image": "scenes/images/L3/b0_l3_random_7objects_10_numbered_rgb_sparse_ids.png",
+    "image_sha256": "81a63a6c65ed5b36c14b5a82633a9d662f72a48e197cd3f19841f1b297112d47",
+    "instances_left_to_right": [
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          239,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 79,
+        "instance_id": "acafela_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          399,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 25,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          518,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 67,
+        "instance_id": "Cup_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          643,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 13,
+        "instance_id": "acafela_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          780,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 44,
+        "instance_id": "Cup_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          897,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 55,
+        "instance_id": "biracsikhye_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          1034,
+          434
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 46,
+        "instance_id": "acafela_07",
+        "left_to_right_position": 7
+      }
+    ],
+    "level": "L3",
+    "scene_id": "b0_l3_random_7objects_10",
+    "source_image": "benchmark_b0/l3_random_xy_20scenes/images/b0_l3_random_7objects_10.png"
+  },
+  {
+    "factors": {
+      "base_index": 1,
+      "matched_group_id": "b0_l4_twolevel_matched_01",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        69,
+        59,
+        97,
+        28,
+        81,
+        35,
+        99,
+        32
+      ],
+      "visible_ids_sorted": [
+        28,
+        32,
+        35,
+        59,
+        69,
+        81,
+        97,
+        99
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_01",
+      "position_rank_correlation": -0.095238,
+      "seed": 14777664496663045077
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_01_numbered_rgb_sparse_ids.png",
+    "image_sha256": "8d881cabfac4b3108e9f886a9a4397908812741f4eb32262e30456dd6fe6a70d",
+    "instances_left_to_right": [
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          193,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 69,
+        "instance_id": "biracsikhye_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          381,
+          440
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 59,
+        "instance_id": "cup_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          520,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 97,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          576,
+          426
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 28,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          727,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 81,
+        "instance_id": "mug_7_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          870,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 35,
+        "instance_id": "top_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1015,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 99,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1175,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 32,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_01",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_01.png"
+  },
+  {
+    "factors": {
+      "base_index": 2,
+      "matched_group_id": "b0_l4_twolevel_matched_02",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        63,
+        90,
+        19,
+        74,
+        44,
+        10,
+        50,
+        88
+      ],
+      "visible_ids_sorted": [
+        10,
+        19,
+        44,
+        50,
+        63,
+        74,
+        88,
+        90
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_02",
+      "position_rank_correlation": -0.142857,
+      "seed": 14071997336731503706
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_02_numbered_rgb_sparse_ids.png",
+    "image_sha256": "fedae593d6121d5980f112b7e0d058ffa08e5f4ecf800cb1e1de6d9d8899e52d",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          228,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 63,
+        "instance_id": "Mug_2_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          393,
+          456
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 90,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          532,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 19,
+        "instance_id": "mug_7_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          670,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 74,
+        "instance_id": "letsbe_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          772,
+          395
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 44,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          824,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 10,
+        "instance_id": "minutemad_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          1015,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 50,
+        "instance_id": "Cup_4_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1154,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 88,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_02",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_02.png"
+  },
+  {
+    "factors": {
+      "base_index": 3,
+      "matched_group_id": "b0_l4_twolevel_matched_03",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        77,
+        81,
+        84,
+        34,
+        23,
+        14,
+        45,
+        98
+      ],
+      "visible_ids_sorted": [
+        14,
+        23,
+        34,
+        45,
+        77,
+        81,
+        84,
+        98
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_03",
+      "position_rank_correlation": -0.095238,
+      "seed": 7150943140643584928
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_03_numbered_rgb_sparse_ids.png",
+    "image_sha256": "6db84bfe751f116b5df6c5b2d77b5e73fee64c0bede5a5ebe9464e65b9ca25c6",
+    "instances_left_to_right": [
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          213,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 77,
+        "instance_id": "mug_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          372,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 81,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          531,
+          412
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 84,
+        "instance_id": "coldgrape_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          583,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 34,
+        "instance_id": "acafela_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          754,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 23,
+        "instance_id": "Cup_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          883,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 14,
+        "instance_id": "cantata_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          1034,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 45,
+        "instance_id": "Mug_4_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          1196,
+          468
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 98,
+        "instance_id": "Cup_4_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_03",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_03.png"
+  },
+  {
+    "factors": {
+      "base_index": 4,
+      "matched_group_id": "b0_l4_twolevel_matched_04",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        62,
+        29,
+        51,
+        10,
+        31,
+        73,
+        35,
+        46
+      ],
+      "visible_ids_sorted": [
+        10,
+        29,
+        31,
+        35,
+        46,
+        51,
+        62,
+        73
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_04",
+      "position_rank_correlation": 0.047619,
+      "seed": 910478808896725434
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_04_numbered_rgb_sparse_ids.png",
+    "image_sha256": "a7b38ce8c61043afac2627d932e8e520e807c98a1340a2a0a1b57f8b9c534326",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          195,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 62,
+        "instance_id": "cantata_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          339,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 29,
+        "instance_id": "mug_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          534,
+          412
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 51,
+        "instance_id": "coldgrape_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          588,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 10,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          766,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 31,
+        "instance_id": "biracsikhye_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          910,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 73,
+        "instance_id": "cup_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1048,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 35,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          1179,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 46,
+        "instance_id": "Cup_2_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_04",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_04.png"
+  },
+  {
+    "factors": {
+      "base_index": 5,
+      "matched_group_id": "b0_l4_twolevel_matched_05",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        10,
+        47,
+        90,
+        55,
+        92,
+        27,
+        87,
+        44
+      ],
+      "visible_ids_sorted": [
+        10,
+        27,
+        44,
+        47,
+        55,
+        87,
+        90,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_05",
+      "position_rank_correlation": 0.142857,
+      "seed": 16066585060002063728
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_05_numbered_rgb_sparse_ids.png",
+    "image_sha256": "59c7d88b01427d9174f9411cb2f101ee6c88ea02f06ce7a05ad5f4414bdc674b",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          190,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 10,
+        "instance_id": "cup_8_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          335,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 47,
+        "instance_id": "acafela_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          505,
+          462
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 90,
+        "instance_id": "Mug_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          679,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 55,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          732,
+          394
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 92,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          867,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 27,
+        "instance_id": "cantata_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          978,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 87,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1130,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 44,
+        "instance_id": "coldgrape_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_05",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_05.png"
+  },
+  {
+    "factors": {
+      "base_index": 6,
+      "matched_group_id": "b0_l4_twolevel_matched_06",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        92,
+        16,
+        78,
+        87,
+        23,
+        11,
+        25,
+        70
+      ],
+      "visible_ids_sorted": [
+        11,
+        16,
+        23,
+        25,
+        70,
+        78,
+        87,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_06",
+      "position_rank_correlation": -0.357143,
+      "seed": 14963110239828415218
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_06_numbered_rgb_sparse_ids.png",
+    "image_sha256": "ec5944c070557c6b0b41d7889a4fcc29b837bf5cf1d8e67d27b4d9622947bd71",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          223,
+          463
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 92,
+        "instance_id": "Mug_2_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          363,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 16,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          508,
+          398
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 78,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          560,
+          427
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 87,
+        "instance_id": "coldgrape_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          757,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 23,
+        "instance_id": "mug_7_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          881,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 11,
+        "instance_id": "Cup_2_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          1010,
+          452
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 25,
+        "instance_id": "cup_8_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1195,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 70,
+        "instance_id": "letsbe_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_06",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_06.png"
+  },
+  {
+    "factors": {
+      "base_index": 7,
+      "matched_group_id": "b0_l4_twolevel_matched_07",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        71,
+        79,
+        49,
+        97,
+        61,
+        51,
+        87,
+        75
+      ],
+      "visible_ids_sorted": [
+        49,
+        51,
+        61,
+        71,
+        75,
+        79,
+        87,
+        97
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_07",
+      "position_rank_correlation": 0.119048,
+      "seed": 7780337670048439673
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_07_numbered_rgb_sparse_ids.png",
+    "image_sha256": "493308e0a8c749f1745a456f53a303e3d6d9bf22dae7e83925a699506f9e7422",
+    "instances_left_to_right": [
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          190,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 71,
+        "instance_id": "mug_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          374,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 79,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          515,
+          462
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 49,
+        "instance_id": "Mug_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          688,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 97,
+        "instance_id": "Mug_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          848,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 61,
+        "instance_id": "acafela_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          901,
+          395
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 51,
+        "instance_id": "cocopalm_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1036,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 87,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1209,
+          426
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 75,
+        "instance_id": "coldgrape_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_07",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_07.png"
+  },
+  {
+    "factors": {
+      "base_index": 8,
+      "matched_group_id": "b0_l4_twolevel_matched_08",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        43,
+        64,
+        46,
+        96,
+        92,
+        23,
+        41,
+        76
+      ],
+      "visible_ids_sorted": [
+        23,
+        41,
+        43,
+        46,
+        64,
+        76,
+        92,
+        96
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_08",
+      "position_rank_correlation": -0.047619,
+      "seed": 10193707281781014748
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_08_numbered_rgb_sparse_ids.png",
+    "image_sha256": "bf3fb12a9aa5d191bf07c3e5425bff4c8a49124e45aeca29ee3e41f5bf0a978b",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          201,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 43,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          356,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 64,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          515,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 46,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          567,
+          400
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 96,
+        "instance_id": "top_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          675,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 92,
+        "instance_id": "letsbe_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          797,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 23,
+        "instance_id": "mug_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          966,
+          424
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 41,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          1116,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 76,
+        "instance_id": "biracsikhye_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_08",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_08.png"
+  },
+  {
+    "factors": {
+      "base_index": 9,
+      "matched_group_id": "b0_l4_twolevel_matched_09",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        31,
+        82,
+        94,
+        27,
+        53,
+        85,
+        22,
+        71
+      ],
+      "visible_ids_sorted": [
+        22,
+        27,
+        31,
+        53,
+        71,
+        82,
+        85,
+        94
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_09",
+      "position_rank_correlation": -0.142857,
+      "seed": 12839689426508880651
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_09_numbered_rgb_sparse_ids.png",
+    "image_sha256": "f8bdceb41aa22df8e6e294d1ab51711b10f41fa278a1d3746cfd4168678c1db7",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          259,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 31,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          424,
+          453
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 82,
+        "instance_id": "cup_8_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          558,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 94,
+        "instance_id": "letsbe_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          688,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 27,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          741,
+          396
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 53,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          860,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 85,
+        "instance_id": "Cup_2_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          992,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 22,
+        "instance_id": "top_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          1106,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 71,
+        "instance_id": "biracsikhye_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_09",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_09.png"
+  },
+  {
+    "factors": {
+      "base_index": 10,
+      "matched_group_id": "b0_l4_twolevel_matched_10",
+      "object_count": 8,
+      "occlusion_band": "30_45"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        57,
+        87,
+        22,
+        55,
+        89,
+        11,
+        39,
+        50
+      ],
+      "visible_ids_sorted": [
+        11,
+        22,
+        39,
+        50,
+        55,
+        57,
+        87,
+        89
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_10",
+      "position_rank_correlation": -0.404762,
+      "seed": 12258446799752238255
+    },
+    "image": "scenes/images/L4/b0_l4_random_30_45_10_numbered_rgb_sparse_ids.png",
+    "image_sha256": "18d42307615aecf76388579d4f29f11b7b88dc08bdd8fca2bcad08d00e1336a5",
+    "instances_left_to_right": [
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          215,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 57,
+        "instance_id": "letsbe_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          314,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 87,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          445,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 22,
+        "instance_id": "Cup_4_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          567,
+          411
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 55,
+        "instance_id": "coldgrape_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          618,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 89,
+        "instance_id": "minutemad_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          801,
+          433
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 11,
+        "instance_id": "acafela_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          982,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 39,
+        "instance_id": "Mug_2_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1175,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 50,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_30_45_10",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_30_45_10.png"
+  },
+  {
+    "factors": {
+      "base_index": 1,
+      "matched_group_id": "b0_l4_twolevel_matched_01",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        69,
+        59,
+        97,
+        28,
+        81,
+        35,
+        99,
+        32
+      ],
+      "visible_ids_sorted": [
+        28,
+        32,
+        35,
+        59,
+        69,
+        81,
+        97,
+        99
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_01",
+      "position_rank_correlation": -0.095238,
+      "seed": 14777664496663045077
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_01_numbered_rgb_sparse_ids.png",
+    "image_sha256": "1a56f27a0573fd68e31abfba28447a70ee4a55088a10d7285a225873eb7f7df5",
+    "instances_left_to_right": [
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          197,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 69,
+        "instance_id": "biracsikhye_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          385,
+          440
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 59,
+        "instance_id": "cup_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          528,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 97,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          576,
+          423
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 28,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          723,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 81,
+        "instance_id": "mug_7_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          866,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 35,
+        "instance_id": "top_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1011,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 99,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1171,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 32,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_01",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_01.png"
+  },
+  {
+    "factors": {
+      "base_index": 2,
+      "matched_group_id": "b0_l4_twolevel_matched_02",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        63,
+        90,
+        19,
+        74,
+        44,
+        10,
+        50,
+        88
+      ],
+      "visible_ids_sorted": [
+        10,
+        19,
+        44,
+        50,
+        63,
+        74,
+        88,
+        90
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_02",
+      "position_rank_correlation": -0.142857,
+      "seed": 14071997336731503706
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_02_numbered_rgb_sparse_ids.png",
+    "image_sha256": "56573561a1560cf0c8ec7e0d8eff25d8cf730557f0fa7665dcc6a511bd1124e0",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          232,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 63,
+        "instance_id": "Mug_2_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          397,
+          456
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 90,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          536,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 19,
+        "instance_id": "mug_7_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          674,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 74,
+        "instance_id": "letsbe_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          773,
+          385
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 44,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          817,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 10,
+        "instance_id": "minutemad_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          1011,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 50,
+        "instance_id": "Cup_4_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1150,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 88,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_02",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_02.png"
+  },
+  {
+    "factors": {
+      "base_index": 3,
+      "matched_group_id": "b0_l4_twolevel_matched_03",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        77,
+        81,
+        84,
+        34,
+        23,
+        14,
+        45,
+        98
+      ],
+      "visible_ids_sorted": [
+        14,
+        23,
+        34,
+        45,
+        77,
+        81,
+        84,
+        98
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_03",
+      "position_rank_correlation": -0.095238,
+      "seed": 7150943140643584928
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_03_numbered_rgb_sparse_ids.png",
+    "image_sha256": "7f47ff14dadc4577bc7558e72afe4affa11add746f13ad7988d0a6007cdbccb9",
+    "instances_left_to_right": [
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          219,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 77,
+        "instance_id": "mug_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          378,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 81,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          529,
+          407
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 84,
+        "instance_id": "coldgrape_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          578,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 34,
+        "instance_id": "acafela_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          748,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 23,
+        "instance_id": "Cup_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          877,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 14,
+        "instance_id": "cantata_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          1028,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 45,
+        "instance_id": "Mug_4_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          1191,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 98,
+        "instance_id": "Cup_4_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_03",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_03.png"
+  },
+  {
+    "factors": {
+      "base_index": 4,
+      "matched_group_id": "b0_l4_twolevel_matched_04",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        62,
+        29,
+        51,
+        10,
+        31,
+        73,
+        35,
+        46
+      ],
+      "visible_ids_sorted": [
+        10,
+        29,
+        31,
+        35,
+        46,
+        51,
+        62,
+        73
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_04",
+      "position_rank_correlation": 0.047619,
+      "seed": 910478808896725434
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_04_numbered_rgb_sparse_ids.png",
+    "image_sha256": "5c0989953072d1fbaccd983659c1371ac4cfa7e8da6f18c190c64d48253f24d4",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          200,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 62,
+        "instance_id": "cantata_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          344,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 29,
+        "instance_id": "mug_7_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          532,
+          406
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 51,
+        "instance_id": "coldgrape_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          582,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 10,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          761,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 31,
+        "instance_id": "biracsikhye_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          905,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 73,
+        "instance_id": "cup_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1043,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 35,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          1174,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 46,
+        "instance_id": "Cup_2_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_04",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_04.png"
+  },
+  {
+    "factors": {
+      "base_index": 5,
+      "matched_group_id": "b0_l4_twolevel_matched_05",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        10,
+        47,
+        90,
+        55,
+        92,
+        27,
+        87,
+        44
+      ],
+      "visible_ids_sorted": [
+        10,
+        27,
+        44,
+        47,
+        55,
+        87,
+        90,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_05",
+      "position_rank_correlation": 0.142857,
+      "seed": 16066585060002063728
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_05_numbered_rgb_sparse_ids.png",
+    "image_sha256": "6aa606c1d777ab864ee450ec0971e567ee783d069cd7e6b9e6624a32517c81e2",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          194,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 10,
+        "instance_id": "cup_8_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          339,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 47,
+        "instance_id": "acafela_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          508,
+          462
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 90,
+        "instance_id": "Mug_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          686,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 55,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          730,
+          385
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 92,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          863,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 27,
+        "instance_id": "cantata_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          975,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 87,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1126,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 44,
+        "instance_id": "coldgrape_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_05",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_05.png"
+  },
+  {
+    "factors": {
+      "base_index": 6,
+      "matched_group_id": "b0_l4_twolevel_matched_06",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        92,
+        16,
+        78,
+        87,
+        23,
+        11,
+        25,
+        70
+      ],
+      "visible_ids_sorted": [
+        11,
+        16,
+        23,
+        25,
+        70,
+        78,
+        87,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_06",
+      "position_rank_correlation": -0.357143,
+      "seed": 14963110239828415218
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_06_numbered_rgb_sparse_ids.png",
+    "image_sha256": "a4e8284e295319bda38ace8695aaef68094419f032998b96b60aac014061ff76",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          226,
+          463
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 92,
+        "instance_id": "Mug_2_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          367,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 16,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          505,
+          394
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 78,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          553,
+          427
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 87,
+        "instance_id": "coldgrape_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          753,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 23,
+        "instance_id": "mug_7_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          877,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 11,
+        "instance_id": "Cup_2_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          1006,
+          452
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 25,
+        "instance_id": "cup_8_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1191,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 70,
+        "instance_id": "letsbe_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_06",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_06.png"
+  },
+  {
+    "factors": {
+      "base_index": 7,
+      "matched_group_id": "b0_l4_twolevel_matched_07",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        71,
+        79,
+        49,
+        97,
+        61,
+        51,
+        87,
+        75
+      ],
+      "visible_ids_sorted": [
+        49,
+        51,
+        61,
+        71,
+        75,
+        79,
+        87,
+        97
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_07",
+      "position_rank_correlation": 0.119048,
+      "seed": 7780337670048439673
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_07_numbered_rgb_sparse_ids.png",
+    "image_sha256": "f4753ac7c2880cabf449f093f6c9983e67b67b992c34d08caf0ef692f6b5ba22",
+    "instances_left_to_right": [
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          192,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 71,
+        "instance_id": "mug_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          377,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 79,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          519,
+          462
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 49,
+        "instance_id": "Mug_2_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          691,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 97,
+        "instance_id": "Mug_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          856,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 61,
+        "instance_id": "acafela_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          900,
+          385
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 51,
+        "instance_id": "cocopalm_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1032,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 87,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1206,
+          426
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 75,
+        "instance_id": "coldgrape_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_07",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_07.png"
+  },
+  {
+    "factors": {
+      "base_index": 8,
+      "matched_group_id": "b0_l4_twolevel_matched_08",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        43,
+        64,
+        46,
+        96,
+        92,
+        23,
+        41,
+        76
+      ],
+      "visible_ids_sorted": [
+        23,
+        41,
+        43,
+        46,
+        64,
+        76,
+        92,
+        96
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_08",
+      "position_rank_correlation": -0.047619,
+      "seed": 10193707281781014748
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_08_numbered_rgb_sparse_ids.png",
+    "image_sha256": "b647a2dcbf583553c6c82698db5fb722b6c2ec6269090ae569e4e0f0126a6d0e",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          204,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 43,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          359,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 64,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          522,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 46,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          568,
+          390
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 96,
+        "instance_id": "top_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          672,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 92,
+        "instance_id": "letsbe_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          794,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 23,
+        "instance_id": "mug_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          963,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 41,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          1113,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 76,
+        "instance_id": "biracsikhye_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_08",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_08.png"
+  },
+  {
+    "factors": {
+      "base_index": 9,
+      "matched_group_id": "b0_l4_twolevel_matched_09",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        31,
+        82,
+        94,
+        27,
+        53,
+        85,
+        22,
+        71
+      ],
+      "visible_ids_sorted": [
+        22,
+        27,
+        31,
+        53,
+        71,
+        82,
+        85,
+        94
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_09",
+      "position_rank_correlation": -0.142857,
+      "seed": 12839689426508880651
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_09_numbered_rgb_sparse_ids.png",
+    "image_sha256": "6e2d0ac3d8a7507ddf79e9a1acf22b75c401960abbac318d286a4ebfb61d5b56",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          262,
+          442
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 31,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          428,
+          453
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 82,
+        "instance_id": "cup_8_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          562,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 94,
+        "instance_id": "letsbe_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          695,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 27,
+        "instance_id": "minutemad_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          740,
+          386
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 53,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          857,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 85,
+        "instance_id": "Cup_2_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          988,
+          416
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 22,
+        "instance_id": "top_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          1102,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 71,
+        "instance_id": "biracsikhye_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_09",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_09.png"
+  },
+  {
+    "factors": {
+      "base_index": 10,
+      "matched_group_id": "b0_l4_twolevel_matched_10",
+      "object_count": 8,
+      "occlusion_band": "45_60"
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        57,
+        87,
+        22,
+        55,
+        89,
+        11,
+        39,
+        50
+      ],
+      "visible_ids_sorted": [
+        11,
+        22,
+        39,
+        50,
+        55,
+        57,
+        87,
+        89
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l4_twolevel_matched_10",
+      "position_rank_correlation": -0.404762,
+      "seed": 12258446799752238255
+    },
+    "image": "scenes/images/L4/b0_l4_random_45_60_10_numbered_rgb_sparse_ids.png",
+    "image_sha256": "34ddcc1749e3b31e6834984a90a2a00e6c9190ef2eeb9792302dcbcdfecc418b",
+    "instances_left_to_right": [
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          219,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 57,
+        "instance_id": "letsbe_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          319,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 87,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          449,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 22,
+        "instance_id": "Cup_4_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          563,
+          406
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 55,
+        "instance_id": "coldgrape_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          613,
+          438
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 89,
+        "instance_id": "minutemad_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          797,
+          433
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 11,
+        "instance_id": "acafela_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          978,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 39,
+        "instance_id": "Mug_2_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1170,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 50,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 8
+      }
+    ],
+    "level": "L4",
+    "scene_id": "b0_l4_random_45_60_10",
+    "source_image": "benchmark_b0/l4_random_20scenes_pixel_calibrated_30_45_45_60/images/b0_l4_random_45_60_10.png"
+  },
+  {
+    "factors": {
+      "base_index": 1,
+      "matched_group_id": "b0_l5_twopair_matched_01",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        72,
+        20,
+        82,
+        64,
+        88,
+        41,
+        86,
+        28,
+        92
+      ],
+      "visible_ids_sorted": [
+        20,
+        28,
+        41,
+        64,
+        72,
+        82,
+        86,
+        88,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_01",
+      "position_rank_correlation": 0.333333,
+      "seed": 8355125585504078718
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_01_numbered_rgb_sparse_ids.png",
+    "image_sha256": "a41774c552c24df6bbdfb591ab309fe55666c6617ba57b7f85fa5b898a9661ec",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          166,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 72,
+        "instance_id": "cantata_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          297,
+          421
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 20,
+        "instance_id": "minutemad_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          351,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 82,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          487,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 64,
+        "instance_id": "Cup_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          638,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 88,
+        "instance_id": "Mug_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          816,
+          411
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 41,
+        "instance_id": "cocopalm_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          953,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 86,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          998,
+          410
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 28,
+        "instance_id": "coldgrape_08",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          1162,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 92,
+        "instance_id": "mug_7_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_01",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_01.png"
+  },
+  {
+    "factors": {
+      "base_index": 2,
+      "matched_group_id": "b0_l5_twopair_matched_02",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        62,
+        19,
+        75,
+        95,
+        35,
+        52,
+        39,
+        41,
+        87
+      ],
+      "visible_ids_sorted": [
+        19,
+        35,
+        39,
+        41,
+        52,
+        62,
+        75,
+        87,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_02",
+      "position_rank_correlation": 0.083333,
+      "seed": 13755601465375865503
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_02_numbered_rgb_sparse_ids.png",
+    "image_sha256": "6faa9dd59ae7003a29a6de6794d5037901c29d0efaedcee0bc255ff946f33d66",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          215,
+          411
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 62,
+        "instance_id": "cocopalm_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          360,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 19,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          413,
+          421
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 75,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          528,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 95,
+        "instance_id": "Mug_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          662,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 35,
+        "instance_id": "letsbe_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          784,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_8_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          889,
+          426
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 39,
+        "instance_id": "minutemad_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          940,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 41,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1116,
+          423
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 87,
+        "instance_id": "coldgrape_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_02",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_02.png"
+  },
+  {
+    "factors": {
+      "base_index": 3,
+      "matched_group_id": "b0_l5_twopair_matched_03",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        46,
+        49,
+        39,
+        28,
+        41,
+        52,
+        77,
+        59,
+        30
+      ],
+      "visible_ids_sorted": [
+        28,
+        30,
+        39,
+        41,
+        46,
+        49,
+        52,
+        59,
+        77
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_03",
+      "position_rank_correlation": 0.2,
+      "seed": 8513044484993229274
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_03_numbered_rgb_sparse_ids.png",
+    "image_sha256": "964c0685853ffbdb050b4516352a41f3d8c9745a25179429b732237180f1110b",
+    "instances_left_to_right": [
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          178,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 46,
+        "instance_id": "letsbe_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          355,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 49,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          402,
+          405
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 39,
+        "instance_id": "coldgrape_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          560,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 28,
+        "instance_id": "mug_7_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          720,
+          452
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 41,
+        "instance_id": "cup_8_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          844,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1001,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 77,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          948,
+          427
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 59,
+        "instance_id": "minutemad_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          1159,
+          456
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 30,
+        "instance_id": "Cup_2_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_03",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_03.png"
+  },
+  {
+    "factors": {
+      "base_index": 4,
+      "matched_group_id": "b0_l5_twopair_matched_04",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        26,
+        43,
+        94,
+        29,
+        20,
+        47,
+        77,
+        84,
+        66
+      ],
+      "visible_ids_sorted": [
+        20,
+        26,
+        29,
+        43,
+        47,
+        66,
+        77,
+        84,
+        94
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_04",
+      "position_rank_correlation": 0.433333,
+      "seed": 10255369820144875429
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_04_numbered_rgb_sparse_ids.png",
+    "image_sha256": "51f14c0683aa91f9cb5d237203b6176c17e4da5ebe08215b1dc67a5bc1a64459",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          141,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 26,
+        "instance_id": "Cup_2_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          370,
+          427
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 43,
+        "instance_id": "minutemad_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          319,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 94,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          474,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 29,
+        "instance_id": "biracsikhye_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          618,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 20,
+        "instance_id": "cup_7_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          769,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 47,
+        "instance_id": "Mug_2_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          963,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 77,
+        "instance_id": "letsbe_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          918,
+          411
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 84,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          1207,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 66,
+        "instance_id": "cup_8_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_04",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_04.png"
+  },
+  {
+    "factors": {
+      "base_index": 5,
+      "matched_group_id": "b0_l5_twopair_matched_05",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        42,
+        12,
+        70,
+        58,
+        84,
+        16,
+        74,
+        99,
+        37
+      ],
+      "visible_ids_sorted": [
+        12,
+        16,
+        37,
+        42,
+        58,
+        70,
+        74,
+        84,
+        99
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_05",
+      "position_rank_correlation": 0.316667,
+      "seed": 5409543761731049543
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_05_numbered_rgb_sparse_ids.png",
+    "image_sha256": "018a26aa68c6b9e35b1b19a37eda335b8b2b6a4859f144499a8276bc054d5f27",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          237,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 42,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          397,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 12,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          442,
+          394
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 70,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          553,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 58,
+        "instance_id": "biracsikhye_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          675,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 84,
+        "instance_id": "Cup_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          784,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 16,
+        "instance_id": "Cup_4_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          929,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 74,
+        "instance_id": "letsbe_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          883,
+          399
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 99,
+        "instance_id": "top_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1139,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 37,
+        "instance_id": "coldgrape_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_05",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_05.png"
+  },
+  {
+    "factors": {
+      "base_index": 6,
+      "matched_group_id": "b0_l5_twopair_matched_06",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        37,
+        75,
+        31,
+        45,
+        73,
+        95,
+        35,
+        60,
+        13
+      ],
+      "visible_ids_sorted": [
+        13,
+        31,
+        35,
+        37,
+        45,
+        60,
+        73,
+        75,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_06",
+      "position_rank_correlation": -0.2,
+      "seed": 952007214413642714
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_06_numbered_rgb_sparse_ids.png",
+    "image_sha256": "d82e1ffd7ac5e3c3ffd6756f00e11b936a7bcd2cd94d1e6e1ebf71c1fe32035a",
+    "instances_left_to_right": [
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          194,
+          424
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 37,
+        "instance_id": "coldgrape_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          437,
+          396
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 75,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          390,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 31,
+        "instance_id": "letsbe_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          578,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 45,
+        "instance_id": "mug_7_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          731,
+          467
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 73,
+        "instance_id": "Cup_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          844,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 95,
+        "instance_id": "cantata_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          992,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 35,
+        "instance_id": "biracsikhye_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          951,
+          388
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 60,
+        "instance_id": "top_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          1186,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 13,
+        "instance_id": "acafela_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_06",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_06.png"
+  },
+  {
+    "factors": {
+      "base_index": 7,
+      "matched_group_id": "b0_l5_twopair_matched_07",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        52,
+        54,
+        74,
+        59,
+        90,
+        62,
+        12,
+        81,
+        68
+      ],
+      "visible_ids_sorted": [
+        12,
+        52,
+        54,
+        59,
+        62,
+        68,
+        74,
+        81,
+        90
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_07",
+      "position_rank_correlation": 0.333333,
+      "seed": 5244403958733989577
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_07_numbered_rgb_sparse_ids.png",
+    "image_sha256": "0e6dfc2308b3173185b083d2acbf1160b8e1f60495be43018435578afea43328",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          150,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          340,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 54,
+        "instance_id": "letsbe_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          391,
+          426
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 74,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          509,
+          466
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 59,
+        "instance_id": "Mug_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          694,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 90,
+        "instance_id": "Mug_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          854,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 62,
+        "instance_id": "biracsikhye_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          994,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 12,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          949,
+          399
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 81,
+        "instance_id": "top_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          1151,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 68,
+        "instance_id": "mug_7_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_07",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_07.png"
+  },
+  {
+    "factors": {
+      "base_index": 8,
+      "matched_group_id": "b0_l5_twopair_matched_08",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        31,
+        21,
+        24,
+        75,
+        41,
+        52,
+        89,
+        33,
+        12
+      ],
+      "visible_ids_sorted": [
+        12,
+        21,
+        24,
+        31,
+        33,
+        41,
+        52,
+        75,
+        89
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_08",
+      "position_rank_correlation": 0.133333,
+      "seed": 53313204136940534
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_08_numbered_rgb_sparse_ids.png",
+    "image_sha256": "d0ef91ab4267fa29edae8727dff354ee46b03a86aff84171016cacde4bddbda5",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          223,
+          452
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 31,
+        "instance_id": "Mug_4_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          358,
+          387
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 21,
+        "instance_id": "cocopalm_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          399,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 24,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          546,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 75,
+        "instance_id": "cantata_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          673,
+          471
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 41,
+        "instance_id": "Cup_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          804,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          943,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 89,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          990,
+          399
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 33,
+        "instance_id": "top_08",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          1138,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 12,
+        "instance_id": "minutemad_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_08",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_08.png"
+  },
+  {
+    "factors": {
+      "base_index": 9,
+      "matched_group_id": "b0_l5_twopair_matched_09",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        95,
+        30,
+        23,
+        88,
+        50,
+        35,
+        52,
+        93,
+        56
+      ],
+      "visible_ids_sorted": [
+        23,
+        30,
+        35,
+        50,
+        52,
+        56,
+        88,
+        93,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_09",
+      "position_rank_correlation": 0.166667,
+      "seed": 12955010631902449915
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_09_numbered_rgb_sparse_ids.png",
+    "image_sha256": "7cc60034795d5d95a01d00b53fb872e6f27e4730e520c1cbcbe74858020e0022",
+    "instances_left_to_right": [
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          215,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 95,
+        "instance_id": "minutemad_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          394,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 30,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          433,
+          386
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 23,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          557,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 88,
+        "instance_id": "Mug_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          705,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 50,
+        "instance_id": "Cup_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          828,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 35,
+        "instance_id": "acafela_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          975,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 52,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          929,
+          412
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 93,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1141,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 56,
+        "instance_id": "letsbe_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_09",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_09.png"
+  },
+  {
+    "factors": {
+      "base_index": 10,
+      "matched_group_id": "b0_l5_twopair_matched_10",
+      "object_count": 9,
+      "occlusion_band": "30_45",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        47,
+        92,
+        14,
+        49,
+        79,
+        71,
+        69,
+        33,
+        28
+      ],
+      "visible_ids_sorted": [
+        14,
+        28,
+        33,
+        47,
+        49,
+        69,
+        71,
+        79,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_10",
+      "position_rank_correlation": -0.233333,
+      "seed": 418851057507960904
+    },
+    "image": "scenes/images/L5/b0_l5_random_30_45_10_numbered_rgb_sparse_ids.png",
+    "image_sha256": "5cd3d7b6da288173888d9ec543b841032b24304596afd9f94b38936085758a94",
+    "instances_left_to_right": [
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          174,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 47,
+        "instance_id": "mug_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          373,
+          405
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 92,
+        "instance_id": "coldgrape_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          420,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 14,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          574,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 49,
+        "instance_id": "Cup_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          711,
+          412
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 79,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          862,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 71,
+        "instance_id": "Mug_4_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1004,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 69,
+        "instance_id": "cantata_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          1050,
+          399
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 33,
+        "instance_id": "top_08",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1190,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 28,
+        "instance_id": "letsbe_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_30_45_10",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_30_45_10.png"
+  },
+  {
+    "factors": {
+      "base_index": 1,
+      "matched_group_id": "b0_l5_twopair_matched_01",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        72,
+        20,
+        82,
+        64,
+        88,
+        41,
+        86,
+        28,
+        92
+      ],
+      "visible_ids_sorted": [
+        20,
+        28,
+        41,
+        64,
+        72,
+        82,
+        86,
+        88,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_01",
+      "position_rank_correlation": 0.333333,
+      "seed": 8355125585504078718
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_01_numbered_rgb_sparse_ids.png",
+    "image_sha256": "bb50187b1eb4969e986bb9f89d5ad8fa872010b774a0da06c28980fd978c8634",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          175,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 72,
+        "instance_id": "cantata_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          300,
+          407
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 20,
+        "instance_id": "minutemad_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          346,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 82,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          487,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 64,
+        "instance_id": "Cup_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          639,
+          466
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 88,
+        "instance_id": "Mug_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          817,
+          411
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 41,
+        "instance_id": "cocopalm_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          957,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 86,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1002,
+          391
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 28,
+        "instance_id": "coldgrape_08",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          1153,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 92,
+        "instance_id": "mug_7_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_01",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_01.png"
+  },
+  {
+    "factors": {
+      "base_index": 2,
+      "matched_group_id": "b0_l5_twopair_matched_02",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        62,
+        19,
+        75,
+        95,
+        35,
+        52,
+        39,
+        41,
+        87
+      ],
+      "visible_ids_sorted": [
+        19,
+        35,
+        39,
+        41,
+        52,
+        62,
+        75,
+        87,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_02",
+      "position_rank_correlation": 0.083333,
+      "seed": 13755601465375865503
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_02_numbered_rgb_sparse_ids.png",
+    "image_sha256": "7ab754d176fae5c40777652d7fcb53ffb07d6e957b55a1478fb4bba61ec47342",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          223,
+          411
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 62,
+        "instance_id": "cocopalm_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          420,
+          410
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 19,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          373,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 75,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          527,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 95,
+        "instance_id": "Mug_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          661,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 35,
+        "instance_id": "letsbe_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          783,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_8_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          927,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 39,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          885,
+          422
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 41,
+        "instance_id": "minutemad_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1108,
+          423
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 87,
+        "instance_id": "coldgrape_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_02",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_02.png"
+  },
+  {
+    "factors": {
+      "base_index": 3,
+      "matched_group_id": "b0_l5_twopair_matched_03",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        46,
+        49,
+        39,
+        28,
+        41,
+        52,
+        77,
+        59,
+        30
+      ],
+      "visible_ids_sorted": [
+        28,
+        30,
+        39,
+        41,
+        46,
+        49,
+        52,
+        59,
+        77
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_03",
+      "position_rank_correlation": 0.2,
+      "seed": 8513044484993229274
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_03_numbered_rgb_sparse_ids.png",
+    "image_sha256": "b8ade7c625a24354fb475fb087856ae1916f79ce29b5d790455a144ad8eb4fd3",
+    "instances_left_to_right": [
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          188,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 46,
+        "instance_id": "letsbe_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          399,
+          389
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 49,
+        "instance_id": "coldgrape_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          370,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 39,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          559,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 28,
+        "instance_id": "mug_7_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          718,
+          452
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 41,
+        "instance_id": "cup_8_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          843,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          987,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 77,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          944,
+          422
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 59,
+        "instance_id": "minutemad_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          1150,
+          456
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 30,
+        "instance_id": "Cup_2_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_03",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_03.png"
+  },
+  {
+    "factors": {
+      "base_index": 4,
+      "matched_group_id": "b0_l5_twopair_matched_04",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        26,
+        43,
+        94,
+        29,
+        20,
+        47,
+        77,
+        84,
+        66
+      ],
+      "visible_ids_sorted": [
+        20,
+        26,
+        29,
+        43,
+        47,
+        66,
+        77,
+        84,
+        94
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_04",
+      "position_rank_correlation": 0.433333,
+      "seed": 10255369820144875429
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_04_numbered_rgb_sparse_ids.png",
+    "image_sha256": "e01ac9ff01b0b4ef7cd1958d960ee791d3a289132b3496378edfae8c9597ef2c",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          151,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 26,
+        "instance_id": "Cup_2_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          376,
+          423
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 43,
+        "instance_id": "minutemad_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          332,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 94,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          475,
+          458
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 29,
+        "instance_id": "biracsikhye_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          619,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 20,
+        "instance_id": "cup_7_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          771,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 47,
+        "instance_id": "Mug_2_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          951,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 77,
+        "instance_id": "letsbe_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          907,
+          402
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 84,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "cup_8",
+        "badge_center_xy": [
+          1197,
+          457
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 66,
+        "instance_id": "cup_8_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_04",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_04.png"
+  },
+  {
+    "factors": {
+      "base_index": 5,
+      "matched_group_id": "b0_l5_twopair_matched_05",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        42,
+        12,
+        70,
+        58,
+        84,
+        16,
+        74,
+        99,
+        37
+      ],
+      "visible_ids_sorted": [
+        12,
+        16,
+        37,
+        42,
+        58,
+        70,
+        74,
+        84,
+        99
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_05",
+      "position_rank_correlation": 0.316667,
+      "seed": 5409543761731049543
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_05_numbered_rgb_sparse_ids.png",
+    "image_sha256": "2e9de478479faed2fca9b7bcefa58d1a00fa2ec632b981013961bb066b5c271d",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          244,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 42,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          433,
+          368
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 12,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          411,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 70,
+        "instance_id": "cantata_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          552,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 58,
+        "instance_id": "biracsikhye_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_2",
+        "badge_center_xy": [
+          675,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 84,
+        "instance_id": "Cup_2_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          784,
+          465
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 16,
+        "instance_id": "Cup_4_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          916,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 74,
+        "instance_id": "letsbe_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          890,
+          373
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 99,
+        "instance_id": "top_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          1131,
+          425
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 37,
+        "instance_id": "coldgrape_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_05",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_05.png"
+  },
+  {
+    "factors": {
+      "base_index": 6,
+      "matched_group_id": "b0_l5_twopair_matched_06",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        37,
+        75,
+        31,
+        45,
+        73,
+        95,
+        35,
+        60,
+        13
+      ],
+      "visible_ids_sorted": [
+        13,
+        31,
+        35,
+        37,
+        45,
+        60,
+        73,
+        75,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_06",
+      "position_rank_correlation": -0.2,
+      "seed": 952007214413642714
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_06_numbered_rgb_sparse_ids.png",
+    "image_sha256": "26555aca0193264191f9874b1d891c757dfb996a5db98a688f30b6985b60efc6",
+    "instances_left_to_right": [
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          202,
+          424
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 37,
+        "instance_id": "coldgrape_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          428,
+          370
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 75,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          404,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 31,
+        "instance_id": "letsbe_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          577,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 45,
+        "instance_id": "mug_7_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          730,
+          467
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 73,
+        "instance_id": "Cup_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          843,
+          444
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 95,
+        "instance_id": "cantata_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          976,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 35,
+        "instance_id": "biracsikhye_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          955,
+          374
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 60,
+        "instance_id": "top_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          1178,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 13,
+        "instance_id": "acafela_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_06",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_06.png"
+  },
+  {
+    "factors": {
+      "base_index": 7,
+      "matched_group_id": "b0_l5_twopair_matched_07",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        52,
+        54,
+        74,
+        59,
+        90,
+        62,
+        12,
+        81,
+        68
+      ],
+      "visible_ids_sorted": [
+        12,
+        52,
+        54,
+        59,
+        62,
+        68,
+        74,
+        81,
+        90
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_07",
+      "position_rank_correlation": 0.333333,
+      "seed": 5244403958733989577
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_07_numbered_rgb_sparse_ids.png",
+    "image_sha256": "5a34de0b03f3d3940d975d8b096158b5474f2bc8308fefd142afde558e59b16b",
+    "instances_left_to_right": [
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          158,
+          443
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          394,
+          422
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 54,
+        "instance_id": "acafela_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          351,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 74,
+        "instance_id": "letsbe_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          508,
+          466
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 59,
+        "instance_id": "Mug_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          693,
+          454
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 90,
+        "instance_id": "Mug_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          853,
+          456
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 62,
+        "instance_id": "biracsikhye_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          981,
+          448
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 12,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          949,
+          372
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 81,
+        "instance_id": "top_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          1145,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 68,
+        "instance_id": "mug_7_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_07",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_07.png"
+  },
+  {
+    "factors": {
+      "base_index": 8,
+      "matched_group_id": "b0_l5_twopair_matched_08",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        31,
+        21,
+        24,
+        75,
+        41,
+        52,
+        89,
+        33,
+        12
+      ],
+      "visible_ids_sorted": [
+        12,
+        21,
+        24,
+        31,
+        33,
+        41,
+        52,
+        75,
+        89
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_08",
+      "position_rank_correlation": 0.133333,
+      "seed": 53313204136940534
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_08_numbered_rgb_sparse_ids.png",
+    "image_sha256": "f2da04680d21a964286347a8286127b3dde316a2caf3cf422b101dfa559947b2",
+    "instances_left_to_right": [
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          230,
+          452
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 31,
+        "instance_id": "Mug_4_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          368,
+          366
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 21,
+        "instance_id": "cocopalm_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          388,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 24,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          546,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 75,
+        "instance_id": "cantata_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          673,
+          471
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 41,
+        "instance_id": "Cup_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "cup_7",
+        "badge_center_xy": [
+          803,
+          441
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 52,
+        "instance_id": "cup_7_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          949,
+          450
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 89,
+        "instance_id": "letsbe_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          978,
+          372
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 33,
+        "instance_id": "top_08",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          1130,
+          437
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 12,
+        "instance_id": "minutemad_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_08",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_08.png"
+  },
+  {
+    "factors": {
+      "base_index": 9,
+      "matched_group_id": "b0_l5_twopair_matched_09",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        95,
+        30,
+        23,
+        88,
+        50,
+        35,
+        52,
+        93,
+        56
+      ],
+      "visible_ids_sorted": [
+        23,
+        30,
+        35,
+        50,
+        52,
+        56,
+        88,
+        93,
+        95
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_09",
+      "position_rank_correlation": 0.166667,
+      "seed": 12955010631902449915
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_09_numbered_rgb_sparse_ids.png",
+    "image_sha256": "180d1d16f063cb97d9e11f2e58c451ec18f3999615fd6a2e6994c3aaed2a3341",
+    "instances_left_to_right": [
+      {
+        "asset_id": "minutemad",
+        "badge_center_xy": [
+          223,
+          436
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 95,
+        "instance_id": "minutemad_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          430,
+          366
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 30,
+        "instance_id": "cocopalm_03",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          412,
+          459
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 23,
+        "instance_id": "biracsikhye_02",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Mug_2",
+        "badge_center_xy": [
+          558,
+          461
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 88,
+        "instance_id": "Mug_2_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          706,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 50,
+        "instance_id": "Cup_4_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "acafela",
+        "badge_center_xy": [
+          829,
+          435
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 35,
+        "instance_id": "acafela_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          963,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 52,
+        "instance_id": "cantata_08",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          919,
+          403
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 93,
+        "instance_id": "coldgrape_07",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1133,
+          446
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 56,
+        "instance_id": "letsbe_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_09",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_09.png"
+  },
+  {
+    "factors": {
+      "base_index": 10,
+      "matched_group_id": "b0_l5_twopair_matched_10",
+      "object_count": 9,
+      "occlusion_band": "45_60",
+      "occlusion_pair_count": 2
+    },
+    "ground_truth": {
+      "ids_left_to_right": [
+        47,
+        92,
+        14,
+        49,
+        79,
+        71,
+        69,
+        33,
+        28
+      ],
+      "visible_ids_sorted": [
+        14,
+        28,
+        33,
+        47,
+        49,
+        69,
+        71,
+        79,
+        92
+      ]
+    },
+    "id_assignment": {
+      "group_key": "b0_l5_twopair_matched_10",
+      "position_rank_correlation": -0.233333,
+      "seed": 418851057507960904
+    },
+    "image": "scenes/images/L5/b0_l5_random_45_60_10_numbered_rgb_sparse_ids.png",
+    "image_sha256": "5458f642c9f0e047e65b20bb0584b1d072c9fc0f107717dec6ed7fbc334d4832",
+    "instances_left_to_right": [
+      {
+        "asset_id": "mug_7",
+        "badge_center_xy": [
+          183,
+          445
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 47,
+        "instance_id": "mug_7_01",
+        "left_to_right_position": 1
+      },
+      {
+        "asset_id": "coldgrape",
+        "badge_center_xy": [
+          381,
+          389
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 92,
+        "instance_id": "coldgrape_02",
+        "left_to_right_position": 2
+      },
+      {
+        "asset_id": "biracsikhye",
+        "badge_center_xy": [
+          412,
+          460
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 14,
+        "instance_id": "biracsikhye_03",
+        "left_to_right_position": 3
+      },
+      {
+        "asset_id": "Cup_4",
+        "badge_center_xy": [
+          573,
+          469
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 49,
+        "instance_id": "Cup_4_04",
+        "left_to_right_position": 4
+      },
+      {
+        "asset_id": "cocopalm",
+        "badge_center_xy": [
+          710,
+          412
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 79,
+        "instance_id": "cocopalm_05",
+        "left_to_right_position": 5
+      },
+      {
+        "asset_id": "Mug_4",
+        "badge_center_xy": [
+          861,
+          455
+        ],
+        "badge_radius_px": 16,
+        "category": "CUP_OR_MUG",
+        "display_id": 71,
+        "instance_id": "Mug_4_06",
+        "left_to_right_position": 6
+      },
+      {
+        "asset_id": "cantata",
+        "badge_center_xy": [
+          1009,
+          449
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 69,
+        "instance_id": "cantata_07",
+        "left_to_right_position": 7
+      },
+      {
+        "asset_id": "top",
+        "badge_center_xy": [
+          1041,
+          370
+        ],
+        "badge_radius_px": 16,
+        "category": "BOTTLE",
+        "display_id": 33,
+        "instance_id": "top_08",
+        "left_to_right_position": 8
+      },
+      {
+        "asset_id": "letsbe",
+        "badge_center_xy": [
+          1181,
+          447
+        ],
+        "badge_radius_px": 16,
+        "category": "CAN",
+        "display_id": 28,
+        "instance_id": "letsbe_09",
+        "left_to_right_position": 9
+      }
+    ],
+    "level": "L5",
+    "scene_id": "b0_l5_random_45_60_10",
+    "source_image": "benchmark_b0/l5_random_20scenes_two_occlusions_pixel_calibrated_30_45_45_60/images/b0_l5_random_45_60_10.png"
+  }
+]

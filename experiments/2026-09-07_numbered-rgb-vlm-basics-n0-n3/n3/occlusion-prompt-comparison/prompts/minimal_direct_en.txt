@@ -1,0 +1,16 @@
+Examine the numbered RGB image.
+
+The following IDs are confirmed to be the complete and correct set of all visible object-marker IDs:
+{visible_ids_json}
+
+List all confirmed IDs from the physical object closest to the camera to the physical object farthest from the camera.
+
+In visible_ids, return the provided ID list in its original order.
+In front_to_back, return the same IDs ordered from closest to farthest.
+
+Return only one valid JSON object:
+
+{
+  "visible_ids": [],
+  "front_to_back": []
+}

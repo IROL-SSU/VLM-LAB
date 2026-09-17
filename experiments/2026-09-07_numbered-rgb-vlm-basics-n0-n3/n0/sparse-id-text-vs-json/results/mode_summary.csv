@@ -1,0 +1,3 @@
+mode,calls,format_valid_count,format_valid_pct,id_set_exact_count,id_set_exact_pct,id_micro_precision_pct,id_micro_recall_pct,id_micro_f1_pct,missing_id_count,extra_id_count,duplicate_output_calls,left_to_right_exact_diagnostic_pct,numerically_sorted_output_pct,parse_failures,length_finishes,mean_output_tokens,mean_wall_seconds
+TEXT,300,300,100.0,300,100.0,100.0,100.0,100.0,0,0,0,75.333,0.0,0,0,23.0,0.1827
+JSON_FORCED,300,300,100.0,300,100.0,100.0,100.0,100.0,0,0,0,75.0,0.0,0,0,35.667,0.2626

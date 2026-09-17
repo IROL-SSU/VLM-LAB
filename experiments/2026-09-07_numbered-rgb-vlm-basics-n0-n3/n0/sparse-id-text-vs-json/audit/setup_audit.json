@@ -1,0 +1,27 @@
+{
+  "all_ids_two_digit": true,
+  "all_scene_ids_sparse": true,
+  "all_scene_ids_unique": true,
+  "assignment_group_count": 40,
+  "badge_diameter_px": 32,
+  "batch_size": 1,
+  "level_counts": {
+    "L3": 20,
+    "L4": 20,
+    "L5": 20
+  },
+  "max_rendered_text_height_px": 12,
+  "max_rendered_text_width_px": 24,
+  "scene_count": 60,
+  "scheduled_calls": 600,
+  "source_metadata_sha256": {
+    "L3_badge_metadata": "d60ccac93a5df2094ab042c320d4b8d8d3356ba7ee3523458a3a20247d433142",
+    "L3_source_metadata": "2b7f9a9b2673531b220b808fd479552f34a92327f0993cca88528551d4bd8e84",
+    "L4_badge_metadata": "94ce7b98b2833a952004c6cc2b1e90c820ff029d41590325d3c3f26f8439aa5f",
+    "L4_source_metadata": "fb76f7e5cb5849e4f728fac9c5f9c250193915b97c51c4f19193bbcbd3a1c025",
+    "L5_badge_metadata": "b51a3c195a6a908728bac74d2abd62bdf456eccf2cf61a91c287c627c2bac593",
+    "L5_source_metadata": "8b0d30aa6359842e67361ee7262a3db7d84f83ef424f1462f102ad51ff88efaa"
+  },
+  "unique_image_hashes": 60,
+  "unique_scene_ids": 60
+}

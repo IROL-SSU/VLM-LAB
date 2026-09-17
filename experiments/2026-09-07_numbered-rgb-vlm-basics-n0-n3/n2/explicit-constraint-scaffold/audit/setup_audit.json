@@ -1,0 +1,21 @@
+{
+  "all_candidate_ids_unique": true,
+  "all_expected_targets_subset_candidates": true,
+  "all_images_match": true,
+  "all_natural_requests": true,
+  "batch_size": 1,
+  "level_counts": {
+    "L3": 20,
+    "L4": 20,
+    "L5": 20
+  },
+  "paired_input_manifest_identical": true,
+  "query_counts": {
+    "Q1_CATEGORY_PRESENT": 60,
+    "Q2_CATEGORY_COLOR_PRESENT": 60,
+    "Q3_HARD_NEGATIVE_ABSENT": 60
+  },
+  "scene_count": 60,
+  "scheduled_calls": 900,
+  "schema_has_no_id_or_array_bounds": true
+}

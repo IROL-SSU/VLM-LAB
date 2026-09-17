@@ -1,0 +1,53 @@
+{
+  "experiment_id": "n3_initial75_cross_tasks_75scenes_5seeds_20260906",
+  "generation": {
+    "frequency_penalty": 0.0,
+    "max_tokens": 1024,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9
+  },
+  "input_candidate_order": "ascending numeric ID; independent of spatial GT",
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "original_experiment": "/home/ssu/ShelfScene/experiments/n3_d0_ltr_d1_depth_75scenes_5seeds_20260828",
+  "output": "forced JSON",
+  "primary_metrics": {
+    "N3-D0-FB-CROSS": "front_to_back exact",
+    "N3-D1-LR-CROSS": "left_to_right exact"
+  },
+  "prompt_language": "English",
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 8192,
+    "max_num_seqs": 1,
+    "moe_backend": "triton"
+  },
+  "scene_count": 75,
+  "scheduled_calls": 375,
+  "source_dataset": "/home/ssu/ShelfScene/benchmark_n3/depth_reasoning_75scenes_randomized",
+  "source_split_scene_counts": {
+    "N3-D0": 27,
+    "N3-D1": 48
+  },
+  "split_scene_counts": {
+    "N3-D0-FB-CROSS": 27,
+    "N3-D1-LR-CROSS": 48
+  },
+  "system_prompt": null,
+  "task_assignment": {
+    "N3-D0": "D1_FRONT_TO_BACK",
+    "N3-D1": "D0_LEFT_TO_RIGHT"
+  }
+}

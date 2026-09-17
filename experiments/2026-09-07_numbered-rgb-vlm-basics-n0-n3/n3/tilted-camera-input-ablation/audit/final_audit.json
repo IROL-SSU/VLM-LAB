@@ -1,0 +1,107 @@
+{
+  "all_cells_40_scenes_200_calls": true,
+  "camera": {
+    "downward_from_horizontal_deg": 24.0,
+    "focal_length_mm": 32.0,
+    "position_cm": [
+      25.0,
+      -95.0,
+      90.0
+    ],
+    "render_resolution": [
+      1280,
+      960
+    ]
+  },
+  "condition_audits": {
+    "rgb_only": {
+      "calls": 2400,
+      "finish_stop": 2400,
+      "format_failures": 0,
+      "method_counts": {
+        "contact_point": 600,
+        "detailed_direct": 600,
+        "explicit_pairs": 600,
+        "minimal_direct": 600
+      },
+      "scene_type_counts": {
+        "packed_nonoverlap": 800,
+        "separated_nonoverlap": 800,
+        "structured_occlusion": 800
+      },
+      "seed_counts": {
+        "28101": 480,
+        "28102": 480,
+        "28103": 480,
+        "28104": 480,
+        "28105": 480
+      },
+      "setup_geometry_audit": true,
+      "unique_run_ids": 2400
+    },
+    "rgb_plus_gray": {
+      "calls": 2400,
+      "finish_stop": 2400,
+      "format_failures": 0,
+      "method_counts": {
+        "contact_point": 600,
+        "detailed_direct": 600,
+        "explicit_pairs": 600,
+        "minimal_direct": 600
+      },
+      "scene_type_counts": {
+        "packed_nonoverlap": 800,
+        "separated_nonoverlap": 800,
+        "structured_occlusion": 800
+      },
+      "seed_counts": {
+        "28101": 480,
+        "28102": 480,
+        "28103": 480,
+        "28104": 480,
+        "28105": 480
+      },
+      "setup_geometry_audit": true,
+      "unique_run_ids": 2400
+    },
+    "rgb_plus_numbered_gray": {
+      "calls": 2400,
+      "finish_stop": 2400,
+      "format_failures": 0,
+      "method_counts": {
+        "contact_point": 600,
+        "detailed_direct": 600,
+        "explicit_pairs": 600,
+        "minimal_direct": 600
+      },
+      "scene_type_counts": {
+        "packed_nonoverlap": 800,
+        "separated_nonoverlap": 800,
+        "structured_occlusion": 800
+      },
+      "seed_counts": {
+        "28101": 480,
+        "28102": 480,
+        "28103": 480,
+        "28104": 480,
+        "28105": 480
+      },
+      "setup_geometry_audit": true,
+      "unique_run_ids": 2400
+    }
+  },
+  "cross_condition_audit": {
+    "rgb_hashes_identical": {
+      "rgb_only": true,
+      "rgb_plus_gray": true,
+      "rgb_plus_numbered_gray": true
+    },
+    "scene_gt_geometry_signatures_identical": {
+      "rgb_only": true,
+      "rgb_plus_gray": true,
+      "rgb_plus_numbered_gray": true
+    }
+  },
+  "matrix_rows": 12,
+  "total_calls": 7200
+}

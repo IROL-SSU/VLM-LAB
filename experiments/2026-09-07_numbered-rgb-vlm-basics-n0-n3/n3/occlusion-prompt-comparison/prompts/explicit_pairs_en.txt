@@ -1,0 +1,53 @@
+Examine the numbered RGB image.
+
+The following IDs are confirmed to be the complete and correct set of visible
+object-marker IDs:
+
+{visible_ids_json}
+
+Determine the front-to-back relationship for every unordered pair of confirmed IDs.
+For each pair, decide which associated physical object is closer to the camera.
+
+Use the following visual evidence in this priority order:
+
+1. If two objects overlap, the physical object that visually occludes the other object
+   is closer to the camera.
+2. If two objects do not overlap, compare where their physical bodies touch the shelf.
+   All objects stand on the same flat shelf. The object whose shelf-contact point
+   appears lower in the image is closer to the camera.
+3. The red numbered marker only identifies an object. Do not use the marker's position
+   or size as evidence of object depth.
+4. Do not use apparent object size alone because the objects have different physical sizes.
+
+Evaluate every unordered pair exactly once.
+
+For every pair:
+
+- id_a must be the smaller numerical ID.
+- id_b must be the larger numerical ID.
+- front_id must equal either id_a or id_b and identifies the closer physical object.
+
+In visible_ids, return the complete provided ID list in its original order.
+
+Before returning the response, verify that:
+
+1. Every possible unordered pair of confirmed IDs appears exactly once.
+2. No pair is missing or duplicated.
+3. No ID outside the confirmed set is used.
+4. Every front_id is one of the two IDs in its pair.
+
+Return only one valid JSON object with this structure:
+
+{
+  "visible_ids": [],
+  "pairwise_relations": [
+    {
+      "id_a": 0,
+      "id_b": 0,
+      "front_id": 0
+    }
+  ]
+}
+
+Do not output a total front-to-back order, explanations, Markdown, confidence scores,
+coordinates, object descriptions, or additional fields.

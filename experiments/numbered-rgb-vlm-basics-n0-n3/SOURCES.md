@@ -14,17 +14,17 @@
 
 ## Snapshot mapping
 
-| Archive path | Original path under `/home/ssu/ShelfScene` | 보존 범위 |
+| Archive path | Original experiment family | 보존 범위 |
 |---|---|---|
-| `n0/sparse-id-text-vs-json` | `experiments/b0_n0_sparse_ids_text_vs_json_60scenes_20260826` | config, prompts, raw logs, reports, evaluated tables, audit |
-| `n1/explicit-visible-ids-ablation` | `experiments/b0_n1_explicit_visible_ids_ablation_60scenes_20260827` | config, prompts, raw logs, figures, reports, evaluated tables, audit |
-| `n2/explicit-constraint-scaffold` | `experiments/b0_n2_explicit_constraint_scaffold_60scenes_20260828` | config, prompts, raw logs, reports, evaluated tables, audit |
-| `n2/unified-coarse-color` | `experiments/b0_n2_basic_unified_coarse_60scenes_20260903` | config, prompts, raw logs, reports, evaluated tables, audit |
-| `n3/cross-task-75-scenes` | `experiments/n3_initial75_cross_tasks_75scenes_5seeds_20260906` | config, prompts, 375 new raw calls, reports, evaluated tables, audit |
-| `n3/occlusion-prompt-comparison` | `experiments/n3_occlusion_rgb_missing20_5methods_5seeds_20260907` | config, prompts, 500 raw calls, reports, evaluated tables, audit |
-| `n3/depth-input-ablation` | `experiments/n3_depth_input_ablation_3conditions_full40_20260907` | source manifest, aggregate results, report, audit |
-| `n3/tilted-camera-input-ablation` | `experiments/n3_tilted24_height90_input_ablation_3conditions_20260907` | source manifest, 7,200 scored records, aggregate results, report, audit |
-| `n3/camera-view-effect` | `experiments/n3_camera_view_effect_4_16_24_filtered_20260907` | comparison CSV와 figures |
+| `n0/sparse-id-text-vs-json` | `b0_n0_sparse_ids_text_vs_json_60scenes` | config, prompts, raw logs, reports, evaluated tables, audit |
+| `n1/explicit-visible-ids-ablation` | `b0_n1_explicit_visible_ids_ablation_60scenes` | config, prompts, raw logs, figures, reports, evaluated tables, audit |
+| `n2/explicit-constraint-scaffold` | `b0_n2_explicit_constraint_scaffold_60scenes` | config, prompts, raw logs, reports, evaluated tables, audit |
+| `n2/unified-coarse-color` | `b0_n2_basic_unified_coarse_60scenes` | config, prompts, raw logs, reports, evaluated tables, audit |
+| `n3/cross-task-75-scenes` | `n3_initial75_cross_tasks_75scenes_5seeds` | config, prompts, 375 new raw calls, reports, evaluated tables, audit |
+| `n3/occlusion-prompt-comparison` | `n3_occlusion_rgb_missing20_5methods_5seeds` | config, prompts, 500 raw calls, reports, evaluated tables, audit |
+| `n3/depth-input-ablation` | `n3_depth_input_ablation_3conditions_full40` | source manifest, aggregate results, report, audit |
+| `n3/tilted-camera-input-ablation` | `n3_tilted24_height90_input_ablation_3conditions` | source manifest, 7,200 scored records, aggregate results, report, audit |
+| `n3/camera-view-effect` | `n3_camera_view_effect_4_16_24_filtered` | comparison CSV와 figures |
 
 ## Deliberately omitted
 

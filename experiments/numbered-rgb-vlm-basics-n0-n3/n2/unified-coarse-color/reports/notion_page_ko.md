@@ -603,7 +603,7 @@ L3에서 Q1.5·Q2·Q3가 높고 L4/L5에서 낮아졌지만, level마다 asset�
 ## 16. 재현 파일
 
 ```plain text
-/home/ssu/ShelfScene/experiments/b0_n2_basic_unified_coarse_60scenes_20260903
+/home/ssu/ShelfScene/experiments/b0_n2_basic_unified_coarse_60scenes
 ```
 
 주요 파일:
@@ -644,7 +644,6 @@ L3에서 Q1.5·Q2·Q3가 높고 L4/L5에서 낮아졌지만, level마다 asset�
 - <mention-page url="https://app.notion.com/p/3c9952c9e273811fad98daa7c6fa379f">N1 ID–Object–Color Mapping — Explicit visible_ids Enumeration 실험 결과</mention-page>
 - <mention-page url="https://app.notion.com/p/3cf952c9e27381a4909ec6dd4b193f28">N2 Natural-Language Target Grounding — Explicit Constraint Scaffold 실험 결과</mention-page>
 
-마지막 갱신: <mention-date start="2026-09-03"/>
 
 ## 19. Query별 이미지·5-seed 결과 비교
 

@@ -3,8 +3,6 @@
 | 항목 | 내용 |
 |---|---|
 | Status | Planned / Running / Complete |
-| Started | YYYY-MM-DD |
-| Completed | YYYY-MM-DD 또는 — |
 | Owner | 이름 |
 | Model | model ID와 revision |
 | Source repository | URL 또는 commit |
@@ -69,6 +67,6 @@
 | Results |  |  |
 | Audit |  |  |
 
-## 11. Changelog
+## 11. Revision notes
 
-- YYYY-MM-DD: 최초 기록
+- 최초 기록

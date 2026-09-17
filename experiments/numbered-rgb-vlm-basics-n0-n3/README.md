@@ -3,8 +3,6 @@
 | 항목 | 내용 |
 |---|---|
 | Status | **Complete** |
-| Experiment period | 2026-08-26 – 2026-09-07 |
-| Archived | 2026-09-17 |
 | Main model | `Qwen/Qwen3-VL-30B-A3B-Instruct` |
 | Runtime | vLLM offline, batch size 1 |
 | Main repeats | 장면–조건별 고정 seed 5개 |
@@ -153,7 +151,3 @@ N3는 좌→우와 카메라 기준 앞→뒤를 분리하고, complete ordering
 ## 6. 결론
 
 Numbered RGB는 sparse ID를 읽고, ID를 물체 의미와 연결하며, 자연어 target을 instance ID로 grounding하는 인터페이스로 충분히 안정적이었습니다. 반면 N3의 camera-relative depth와 전체 ordering은 장면 구조, 카메라, prompt와 입력 표현에 민감했습니다. 이 결과를 바탕으로 이후 manipulation 실험에서는 temperature 0.3, explicit enumeration, forced JSON을 기본으로 사용하고, geometry 판단은 별도 capability와 information-sensitivity 실험으로 분리했습니다.
-
-## 7. Changelog
-
-- 2026-09-17: 완료된 N0–N3 실험을 `VLM-LAB`에 최초 아카이브했습니다.

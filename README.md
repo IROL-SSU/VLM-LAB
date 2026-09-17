@@ -12,18 +12,18 @@ VLM 기반 로봇 조작 연구의 실험 설계, 고정 설정, 원시 추론 �
 
 ## Experiment index
 
-| 완료일 | 실험 | 상태 | 핵심 범위 |
-|---|---|---|---|
-| 2026-09-07 | [Numbered RGB 기반 VLM 기초 능력 평가 — N0·N1·N2·N3](experiments/2026-09-07_numbered-rgb-vlm-basics-n0-n3/) | Complete | ID 인식, ID–물체 의미 연결, 자연어 target grounding, 공간관계 추론 |
+| 실험 | 상태 | 핵심 범위 |
+|---|---|---|
+| [Numbered RGB 기반 VLM 기초 능력 평가 — N0·N1·N2·N3](experiments/numbered-rgb-vlm-basics-n0-n3/) | Complete | ID 인식, ID–물체 의미 연결, 자연어 target grounding, 공간관계 추론 |
 
 ## 저장 규칙
 
-새 실험은 `experiments/YYYY-MM-DD_experiment-slug/`에 추가합니다. 완료된 실험 폴더는 가능한 한 immutable snapshot으로 유지하고, 해석 수정이나 후속 분석은 원시 로그를 덮어쓰지 않고 별도 파일과 changelog로 남깁니다.
+새 실험은 `experiments/experiment-slug/`에 추가합니다. 완료된 실험 폴더는 가능한 한 immutable snapshot으로 유지하고, 해석 수정이나 후속 분석은 원시 로그를 덮어쓰지 않고 별도 파일과 revision note로 남깁니다.
 
 각 실험 폴더의 권장 구성은 다음과 같습니다.
 
 ```text
-experiments/YYYY-MM-DD_experiment-slug/
+experiments/experiment-slug/
   README.md          # 연구 질문, 설계, 결과, 한계
   SOURCES.md         # 원본 경로와 외부 문서
   assets/            # 대표 이미지와 작은 그림

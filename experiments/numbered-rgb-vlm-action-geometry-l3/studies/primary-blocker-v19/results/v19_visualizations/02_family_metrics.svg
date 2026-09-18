@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:11px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">Accuracy by scene family</text>
+<line class="grid" x1="75" y1="475.0" x2="975" y2="475.0"/>
+<text class="label" x="38" y="479.0">0%</text>
+<line class="grid" x1="75" y1="398.0" x2="975" y2="398.0"/>
+<text class="label" x="38" y="402.0">20%</text>
+<line class="grid" x1="75" y1="321.0" x2="975" y2="321.0"/>
+<text class="label" x="38" y="325.0">40%</text>
+<line class="grid" x1="75" y1="244.0" x2="975" y2="244.0"/>
+<text class="label" x="38" y="248.0">60%</text>
+<line class="grid" x1="75" y1="167.0" x2="975" y2="167.0"/>
+<text class="label" x="38" y="171.0">80%</text>
+<line class="grid" x1="75" y1="90.0" x2="975" y2="90.0"/>
+<text class="label" x="38" y="94.0">100%</text>
+<rect x="125.0" y="249.1" width="24" height="225.9" rx="3" fill="#f9ab00"/>
+<rect x="153.0" y="247.9" width="24" height="227.1" rx="3" fill="#1a73e8"/>
+<rect x="181.0" y="249.1" width="24" height="225.9" rx="3" fill="#9334e6"/>
+<text class="small" x="165.0" y="496" text-anchor="middle">FC CLEAR</text>
+<rect x="305.0" y="172.1" width="24" height="302.9" rx="3" fill="#f9ab00"/>
+<rect x="333.0" y="91.3" width="24" height="383.7" rx="3" fill="#1a73e8"/>
+<rect x="361.0" y="172.1" width="24" height="302.9" rx="3" fill="#9334e6"/>
+<text class="small" x="345.0" y="496" text-anchor="middle">FC BLOCKED</text>
+<rect x="485.0" y="440.4" width="24" height="34.6" rx="3" fill="#f9ab00"/>
+<rect x="513.0" y="113.1" width="24" height="361.9" rx="3" fill="#1a73e8"/>
+<rect x="541.0" y="440.4" width="24" height="34.6" rx="3" fill="#9334e6"/>
+<text class="small" x="525.0" y="496" text-anchor="middle">TRANSLATE</text>
+<rect x="665.0" y="450.6" width="24" height="24.4" rx="3" fill="#f9ab00"/>
+<rect x="693.0" y="282.5" width="24" height="192.5" rx="3" fill="#1a73e8"/>
+<rect x="721.0" y="453.2" width="24" height="21.8" rx="3" fill="#9334e6"/>
+<text class="small" x="705.0" y="496" text-anchor="middle">ROTATE</text>
+<rect x="845.0" y="403.1" width="24" height="71.9" rx="3" fill="#f9ab00"/>
+<rect x="873.0" y="199.1" width="24" height="275.9" rx="3" fill="#1a73e8"/>
+<rect x="901.0" y="403.1" width="24" height="71.9" rx="3" fill="#9334e6"/>
+<text class="small" x="885.0" y="496" text-anchor="middle">LIFT AND RELOCATE</text>
+<rect x="670" y="28" width="13" height="13" fill="#f9ab00"/>
+<text class="label" x="689" y="39">Reason</text>
+<rect x="775" y="28" width="13" height="13" fill="#1a73e8"/>
+<text class="label" x="794" y="39">Blocker</text>
+<rect x="880" y="28" width="13" height="13" fill="#9334e6"/>
+<text class="label" x="899" y="39">Joint</text>
+</svg>

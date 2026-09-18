@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="1030" viewBox="0 0 1020 1030">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:10px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">C2 D4 reason accuracy by scene</text>
+<text class="sub" x="38" y="58">Each scene: five seeds</text>
+<text class="small" x="235" y="87" text-anchor="end">scene_fc_blocked_v01</text>
+<rect x="245" y="70" width="715.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="968.0" y="87">5/5 · 100%</text>
+<text class="small" x="235" y="123" text-anchor="end">scene_fc_blocked_v03</text>
+<rect x="245" y="106" width="715.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="968.0" y="123">5/5 · 100%</text>
+<text class="small" x="235" y="159" text-anchor="end">scene_fc_blocked_v04</text>
+<rect x="245" y="142" width="715.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="968.0" y="159">5/5 · 100%</text>
+<text class="small" x="235" y="195" text-anchor="end">scene_fc_clear_v01</text>
+<rect x="245" y="178" width="715.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="968.0" y="195">5/5 · 100%</text>
+<text class="small" x="235" y="231" text-anchor="end">scene_fc_clear_v03</text>
+<rect x="245" y="214" width="715.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="968.0" y="231">5/5 · 100%</text>
+<text class="small" x="235" y="267" text-anchor="end">scene_fc_clear_v05</text>
+<rect x="245" y="250" width="715.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="968.0" y="267">5/5 · 100%</text>
+<text class="small" x="235" y="303" text-anchor="end">scene_lift_and_relocate_v04</text>
+<rect x="245" y="286" width="715.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="968.0" y="303">5/5 · 100%</text>
+<text class="small" x="235" y="339" text-anchor="end">scene_fc_blocked_v02</text>
+<rect x="245" y="322" width="572.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="825.0" y="339">4/5 · 80%</text>
+<text class="small" x="235" y="375" text-anchor="end">scene_fc_clear_v02</text>
+<rect x="245" y="358" width="572.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="825.0" y="375">4/5 · 80%</text>
+<text class="small" x="235" y="411" text-anchor="end">scene_fc_clear_v04</text>
+<rect x="245" y="394" width="572.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="825.0" y="411">4/5 · 80%</text>
+<text class="small" x="235" y="447" text-anchor="end">scene_translate_v02</text>
+<rect x="245" y="430" width="572.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="825.0" y="447">4/5 · 80%</text>
+<text class="small" x="235" y="483" text-anchor="end">scene_lift_and_relocate_v03</text>
+<rect x="245" y="466" width="429.0" height="24" rx="4" fill="#1a73e8"/>
+<text class="value" x="682.0" y="483">3/5 · 60%</text>
+<text class="small" x="235" y="519" text-anchor="end">scene_lift_and_relocate_v01</text>
+<rect x="245" y="502" width="286.0" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="539.0" y="519">2/5 · 40%</text>
+<text class="small" x="235" y="555" text-anchor="end">scene_lift_and_relocate_v05</text>
+<rect x="245" y="538" width="286.0" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="539.0" y="555">2/5 · 40%</text>
+<text class="small" x="235" y="591" text-anchor="end">scene_translate_v05</text>
+<rect x="245" y="574" width="286.0" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="539.0" y="591">2/5 · 40%</text>
+<text class="small" x="235" y="627" text-anchor="end">scene_fc_blocked_v05</text>
+<rect x="245" y="610" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="627">0/5 · 0%</text>
+<text class="small" x="235" y="663" text-anchor="end">scene_lift_and_relocate_v02</text>
+<rect x="245" y="646" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="663">0/5 · 0%</text>
+<text class="small" x="235" y="699" text-anchor="end">scene_rotate_v01</text>
+<rect x="245" y="682" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="699">0/5 · 0%</text>
+<text class="small" x="235" y="735" text-anchor="end">scene_rotate_v02</text>
+<rect x="245" y="718" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="735">0/5 · 0%</text>
+<text class="small" x="235" y="771" text-anchor="end">scene_rotate_v03</text>
+<rect x="245" y="754" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="771">0/5 · 0%</text>
+<text class="small" x="235" y="807" text-anchor="end">scene_rotate_v04</text>
+<rect x="245" y="790" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="807">0/5 · 0%</text>
+<text class="small" x="235" y="843" text-anchor="end">scene_rotate_v05</text>
+<rect x="245" y="826" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="843">0/5 · 0%</text>
+<text class="small" x="235" y="879" text-anchor="end">scene_translate_v01</text>
+<rect x="245" y="862" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="879">0/5 · 0%</text>
+<text class="small" x="235" y="915" text-anchor="end">scene_translate_v03</text>
+<rect x="245" y="898" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="915">0/5 · 0%</text>
+<text class="small" x="235" y="951" text-anchor="end">scene_translate_v04</text>
+<rect x="245" y="934" width="0.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="253.0" y="951">0/5 · 0%</text>
+</svg>

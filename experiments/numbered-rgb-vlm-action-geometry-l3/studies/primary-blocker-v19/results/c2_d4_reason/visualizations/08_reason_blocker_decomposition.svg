@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="330" viewBox="0 0 980 330">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:10px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">C2 D4 reason–blocker decomposition</text>
+<text class="sub" x="38" y="58">125 calls</text>
+<rect x="45" y="105" width="422.4" height="72" fill="#188038"/>
+<text class="value" x="256.2" y="136" text-anchor="middle" fill="#fff">60</text>
+<text class="small" x="256.2" y="156" text-anchor="middle" fill="#fff">48.0%</text>
+<rect x="467.4" y="105" width="394.24" height="72" fill="#1a73e8"/>
+<text class="value" x="664.52" y="136" text-anchor="middle" fill="#fff">56</text>
+<text class="small" x="664.52" y="156" text-anchor="middle" fill="#fff">44.8%</text>
+<rect x="861.64" y="105" width="63.36" height="72" fill="#d93025"/>
+<text class="value" x="893.3199999999999" y="136" text-anchor="middle" fill="#fff">9</text>
+<text class="small" x="893.3199999999999" y="156" text-anchor="middle" fill="#fff">7.2%</text>
+<rect x="45" y="205" width="12" height="12" fill="#188038"/>
+<text class="label" x="63" y="216">Both correct</text>
+<rect x="255" y="205" width="12" height="12" fill="#1a73e8"/>
+<text class="label" x="273" y="216">Blocker only</text>
+<rect x="465" y="205" width="12" height="12" fill="#f9ab00"/>
+<text class="label" x="483" y="216">Reason only</text>
+<rect x="675" y="205" width="12" height="12" fill="#d93025"/>
+<text class="label" x="693" y="216">Both wrong</text>
+</svg>

@@ -1,0 +1,436 @@
+[
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D8__r03_s28103",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D8",
+    "seed": 28103,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_fc_clear_v04__L3__C2_D4__r02_s28102",
+    "scene_id": "scene_fc_clear_v04",
+    "family": "FC_CLEAR",
+    "condition": "C2_D4",
+    "seed": 28102,
+    "target_object_id": 61,
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 38,
+      "blocking_reason": "BOTH"
+    },
+    "blocker_error_type": "false_positive",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v04.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D8__r05_s28105",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D8",
+    "seed": 28105,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D8__r02_s28102",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D8",
+    "seed": 28102,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D8__r04_s28104",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D8",
+    "seed": 28104,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D4__r02_s28102",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D4",
+    "seed": 28102,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_fc_clear_v04__L3__C2_D8__r02_s28102",
+    "scene_id": "scene_fc_clear_v04",
+    "family": "FC_CLEAR",
+    "condition": "C2_D8",
+    "seed": 28102,
+    "target_object_id": 61,
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 38,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "false_positive",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v04.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D4__r04_s28104",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D4",
+    "seed": 28104,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v04__L3__C2_D4__r01_s28101",
+    "scene_id": "scene_rotate_v04",
+    "family": "ROTATE",
+    "condition": "C2_D4",
+    "seed": 28101,
+    "target_object_id": 47,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 25,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v04.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v04__L3__C2_D8__r03_s28103",
+    "scene_id": "scene_rotate_v04",
+    "family": "ROTATE",
+    "condition": "C2_D8",
+    "seed": 28103,
+    "target_object_id": 47,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 25,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v04.png"
+  },
+  {
+    "run_id": "v19__scene_fc_clear_v02__L3__C2_D4__r02_s28102",
+    "scene_id": "scene_fc_clear_v02",
+    "family": "FC_CLEAR",
+    "condition": "C2_D4",
+    "seed": 28102,
+    "target_object_id": 29,
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 10,
+      "blocking_reason": "BOTH"
+    },
+    "blocker_error_type": "false_positive",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v02.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D4__r05_s28105",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D4",
+    "seed": 28105,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D4__r03_s28103",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D4",
+    "seed": 28103,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v04__L3__C2_D8__r05_s28105",
+    "scene_id": "scene_rotate_v04",
+    "family": "ROTATE",
+    "condition": "C2_D8",
+    "seed": 28105,
+    "target_object_id": 47,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 25,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v04.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v04__L3__C2_D4__r03_s28103",
+    "scene_id": "scene_rotate_v04",
+    "family": "ROTATE",
+    "condition": "C2_D4",
+    "seed": 28103,
+    "target_object_id": 47,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 25,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v04.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v04__L3__C2_D8__r01_s28101",
+    "scene_id": "scene_rotate_v04",
+    "family": "ROTATE",
+    "condition": "C2_D8",
+    "seed": 28101,
+    "target_object_id": 47,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 25,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v04.png"
+  },
+  {
+    "run_id": "v19__scene_fc_clear_v02__L3__C2_D8__r02_s28102",
+    "scene_id": "scene_fc_clear_v02",
+    "family": "FC_CLEAR",
+    "condition": "C2_D8",
+    "seed": 28102,
+    "target_object_id": 29,
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 10,
+      "blocking_reason": "BOTH"
+    },
+    "blocker_error_type": "false_positive",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v02.png"
+  },
+  {
+    "run_id": "v19__scene_rotate_v01__L3__C2_D4__r01_s28101",
+    "scene_id": "scene_rotate_v01",
+    "family": "ROTATE",
+    "condition": "C2_D4",
+    "seed": 28101,
+    "target_object_id": 12,
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "output": {
+      "blocker_id": 54,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "blocker_error_type": "wrong_id",
+    "reason_correct": false,
+    "image": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png"
+  }
+]

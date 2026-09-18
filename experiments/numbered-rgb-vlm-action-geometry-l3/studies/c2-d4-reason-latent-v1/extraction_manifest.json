@@ -1,0 +1,207 @@
+{
+  "created_at": "2026-09-18T05:23:09.527326+00:00",
+  "source_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19",
+  "source_version": "l3_primary_blocker_v19",
+  "level": "L3",
+  "condition": "C2_D4",
+  "n_scenes": 25,
+  "n_historical_responses": 125,
+  "independent_point_unit": "scene, NOT sampling seed",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "source_log_sha256": "09f291c3571812cee86c36b9684105a77df8b7dfcef2227dcbb7ff53d1fb8147",
+  "source_file_hashes": {
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v01.png": "d1ebd712ddccb297e54d270b3f5751d115d5b40880b463226b2369105a86fcb5",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_blocked_v01.json": "663ece956f9a7476ac5c6ae324304278186b6ed7f7485bd4ca2ef558ecbde719",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_blocked_v01.json": "ea1ded24773b9b44a13c0547b0aa22bca363c93d5e6d2fb13a96dfcee44aa96e",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/schemas/l3.json": "2ae269ae11f91d604dec703e884b71d6b8259b10cea395a09eb7154533d3acae",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v02.png": "e20a6149a549a8f50a9078ee691a9b6eb80104658d79ed52a0bbce96d7f56937",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_blocked_v02.json": "d9f89eb3fa21cd884ac2b2d178c2a5edfa986ec971c1ba9b75ba5f5947d07fc1",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_blocked_v02.json": "39ea4c36fd41987bf8acd1d806e8da33230be3e123d7dd17c10de4318dac3f67",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v03.png": "2f5cf641290b13c33b25f4fdccc291443785dacf8e4e97ef17f3960da93fa183",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_blocked_v03.json": "68fa4b86b191e893ae253d8909534cae178d7c0f8df4f93c353f1a3c05ce3027",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_blocked_v03.json": "982e12ba4158295d6ceb99b052dd0992e546232ce92480003eecf0aabf2571fa",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v04.png": "5f2240db3a07b9c2b8e4e772628e3ba108de5d36adcb676f8e3de29bd15af4cb",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_blocked_v04.json": "b593fe8cc340e2afcdb301429577721c218cced478884e8a0b7d53a060abe2dc",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_blocked_v04.json": "650d9497a4ff5b7b97dfaa45f85f8e16a28b6dadd0842451dbe2bf0e8cbc8601",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v05.png": "46d63cd6fb5320b7bb81cf8f7304c137757f9f31752e8922736a2e1a8a843689",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_blocked_v05.json": "5460751958dc04ac492d279993be3b7c66955313d11187531f5a8212f0c7297e",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_blocked_v05.json": "ff7148ae93f0c4a51acd2af8ad0d709cb8be49719ab770d496bd7aeefaa44ca6",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v01.png": "b866a25498163660e5d6ef5b42a5f213760578cb691fa111c40c91e5de926c8b",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_clear_v01.json": "f6b72bac925ea0a84119c72d3185a5de02a7562528864e0a30a0a116d573e68c",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_clear_v01.json": "e76e2876b00286f59e875feb0b3c999c65ec9b3f9a58732f761a7bca22779dd6",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v02.png": "9cec6eec366865e1b003678eb301f54f3a458cab4c12bc9b293ec15478486b20",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_clear_v02.json": "0e4ad58d434b92a4a3ce52251cec66a29067db323c0d6e976734048c2c7d54e0",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_clear_v02.json": "7ddadb0e31630e0810d4708fbe3e9be0921d65d4dbeb2de2d45331e33ac7b98e",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v03.png": "fe92e7b417c8d453b90f708092da0ee2ea4c68e0902fbb5f25e7d21de1e2a307",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_clear_v03.json": "86d27f90d2ff28cbd173a4527c964a43de73b9a6ef78e64dee9c1a0a3caebf12",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_clear_v03.json": "1591e628873d24cda135a4a057f63874fc26f166bbc26858d1171d49d144e779",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v04.png": "cb22f3cbf6d42d798e8e0bea07d0c3a10eb371e56120f5d3e204f06f125c08bd",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_clear_v04.json": "1ef7815da1e687788ff17f02425980617a73a7bb2432e262087f944761facf8a",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_clear_v04.json": "690a5f7089c25896397499831b35f7a5261f6bd4f30683b4fc581e0a08e339d4",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v05.png": "82b5b9302b9febefc5a617e196cd52fbf19c89d00e4efb267859424e8999c184",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_fc_clear_v05.json": "5afd592cb2e8f6ca6b7d80a0f3ea8020157df526cc3e58041f40ef752f332f84",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_fc_clear_v05.json": "162b1b5861f2b385f9e4f936e4d671d9de99aaf7c3fe180cc9efe30e34c132ed",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v01.png": "6b5fe5a1cf8508346beeb78d60b9526a12467af9f81967e29eb612f960d8da64",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_lift_and_relocate_v01.json": "973d824878517f5f28adc8879ac7759f7cade7e1e9499cbc758fdc3503854486",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_lift_and_relocate_v01.json": "28818712e77bbf7378586f19b592566420a573becee34d084b2ec79cd312046e",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v02.png": "ef931272196f3fd3acb8ce67d7d4056efb53249517e7304abb56e92ac0c33367",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_lift_and_relocate_v02.json": "32bef747289e48ac18df38e492eead5541334d0e65bee6e6ad26392d9075d961",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_lift_and_relocate_v02.json": "b64f9721dd30a0aa9130d0b1e7791fc343df74df3d5239775eb90048f9520565",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v03.png": "d1a1ab77908fd339c72020d9931410b44c67a2476dbe2696c1583b55a10ec441",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_lift_and_relocate_v03.json": "1f63295f74c3ba7e24f5e3d0bed6a34be7fdc0efe9d8f11c4b0a08e3c1ac6b0a",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_lift_and_relocate_v03.json": "174d2c6b379153d8f2907d76d4e5601394cbd373c191b34f2daef7303eb5bd7b",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v04.png": "beb1d9a56570539e881631e734265bc9259a11650fed047e47af9f063140178b",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_lift_and_relocate_v04.json": "a50b002b6f3cb70a5b69a68384803a015d039b13fb4511a7dd8f6d33787b8a81",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_lift_and_relocate_v04.json": "67b6dc42c62e4c4b5eb5b1c0d80eaae57a90ba613ec8a1d3fc74c9dc96dfa9b0",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v05.png": "8039f728ad87eb686420848ef82fe35b4d3455ff8579c9d4c6684b9dcdc57db3",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_lift_and_relocate_v05.json": "a4ab9ff442268c6b10313294792e053a7ed1df0f9dcf10ebd488259e4e59b86f",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_lift_and_relocate_v05.json": "43561f9afdcfbd0a27e9ac3151ed9e66035fcdf266dd14e1286223dc8b1a5109",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png": "e5819a700de1db4f43f9eb514671488b656e67640e8e985f199541d0db0672d8",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_rotate_v01.json": "3f7d25ea233275e8a9b3c3faf337d393e90a9558a651622915f0ecd0f7bc6126",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_rotate_v01.json": "70c518807eb3171e05acd16545e15946178ab47c037a2431124e7531175f25af",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v02.png": "c9e9fc4ca2f15f492e92d67d073bc30f224fcbc18db7057d1c757270d475aba6",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_rotate_v02.json": "ea417aad87d2fa1fd47cce01f9c750a3a96fc1eccc21023883557dfb1e04c9a3",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_rotate_v02.json": "a1fb0b4335c7f5c41292b833cf6e279c3a0f921e6d0a326ae8749165305d4dfd",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v03.png": "dec25dad22ce31119c7b1ba863e9cc5ce3e07107af1ea22e28c240cdfb69d0da",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_rotate_v03.json": "b16b3db413158b18821e9597f791175b0ac7be1b99f9da1848b695b70e732465",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_rotate_v03.json": "3217a2ddc9ccd70733ec083c10e679e9c0c883f03a8e36044fff1520c4d2293a",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v04.png": "5f79485007292f53caeb238928d5bb55af34f136ca153e12e4be7b7be1868584",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_rotate_v04.json": "3a7915bae6ecd636c6c177a317c6cf8c094389448e117eb369698ed03669cafa",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_rotate_v04.json": "c1d9e3d5491563e2011f3576dcbeb2cef93ed91b9360173c5cd7f04fd3d6ba45",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v05.png": "46e31daae3e1506fe5424f60cb9c4b5e00e50311f0575e720b9ddda11b61a1be",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_rotate_v05.json": "1b091c1864cf9e5ca0fda01b92558d3e9bd682634ad8a1daf65e8ad7137fc5ac",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_rotate_v05.json": "1c68a5493cc41bfdd34c7d22f690966c382f2b40f1e1e643e905989cee4afcc7",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v01.png": "243a8b2c043a218a3fe4e8414ecd6a69961c0a206a5ddf4539338b7f802e20a3",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_translate_v01.json": "787a6934ad44313fce04e25ea3cd8520aeddafac4daaf9316a899ba570394999",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_translate_v01.json": "dedd9f63950f03ce10c4a33395d125f71ffaf50d4fa6403796bc9f85878967e5",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v02.png": "2c4337c25c1611b14c3937d5894ddfb4460ebb5355878ae8470a1cc14ebf37bc",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_translate_v02.json": "7396ec6739e786a8f357e6fd25c605fa35424691518ad3a484f8b6ed547f1c69",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_translate_v02.json": "91851a60bf1e74a969465a9dc3c52ee75ec21338b5a0dc2dc972d0f95caf26d4",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v03.png": "20bad56bcf1a2f86583b6918b4a173020b3722d8bcd55f72fbc28cc21e675374",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_translate_v03.json": "55113348f5e9b0c254cec2685bf724ca4076be50dc8825018d02b79927e91d7e",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_translate_v03.json": "cb929b56467dd914e9e4816713f9d3befee5da6d0883c3e32f09d09ce02fbcfa",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v04.png": "b46cdfe8d9e2501d069730f58cbe57b27987a2582ccd6bd55e2fbf71819ebfd1",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_translate_v04.json": "d035bd54a677ada24f44f2539966c48c5ec470b76cf06a4d8c7c93c9367cfdb8",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_translate_v04.json": "0b1d98505cc754bf02ac35255d7e9e5020c40afc1b08d01568e012408ed54659",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v05.png": "64f5623f7c200ccceeb1a1e90b8c3cee774156968d8e2b1712aeac1ab4146246",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/geometry/ground_truth/scene_translate_v05.json": "a633859fc83c38a400f7e588a80ac222862befd44b3126ec2613f26ca0002c12",
+    "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/id_mappings/scene_translate_v05.json": "ff23a6bf441f85eb5d64fbe120e60b60d23bbc23c73ce821cf30544bd4c82a33"
+  },
+  "source_code_sha256": "9dc0af91c46d92359c5ba4c9b4d84bc81b44bf4c383e38abd0e36d8bb3923a2a",
+  "model_config_sha256": "6129b3f54d517a18553cf7525ff4886be6831c5806fc094d632b8ef38d859912",
+  "model_weight_index_sha256": "4fa496bd4b4aace60623070379297c7c0c78b5aa4924b39e1174a0e9e1aeae5e",
+  "model_weight_files": [
+    {
+      "name": "model-00001-of-00013.safetensors",
+      "bytes": 4399341032
+    },
+    {
+      "name": "model-00002-of-00013.safetensors",
+      "bytes": 4984970880
+    },
+    {
+      "name": "model-00003-of-00013.safetensors",
+      "bytes": 4984970888
+    },
+    {
+      "name": "model-00004-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00005-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00006-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00007-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00008-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00009-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00010-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00011-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00012-of-00013.safetensors",
+      "bytes": 4984970928
+    },
+    {
+      "name": "model-00013-of-00013.safetensors",
+      "bytes": 2907596864
+    }
+  ],
+  "model_weights_hash_scope": "Config and weight index hashed; weight shards recorded by filename and byte size.",
+  "runtime": {
+    "python": "3.12.3",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.15.1",
+    "accelerate": "1.15.0",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 1,
+    "use_cache": false,
+    "backend": "transformers_forward",
+    "cuda_device": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition"
+  },
+  "readout": "Final token of a fixed assistant prefix, immediately before the first blocking_reason value token.",
+  "assistant_prefix": "{\"blocking_reason\": \"",
+  "answer_generation": false,
+  "answer_or_gt_value_in_input": false,
+  "sampling_seed_relevance": "None: no token sampling or generation occurs.",
+  "block_states": "Outputs of decoder blocks 1..48 at the fixed pre-reason readout token, before final RMSNorm.",
+  "final_state": "The same token after final RMSNorm, returned as last_hidden_state.",
+  "historical_overlay": "Five existing v19 vLLM responses per scene are metadata only and were not generated during extraction.",
+  "preflight": {
+    "all_source_hashes_match": true,
+    "all_base_input_token_counts_match": true,
+    "one_point_per_scene": true,
+    "reason_value_tokens_in_input": false,
+    "family_counts": {
+      "FC_BLOCKED": 5,
+      "FC_CLEAR": 5,
+      "LIFT_AND_RELOCATE": 5,
+      "ROTATE": 5,
+      "TRANSLATE": 5
+    },
+    "gt_reason_counts": {
+      "CLEARANCE_OVERLAP": 5,
+      "BOTH": 9,
+      "NONE": 4,
+      "OCCLUSION": 7
+    },
+    "family_clear_scene_count": 5,
+    "semantic_clear_scene_count": 4,
+    "readout_token_texts": [
+      " \""
+    ]
+  },
+  "completed_at": "2026-09-18T05:23:34.025238+00:00",
+  "elapsed_seconds": 24.307331014890224,
+  "hidden_states_shape": [
+    25,
+    48,
+    2048
+  ],
+  "final_norm_states_shape": [
+    25,
+    2048
+  ],
+  "hidden_states_sha256": "fef78c125e2db1017b180d71a48e9343b3346a4df6acf1bf51869285aa92fc43",
+  "records_sha256": "efcad158812a3e8e8ac01d75b8002b84b551936561d1f84924cc1f9a90705a11",
+  "peak_gpu_allocated_gib": 58.864596366882324
+}

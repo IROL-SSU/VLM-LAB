@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="610" viewBox="0 0 820 610">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:11px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">Blocking-reason confusion matrix</text>
+<text class="sub" x="38" y="58">Rows: ground truth · Columns: model prediction</text>
+<text class="small" x="302.5" y="102" text-anchor="middle" transform="rotate(-25 302.5 102)">OCCLUSION</text>
+<text class="small" x="407.5" y="102" text-anchor="middle" transform="rotate(-25 407.5 102)">CLEARANCE_OVERLAP</text>
+<text class="small" x="512.5" y="102" text-anchor="middle" transform="rotate(-25 512.5 102)">BOTH</text>
+<text class="small" x="617.5" y="102" text-anchor="middle" transform="rotate(-25 617.5 102)">NONE</text>
+<text class="small" x="235" y="178" text-anchor="end">OCCLUSION</text>
+<rect x="250" y="120" width="100" height="100" rx="5" fill="rgb(239,243,250)" stroke="#188038" stroke-width="3"/>
+<text class="value" x="300" y="165" text-anchor="middle">26</text>
+<text class="small" x="300" y="186" text-anchor="middle">6.2%</text>
+<rect x="355" y="120" width="100" height="100" rx="5" fill="rgb(170,184,233)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="405" y="165" text-anchor="middle">332</text>
+<text class="small" x="405" y="186" text-anchor="middle">79.0%</text>
+<rect x="460" y="120" width="100" height="100" rx="5" fill="rgb(231,236,248)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="510" y="165" text-anchor="middle">62</text>
+<text class="small" x="510" y="186" text-anchor="middle">14.8%</text>
+<rect x="565" y="120" width="100" height="100" rx="5" fill="rgb(245,248,252)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="615" y="165" text-anchor="middle">0</text>
+<text class="small" x="615" y="186" text-anchor="middle">0.0%</text>
+<text class="small" x="235" y="283" text-anchor="end">CLEARANCE_OVERLAP</text>
+<rect x="250" y="225" width="100" height="100" rx="5" fill="rgb(245,248,252)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="300" y="270" text-anchor="middle">0</text>
+<text class="small" x="300" y="291" text-anchor="middle">0.0%</text>
+<rect x="355" y="225" width="100" height="100" rx="5" fill="rgb(184,196,236)" stroke="#188038" stroke-width="3"/>
+<text class="value" x="405" y="270" text-anchor="middle">266</text>
+<text class="small" x="405" y="291" text-anchor="middle">88.7%</text>
+<rect x="460" y="225" width="100" height="100" rx="5" fill="rgb(242,246,251)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="510" y="270" text-anchor="middle">9</text>
+<text class="small" x="510" y="291" text-anchor="middle">3.0%</text>
+<rect x="565" y="225" width="100" height="100" rx="5" fill="rgb(239,243,250)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="615" y="270" text-anchor="middle">25</text>
+<text class="small" x="615" y="291" text-anchor="middle">8.3%</text>
+<text class="small" x="235" y="388" text-anchor="end">BOTH</text>
+<rect x="250" y="330" width="100" height="100" rx="5" fill="rgb(241,244,251)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="300" y="375" text-anchor="middle">16</text>
+<text class="small" x="300" y="396" text-anchor="middle">3.0%</text>
+<rect x="355" y="330" width="100" height="100" rx="5" fill="rgb(145,163,227)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="405" y="375" text-anchor="middle">443</text>
+<text class="small" x="405" y="396" text-anchor="middle">82.0%</text>
+<rect x="460" y="330" width="100" height="100" rx="5" fill="rgb(226,232,247)" stroke="#188038" stroke-width="3"/>
+<text class="value" x="510" y="375" text-anchor="middle">81</text>
+<text class="small" x="510" y="396" text-anchor="middle">15.0%</text>
+<rect x="565" y="330" width="100" height="100" rx="5" fill="rgb(245,248,252)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="615" y="375" text-anchor="middle">0</text>
+<text class="small" x="615" y="396" text-anchor="middle">0.0%</text>
+<text class="small" x="235" y="493" text-anchor="end">NONE</text>
+<rect x="250" y="435" width="100" height="100" rx="5" fill="rgb(245,248,252)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="300" y="480" text-anchor="middle">0</text>
+<text class="small" x="300" y="501" text-anchor="middle">0.0%</text>
+<rect x="355" y="435" width="100" height="100" rx="5" fill="rgb(224,230,246)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="405" y="480" text-anchor="middle">92</text>
+<text class="small" x="405" y="501" text-anchor="middle">38.3%</text>
+<rect x="460" y="435" width="100" height="100" rx="5" fill="rgb(243,246,251)" stroke="#ffffff" stroke-width="1"/>
+<text class="value" x="510" y="480" text-anchor="middle">7</text>
+<text class="small" x="510" y="501" text-anchor="middle">2.9%</text>
+<rect x="565" y="435" width="100" height="100" rx="5" fill="rgb(213,220,244)" stroke="#188038" stroke-width="3"/>
+<text class="value" x="615" y="480" text-anchor="middle">141</text>
+<text class="small" x="615" y="501" text-anchor="middle">58.8%</text>
+</svg>

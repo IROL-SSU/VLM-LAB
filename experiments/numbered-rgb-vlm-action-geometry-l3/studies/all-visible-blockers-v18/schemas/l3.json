@@ -1,0 +1,25 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "blocker_ids": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "blocking_reason": {
+      "enum": [
+        "OCCLUSION",
+        "CLEARANCE_OVERLAP",
+        "BOTH",
+        "NONE"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "blocking_reason",
+    "blocker_ids"
+  ],
+  "type": "object"
+}

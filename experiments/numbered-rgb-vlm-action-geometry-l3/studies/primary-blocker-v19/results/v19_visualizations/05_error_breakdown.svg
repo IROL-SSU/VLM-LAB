@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="520" viewBox="0 0 1080 520">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:11px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">Where the 1,500 calls land</text>
+<text class="sub" x="38" y="58">Joint decomposition and blocker-ID error types</text>
+<text class="value" x="45" y="77">Joint outcomes</text>
+<rect x="45" y="95" width="324.26666666666665" height="58" fill="#188038"/>
+<text class="value" x="207.13333333333333" y="120" text-anchor="middle" fill="#fff">512</text>
+<text class="small" x="207.13333333333333" y="139" text-anchor="middle" fill="#fff">34.1%</text>
+<rect x="369.26666666666665" y="95" width="386.96666666666664" height="58" fill="#1a73e8"/>
+<text class="value" x="562.75" y="120" text-anchor="middle" fill="#fff">611</text>
+<text class="small" x="562.75" y="139" text-anchor="middle" fill="#fff">40.7%</text>
+<rect x="756.2333333333333" y="95" width="1.2666666666666666" height="58" fill="#f9ab00"/>
+<text class="value" x="756.8666666666667" y="120" text-anchor="middle" fill="#fff">2</text>
+<text class="small" x="756.8666666666667" y="139" text-anchor="middle" fill="#fff">0.1%</text>
+<rect x="757.5" y="95" width="237.5" height="58" fill="#d93025"/>
+<text class="value" x="876.25" y="120" text-anchor="middle" fill="#fff">375</text>
+<text class="small" x="876.25" y="139" text-anchor="middle" fill="#fff">25.0%</text>
+<rect x="45" y="173" width="12" height="12" fill="#188038"/>
+<text class="small" x="63" y="184">Both correct</text>
+<rect x="235" y="173" width="12" height="12" fill="#1a73e8"/>
+<text class="small" x="253" y="184">Blocker only</text>
+<rect x="425" y="173" width="12" height="12" fill="#f9ab00"/>
+<text class="small" x="443" y="184">Reason only</text>
+<rect x="615" y="173" width="12" height="12" fill="#d93025"/>
+<text class="small" x="633" y="184">Both wrong</text>
+<text class="value" x="45" y="297">377 blocker-ID errors</text>
+<rect x="45" y="315" width="249.46949602122015" height="58" fill="#f9ab00"/>
+<text class="value" x="169.73474801061008" y="340" text-anchor="middle" fill="#fff">99</text>
+<text class="small" x="169.73474801061008" y="359" text-anchor="middle" fill="#fff">26.3%</text>
+<rect x="294.46949602122015" y="315" width="637.5331564986737" height="58" fill="#d93025"/>
+<text class="value" x="613.2360742705571" y="340" text-anchor="middle" fill="#fff">253</text>
+<text class="small" x="613.2360742705571" y="359" text-anchor="middle" fill="#fff">67.1%</text>
+<rect x="932.0026525198939" y="315" width="62.9973474801061" height="58" fill="#9aa0a6"/>
+<text class="value" x="963.501326259947" y="340" text-anchor="middle" fill="#fff">25</text>
+<text class="small" x="963.501326259947" y="359" text-anchor="middle" fill="#fff">6.6%</text>
+<rect x="45" y="393" width="12" height="12" fill="#f9ab00"/>
+<text class="small" x="63" y="404">False positive (GT none)</text>
+<rect x="258" y="393" width="12" height="12" fill="#d93025"/>
+<text class="small" x="276" y="404">Wrong non-null ID</text>
+<rect x="448" y="393" width="12" height="12" fill="#9aa0a6"/>
+<text class="small" x="466" y="404">Null miss</text>
+</svg>

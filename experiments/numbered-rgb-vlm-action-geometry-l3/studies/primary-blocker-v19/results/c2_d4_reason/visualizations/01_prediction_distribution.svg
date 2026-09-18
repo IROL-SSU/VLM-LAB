@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:10px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">C2 D4 reason output distribution</text>
+<text class="sub" x="38" y="58">OCCLUSION was never emitted</text>
+<line class="grid" x1="80" y1="380.0" x2="860" y2="380.0"/>
+<text class="label" x="44" y="384.0">0%</text>
+<line class="grid" x1="80" y1="324.0" x2="860" y2="324.0"/>
+<text class="label" x="44" y="328.0">20%</text>
+<line class="grid" x1="80" y1="268.0" x2="860" y2="268.0"/>
+<text class="label" x="44" y="272.0">40%</text>
+<line class="grid" x1="80" y1="212.0" x2="860" y2="212.0"/>
+<text class="label" x="44" y="216.0">60%</text>
+<line class="grid" x1="80" y1="156.0" x2="860" y2="156.0"/>
+<text class="label" x="44" y="160.0">80%</text>
+<line class="grid" x1="80" y1="100.0" x2="860" y2="100.0"/>
+<text class="label" x="44" y="104.0">100%</text>
+<rect x="160.25" y="380.0" width="72" height="0.0" rx="5" fill="#d93025"/>
+<text class="value" x="196.25" y="372.0" text-anchor="middle">0.0%</text>
+<text class="label" x="196.25" y="404" text-anchor="middle">OCCLUSION</text>
+<rect x="342.75" y="238.88" width="72" height="141.12" rx="5" fill="#1a73e8"/>
+<text class="value" x="378.75" y="230.88" text-anchor="middle">50.4%</text>
+<text class="label" x="378.75" y="404" text-anchor="middle">CLEARANCE_OVERLAP</text>
+<rect x="525.25" y="281.44" width="72" height="98.56000000000002" rx="5" fill="#9334e6"/>
+<text class="value" x="561.25" y="273.44" text-anchor="middle">35.2%</text>
+<text class="label" x="561.25" y="404" text-anchor="middle">BOTH</text>
+<rect x="707.75" y="339.68" width="72" height="40.32000000000001" rx="5" fill="#188038"/>
+<text class="value" x="743.75" y="331.68" text-anchor="middle">14.4%</text>
+<text class="label" x="743.75" y="404" text-anchor="middle">NONE</text>
+</svg>

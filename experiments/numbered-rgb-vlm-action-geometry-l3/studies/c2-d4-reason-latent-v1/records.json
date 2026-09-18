@@ -1,0 +1,4253 @@
+[
+  {
+    "index": 0,
+    "scene_id": "scene_fc_blocked_v01",
+    "short_id": "B1",
+    "scene_family": "FC_BLOCKED",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 64,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v01.png",
+    "image_sha256": "d1ebd712ddccb297e54d270b3f5751d115d5b40880b463226b2369105a86fcb5",
+    "ground_truth": {
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        40
+      ],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": [
+        40
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 40,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 46,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 59,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 64
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 64\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 40,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 46,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 59,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 64\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "727e6f5a8ed79694db6abf2821268241db835bd1b494f7afc6321f301f542d7d",
+    "logged_input_tokens": 1621,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_blocked_v01__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 40,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v01__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 40,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v01__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 40,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v01__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 40,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v01__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 40,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "40": 5
+    },
+    "reason_correct_count": 5,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 5,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "814bcbc7c802c2b144a17a6111cdc6584d514a17e19cad11aad887a1bd54102c",
+    "decision_rendered_chat_sha256": "3c6c5a96179c8a8a9cb461a44efff9ab011a5ecc83119420308dc622d78be2f2",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1626,
+    "readout_token_position": 1625,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "6203c64ccf839c3f00b4dbb2c39fe94f2788d4f137243541a5fde6bb7feaa6fa",
+    "extraction_seconds": 0.874
+  },
+  {
+    "index": 1,
+    "scene_id": "scene_fc_blocked_v02",
+    "short_id": "B2",
+    "scene_family": "FC_BLOCKED",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 53,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v02.png",
+    "image_sha256": "e20a6149a549a8f50a9078ee691a9b6eb80104658d79ed52a0bbce96d7f56937",
+    "ground_truth": {
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        49
+      ],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": [
+        49
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 49,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 60,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 78,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 53
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 53\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 49,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 60,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 78,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 53\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "93aa87ce1d3f43f7ee22caf03a1932b2bc6b687b3db3ea9eb2010cf9daa94617",
+    "logged_input_tokens": 1621,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_blocked_v02__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 49,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v02__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 49,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v02__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 49,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v02__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 49,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v02__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 49,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 4,
+      "BOTH": 1
+    },
+    "blocker_prediction_counts": {
+      "49": 5
+    },
+    "reason_correct_count": 4,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 4,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "e13ef4afea7d6357da59b5bf87265ec7166e4690f84347f26460b542c65a53f3",
+    "decision_rendered_chat_sha256": "212c0b80da817d6137f94d026bc8a979d353e5d1dc64ed8ecd620c33b6515de5",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1626,
+    "readout_token_position": 1625,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "e8ec810f79f3c8f00cc65212ae29af696b6bb29007fea774a0313f04cb9e1c0b",
+    "extraction_seconds": 0.203
+  },
+  {
+    "index": 2,
+    "scene_id": "scene_fc_blocked_v03",
+    "short_id": "B3",
+    "scene_family": "FC_BLOCKED",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 12,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v03.png",
+    "image_sha256": "2f5cf641290b13c33b25f4fdccc291443785dacf8e4e97ef17f3960da93fa183",
+    "ground_truth": {
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        33
+      ],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": [
+        33
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 30,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 33,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 68,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 12
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 12\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 30,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 33,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 68,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 12\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "4e7a41a48252b0702c5ec447161448d9596136b375f6c594820bd59d0cacf4d7",
+    "logged_input_tokens": 1621,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_blocked_v03__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 33,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v03__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 33,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v03__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 33,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v03__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 33,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v03__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 33,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "33": 5
+    },
+    "reason_correct_count": 5,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 5,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "a366ba6a2b6c60adeac4becd10e45ffc5fdbad530524b5d63654d5aec3ffd69c",
+    "decision_rendered_chat_sha256": "57b0dc418ef7abf91e2d029bc3b950d48788a052c7aefc1ac57544d13a00fa0d",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1626,
+    "readout_token_position": 1625,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "8d2fac337a3c5b1dd41f411e0cfaaeb6e1438d3b1051b36e6e82526dd99118e1",
+    "extraction_seconds": 0.203
+  },
+  {
+    "index": 3,
+    "scene_id": "scene_fc_blocked_v04",
+    "short_id": "B4",
+    "scene_family": "FC_BLOCKED",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 89,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v04.png",
+    "image_sha256": "5f2240db3a07b9c2b8e4e772628e3ba108de5d36adcb676f8e3de29bd15af4cb",
+    "ground_truth": {
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        19
+      ],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": [
+        19
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 19,
+          "occupied_target_sides": [
+            "BACK",
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 44,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 77,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        }
+      ],
+      "target_id": 89
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 89\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 19,\n      \"occupied_target_sides\": [\n        \"BACK\",\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 44,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 77,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    }\n  ],\n  \"target_id\": 89\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "3b90bfd048613df144a3c590ee3c5a082b05490772546ac7eb3080d7f403045d",
+    "logged_input_tokens": 1625,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_blocked_v04__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v04__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v04__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v04__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v04__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "19": 5
+    },
+    "reason_correct_count": 5,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 5,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "6897b782f60a99e6a5dc6ff879e4e73998330c5163dc633c90074a3d85017cdd",
+    "decision_rendered_chat_sha256": "fb9be9cd3dd2da1f27e20ecfdc3ed96d590e7ae5188c89b8a1f8fbc7254b046b",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1630,
+    "readout_token_position": 1629,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "ce288db2f10f79995bb06c8dec28f99b2a3dc9cd59481b9dd65b2287cbf18d3e",
+    "extraction_seconds": 0.204
+  },
+  {
+    "index": 4,
+    "scene_id": "scene_fc_blocked_v05",
+    "short_id": "B5",
+    "scene_family": "FC_BLOCKED",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 59,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_blocked_v05.png",
+    "image_sha256": "46d63cd6fb5320b7bb81cf8f7304c137757f9f31752e8922736a2e1a8a843689",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        26
+      ],
+      "occlusion_blocker_ids": [
+        26
+      ],
+      "clearance_blocker_ids": [
+        26
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 26,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 69,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 92,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        }
+      ],
+      "target_id": 59
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 59\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 26,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 69,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 92,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    }\n  ],\n  \"target_id\": 59\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "37835e4986bf1f4364b4727711c0aa50924834f686e206d3d34d15fdf2e24650",
+    "logged_input_tokens": 1621,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_blocked_v05__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 26,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v05__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 26,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v05__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 26,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v05__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 26,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_fc_blocked_v05__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 26,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "26": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "d79bd63d266481818cb2bf2422e499631d54f2bc2484ab892d5aa48bc92739bc",
+    "decision_rendered_chat_sha256": "bc675893af1a2852f8e1c338e139342835bea3d698d2202b743ff4ca76c643d5",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1626,
+    "readout_token_position": 1625,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "15b60341a6f1bba8a15406826f36e7e7fee734419f1b28cbee7525c113e796b6",
+    "extraction_seconds": 0.202
+  },
+  {
+    "index": 5,
+    "scene_id": "scene_fc_clear_v01",
+    "short_id": "C1",
+    "scene_family": "FC_CLEAR",
+    "family_clear": true,
+    "semantic_clear": true,
+    "target_object_id": 53,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v01.png",
+    "image_sha256": "b866a25498163660e5d6ef5b42a5f213760578cb691fa111c40c91e5de926c8b",
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 59,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 62,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 98,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 53
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 53\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 59,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 62,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 98,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 53\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "646edc64dd8fca58cee2103532d1bbe98ce02408b37f56b1a2432d4a8b7e0ee9",
+    "logged_input_tokens": 1619,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_clear_v01__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v01__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v01__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v01__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v01__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "NONE": 5
+    },
+    "blocker_prediction_counts": {
+      "None": 5
+    },
+    "reason_correct_count": 5,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 5,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "783d655ab215dede13abcd73fcdb30fc7b5697a7d3159a362a7cf50e0472b0fd",
+    "decision_rendered_chat_sha256": "b68d630740d7338d14f05536e39cc3bd0a8a5ee843859a93077343841da2e5e8",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1624,
+    "readout_token_position": 1623,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "ed3cb2c546443921d756324a903ad61cab2bdf75ec4ecea627b3e3f1354efd89",
+    "extraction_seconds": 0.202
+  },
+  {
+    "index": 6,
+    "scene_id": "scene_fc_clear_v02",
+    "short_id": "C2",
+    "scene_family": "FC_CLEAR",
+    "family_clear": true,
+    "semantic_clear": true,
+    "target_object_id": 29,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v02.png",
+    "image_sha256": "9cec6eec366865e1b003678eb301f54f3a458cab4c12bc9b293ec15478486b20",
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 10,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 39,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 66,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 29
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 29\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 10,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 39,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 66,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 29\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "02898fb51757d1bf63352a7a6dee22a55d5c26265ab899ffa9479b2d6555f7bd",
+    "logged_input_tokens": 1619,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_clear_v02__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v02__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 10,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v02__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v02__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v02__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "NONE": 4,
+      "BOTH": 1
+    },
+    "blocker_prediction_counts": {
+      "None": 4,
+      "10": 1
+    },
+    "reason_correct_count": 4,
+    "blocker_correct_count": 4,
+    "joint_correct_count": 4,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "165c7f89026a7fa3e4f88fad52b8ef21c2b37298bafd9b40b22be381b78bb07e",
+    "decision_rendered_chat_sha256": "71a5b68935ca2e3b45e56bd68f9dc2a6995eb34765e5d4fdc42b5669d2e48bd6",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1624,
+    "readout_token_position": 1623,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "3c6783355484dc2d9df05d9caacae4adbfda67842c4f6f9a5cad86c4fd825939",
+    "extraction_seconds": 0.202
+  },
+  {
+    "index": 7,
+    "scene_id": "scene_fc_clear_v03",
+    "short_id": "C3",
+    "scene_family": "FC_CLEAR",
+    "family_clear": true,
+    "semantic_clear": true,
+    "target_object_id": 95,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v03.png",
+    "image_sha256": "fe92e7b417c8d453b90f708092da0ee2ea4c68e0902fbb5f25e7d21de1e2a307",
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 20,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 22,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 51,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 95
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 95\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 20,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 22,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 51,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 95\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "42c6950dc5842a1fb1caf2a8075b66a4fdf537303b00c46df9e4312ea8608eec",
+    "logged_input_tokens": 1619,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_clear_v03__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v03__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v03__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v03__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v03__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "NONE": 5
+    },
+    "blocker_prediction_counts": {
+      "None": 5
+    },
+    "reason_correct_count": 5,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 5,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "89f5db47560f29a16bbb2e4d0dcd2523faccd38754057214bc901c1d76010ca0",
+    "decision_rendered_chat_sha256": "467ed52d6ea2af0892ebb6a25b713f1f7738279c64769d51d2506af2863c311d",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1624,
+    "readout_token_position": 1623,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "8998c74e0c473315e3df099c1fcd889c009bdf1a1f24834aa191d191f7d8161c",
+    "extraction_seconds": 0.201
+  },
+  {
+    "index": 8,
+    "scene_id": "scene_fc_clear_v04",
+    "short_id": "C4",
+    "scene_family": "FC_CLEAR",
+    "family_clear": true,
+    "semantic_clear": true,
+    "target_object_id": 61,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v04.png",
+    "image_sha256": "cb22f3cbf6d42d798e8e0bea07d0c3a10eb371e56120f5d3e204f06f125c08bd",
+    "ground_truth": {
+      "blocking_reason": "NONE",
+      "valid_blocker_ids": [],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 13,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 38,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 59,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        }
+      ],
+      "target_id": 61
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 61\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 13,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 38,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 59,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    }\n  ],\n  \"target_id\": 61\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "8fd54b49406deb52e04bd89f0eab44fe24bd4388219acbad100aae2aa66ed339",
+    "logged_input_tokens": 1619,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_clear_v04__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v04__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 38,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v04__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v04__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v04__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": null,
+          "blocking_reason": "NONE"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "NONE": 4,
+      "BOTH": 1
+    },
+    "blocker_prediction_counts": {
+      "None": 4,
+      "38": 1
+    },
+    "reason_correct_count": 4,
+    "blocker_correct_count": 4,
+    "joint_correct_count": 4,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "fedcf58f62e70ff934625d960fec9efc05252bb7b1135d7fbd06557f3b1e260a",
+    "decision_rendered_chat_sha256": "d6cf05672eec3a1f66c1d019a559a6e279fed65f339b862cbcc0018df016f50c",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1624,
+    "readout_token_position": 1623,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "7c8db0ed1269c89b131db3703f4787427fb4f9a1abaa6ab1c1e7f76e1872d15e",
+    "extraction_seconds": 0.202
+  },
+  {
+    "index": 9,
+    "scene_id": "scene_fc_clear_v05",
+    "short_id": "C5",
+    "scene_family": "FC_CLEAR",
+    "family_clear": true,
+    "semantic_clear": false,
+    "target_object_id": 62,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_fc_clear_v05.png",
+    "image_sha256": "82b5b9302b9febefc5a617e196cd52fbf19c89d00e4efb267859424e8999c184",
+    "ground_truth": {
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        82
+      ],
+      "occlusion_blocker_ids": [],
+      "clearance_blocker_ids": [
+        82
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 27,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 42,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 82,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 62
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 62\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 27,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 42,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 82,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 62\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "f4af7ede0418ad3466906e144d16633ed12c9b0f9882e307e87256de54d7d981",
+    "logged_input_tokens": 1621,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_fc_clear_v05__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v05__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v05__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v05__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_fc_clear_v05__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "82": 5
+    },
+    "reason_correct_count": 5,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 5,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "626f787660b9a7a08ac65589c1500b8e6340399abd8bfa305dc5d7935eebaf35",
+    "decision_rendered_chat_sha256": "8751e5de2c542417620ad363039cc72e7c48503afe4f2bbb7fb458822283adb6",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1626,
+    "readout_token_position": 1625,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "2ed2551c5780a9593a9a752be7967be4d9ffb0a6fdb84ac78d7fed0edabb22fb",
+    "extraction_seconds": 0.202
+  },
+  {
+    "index": 10,
+    "scene_id": "scene_lift_and_relocate_v01",
+    "short_id": "L1",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 59,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v01.png",
+    "image_sha256": "6b5fe5a1cf8508346beeb78d60b9526a12467af9f81967e29eb612f960d8da64",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        64
+      ],
+      "occlusion_blocker_ids": [
+        64
+      ],
+      "clearance_blocker_ids": [
+        64
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 16,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 30,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 32,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 64,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 79,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        }
+      ],
+      "target_id": 59
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 59\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 16,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 30,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 32,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 64,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 79,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    }\n  ],\n  \"target_id\": 59\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "3d05c856098f44f2c44dd7a7644c0f411f9bdb5494a6d0561eb7b1e01f7f6bd3",
+    "logged_input_tokens": 1726,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_lift_and_relocate_v01__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 64,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v01__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 64,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v01__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 64,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v01__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 64,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v01__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 64,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 3,
+      "BOTH": 2
+    },
+    "blocker_prediction_counts": {
+      "64": 5
+    },
+    "reason_correct_count": 2,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 2,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "bea4ba2cac981ce4c40ee725ed02398760e6378ec4f82a81572108f90ae08135",
+    "decision_rendered_chat_sha256": "541138bd03764c623b638ade8db5382464e613657d0162ef49205a203a18d0a0",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1731,
+    "readout_token_position": 1730,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "b64fa06f4db6ff591cf6e79a275a0422bcbda3010461dbd2d524df76e434b4c9",
+    "extraction_seconds": 0.205
+  },
+  {
+    "index": 11,
+    "scene_id": "scene_lift_and_relocate_v02",
+    "short_id": "L2",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 70,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v02.png",
+    "image_sha256": "ef931272196f3fd3acb8ce67d7d4056efb53249517e7304abb56e92ac0c33367",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        14
+      ],
+      "occlusion_blocker_ids": [
+        14
+      ],
+      "clearance_blocker_ids": [
+        14
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 14,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 22,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 72,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 77,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 79,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 70
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 70\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 14,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 22,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 72,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 77,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 79,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 70\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "98b9666b12226c41d7ab45d678052554df80d3a27b4d61f32e289c5f51c13783",
+    "logged_input_tokens": 1727,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_lift_and_relocate_v02__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 14,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v02__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 14,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v02__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 14,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v02__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 14,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v02__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 14,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "14": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "27e976a720696aa4b0de21dd1ff3c94d47cb2bf04c327e5899b8d1e93ac40591",
+    "decision_rendered_chat_sha256": "1095b4e07842aed73f09f98f3e2b74c68db74a5d66f2c8efb06b6653c9422e6d",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1732,
+    "readout_token_position": 1731,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "80551efe65a1c26e54eb1c0b1a3257fb19dabcea8ac0f7694f4f338186d7b38d",
+    "extraction_seconds": 0.205
+  },
+  {
+    "index": 12,
+    "scene_id": "scene_lift_and_relocate_v03",
+    "short_id": "L3",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 12,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v03.png",
+    "image_sha256": "d1a1ab77908fd339c72020d9931410b44c67a2476dbe2696c1583b55a10ec441",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        35
+      ],
+      "occlusion_blocker_ids": [
+        35
+      ],
+      "clearance_blocker_ids": [
+        35
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 16,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 35,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 50,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 80,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 92,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 12
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 12\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 16,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 35,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 50,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 80,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 92,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 12\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "614b186eb20e61db4f7d96c728ef17645562006429a88f6990adcb451e35e222",
+    "logged_input_tokens": 1726,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_lift_and_relocate_v03__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v03__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v03__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v03__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v03__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 2,
+      "BOTH": 3
+    },
+    "blocker_prediction_counts": {
+      "35": 5
+    },
+    "reason_correct_count": 3,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 3,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "51a8fb53aa06efca05a660b734a927a4225c05f77fe4cd6cf01146db7538ec8e",
+    "decision_rendered_chat_sha256": "af0d69a8efabe4344a7a74757152794b0cf62706eb1d49df5aea4bc67e77a806",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1731,
+    "readout_token_position": 1730,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "590c463dc3ba934ece0ea9a41cd843f80d8717ae65f6d90644f500f32d803464",
+    "extraction_seconds": 0.205
+  },
+  {
+    "index": 13,
+    "scene_id": "scene_lift_and_relocate_v04",
+    "short_id": "L4",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 68,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v04.png",
+    "image_sha256": "beb1d9a56570539e881631e734265bc9259a11650fed047e47af9f063140178b",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        73
+      ],
+      "occlusion_blocker_ids": [
+        73
+      ],
+      "clearance_blocker_ids": [
+        16,
+        73
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 30,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 45,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 54,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 73,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 68
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 68\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 30,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 45,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 54,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 73,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 68\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "f8762b64b9e68a271b3bad56c5a4c7735fab3ab82303b817890c07abc5500d22",
+    "logged_input_tokens": 1679,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_lift_and_relocate_v04__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 73,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v04__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 73,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v04__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 73,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v04__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 73,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v04__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 73,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      }
+    ],
+    "reason_prediction_counts": {
+      "BOTH": 5
+    },
+    "blocker_prediction_counts": {
+      "73": 5
+    },
+    "reason_correct_count": 5,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 5,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "6c0e6ad2bbac87bbf93242fe23451c4bb0402eb80cfd4dc83c234c764fcd8b52",
+    "decision_rendered_chat_sha256": "2a99ceb07bb07b6863bf904f67ff597f899dfd1f3f8a2d912859bd04d12f8b62",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1684,
+    "readout_token_position": 1683,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "e806b87540d16314721ee5913c56f4d98b1efd2568c2257b57cebb26d1ae4f7e",
+    "extraction_seconds": 0.204
+  },
+  {
+    "index": 14,
+    "scene_id": "scene_lift_and_relocate_v05",
+    "short_id": "L5",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 43,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_lift_and_relocate_v05.png",
+    "image_sha256": "8039f728ad87eb686420848ef82fe35b4d3455ff8579c9d4c6684b9dcdc57db3",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        15
+      ],
+      "occlusion_blocker_ids": [
+        15
+      ],
+      "clearance_blocker_ids": [
+        15
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 15,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 24,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 48,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 52,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 76,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 43
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 43\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 15,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 24,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 48,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 52,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 76,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 43\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "d78dfb1747d83e6673931fe96656246a7a279ed5818c97547f1c3506f803aa74",
+    "logged_input_tokens": 1727,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_lift_and_relocate_v05__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 15,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v05__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 15,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v05__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 15,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v05__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 15,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_lift_and_relocate_v05__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 15,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 3,
+      "BOTH": 2
+    },
+    "blocker_prediction_counts": {
+      "15": 5
+    },
+    "reason_correct_count": 2,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 2,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "1502c3a7b384824d759b0d54f2376c202ae34fa2b30015108c5ef0bba4b70ef5",
+    "decision_rendered_chat_sha256": "b7fae46b0586cb5cac44c90245e2aa7f567a489885974214dba1db5cf70a1c30",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1732,
+    "readout_token_position": 1731,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "ed10b005623e606f3e405eaf07fa3a63b6ee190ef2052f8c8c4a2c59f15a6075",
+    "extraction_seconds": 0.205
+  },
+  {
+    "index": 15,
+    "scene_id": "scene_rotate_v01",
+    "short_id": "R1",
+    "scene_family": "ROTATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 12,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v01.png",
+    "image_sha256": "e5819a700de1db4f43f9eb514671488b656e67640e8e985f199541d0db0672d8",
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 41,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 54,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 88,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 95,
+          "occupied_target_sides": [
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 12
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 12\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 41,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 54,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 88,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 95,\n      \"occupied_target_sides\": [\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 12\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "99d330b52b5411af1def05ee64031eefa4431f9939c2726c248759ab70493380",
+    "logged_input_tokens": 1673,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_rotate_v01__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 54,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v01__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 54,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v01__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 54,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v01__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 54,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v01__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 54,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "54": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 0,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "9396c2afaee42fee66f344918db7665292f8029046c1d55f521445a785ccd403",
+    "decision_rendered_chat_sha256": "f74d96f7dfe7d2382c68f7c62d63fa3fc4ccf1237d6f65364d36bbd842714a59",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1678,
+    "readout_token_position": 1677,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "2f2a9b33559c1b7525bf8ef23fb93b6eaf1a5c305ab82b7f66b7b5d457aafc88",
+    "extraction_seconds": 0.206
+  },
+  {
+    "index": 16,
+    "scene_id": "scene_rotate_v02",
+    "short_id": "R2",
+    "scene_family": "ROTATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 38,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v02.png",
+    "image_sha256": "c9e9fc4ca2f15f492e92d67d073bc30f224fcbc18db7057d1c757270d475aba6",
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        50
+      ],
+      "occlusion_blocker_ids": [
+        50
+      ],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 29,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 44,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 50,
+          "occupied_target_sides": [
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 74,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 38
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 38\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 29,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 44,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 50,\n      \"occupied_target_sides\": [\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 74,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 38\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "fb153c530d245d9066419ee7ca4576d58ac0ff72fbc65140e73c07bde204dcc7",
+    "logged_input_tokens": 1673,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_rotate_v02__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 50,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v02__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 50,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v02__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 50,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v02__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 50,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v02__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 50,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "BOTH": 5
+    },
+    "blocker_prediction_counts": {
+      "50": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "43b4f05e6a9ff4f59b944f94b1b91bf73bb608ad1ac794ddf47927493a95d1ce",
+    "decision_rendered_chat_sha256": "0ab0fdb42f3f5ceeac1e55a9262f14b5d8e7f7c1bb02d6b97408cd3f1b6acbfe",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1678,
+    "readout_token_position": 1677,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "2bc46721d847a7b18d47f61b5abd1f4f5c15fe30b21e3b53a6df5963267e10b3",
+    "extraction_seconds": 0.204
+  },
+  {
+    "index": 17,
+    "scene_id": "scene_rotate_v03",
+    "short_id": "R3",
+    "scene_family": "ROTATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 83,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v03.png",
+    "image_sha256": "dec25dad22ce31119c7b1ba863e9cc5ce3e07107af1ea22e28c240cdfb69d0da",
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        19
+      ],
+      "occlusion_blocker_ids": [
+        19
+      ],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 11,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 19,
+          "occupied_target_sides": [
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 23,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 41,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        }
+      ],
+      "target_id": 83
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 83\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 11,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 19,\n      \"occupied_target_sides\": [\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 23,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 41,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    }\n  ],\n  \"target_id\": 83\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "a260299dbf5ca1ace313c7f1720e60d3421b25775a82076d9d0748b0f18b342d",
+    "logged_input_tokens": 1673,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_rotate_v03__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v03__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v03__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v03__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v03__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 19,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "BOTH": 5
+    },
+    "blocker_prediction_counts": {
+      "19": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "cf4b92d97c637332a804be63253706145152d7855711cafcc7aa7abba95eaaf7",
+    "decision_rendered_chat_sha256": "c61da79cb8020228f557d5e3842db3760edd2a6ada4312322103add9aa2fd8c7",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1678,
+    "readout_token_position": 1677,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "7a768013e739ea9707eade96cb7e92c2bc7a94b128f66ed2c37a36bfc13bcf1e",
+    "extraction_seconds": 0.205
+  },
+  {
+    "index": 18,
+    "scene_id": "scene_rotate_v04",
+    "short_id": "R4",
+    "scene_family": "ROTATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 47,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v04.png",
+    "image_sha256": "5f79485007292f53caeb238928d5bb55af34f136ca153e12e4be7b7be1868584",
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 25,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 29,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 53,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 95,
+          "occupied_target_sides": [
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 47
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 47\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 25,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 29,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 53,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 95,\n      \"occupied_target_sides\": [\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 47\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "c46aaacf08490826cbee893641c39dfc1731dc8fb65f0a5f023d92a79a8e2ae9",
+    "logged_input_tokens": 1673,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_rotate_v04__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 25,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v04__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v04__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 25,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": false,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v04__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v04__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 3,
+      "BOTH": 2
+    },
+    "blocker_prediction_counts": {
+      "25": 2,
+      "95": 3
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 3,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "acd61608e80beb8ae7affdd6c7d39549a4b13cf86424216172007ba01dec3b97",
+    "decision_rendered_chat_sha256": "3495135e6630715aa5d3ca8f67d223594cd4af0f680df3d9afff0a6713b04507",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1678,
+    "readout_token_position": 1677,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "816b63ac97acfe12a2809f793ba8bdf03839bb2a23d8e76e57cf621aba8dcdba",
+    "extraction_seconds": 0.204
+  },
+  {
+    "index": 19,
+    "scene_id": "scene_rotate_v05",
+    "short_id": "R5",
+    "scene_family": "ROTATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 44,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_rotate_v05.png",
+    "image_sha256": "46e31daae3e1506fe5424f60cb9c4b5e00e50311f0575e720b9ddda11b61a1be",
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        82
+      ],
+      "occlusion_blocker_ids": [
+        82
+      ],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 11,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 72,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 82,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 97,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 99,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 44
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 44\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 11,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 72,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 82,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 97,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 99,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 44\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "04a67a41e36d1892d66055fdb5c8d6bdccb06da8e3938e0cde1043c87dcefa3b",
+    "logged_input_tokens": 1725,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_rotate_v05__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v05__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v05__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v05__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_rotate_v05__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 82,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 1,
+      "BOTH": 4
+    },
+    "blocker_prediction_counts": {
+      "82": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "c946beb451a198537a3cf313e6e30290b23898856714a316193747af6154840d",
+    "decision_rendered_chat_sha256": "8220aecb3367368039491aae5e28e4dc730d5024396a2a06d645aadbbffa1715",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1730,
+    "readout_token_position": 1729,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "2f78d8867c61f3de6bb6707d47b9b25fe08792539c5e95b2c9047945a6ff6bd4",
+    "extraction_seconds": 0.206
+  },
+  {
+    "index": 20,
+    "scene_id": "scene_translate_v01",
+    "short_id": "T1",
+    "scene_family": "TRANSLATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 67,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v01.png",
+    "image_sha256": "243a8b2c043a218a3fe4e8414ecd6a69961c0a206a5ddf4539338b7f802e20a3",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        35
+      ],
+      "occlusion_blocker_ids": [
+        35
+      ],
+      "clearance_blocker_ids": [
+        35
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 35,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 67
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 67\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 35,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 67\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "5b0ba69f820c60e18504056574cb17734eaf30b04e0dc96ac0390613cfed81ae",
+    "logged_input_tokens": 1533,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_translate_v01__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v01__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v01__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v01__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v01__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 35,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 5
+    },
+    "blocker_prediction_counts": {
+      "35": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "c0bd105eb5e4f6dc4f5416edf8d8c836cd7ba5e357cc1fbe2e3be97268e950ac",
+    "decision_rendered_chat_sha256": "1da94cb1ede462e966496a3b447d266e56e050a072031cb7e0e6edd18ac63be3",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1538,
+    "readout_token_position": 1537,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "5dc585805495651904cb324f65478bc22d99074513802f36a2f84a1a00a73c84",
+    "extraction_seconds": 0.202
+  },
+  {
+    "index": 21,
+    "scene_id": "scene_translate_v02",
+    "short_id": "T2",
+    "scene_family": "TRANSLATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 45,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v02.png",
+    "image_sha256": "2c4337c25c1611b14c3937d5894ddfb4460ebb5355878ae8470a1cc14ebf37bc",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        95
+      ],
+      "occlusion_blocker_ids": [
+        95
+      ],
+      "clearance_blocker_ids": [
+        95
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 81,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 86,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 95,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 45
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 45\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 81,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 86,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 95,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 45\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "06f8f93196be9fe3706ce141e10fe1e0035e6ef2922f18ffcdfb3b6926e81eac",
+    "logged_input_tokens": 1627,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_translate_v02__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_translate_v02__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_translate_v02__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_translate_v02__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_translate_v02__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 95,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "BOTH": 4,
+      "CLEARANCE_OVERLAP": 1
+    },
+    "blocker_prediction_counts": {
+      "95": 5
+    },
+    "reason_correct_count": 4,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 4,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "9e940df0e41d288e80dc58bbb786d435b525e0222cc5e044e826fbfb59cf4db4",
+    "decision_rendered_chat_sha256": "5b1b77da9f5c2fde55159ba9e116d70795ce1ae2eea6358a8ff7bf571db262c3",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1632,
+    "readout_token_position": 1631,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "f5fc0c5f4ee010cb57a8590892d92498422f10766381e03c10983086edc869e2",
+    "extraction_seconds": 0.204
+  },
+  {
+    "index": 22,
+    "scene_id": "scene_translate_v03",
+    "short_id": "T3",
+    "scene_family": "TRANSLATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 18,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v03.png",
+    "image_sha256": "20bad56bcf1a2f86583b6918b4a173020b3722d8bcd55f72fbc28cc21e675374",
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        45
+      ],
+      "occlusion_blocker_ids": [
+        45
+      ],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 39,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 41,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 45,
+          "occupied_target_sides": [
+            "LEFT",
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 18
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 18\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 39,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 41,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 45,\n      \"occupied_target_sides\": [\n        \"LEFT\",\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 18\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "2054d3f2c2a89945d8cdbd23d89cf852ee49aeb53656b31cf5f92fdb725d0db0",
+    "logged_input_tokens": 1625,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_translate_v03__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 45,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v03__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 45,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v03__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 45,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v03__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 45,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v03__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 45,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 3,
+      "BOTH": 2
+    },
+    "blocker_prediction_counts": {
+      "45": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "1bbdd84b8f49e28ae7e1270194a2080c4752eebd2088211fe24aa544ee0470ce",
+    "decision_rendered_chat_sha256": "d18b3b33df0c431e583d390275abc68ece8f5578e17153c120ea8acbbfd48518",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1630,
+    "readout_token_position": 1629,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "5ab84da4ba1cd79571dc31f56a3c65a4b9d7feb385ad6b9d5b8ff503fc239276",
+    "extraction_seconds": 0.203
+  },
+  {
+    "index": 23,
+    "scene_id": "scene_translate_v04",
+    "short_id": "T4",
+    "scene_family": "TRANSLATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 13,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v04.png",
+    "image_sha256": "b46cdfe8d9e2501d069730f58cbe57b27987a2582ccd6bd55e2fbf71819ebfd1",
+    "ground_truth": {
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        84
+      ],
+      "occlusion_blocker_ids": [
+        84
+      ],
+      "clearance_blocker_ids": []
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 41,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "LEFT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 77,
+          "occupied_target_sides": [
+            "LEFT"
+          ]
+        },
+        {
+          "center_direction": "FRONT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 84,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        }
+      ],
+      "target_id": 13
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 13\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 41,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"LEFT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 77,\n      \"occupied_target_sides\": [\n        \"LEFT\"\n      ]\n    },\n    {\n      \"center_direction\": \"FRONT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 84,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    }\n  ],\n  \"target_id\": 13\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "874ca51d93df536c23084d1f6458acd80176d656c005ecb3d55a3426ed3775f5",
+    "logged_input_tokens": 1625,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_translate_v04__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 84,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v04__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 84,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v04__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 84,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v04__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 84,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v04__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 84,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "BOTH": 5
+    },
+    "blocker_prediction_counts": {
+      "84": 5
+    },
+    "reason_correct_count": 0,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 0,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "fd933765872f19da3c504c9b6697f06124c33da9f1539c88dca5831d738f3211",
+    "decision_rendered_chat_sha256": "e08bfe9d5c2ce136daf0b6c6c8bd0a0a7f19a8d985a08a91b8950464003fde7d",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1630,
+    "readout_token_position": 1629,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "91e7a7f3c121d056011dfbca8127cfd18868a29f2c192e2b884322b8d5187049",
+    "extraction_seconds": 0.203
+  },
+  {
+    "index": 24,
+    "scene_id": "scene_translate_v05",
+    "short_id": "T5",
+    "scene_family": "TRANSLATE",
+    "family_clear": false,
+    "semantic_clear": false,
+    "target_object_id": 54,
+    "image_path": "experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19/images/numbered_rgb/scene_translate_v05.png",
+    "image_sha256": "64f5623f7c200ccceeb1a1e90b8c3cee774156968d8e2b1712aeac1ab4146246",
+    "ground_truth": {
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        79
+      ],
+      "occlusion_blocker_ids": [
+        79
+      ],
+      "clearance_blocker_ids": [
+        79
+      ]
+    },
+    "geometry": {
+      "condition": "R_QUALITATIVE",
+      "direction_resolution": "D4",
+      "relations": [
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 49,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 66,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_OVERLAP",
+          "object_id": 79,
+          "occupied_target_sides": [
+            "RIGHT",
+            "FRONT"
+          ]
+        },
+        {
+          "center_direction": "RIGHT",
+          "clearance_zone": "CLEARANCE_ZONE_CLEAR",
+          "object_id": 82,
+          "occupied_target_sides": [
+            "RIGHT"
+          ]
+        }
+      ],
+      "target_id": 54
+    },
+    "system_prompt": "You are a robot manipulation decision module for a cluttered shelf.\n\nEach red numbered badge identifies the physical object underneath it.\nThe badge position, size, and number are identity markers only. Do not use\nthem as evidence of object geometry, distance, depth, or action feasibility.\n\nJudge only the current observation. Do not generate a multi-step sequence.\nReturn exactly one JSON object matching the supplied schema.\nDo not output explanations, Markdown, confidence scores, or hidden reasoning.",
+    "user_prompt": "Target object ID: 54\n\nGeometry information:\n{\n  \"condition\": \"R_QUALITATIVE\",\n  \"direction_resolution\": \"D4\",\n  \"relations\": [\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 49,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 66,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_OVERLAP\",\n      \"object_id\": 79,\n      \"occupied_target_sides\": [\n        \"RIGHT\",\n        \"FRONT\"\n      ]\n    },\n    {\n      \"center_direction\": \"RIGHT\",\n      \"clearance_zone\": \"CLEARANCE_ZONE_CLEAR\",\n      \"object_id\": 82,\n      \"occupied_target_sides\": [\n        \"RIGHT\"\n      ]\n    }\n  ],\n  \"target_id\": 54\n}\n\nIdentify why the target is not directly graspable and select exactly one\nvisible causal blocker for the next action.\n\nOCCLUSION means the target is not FULL.\nCLEARANCE_OVERLAP means another object is within 5 cm of the target's outer\nboundary. BOTH means both conditions hold. NONE means the target is directly\ngraspable.\n\nChoose the single object that most strongly prevents direct graspability and\nshould be removed first. If several objects contribute, select the one whose\nremoval would most improve direct graspability. Do not list alternatives. Use\nnull when the reason is NONE.",
+    "prompt_sha256": "eb37c1b6960607bdad8687288269449b2c1f3b1db42ad105b7e145eb17f98e4b",
+    "logged_input_tokens": 1673,
+    "historical_responses": [
+      {
+        "run_id": "v19__scene_translate_v05__L3__C2_D4__r01_s28101",
+        "seed": 28101,
+        "response": {
+          "blocker_id": 79,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v05__L3__C2_D4__r02_s28102",
+        "seed": 28102,
+        "response": {
+          "blocker_id": 79,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_translate_v05__L3__C2_D4__r03_s28103",
+        "seed": 28103,
+        "response": {
+          "blocker_id": 79,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      },
+      {
+        "run_id": "v19__scene_translate_v05__L3__C2_D4__r04_s28104",
+        "seed": 28104,
+        "response": {
+          "blocker_id": 79,
+          "blocking_reason": "BOTH"
+        },
+        "reason_correct": true,
+        "blocker_correct": true,
+        "joint_correct": true
+      },
+      {
+        "run_id": "v19__scene_translate_v05__L3__C2_D4__r05_s28105",
+        "seed": 28105,
+        "response": {
+          "blocker_id": 79,
+          "blocking_reason": "CLEARANCE_OVERLAP"
+        },
+        "reason_correct": false,
+        "blocker_correct": true,
+        "joint_correct": false
+      }
+    ],
+    "reason_prediction_counts": {
+      "CLEARANCE_OVERLAP": 3,
+      "BOTH": 2
+    },
+    "blocker_prediction_counts": {
+      "79": 5
+    },
+    "reason_correct_count": 2,
+    "blocker_correct_count": 5,
+    "joint_correct_count": 2,
+    "historical_backend": {
+      "backend": "vllm_offline",
+      "batch_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_model_len": 8192,
+      "max_num_seqs": 1,
+      "moe_backend": "triton",
+      "python": "3.12.3",
+      "structured_output": "json_schema_oneOf",
+      "transformers": "5.15.1",
+      "vllm": "0.27.1"
+    },
+    "base_rendered_chat_sha256": "e5ddf2b906cdbf45e4c505852960059fb895ae4147146c514da6eac7d60a80aa",
+    "decision_rendered_chat_sha256": "8705c4afee5261d350769815b0e742fa34b474dda9528a430a6ad873abc468bb",
+    "assistant_prefix": "{\"blocking_reason\": \"",
+    "assistant_prefix_token_ids": [
+      4913,
+      70356,
+      38229,
+      788,
+      330
+    ],
+    "assistant_prefix_token_texts": [
+      "{\"",
+      "blocking",
+      "_reason",
+      "\":",
+      " \""
+    ],
+    "decision_input_tokens": 1678,
+    "readout_token_position": 1677,
+    "readout_token_id": 330,
+    "readout_token_text": " \"",
+    "image_grid_thw": [
+      [
+        1,
+        60,
+        80
+      ]
+    ],
+    "pixel_values_sha256": "ae874fe7dff238b58574e1b5de45e36a1324a6a65091bffc0ed4a887e4f0c762",
+    "extraction_seconds": 0.204
+  }
+]

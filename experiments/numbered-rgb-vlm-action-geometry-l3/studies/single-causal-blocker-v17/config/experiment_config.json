@@ -1,0 +1,71 @@
+{
+  "experiment_version": "l3_maskfix_v17",
+  "source_manifest": "experiments/action_scene_variants_20260915/scene_manifest.json",
+  "source_manifest_sha256": "21edca329304432d6eef5b4e47672956f48c204d329889c5ee981630702e00be",
+  "scene_count": 25,
+  "scheduled_calls": 1500,
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260915,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 1024
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema_oneOf"
+  },
+  "isaac_sim": {
+    "geometry_method": "visual_convex_hull_shelf_plane_v1",
+    "visibility_method": "isaac_semantic_target_only_pixel_exact_v1",
+    "shelf_bounds_cm": [
+      -18.0,
+      74.0,
+      -16.0,
+      16.0
+    ],
+    "motion_translation_internal_step_cm": 0.25,
+    "motion_rotation_step_deg": 5
+  },
+  "prompts": {
+    "system": "prompts/system_en.txt",
+    "l1": "prompts/l1_en.txt",
+    "l2": "prompts/l2_en.txt",
+    "l3": "prompts/l3_en.txt",
+    "l4": "prompts/l4_en.txt"
+  },
+  "schemas": {
+    "L1": "schemas/l1.json",
+    "L2": "schemas/l2.json",
+    "L3": "schemas/l3.json",
+    "L4_D4": "schemas/l4_d4.json",
+    "L4_D8": "schemas/l4_d8.json"
+  },
+  "levels": [
+    "L3"
+  ],
+  "reference_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_v1",
+  "corrected_input_source": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_maskfix_validation",
+  "image_crosscheck_source": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10",
+  "task_definition": "Original L3: exact blocking reason AND valid visible blocker ID; FULL visibility and 5cm clearance rules. Not the revised direct-retrieval task.",
+  "geometry_policy": "Original corrected R/F/M measurements, sorted visible-object records only. Hidden-object records excluded; remaining measurements unchanged.",
+  "gt_policy": "Corrected source L3 reason unchanged. Valid blocker set intersected with visible IDs to match the original output validator.",
+  "gripper_information_supplied": false
+}

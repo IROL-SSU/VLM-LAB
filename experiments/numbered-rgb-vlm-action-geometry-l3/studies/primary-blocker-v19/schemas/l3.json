@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "blocking_reason": {
+      "type": "string",
+      "enum": [
+        "OCCLUSION",
+        "CLEARANCE_OVERLAP",
+        "BOTH",
+        "NONE"
+      ]
+    },
+    "blocker_id": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "blocking_reason",
+    "blocker_id"
+  ],
+  "additionalProperties": false
+}

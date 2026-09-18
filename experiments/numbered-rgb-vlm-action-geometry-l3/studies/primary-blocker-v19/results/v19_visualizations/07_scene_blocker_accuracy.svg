@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="1030" viewBox="0 0 1050 1030">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:11px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">Blocker-ID accuracy by scene</text>
+<text class="sub" x="38" y="58">Each scene has 60 calls (12 conditions × 5 seeds)</text>
+<text class="small" x="235" y="83" text-anchor="end">scene_fc_blocked_v01</text>
+<rect x="245" y="65" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="82">60/60 · 100.0%</text>
+<text class="small" x="235" y="119" text-anchor="end">scene_fc_blocked_v03</text>
+<rect x="245" y="101" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="118">60/60 · 100.0%</text>
+<text class="small" x="235" y="155" text-anchor="end">scene_fc_blocked_v04</text>
+<rect x="245" y="137" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="154">60/60 · 100.0%</text>
+<text class="small" x="235" y="191" text-anchor="end">scene_fc_blocked_v05</text>
+<rect x="245" y="173" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="190">60/60 · 100.0%</text>
+<text class="small" x="235" y="227" text-anchor="end">scene_lift_and_relocate_v01</text>
+<rect x="245" y="209" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="226">60/60 · 100.0%</text>
+<text class="small" x="235" y="263" text-anchor="end">scene_lift_and_relocate_v05</text>
+<rect x="245" y="245" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="262">60/60 · 100.0%</text>
+<text class="small" x="235" y="299" text-anchor="end">scene_translate_v01</text>
+<rect x="245" y="281" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="298">60/60 · 100.0%</text>
+<text class="small" x="235" y="335" text-anchor="end">scene_translate_v02</text>
+<rect x="245" y="317" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="334">60/60 · 100.0%</text>
+<text class="small" x="235" y="371" text-anchor="end">scene_translate_v03</text>
+<rect x="245" y="353" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="370">60/60 · 100.0%</text>
+<text class="small" x="235" y="407" text-anchor="end">scene_translate_v05</text>
+<rect x="245" y="389" width="750.0" height="24" rx="4" fill="#188038"/>
+<text class="value" x="1003.0" y="406">60/60 · 100.0%</text>
+<text class="small" x="235" y="443" text-anchor="end">scene_fc_blocked_v02</text>
+<rect x="245" y="425" width="737.4975" height="24" rx="4" fill="#188038"/>
+<text class="value" x="990.4975" y="442">59/60 · 98.3%</text>
+<text class="small" x="235" y="479" text-anchor="end">scene_rotate_v05</text>
+<rect x="245" y="461" width="737.4975" height="24" rx="4" fill="#188038"/>
+<text class="value" x="990.4975" y="478">59/60 · 98.3%</text>
+<text class="small" x="235" y="515" text-anchor="end">scene_rotate_v02</text>
+<rect x="245" y="497" width="612.5025" height="24" rx="4" fill="#1a73e8"/>
+<text class="value" x="865.5025" y="514">49/60 · 81.7%</text>
+<text class="small" x="235" y="551" text-anchor="end">scene_fc_clear_v03</text>
+<rect x="245" y="533" width="587.4975" height="24" rx="4" fill="#1a73e8"/>
+<text class="value" x="840.4975" y="550">47/60 · 78.3%</text>
+<text class="small" x="235" y="587" text-anchor="end">scene_translate_v04</text>
+<rect x="245" y="569" width="525.0" height="24" rx="4" fill="#1a73e8"/>
+<text class="value" x="778.0" y="586">42/60 · 70.0%</text>
+<text class="small" x="235" y="623" text-anchor="end">scene_lift_and_relocate_v03</text>
+<rect x="245" y="605" width="474.9975" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="727.9975" y="622">38/60 · 63.3%</text>
+<text class="small" x="235" y="659" text-anchor="end">scene_fc_clear_v02</text>
+<rect x="245" y="641" width="462.5025" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="715.5025" y="658">37/60 · 61.7%</text>
+<text class="small" x="235" y="695" text-anchor="end">scene_lift_and_relocate_v02</text>
+<rect x="245" y="677" width="462.5025" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="715.5025" y="694">37/60 · 61.7%</text>
+<text class="small" x="235" y="731" text-anchor="end">scene_fc_clear_v05</text>
+<rect x="245" y="713" width="450.0" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="703.0" y="730">36/60 · 60.0%</text>
+<text class="small" x="235" y="767" text-anchor="end">scene_fc_clear_v01</text>
+<rect x="245" y="749" width="412.5" height="24" rx="4" fill="#f9ab00"/>
+<text class="value" x="665.5" y="766">33/60 · 55.0%</text>
+<text class="small" x="235" y="803" text-anchor="end">scene_fc_clear_v04</text>
+<rect x="245" y="785" width="300.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="553.0" y="802">24/60 · 40.0%</text>
+<text class="small" x="235" y="839" text-anchor="end">scene_rotate_v04</text>
+<rect x="245" y="821" width="275.0025" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="528.0025" y="838">22/60 · 36.7%</text>
+<text class="small" x="235" y="875" text-anchor="end">scene_lift_and_relocate_v04</text>
+<rect x="245" y="857" width="249.9975" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="502.9975" y="874">20/60 · 33.3%</text>
+<text class="small" x="235" y="911" text-anchor="end">scene_rotate_v03</text>
+<rect x="245" y="893" width="225.0" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="478.0" y="910">18/60 · 30.0%</text>
+<text class="small" x="235" y="947" text-anchor="end">scene_rotate_v01</text>
+<rect x="245" y="929" width="24.9975" height="24" rx="4" fill="#d93025"/>
+<text class="value" x="277.9975" y="946">2/60 · 3.3%</text>
+</svg>

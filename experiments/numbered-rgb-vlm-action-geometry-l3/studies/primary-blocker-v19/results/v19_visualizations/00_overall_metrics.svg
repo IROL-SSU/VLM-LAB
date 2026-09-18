@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:11px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">L3 primary-blocker v19: overall accuracy</text>
+<text class="sub" x="38" y="58">25 scenes × 12 conditions × 5 seeds = 1,500 calls</text>
+<line class="grid" x1="85" y1="380.0" x2="850" y2="380.0"/>
+<text class="label" x="48" y="384.0">0%</text>
+<line class="grid" x1="85" y1="323.0" x2="850" y2="323.0"/>
+<text class="label" x="48" y="327.0">20%</text>
+<line class="grid" x1="85" y1="266.0" x2="850" y2="266.0"/>
+<text class="label" x="48" y="270.0">40%</text>
+<line class="grid" x1="85" y1="209.0" x2="850" y2="209.0"/>
+<text class="label" x="48" y="213.0">60%</text>
+<line class="grid" x1="85" y1="152.0" x2="850" y2="152.0"/>
+<text class="label" x="48" y="156.0">80%</text>
+<line class="grid" x1="85" y1="95.0" x2="850" y2="95.0"/>
+<text class="label" x="48" y="99.0">100%</text>
+<rect x="175" y="282.33905" width="92" height="97.66095000000001" rx="6" fill="#f9ab00"/>
+<text class="value" x="221" y="272.33905" text-anchor="middle">34.3%</text>
+<text class="label" x="221" y="406" text-anchor="middle">Reason</text>
+<rect x="415" y="166.62904999999998" width="92" height="213.37095000000002" rx="6" fill="#1a73e8"/>
+<text class="value" x="461" y="156.62904999999998" text-anchor="middle">74.9%</text>
+<text class="label" x="461" y="406" text-anchor="middle">Blocker ID</text>
+<rect x="655" y="282.72095" width="92" height="97.27905000000001" rx="6" fill="#9334e6"/>
+<text class="value" x="701" y="272.72095" text-anchor="middle">34.1%</text>
+<text class="label" x="701" y="406" text-anchor="middle">Joint</text>
+<text class="sub" x="85" y="445">Joint outcomes: both correct 512, reason-only 2, blocker-only 611, both wrong 375</text>
+</svg>

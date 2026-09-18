@@ -1,0 +1,730 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-17T08:07:04.881660+00:00",
+  "scheduled_calls": 1500,
+  "run_table_sha256": "cafe4a5cb5cdbee50692173dd26f3a4401da75faed34cacea9946c43921c11f2",
+  "scene_count": 25,
+  "all_25_images_match_corrected_and_recent_l2": true,
+  "restored_objects": 17,
+  "changed_image_scenes": 15,
+  "visible_objects": 114,
+  "physical_objects": 115,
+  "frozen_file_count": 363,
+  "system_and_l3_prompt_unchanged": true,
+  "generation_and_model_unchanged": true,
+  "geometry_payloads_excluding_hidden_records": 11,
+  "hidden_gt_choices_excluded": [
+    {
+      "scene_id": "scene_lift_and_relocate_v04",
+      "ids": [
+        16
+      ]
+    }
+  ],
+  "failures": []
+}
+Loading /home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct; pending_this_invocation=1500 completed=0 expected=1500
+[ERROR] `min_frames` is part of Qwen3VLVideoProcessorInitKwargs, but not documented. Make sure to add it to the docstring of the function in /home/ssu/ShelfScene/.qwen3-vl/venv/lib/python3.12/site-packages/transformers/models/qwen3_vl/video_processing_qwen3_vl.py.
+[ERROR] `max_frames` is part of Qwen3VLVideoProcessorInitKwargs, but not documented. Make sure to add it to the docstring of the function in /home/ssu/ShelfScene/.qwen3-vl/venv/lib/python3.12/site-packages/transformers/models/qwen3_vl/video_processing_qwen3_vl.py.
+INFO 09-17 17:07:22 [api_utils.py:273] non-default args: {'runner': 'generate', 'trust_remote_code': True, 'allowed_local_media_path': '/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_maskfix_v17', 'max_model_len': 8192, 'moe_backend': 'triton', 'enable_prefix_caching': True, 'gpu_memory_utilization': 0.9, 'max_num_seqs': 1, 'disable_log_stats': True, 'limit_mm_per_prompt': {'image': 1}, 'model': '/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct'}
+INFO 09-17 17:07:22 [model.py:645] Resolved architecture: Qwen3VLMoeForConditionalGeneration
+INFO 09-17 17:07:22 [model.py:1883] Using max model len 8192
+INFO 09-17 17:07:23 [scheduler.py:242] Chunked prefill is enabled with max_num_batched_tokens=8192.
+INFO 09-17 17:07:23 [kernel.py:306] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'])
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+(EngineCore pid=2698026) INFO 09-17 17:07:26 [core.py:121] Initializing a V1 LLM engine (v0.27.1) with config: model='/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct', speculative_config=None, tokenizer='/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=8192, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, quantization_config=None, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False, jit_monitor_mode='warn', jit_monitor_verbose=False), seed=0, served_model_name=/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'ir_enable_torch_wrap': True, 'splitting_ops': ['vllm::unified_attention_with_output', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::qwen_gdn_attention_core', 'vllm::gdn_attention_core_xpu', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::deepseek_v4_attention', 'vllm::hpc_rope_norm_forward', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_vision_items_per_batch': 0, 'encoder_cudagraph_max_frames_per_batch': None, 'compile_sizes': [], 'compile_ranges_endpoints': [8192], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False, 'enable_qk_norm_rope_fusion': False, 'fuse_rope_kvcache_cat_mla': False, 'fuse_act_padding': False, 'fuse_qk_norm_rope_kvcache': False}, 'max_cudagraph_capture_size': 2, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': False, 'static_all_moe_layers': []}, kernel_config=KernelConfig(ir_op_priority=IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native']), enable_flashinfer_autotune=True, enable_cutedsl_warmup=True, enable_jit_warmup=True, enable_bf16x3_router_gemm=False, moe_backend='triton', linear_backend='auto')
+(EngineCore pid=2698026) INFO 09-17 17:07:27 [parallel_state.py:1640] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://192.168.0.20:50503 backend=nccl
+(EngineCore pid=2698026) INFO 09-17 17:07:27 [parallel_state.py:1977] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0, EPLB rank N/A
+(EngineCore pid=2698026) INFO 09-17 17:07:27 [topk_topp_sampler.py:46] FlashInfer top-p/top-k sampling disabled via VLLM_USE_FLASHINFER_SAMPLER=0.
+(EngineCore pid=2698026) INFO 09-17 17:07:27 [gpu_model_runner.py:5308] Starting to load model /home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct...
+(EngineCore pid=2698026) INFO 09-17 17:07:27 [cuda.py:541] Using backend AttentionBackendEnum.FLASH_ATTN for vit attention
+(EngineCore pid=2698026) INFO 09-17 17:07:27 [mm_encoder_attention.py:375] Using AttentionBackendEnum.FLASH_ATTN for MMEncoderAttention.
+(EngineCore pid=2698026) INFO 09-17 17:07:27 [kernel.py:306] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'])
+(EngineCore pid=2698026) Failed to get device capability: SM 12.x requires CUDA >= 12.9.
+(EngineCore pid=2698026) Failed to get device capability: SM 12.x requires CUDA >= 12.9.
+(EngineCore pid=2698026) INFO 09-17 17:07:28 [cuda.py:482] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION'].
+(EngineCore pid=2698026) INFO 09-17 17:07:28 [flash_attn.py:789] Using FlashAttention version 2
+(EngineCore pid=2698026) INFO 09-17 17:07:28 [unquantized.py:272] Using TRITON Unquantized MoE backend out of potential backends: ['FlashInfer TRTLLM', 'FlashInfer CUTLASS', 'TRITON', 'BATCHED_TRITON'].
+(EngineCore pid=2698026) INFO 09-17 17:07:28 [weight_utils.py:867] Filesystem type for checkpoints: EXT4. Checkpoint size: 57.87 GiB. Available RAM: 110.54 GiB.
+(EngineCore pid=2698026) INFO 09-17 17:07:28 [weight_utils.py:890] Auto-prefetch is disabled because the filesystem (EXT4) is not a recognized network FS (NFS/Lustre). If you want to force prefetching, start vLLM with --safetensors-load-strategy=prefetch.
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:   0% Completed | 0/13 [00:00<?, ?it/s]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:   8% Completed | 1/13 [00:00<00:11,  1.08it/s]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  15% Completed | 2/13 [00:02<00:12,  1.09s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  23% Completed | 3/13 [00:03<00:11,  1.16s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  31% Completed | 4/13 [00:04<00:10,  1.22s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  38% Completed | 5/13 [00:07<00:14,  1.80s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  46% Completed | 6/13 [00:09<00:12,  1.80s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  54% Completed | 7/13 [00:10<00:10,  1.75s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  62% Completed | 8/13 [00:12<00:08,  1.60s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  69% Completed | 9/13 [00:13<00:05,  1.50s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  77% Completed | 10/13 [00:14<00:04,  1.43s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  85% Completed | 11/13 [00:16<00:02,  1.49s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards:  92% Completed | 12/13 [00:17<00:01,  1.48s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards: 100% Completed | 13/13 [00:18<00:00,  1.18s/it]
+(EngineCore pid=2698026) Loading safetensors checkpoint shards: 100% Completed | 13/13 [00:18<00:00,  1.41s/it]
+(EngineCore pid=2698026) 
+(EngineCore pid=2698026) INFO 09-17 17:07:46 [default_loader.py:430] Loading weights took 18.37 seconds
+(EngineCore pid=2698026) INFO 09-17 17:07:46 [unquantized.py:383] Using MoEPrepareAndFinalizeNoDPEPModular
+(EngineCore pid=2698026) INFO 09-17 17:07:46 [unquantized.py:384] Using TritonExperts MoE backend
+(EngineCore pid=2698026) INFO 09-17 17:07:47 [gpu_model_runner.py:5405] Model loading took 58.24 GiB memory and 19.027831 seconds
+(EngineCore pid=2698026) INFO 09-17 17:07:47 [gpu_model_runner.py:6465] Encoder cache will be initialized with a budget of 16384 tokens, and profiled with 1 image items of the maximum feature size.
+(EngineCore pid=2698026) INFO 09-17 17:07:50 [caching.py:335] reconstructed serializable fn from standalone compile artifacts. num_artifacts=5 num_submods=49
+(EngineCore pid=2698026) INFO 09-17 17:07:50 [decorators.py:311] Directly load AOT compilation from path /home/ssu/.cache/vllm/torch_compile_cache/torch_aot_compile/981e992011669d0b1ffceff36502bb63245a6b359b67229f3ce63221847c70ea/rank_0_0/model
+(EngineCore pid=2698026) INFO 09-17 17:07:50 [monitor.py:53] torch.compile took 2.15 s in total
+(EngineCore pid=2698026) WARNING 09-17 17:07:50 [fused_moe.py:1161] Using default MoE config. Performance might be sub-optimal! Config file not found at /home/ssu/ShelfScene/.qwen3-vl/venv/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/configs/E=128,N=768,device_name=NVIDIA_RTX_PRO_6000_Blackwell_Workstation_Edition.json
+(EngineCore pid=2698026) INFO 09-17 17:07:51 [monitor.py:81] Initial profiling/warmup run took 0.18 s
+(EngineCore pid=2698026) INFO 09-17 17:07:51 [gpu_model_runner.py:6681] Profiling CUDA graph memory: PIECEWISE=2 (largest=2), FULL=1 (largest=1)
+(EngineCore pid=2698026) INFO 09-17 17:07:53 [gpu_model_runner.py:6806] Estimated CUDA graph memory: 0.05 GiB total
+(EngineCore pid=2698026) INFO 09-17 17:07:53 [gpu_worker.py:563] Available KV cache memory: 24.84 GiB
+(EngineCore pid=2698026) INFO 09-17 17:07:53 [gpu_worker.py:578] CUDA graph memory profiling is enabled (default since v0.21.0). The current --gpu-memory-utilization=0.9000 is equivalent to --gpu-memory-utilization=0.8995 without CUDA graph memory profiling. To maintain the same effective KV cache size as before, increase --gpu-memory-utilization to 0.9005. To disable, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=0.
+(EngineCore pid=2698026) INFO 09-17 17:07:53 [kv_cache_utils.py:2235] GPU KV cache size: 271,296 tokens
+(EngineCore pid=2698026) INFO 09-17 17:07:53 [kv_cache_utils.py:2236] Maximum concurrency for 8,192 tokens per request: 33.12x
+(EngineCore pid=2698026) INFO 09-17 17:07:53 [kernel_warmup.py:256] Using FlashInfer autotune cache file: /home/ssu/.cache/vllm/flashinfer_autotune_cache/flashinfer/0.6.16.post3/6b4d030c36b4b5354f08f0ec61ac31471a2914cb74722c1714548eb4cc17b2c9/autotune_configs.json
+(EngineCore pid=2698026) 2026-09-17 17:07:53,214 - INFO - autotuner.py:2397 - flashinfer.jit: [Autotuner]: Loaded 0 configs from /home/ssu/.cache/vllm/flashinfer_autotune_cache/flashinfer/0.6.16.post3/6b4d030c36b4b5354f08f0ec61ac31471a2914cb74722c1714548eb4cc17b2c9/autotune_configs.json
+(EngineCore pid=2698026) 2026-09-17 17:07:53,214 - INFO - autotuner.py:829 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+(EngineCore pid=2698026) 2026-09-17 17:07:53,236 - INFO - autotuner.py:852 - flashinfer.jit: [Autotuner]: Autotuning process ends
+(EngineCore pid=2698026) 2026-09-17 17:07:53,241 - INFO - autotuner.py:2269 - flashinfer.jit: [Autotuner]: Saved 0 configs to /home/ssu/.cache/vllm/flashinfer_autotune_cache/flashinfer/0.6.16.post3/6b4d030c36b4b5354f08f0ec61ac31471a2914cb74722c1714548eb4cc17b2c9/autotune_configs.json (0 new, 0 from previous config)
+(EngineCore pid=2698026) INFO 09-17 17:07:53 [gpu_model_runner.py:6867] Rank 0: Torch profiler disabled for CUDA graph capture
+(EngineCore pid=2698026) Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/2 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 2/2 [00:00<00:00, 23.67it/s]
+(EngineCore pid=2698026) Capturing CUDA graphs (decode, FULL):   0%|          | 0/1 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 1/1 [00:00<00:00, 13.37it/s]
+(EngineCore pid=2698026) INFO 09-17 17:07:54 [gpu_model_runner.py:6913] Graph capturing finished in 1 secs, took 0.04 GiB
+(EngineCore pid=2698026) INFO 09-17 17:07:54 [gpu_worker.py:726] CUDA graph pool memory: 0.04 GiB (actual), 0.05 GiB (estimated), difference: 0.01 GiB (33.7%).
+(EngineCore pid=2698026) INFO 09-17 17:07:54 [gpu_worker.py:789] Free memory on device (92.71/94.94 GiB) on startup. Desired GPU memory utilization is (0.9, 85.44 GiB). Actual usage is 58.99 GiB for consumed memory (weights + non-torch), 1.62 GiB for peak activation, and 0.04 GiB for CUDAGraph memory. Replace gpu_memory_utilization config with `--kv-cache-memory=26474957517` (24.66 GiB) to fit into requested memory, or `--kv-cache-memory=34279128576` (31.92 GiB) to fully utilize gpu memory. Current kv cache memory in use is 24.84 GiB.
+(EngineCore pid=2698026) INFO 09-17 17:07:54 [jit_monitor.py:79] Kernel JIT monitor activated; monitored JIT compilations during inference will use mode=warn.
+(EngineCore pid=2698026) INFO 09-17 17:07:54 [core.py:348] init engine (profile, create kv cache, warmup model) took 7.36 s (compilation: 2.15 s)
+(EngineCore pid=2698026) INFO 09-17 17:07:54 [kernel.py:306] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'])
+INFO 09-17 17:07:55 [hf.py:540] Detected the chat template content format to be 'openai'. You can set `--chat-template-content-format` to override this.
+INFO 09-17 17:08:02 [base.py:235] Multi-modal warmup completed in 7.384s
+INFO 09-17 17:08:03 [base.py:235] Readonly multi-modal warmup completed in 1.442s
+Model loaded in 41.7s
+(EngineCore pid=2698026) WARNING 09-17 17:08:04 [jit_monitor.py:135] Triton kernel JIT compilation during inference: _bilinear_pos_embed_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+(EngineCore pid=2698026) WARNING 09-17 17:08:04 [jit_monitor.py:135] Triton kernel JIT compilation during inference: fused_moe_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+(EngineCore pid=2698026) WARNING 09-17 17:08:04 [jit_monitor.py:135] Triton kernel JIT compilation during inference: apply_token_bitmask_inplace_kernel. This causes a latency spike; consider extending warmup to cover this shape/config.
+[1/1500] v17__scene_rotate_v04__L3__C3_D8__r04_s28104 finish=stop tokens=1959+19 valid=True wall=0.51s
+[25/1500] v17__scene_fc_clear_v04__L3__C3_D4__r01_s28101 finish=stop tokens=1679+22 valid=True wall=0.18s
+[50/1500] v17__scene_translate_v03__L3__C1_NA__r04_s28104 finish=stop tokens=1659+19 valid=True wall=0.14s
+[75/1500] v17__scene_fc_clear_v03__L3__C0_NA__r04_s28104 finish=stop tokens=1408+16 valid=True wall=0.13s
+[100/1500] v17__scene_fc_blocked_v03__L3__C1_NA__r05_s28105 finish=stop tokens=1657+22 valid=True wall=0.18s
+[125/1500] v17__scene_lift_and_relocate_v05__L3__C2_D8__r04_s28104 finish=stop tokens=1706+22 valid=True wall=0.18s
+[150/1500] v17__scene_rotate_v04__L3__C6_D8__r01_s28101 finish=stop tokens=2007+25 valid=True wall=0.21s
+[175/1500] v17__scene_fc_clear_v03__L3__C0_NA__r01_s28101 finish=stop tokens=1408+16 valid=True wall=0.12s
+[200/1500] v17__scene_translate_v04__L3__C4_D8__r04_s28104 finish=stop tokens=1783+19 valid=True wall=0.14s
+[225/1500] v17__scene_fc_blocked_v04__L3__C4_D4__r01_s28101 finish=stop tokens=1643+26 valid=True wall=0.19s
+[250/1500] v17__scene_lift_and_relocate_v03__L3__C1_NA__r05_s28105 finish=stop tokens=1799+22 valid=True wall=0.16s
+[275/1500] v17__scene_fc_clear_v01__L3__C5_D4__r04_s28104 finish=stop tokens=1767+22 valid=True wall=0.18s
+[300/1500] v17__scene_translate_v02__L3__C2_D8__r01_s28101 finish=stop tokens=1599+22 valid=True wall=0.16s
+[325/1500] v17__scene_translate_v01__L3__C4_D8__r05_s28105 finish=stop tokens=1610+25 valid=True wall=0.20s
+[350/1500] v17__scene_rotate_v01__L3__C3_D8__r03_s28103 finish=stop tokens=1955+22 valid=True wall=0.19s
+[375/1500] v17__scene_lift_and_relocate_v01__L3__C4_D4__r03_s28103 finish=stop tokens=1753+22 valid=True wall=0.16s
+[400/1500] v17__scene_translate_v05__L3__C6_D4__r01_s28101 finish=stop tokens=1833+19 valid=True wall=0.15s
+[425/1500] v17__scene_lift_and_relocate_v01__L3__C3_D4__r02_s28102 finish=stop tokens=1798+22 valid=True wall=0.16s
+[450/1500] v17__scene_lift_and_relocate_v04__L3__C6_D8__r03_s28103 finish=stop tokens=2013+26 valid=True wall=0.19s
+[475/1500] v17__scene_rotate_v05__L3__C5_D4__r02_s28102 finish=stop tokens=1933+19 valid=True wall=0.17s
+[500/1500] v17__scene_fc_blocked_v01__L3__C2_D8__r04_s28104 finish=stop tokens=1602+22 valid=True wall=0.18s
+[525/1500] v17__scene_translate_v02__L3__C0_NA__r05_s28105 finish=stop tokens=1408+19 valid=True wall=0.14s
+[550/1500] v17__scene_fc_clear_v01__L3__C5_D4__r03_s28103 finish=stop tokens=1767+16 valid=True wall=0.12s
+[575/1500] v17__scene_fc_blocked_v01__L3__C4_D4__r01_s28101 finish=stop tokens=1643+22 valid=True wall=0.16s
+[600/1500] v17__scene_fc_blocked_v05__L3__C6_D4__r04_s28104 finish=stop tokens=1747+22 valid=True wall=0.16s
+[625/1500] v17__scene_fc_clear_v05__L3__C3_D8__r01_s28101 finish=stop tokens=1858+22 valid=True wall=0.15s
+[650/1500] v17__scene_fc_blocked_v05__L3__C4_D8__r04_s28104 finish=stop tokens=1788+22 valid=True wall=0.16s
+[675/1500] v17__scene_lift_and_relocate_v02__L3__C3_D8__r04_s28104 finish=stop tokens=2062+22 valid=True wall=0.16s
+[700/1500] v17__scene_translate_v04__L3__C4_D4__r01_s28101 finish=stop tokens=1641+25 valid=True wall=0.20s
+[725/1500] v17__scene_translate_v04__L3__C3_D4__r03_s28103 finish=stop tokens=1681+22 valid=True wall=0.15s
+[750/1500] v17__scene_fc_clear_v04__L3__C5_D8__r05_s28105 finish=stop tokens=1916+26 valid=True wall=0.19s
+[775/1500] v17__scene_rotate_v02__L3__C5_D4__r05_s28105 finish=stop tokens=1841+25 valid=True wall=0.17s
+[800/1500] v17__scene_fc_blocked_v02__L3__C6_D4__r02_s28102 finish=stop tokens=1752+22 valid=True wall=0.16s
+[825/1500] v17__scene_fc_clear_v03__L3__C5_D4__r01_s28101 finish=stop tokens=1767+22 valid=True wall=0.16s
+[850/1500] v17__scene_fc_clear_v01__L3__C3_D4__r04_s28104 finish=stop tokens=1679+22 valid=True wall=0.16s
+[875/1500] v17__scene_translate_v02__L3__C6_D4__r05_s28105 finish=stop tokens=1753+25 valid=True wall=0.18s
+[900/1500] v17__scene_lift_and_relocate_v05__L3__C0_NA__r02_s28102 finish=stop tokens=1408+19 valid=True wall=0.14s
+[925/1500] v17__scene_rotate_v04__L3__C2_D8__r02_s28102 finish=stop tokens=1653+19 valid=True wall=0.14s
+[950/1500] v17__scene_fc_clear_v03__L3__C4_D8__r04_s28104 finish=stop tokens=1782+22 valid=True wall=0.16s
+[975/1500] v17__scene_lift_and_relocate_v02__L3__C3_D8__r02_s28102 finish=stop tokens=2062+22 valid=True wall=0.16s
+[1000/1500] v17__scene_translate_v03__L3__C2_D8__r01_s28101 finish=stop tokens=1601+22 valid=True wall=0.15s
+[1025/1500] v17__scene_rotate_v02__L3__C5_D4__r04_s28104 finish=stop tokens=1841+19 valid=True wall=0.13s
+[1050/1500] v17__scene_lift_and_relocate_v05__L3__C6_D8__r03_s28103 finish=stop tokens=2138+19 valid=True wall=0.14s
+[1075/1500] v17__scene_fc_blocked_v04__L3__C3_D4__r02_s28102 finish=stop tokens=1679+22 valid=True wall=0.16s
+[1100/1500] v17__scene_fc_clear_v02__L3__C6_D8__r02_s28102 finish=stop tokens=1895+22 valid=True wall=0.16s
+[1125/1500] v17__scene_rotate_v01__L3__C1_NA__r02_s28102 finish=stop tokens=1714+22 valid=True wall=0.15s
+[1150/1500] v17__scene_rotate_v03__L3__C3_D8__r01_s28101 finish=stop tokens=1958+22 valid=True wall=0.16s
+[1175/1500] v17__scene_rotate_v01__L3__C3_D8__r01_s28101 finish=stop tokens=1955+26 valid=True wall=0.19s
+[1200/1500] v17__scene_rotate_v05__L3__C5_D4__r05_s28105 finish=stop tokens=1933+25 valid=True wall=0.18s
+[1225/1500] v17__scene_fc_blocked_v02__L3__C1_NA__r04_s28104 finish=stop tokens=1641+22 valid=True wall=0.16s
+[1250/1500] v17__scene_rotate_v02__L3__C1_NA__r02_s28102 finish=stop tokens=1729+19 valid=True wall=0.13s
+[1275/1500] v17__scene_translate_v01__L3__C5_D4__r01_s28101 finish=stop tokens=1598+19 valid=True wall=0.14s
+[1300/1500] v17__scene_translate_v03__L3__C3_D8__r05_s28105 finish=stop tokens=1856+22 valid=True wall=0.16s
+[1325/1500] v17__scene_fc_blocked_v03__L3__C5_D8__r01_s28101 finish=stop tokens=1912+26 valid=True wall=0.19s
+[1350/1500] v17__scene_lift_and_relocate_v03__L3__C5_D4__r04_s28104 finish=stop tokens=1925+22 valid=True wall=0.16s
+[1375/1500] v17__scene_rotate_v02__L3__C2_D8__r01_s28101 finish=stop tokens=1652+19 valid=True wall=0.14s
+[1400/1500] v17__scene_translate_v05__L3__C2_D8__r02_s28102 finish=stop tokens=1646+22 valid=True wall=0.16s
+[1425/1500] v17__scene_fc_blocked_v02__L3__C2_D4__r01_s28101 finish=stop tokens=1586+22 valid=True wall=0.15s
+[1450/1500] v17__scene_fc_clear_v05__L3__C2_D8__r01_s28101 finish=stop tokens=1591+22 valid=True wall=0.16s
+[1475/1500] v17__scene_fc_clear_v01__L3__C2_D8__r03_s28103 finish=stop tokens=1589+16 valid=True wall=0.12s
+[1500/1500] v17__scene_fc_clear_v05__L3__C3_D4__r05_s28105 finish=stop tokens=1679+26 valid=True wall=0.19s
+{
+  "completed": 1500,
+  "expected": 1500,
+  "processed_this_invocation": 1500,
+  "model_load_seconds": 41.686,
+  "generation_seconds": 270.183,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_maskfix_v17/logs/runs.jsonl",
+  "finished_at": "2026-09-17T08:12:34.187031+00:00"
+}
+INFO 09-17 17:12:34 [utils.py:612] [shutdown] Process manager: send sigterm to process EngineCore
+(EngineCore pid=2698026) INFO 09-17 17:12:34 [core.py:1332] [shutdown] EngineCore: trigger received signal=SIGTERM
+(EngineCore pid=2698026) INFO 09-17 17:12:34 [core.py:1468] [shutdown] EngineCore: start mode=abort timeout=0s
+(EngineCore pid=2698026) INFO 09-17 17:12:34 [core.py:1499] [shutdown] EngineCore: request processing complete; starting resource teardown
+(EngineCore pid=2698026) INFO 09-17 17:12:34 [core.py:1345] [shutdown] EngineCore: exiting busy loop
+{
+  "experiment_version": "l3_maskfix_v17",
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "task_definition": "Original L3: exact blocking reason AND valid visible blocker ID; FULL visibility and 5cm clearance rules. Not the revised direct-retrieval task.",
+  "audit": {
+    "status": "pass",
+    "completed": 1500,
+    "unique_run_ids": 1500,
+    "all_input_hashes_verified": true,
+    "all_25_images_match_corrected_and_recent_l2": true,
+    "all_scene_condition_seed_sets_complete": true,
+    "parse_errors": 0,
+    "post_validation_failures": 0,
+    "infrastructure_errors": 0,
+    "finish_reasons": {
+      "stop": 1500
+    },
+    "condition_counts": {
+      "C3_D8": 125,
+      "C4_D8": 125,
+      "C5_D4": 125,
+      "C5_D8": 125,
+      "C3_D4": 125,
+      "C6_D4": 125,
+      "C2_D8": 125,
+      "C6_D8": 125,
+      "C0": 125,
+      "C1": 125,
+      "C4_D4": 125,
+      "C2_D4": 125
+    },
+    "logs_sha256": "232573719487a3f918ee6772d1df6d0304df344a21e399f1b76d7b999b6eace8",
+    "finished_at": "2026-09-17T08:12:37.690750+00:00"
+  },
+  "condition_results": [
+    {
+      "condition_key": "C0",
+      "n": 125,
+      "reason_correct": 75,
+      "blocker_correct": 105,
+      "joint_correct": 65,
+      "old_v1_joint_correct_original_gt": 54,
+      "old_v1_joint_correct_rescored_new_gt": 54,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 20,
+          "joint_correct": 20
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 10,
+          "blocker_correct": 25,
+          "joint_correct": 10
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 25,
+          "blocker_correct": 15,
+          "joint_correct": 15
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 20,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 18
+    },
+    {
+      "condition_key": "C1",
+      "n": 125,
+      "reason_correct": 44,
+      "blocker_correct": 85,
+      "joint_correct": 39,
+      "old_v1_joint_correct_original_gt": 41,
+      "old_v1_joint_correct_rescored_new_gt": 41,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 5,
+          "blocker_correct": 5,
+          "joint_correct": 5
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 9,
+          "blocker_correct": 25,
+          "joint_correct": 9
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 10,
+          "blocker_correct": 10,
+          "joint_correct": 5
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 20,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 38
+    },
+    {
+      "condition_key": "C2_D4",
+      "n": 125,
+      "reason_correct": 60,
+      "blocker_correct": 109,
+      "joint_correct": 60,
+      "old_v1_joint_correct_original_gt": 49,
+      "old_v1_joint_correct_rescored_new_gt": 49,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 15,
+          "blocker_correct": 15,
+          "joint_correct": 15
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 10,
+          "blocker_correct": 25,
+          "joint_correct": 10
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 15,
+          "blocker_correct": 19,
+          "joint_correct": 15
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 25,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 31
+    },
+    {
+      "condition_key": "C2_D8",
+      "n": 125,
+      "reason_correct": 57,
+      "blocker_correct": 105,
+      "joint_correct": 57,
+      "old_v1_joint_correct_original_gt": 48,
+      "old_v1_joint_correct_rescored_new_gt": 48,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 12,
+          "blocker_correct": 12,
+          "joint_correct": 12
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 8,
+          "blocker_correct": 25,
+          "joint_correct": 8
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 15,
+          "blocker_correct": 18,
+          "joint_correct": 15
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 2,
+          "blocker_correct": 25,
+          "joint_correct": 2
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 35
+    },
+    {
+      "condition_key": "C3_D4",
+      "n": 125,
+      "reason_correct": 35,
+      "blocker_correct": 77,
+      "joint_correct": 33,
+      "old_v1_joint_correct_original_gt": 30,
+      "old_v1_joint_correct_rescored_new_gt": 30,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 6,
+          "blocker_correct": 6,
+          "joint_correct": 6
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 3,
+          "blocker_correct": 22,
+          "joint_correct": 3
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 6,
+          "blocker_correct": 9,
+          "joint_correct": 4
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 15,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 47
+    },
+    {
+      "condition_key": "C3_D8",
+      "n": 125,
+      "reason_correct": 42,
+      "blocker_correct": 80,
+      "joint_correct": 41,
+      "old_v1_joint_correct_original_gt": 26,
+      "old_v1_joint_correct_rescored_new_gt": 26,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 5,
+          "blocker_correct": 5,
+          "joint_correct": 5
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 4,
+          "blocker_correct": 25,
+          "joint_correct": 4
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 13,
+          "blocker_correct": 14,
+          "joint_correct": 12
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 11,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 43
+    },
+    {
+      "condition_key": "C4_D4",
+      "n": 125,
+      "reason_correct": 57,
+      "blocker_correct": 90,
+      "joint_correct": 47,
+      "old_v1_joint_correct_original_gt": 38,
+      "old_v1_joint_correct_rescored_new_gt": 38,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 10,
+          "blocker_correct": 10,
+          "joint_correct": 10
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 5,
+          "blocker_correct": 25,
+          "joint_correct": 5
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 22,
+          "blocker_correct": 12,
+          "joint_correct": 12
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 18,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 54
+    },
+    {
+      "condition_key": "C4_D8",
+      "n": 125,
+      "reason_correct": 51,
+      "blocker_correct": 94,
+      "joint_correct": 49,
+      "old_v1_joint_correct_original_gt": 48,
+      "old_v1_joint_correct_rescored_new_gt": 48,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 11,
+          "blocker_correct": 11,
+          "joint_correct": 11
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 6,
+          "blocker_correct": 25,
+          "joint_correct": 6
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 14,
+          "blocker_correct": 17,
+          "joint_correct": 12
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 16,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 50
+    },
+    {
+      "condition_key": "C5_D4",
+      "n": 125,
+      "reason_correct": 65,
+      "blocker_correct": 99,
+      "joint_correct": 60,
+      "old_v1_joint_correct_original_gt": 41,
+      "old_v1_joint_correct_rescored_new_gt": 41,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 15,
+          "blocker_correct": 15,
+          "joint_correct": 15
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 10,
+          "blocker_correct": 25,
+          "joint_correct": 10
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 17,
+          "joint_correct": 15
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 17,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 57
+    },
+    {
+      "condition_key": "C5_D8",
+      "n": 125,
+      "reason_correct": 48,
+      "blocker_correct": 84,
+      "joint_correct": 43,
+      "old_v1_joint_correct_original_gt": 34,
+      "old_v1_joint_correct_rescored_new_gt": 34,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 4,
+          "blocker_correct": 4,
+          "joint_correct": 4
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 7,
+          "blocker_correct": 25,
+          "joint_correct": 7
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 17,
+          "blocker_correct": 17,
+          "joint_correct": 12
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 13,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 44
+    },
+    {
+      "condition_key": "C6_D4",
+      "n": 125,
+      "reason_correct": 60,
+      "blocker_correct": 94,
+      "joint_correct": 51,
+      "old_v1_joint_correct_original_gt": 50,
+      "old_v1_joint_correct_rescored_new_gt": 50,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 10,
+          "blocker_correct": 10,
+          "joint_correct": 10
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 18,
+          "blocker_correct": 25,
+          "joint_correct": 18
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 10,
+          "blocker_correct": 23,
+          "joint_correct": 8
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 22,
+          "blocker_correct": 16,
+          "joint_correct": 15
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 20,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 54
+    },
+    {
+      "condition_key": "C6_D8",
+      "n": 125,
+      "reason_correct": 63,
+      "blocker_correct": 87,
+      "joint_correct": 51,
+      "old_v1_joint_correct_original_gt": 42,
+      "old_v1_joint_correct_rescored_new_gt": 42,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 13,
+          "blocker_correct": 13,
+          "joint_correct": 13
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 9,
+          "blocker_correct": 21,
+          "joint_correct": 5
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 21,
+          "blocker_correct": 13,
+          "joint_correct": 13
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 15,
+          "joint_correct": 0
+        }
+      },
+      "valid": 125,
+      "changed_outputs_vs_v1": 53
+    }
+  ]
+}

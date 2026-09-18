@@ -1,0 +1,626 @@
+{
+  "experiment_version": "l3_primary_blocker_v19",
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "task_definition": "Exact blocking reason and exactly one visible causal blocker selected as the strongest obstruction and first object to remove.",
+  "dataset_limitation": "The current 25-scene set has no scene with multiple visible valid blocker IDs, so blocker ranking quality cannot be directly evaluated.",
+  "audit": {
+    "status": "pass",
+    "completed": 1500,
+    "unique_run_ids": 1500,
+    "parse_errors": 0,
+    "post_validation_failures": 0,
+    "infrastructure_errors": 0,
+    "condition_counts": {
+      "C3_D8": 125,
+      "C4_D8": 125,
+      "C5_D4": 125,
+      "C5_D8": 125,
+      "C3_D4": 125,
+      "C6_D4": 125,
+      "C2_D8": 125,
+      "C6_D8": 125,
+      "C0": 125,
+      "C1": 125,
+      "C4_D4": 125,
+      "C2_D4": 125
+    },
+    "finish_reasons": {
+      "stop": 1500
+    },
+    "logs_sha256": "09f291c3571812cee86c36b9684105a77df8b7dfcef2227dcbb7ff53d1fb8147",
+    "finished_at": "2026-09-18T02:23:44.312121+00:00"
+  },
+  "overall": {
+    "n": 1500,
+    "reason_correct": 514,
+    "blocker_correct": 1123,
+    "joint_correct": 512
+  },
+  "v17_reference_overall": {
+    "reason_correct": 657,
+    "blocker_correct": 1109,
+    "joint_correct": 596
+  },
+  "delta_vs_v17": {
+    "reason_correct": -143,
+    "blocker_correct": 14,
+    "joint_correct": -84
+  },
+  "reason_confusion": [
+    {
+      "gt": "BOTH",
+      "prediction": "BOTH",
+      "n": 81
+    },
+    {
+      "gt": "BOTH",
+      "prediction": "CLEARANCE_OVERLAP",
+      "n": 443
+    },
+    {
+      "gt": "BOTH",
+      "prediction": "OCCLUSION",
+      "n": 16
+    },
+    {
+      "gt": "CLEARANCE_OVERLAP",
+      "prediction": "BOTH",
+      "n": 9
+    },
+    {
+      "gt": "CLEARANCE_OVERLAP",
+      "prediction": "CLEARANCE_OVERLAP",
+      "n": 266
+    },
+    {
+      "gt": "CLEARANCE_OVERLAP",
+      "prediction": "NONE",
+      "n": 25
+    },
+    {
+      "gt": "NONE",
+      "prediction": "BOTH",
+      "n": 7
+    },
+    {
+      "gt": "NONE",
+      "prediction": "CLEARANCE_OVERLAP",
+      "n": 92
+    },
+    {
+      "gt": "NONE",
+      "prediction": "NONE",
+      "n": 141
+    },
+    {
+      "gt": "OCCLUSION",
+      "prediction": "BOTH",
+      "n": 62
+    },
+    {
+      "gt": "OCCLUSION",
+      "prediction": "CLEARANCE_OVERLAP",
+      "n": 332
+    },
+    {
+      "gt": "OCCLUSION",
+      "prediction": "OCCLUSION",
+      "n": 26
+    }
+  ],
+  "by_family": {
+    "FC_CLEAR": {
+      "n": 300,
+      "reason_correct": 176,
+      "blocker_correct": 177,
+      "joint_correct": 176
+    },
+    "FC_BLOCKED": {
+      "n": 300,
+      "reason_correct": 236,
+      "blocker_correct": 299,
+      "joint_correct": 236
+    },
+    "TRANSLATE": {
+      "n": 300,
+      "reason_correct": 27,
+      "blocker_correct": 282,
+      "joint_correct": 27
+    },
+    "ROTATE": {
+      "n": 300,
+      "reason_correct": 19,
+      "blocker_correct": 150,
+      "joint_correct": 17
+    },
+    "LIFT_AND_RELOCATE": {
+      "n": 300,
+      "reason_correct": 56,
+      "blocker_correct": 215,
+      "joint_correct": 56
+    }
+  },
+  "condition_results": [
+    {
+      "condition_key": "C0",
+      "n": 125,
+      "reason_correct": 50,
+      "blocker_correct": 95,
+      "joint_correct": 48,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 11,
+          "blocker_correct": 11,
+          "joint_correct": 11
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 6,
+          "blocker_correct": 25,
+          "joint_correct": 6
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 13,
+          "blocker_correct": 15,
+          "joint_correct": 11
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 19,
+          "joint_correct": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C1",
+      "n": 125,
+      "reason_correct": 30,
+      "blocker_correct": 85,
+      "joint_correct": 30,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 6,
+          "blocker_correct": 6,
+          "joint_correct": 6
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 4,
+          "blocker_correct": 25,
+          "joint_correct": 4
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 9,
+          "joint_correct": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 20,
+          "joint_correct": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C2_D4",
+      "n": 125,
+      "reason_correct": 60,
+      "blocker_correct": 116,
+      "joint_correct": 60,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 23,
+          "blocker_correct": 23,
+          "joint_correct": 23
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 19,
+          "blocker_correct": 25,
+          "joint_correct": 19
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 6,
+          "blocker_correct": 25,
+          "joint_correct": 6
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 18,
+          "joint_correct": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 12,
+          "blocker_correct": 25,
+          "joint_correct": 12
+        }
+      }
+    },
+    {
+      "condition_key": "C2_D8",
+      "n": 125,
+      "reason_correct": 72,
+      "blocker_correct": 116,
+      "joint_correct": 72,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 23,
+          "blocker_correct": 23,
+          "joint_correct": 23
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 22,
+          "blocker_correct": 25,
+          "joint_correct": 22
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 7,
+          "blocker_correct": 25,
+          "joint_correct": 7
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 1,
+          "blocker_correct": 18,
+          "joint_correct": 1
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 19,
+          "blocker_correct": 25,
+          "joint_correct": 19
+        }
+      }
+    },
+    {
+      "condition_key": "C3_D4",
+      "n": 125,
+      "reason_correct": 34,
+      "blocker_correct": 80,
+      "joint_correct": 34,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 13,
+          "blocker_correct": 13,
+          "joint_correct": 13
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 21,
+          "blocker_correct": 25,
+          "joint_correct": 21
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 22,
+          "joint_correct": 0
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 6,
+          "joint_correct": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 14,
+          "joint_correct": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C3_D8",
+      "n": 125,
+      "reason_correct": 22,
+      "blocker_correct": 74,
+      "joint_correct": 22,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 2,
+          "blocker_correct": 3,
+          "joint_correct": 2
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 23,
+          "joint_correct": 0
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 11,
+          "joint_correct": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 12,
+          "joint_correct": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C4_D4",
+      "n": 125,
+      "reason_correct": 48,
+      "blocker_correct": 90,
+      "joint_correct": 48,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 13,
+          "blocker_correct": 13,
+          "joint_correct": 13
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 15,
+          "blocker_correct": 25,
+          "joint_correct": 15
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 3,
+          "blocker_correct": 22,
+          "joint_correct": 3
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 8,
+          "joint_correct": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 17,
+          "blocker_correct": 22,
+          "joint_correct": 17
+        }
+      }
+    },
+    {
+      "condition_key": "C4_D8",
+      "n": 125,
+      "reason_correct": 45,
+      "blocker_correct": 91,
+      "joint_correct": 45,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 16,
+          "blocker_correct": 16,
+          "joint_correct": 16
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 19,
+          "blocker_correct": 24,
+          "joint_correct": 19
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 22,
+          "joint_correct": 0
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 3,
+          "blocker_correct": 15,
+          "joint_correct": 3
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 7,
+          "blocker_correct": 14,
+          "joint_correct": 7
+        }
+      }
+    },
+    {
+      "condition_key": "C5_D4",
+      "n": 125,
+      "reason_correct": 36,
+      "blocker_correct": 92,
+      "joint_correct": 36,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 16,
+          "blocker_correct": 16,
+          "joint_correct": 16
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 25,
+          "joint_correct": 0
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 8,
+          "joint_correct": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 18,
+          "joint_correct": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C5_D8",
+      "n": 125,
+      "reason_correct": 38,
+      "blocker_correct": 96,
+      "joint_correct": 38,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 18,
+          "blocker_correct": 18,
+          "joint_correct": 18
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 23,
+          "joint_correct": 0
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 15,
+          "joint_correct": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 15,
+          "joint_correct": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C6_D4",
+      "n": 125,
+      "reason_correct": 40,
+      "blocker_correct": 94,
+      "joint_correct": 40,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 19,
+          "blocker_correct": 19,
+          "joint_correct": 19
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 22,
+          "joint_correct": 0
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 1,
+          "blocker_correct": 11,
+          "joint_correct": 1
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 0,
+          "blocker_correct": 17,
+          "joint_correct": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C6_D8",
+      "n": 125,
+      "reason_correct": 39,
+      "blocker_correct": 94,
+      "joint_correct": 39,
+      "valid": 125,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "reason_correct": 16,
+          "blocker_correct": 16,
+          "joint_correct": 16
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "reason_correct": 20,
+          "blocker_correct": 25,
+          "joint_correct": 20
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "reason_correct": 1,
+          "blocker_correct": 23,
+          "joint_correct": 1
+        },
+        "ROTATE": {
+          "n": 25,
+          "reason_correct": 1,
+          "blocker_correct": 16,
+          "joint_correct": 1
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "reason_correct": 1,
+          "blocker_correct": 14,
+          "joint_correct": 1
+        }
+      }
+    }
+  ],
+  "source_summary_experiment_version": "l3_maskfix_v17"
+}

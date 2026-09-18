@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="990" viewBox="0 0 960 990">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:10px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">C2 D4 scene × seed reason outputs</text>
+<text class="sub" x="38" y="58">Green border = correct reason; cell text = predicted label</text>
+<text class="label" x="341.0" y="68" text-anchor="middle">28101</text>
+<text class="label" x="453.0" y="68" text-anchor="middle">28102</text>
+<text class="label" x="565.0" y="68" text-anchor="middle">28103</text>
+<text class="label" x="677.0" y="68" text-anchor="middle">28104</text>
+<text class="label" x="789.0" y="68" text-anchor="middle">28105</text>
+<text class="small" x="275" y="101" text-anchor="end">scene_fc_blocked_v01</text>
+<rect x="285" y="80" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="100" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="80" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="100" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="80" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="100" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="80" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="100" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="80" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="100" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="135" text-anchor="end">scene_fc_blocked_v02</text>
+<rect x="285" y="114" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="134" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="114" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="134" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="114" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="134" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="114" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="134" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="114" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="134" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="169" text-anchor="end">scene_fc_blocked_v03</text>
+<rect x="285" y="148" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="168" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="148" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="168" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="148" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="168" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="148" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="168" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="148" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="168" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="203" text-anchor="end">scene_fc_blocked_v04</text>
+<rect x="285" y="182" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="202" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="182" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="202" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="182" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="202" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="182" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="202" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="182" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="202" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="237" text-anchor="end">scene_fc_blocked_v05</text>
+<rect x="285" y="216" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="236" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="216" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="236" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="216" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="236" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="216" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="236" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="216" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="236" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="271" text-anchor="end">scene_fc_clear_v01</text>
+<rect x="285" y="250" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="270" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="397" y="250" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="270" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="509" y="250" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="270" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="621" y="250" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="270" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="733" y="250" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="270" text-anchor="middle" fill="#fff">NONE</text>
+<text class="small" x="275" y="305" text-anchor="end">scene_fc_clear_v02</text>
+<rect x="285" y="284" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="304" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="397" y="284" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="304" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="284" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="304" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="621" y="284" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="304" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="733" y="284" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="304" text-anchor="middle" fill="#fff">NONE</text>
+<text class="small" x="275" y="339" text-anchor="end">scene_fc_clear_v03</text>
+<rect x="285" y="318" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="338" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="397" y="318" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="338" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="509" y="318" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="338" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="621" y="318" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="338" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="733" y="318" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="338" text-anchor="middle" fill="#fff">NONE</text>
+<text class="small" x="275" y="373" text-anchor="end">scene_fc_clear_v04</text>
+<rect x="285" y="352" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="372" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="397" y="352" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="372" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="352" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="372" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="621" y="352" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="372" text-anchor="middle" fill="#fff">NONE</text>
+<rect x="733" y="352" width="107" height="30" rx="3" fill="#188038" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="372" text-anchor="middle" fill="#fff">NONE</text>
+<text class="small" x="275" y="407" text-anchor="end">scene_fc_clear_v05</text>
+<rect x="285" y="386" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="406" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="386" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="406" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="386" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="406" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="386" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="406" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="386" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="406" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="441" text-anchor="end">scene_lift_and_relocate_v01</text>
+<rect x="285" y="420" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="440" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="420" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="440" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="420" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="440" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="420" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="440" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="420" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="440" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="475" text-anchor="end">scene_lift_and_relocate_v02</text>
+<rect x="285" y="454" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="474" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="454" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="474" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="454" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="474" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="454" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="474" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="454" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="474" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="509" text-anchor="end">scene_lift_and_relocate_v03</text>
+<rect x="285" y="488" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="508" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="488" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="508" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="488" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="508" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="488" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="508" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="488" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="508" text-anchor="middle" fill="#fff">BOTH</text>
+<text class="small" x="275" y="543" text-anchor="end">scene_lift_and_relocate_v04</text>
+<rect x="285" y="522" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="542" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="397" y="522" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="542" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="522" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="542" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="621" y="522" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="542" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="522" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="786.5" y="542" text-anchor="middle" fill="#fff">BOTH</text>
+<text class="small" x="275" y="577" text-anchor="end">scene_lift_and_relocate_v05</text>
+<rect x="285" y="556" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="576" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="556" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="576" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="556" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="576" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="556" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="576" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="556" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="576" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="611" text-anchor="end">scene_rotate_v01</text>
+<rect x="285" y="590" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="610" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="590" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="610" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="590" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="610" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="590" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="610" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="590" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="610" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="645" text-anchor="end">scene_rotate_v02</text>
+<rect x="285" y="624" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="644" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="397" y="624" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="644" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="624" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="644" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="621" y="624" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="644" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="624" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="644" text-anchor="middle" fill="#fff">BOTH</text>
+<text class="small" x="275" y="679" text-anchor="end">scene_rotate_v03</text>
+<rect x="285" y="658" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="678" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="397" y="658" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="678" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="658" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="678" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="621" y="658" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="678" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="658" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="678" text-anchor="middle" fill="#fff">BOTH</text>
+<text class="small" x="275" y="713" text-anchor="end">scene_rotate_v04</text>
+<rect x="285" y="692" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="712" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="692" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="712" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="692" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="712" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="692" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="712" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="692" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="712" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="747" text-anchor="end">scene_rotate_v05</text>
+<rect x="285" y="726" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="746" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="726" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="746" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="726" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="746" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="621" y="726" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="746" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="726" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="746" text-anchor="middle" fill="#fff">BOTH</text>
+<text class="small" x="275" y="781" text-anchor="end">scene_translate_v01</text>
+<rect x="285" y="760" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="780" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="760" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="780" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="509" y="760" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="780" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="760" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="780" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="733" y="760" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="780" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="815" text-anchor="end">scene_translate_v02</text>
+<rect x="285" y="794" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="338.5" y="814" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="397" y="794" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="814" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="794" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="562.5" y="814" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="621" y="794" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="814" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="794" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="814" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="849" text-anchor="end">scene_translate_v03</text>
+<rect x="285" y="828" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="848" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="828" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="848" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="828" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="848" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="828" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="848" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="828" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="848" text-anchor="middle" fill="#fff">CLR</text>
+<text class="small" x="275" y="883" text-anchor="end">scene_translate_v04</text>
+<rect x="285" y="862" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="882" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="397" y="862" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="450.5" y="882" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="862" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="882" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="621" y="862" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="674.5" y="882" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="862" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="882" text-anchor="middle" fill="#fff">BOTH</text>
+<text class="small" x="275" y="917" text-anchor="end">scene_translate_v05</text>
+<rect x="285" y="896" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="338.5" y="916" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="397" y="896" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="450.5" y="916" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="509" y="896" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="562.5" y="916" text-anchor="middle" fill="#fff">CLR</text>
+<rect x="621" y="896" width="107" height="30" rx="3" fill="#9334e6" fill-opacity="0.82" stroke="#0b8043" stroke-width="3"/>
+<text class="small" x="674.5" y="916" text-anchor="middle" fill="#fff">BOTH</text>
+<rect x="733" y="896" width="107" height="30" rx="3" fill="#1a73e8" fill-opacity="0.82" stroke="#d93025" stroke-width="2"/>
+<text class="small" x="786.5" y="916" text-anchor="middle" fill="#fff">CLR</text>
+</svg>

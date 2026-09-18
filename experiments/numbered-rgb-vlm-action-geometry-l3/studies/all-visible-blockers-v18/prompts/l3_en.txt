@@ -1,0 +1,13 @@
+Identify why the target is not directly graspable and list every visible
+causal blocker.
+
+OCCLUSION means the target is not FULL.
+CLEARANCE_OVERLAP means another object is within 5 cm of the target's outer
+boundary. BOTH means both conditions hold. NONE means the target is directly
+graspable.
+
+Return blocker_ids as the ascending list of every visible numbered object that
+causally contributes to the blocking reason. For BOTH, include the union of all
+visible occlusion and clearance blockers. Do not stop after the first blocker.
+Do not include the target itself or unrelated nearby objects. Use [] when the
+reason is NONE.

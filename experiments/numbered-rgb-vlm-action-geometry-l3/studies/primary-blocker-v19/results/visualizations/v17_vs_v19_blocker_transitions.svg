@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 0 960 390">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.label{font-size:13px}.value{font-size:13px;font-weight:700}.axis{stroke:#c8ccd0;stroke-width:1}.grid{stroke:#e7e9ec;stroke-width:1}</style>
+<text class="title" x="40" y="38">Paired blocker-ID result transitions (1,500 matched calls)</text>
+<text class="label" x="40" y="104">Correct → Correct</text>
+<rect x="190" y="82" width="650.0" height="34" rx="5" fill="#188038"/>
+<text class="value" x="850.0" y="104">995 (66.3%)</text>
+<text class="label" x="40" y="174">Wrong → Correct</text>
+<rect x="190" y="152" width="83.61809045226131" height="34" rx="5" fill="#34a853"/>
+<text class="value" x="283.6180904522613" y="174">128 (8.5%)</text>
+<text class="label" x="40" y="244">Correct → Wrong</text>
+<rect x="190" y="222" width="74.47236180904522" height="34" rx="5" fill="#ea4335"/>
+<text class="value" x="274.4723618090452" y="244">114 (7.6%)</text>
+<text class="label" x="40" y="314">Wrong → Wrong</text>
+<rect x="190" y="292" width="171.80904522613065" height="34" rx="5" fill="#9aa0a6"/>
+<text class="value" x="371.80904522613065" y="314">263 (17.5%)</text>
+</svg>

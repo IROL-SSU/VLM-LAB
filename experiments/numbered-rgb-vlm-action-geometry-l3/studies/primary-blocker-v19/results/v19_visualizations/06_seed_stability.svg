@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#5f6368}.label{font-size:12px}.small{font-size:11px}.value{font-size:12px;font-weight:700}.grid{stroke:#e6e8eb;stroke-width:1}</style>
+<text class="title" x="38" y="36">Blocker correctness across five seeds</text>
+<text class="sub" x="38" y="58">300 scene × condition groups; bar = number of groups</text>
+<rect x="145" y="314.468085106383" width="70" height="65.53191489361703" rx="5" fill="#d93025"/>
+<text class="value" x="180" y="306.468085106383" text-anchor="middle">44</text>
+<text class="label" x="180" y="404" text-anchor="middle">0/5 correct</text>
+<rect x="265" y="362.1276595744681" width="70" height="17.872340425531913" rx="5" fill="#f9ab00"/>
+<text class="value" x="300" y="354.1276595744681" text-anchor="middle">12</text>
+<text class="label" x="300" y="404" text-anchor="middle">1/5 correct</text>
+<rect x="385" y="348.72340425531917" width="70" height="31.27659574468085" rx="5" fill="#f9ab00"/>
+<text class="value" x="420" y="340.72340425531917" text-anchor="middle">21</text>
+<text class="label" x="420" y="404" text-anchor="middle">2/5 correct</text>
+<rect x="505" y="363.6170212765957" width="70" height="16.382978723404257" rx="5" fill="#1a73e8"/>
+<text class="value" x="540" y="355.6170212765957" text-anchor="middle">11</text>
+<text class="label" x="540" y="404" text-anchor="middle">3/5 correct</text>
+<rect x="625" y="344.25531914893617" width="70" height="35.744680851063826" rx="5" fill="#1a73e8"/>
+<text class="value" x="660" y="336.25531914893617" text-anchor="middle">24</text>
+<text class="label" x="660" y="404" text-anchor="middle">4/5 correct</text>
+<rect x="745" y="100.0" width="70" height="280.0" rx="5" fill="#188038"/>
+<text class="value" x="780" y="92.0" text-anchor="middle">188</text>
+<text class="label" x="780" y="404" text-anchor="middle">5/5 correct</text>
+<text class="sub" x="90" y="455">Exact output identical across all seeds: 190/300 groups · blocker ID identical: 226/300</text>
+</svg>

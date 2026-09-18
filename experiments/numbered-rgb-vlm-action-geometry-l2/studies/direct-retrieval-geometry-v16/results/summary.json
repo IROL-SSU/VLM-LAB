@@ -1,0 +1,530 @@
+{
+  "experiment_version": "l2_direct_retrieval_geometry_v16",
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "completed_calls": 1500,
+  "scene_count": 25,
+  "condition_count": 12,
+  "schema_valid_calls": 1500,
+  "infrastructure_errors": 0,
+  "retrieval_execution_gt_available": false,
+  "accuracy": null,
+  "scene_design_reference": "FC_CLEAR => RETRIEVE_NOW; other families => REARRANGE_FIRST. Advisory scene intent, not execution GT.",
+  "condition_results": [
+    {
+      "condition_key": "C0",
+      "condition_name": "RGB only",
+      "n": 125,
+      "RETRIEVE_NOW": 47,
+      "REARRANGE_FIRST": 78,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 25,
+          "REARRANGE_FIRST": 0,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 19,
+          "REARRANGE_FIRST": 6,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 2,
+          "REARRANGE_FIRST": 23,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 1,
+          "REARRANGE_FIRST": 24,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 22,
+      "changed_vs_c0": 0,
+      "changes_toward_scene_design": 0,
+      "changes_away_from_scene_design": 0,
+      "scene_design_agreement_count": 103,
+      "scene_design_agreement_rate": 0.824
+    },
+    {
+      "condition_key": "C1",
+      "condition_name": "R Numeric",
+      "n": 125,
+      "RETRIEVE_NOW": 39,
+      "REARRANGE_FIRST": 86,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 20,
+          "REARRANGE_FIRST": 5,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 13,
+          "REARRANGE_FIRST": 12,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 5,
+          "REARRANGE_FIRST": 20,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 1,
+          "REARRANGE_FIRST": 24,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 17,
+      "changed_vs_c0": 16,
+      "changes_toward_scene_design": 7,
+      "changes_away_from_scene_design": 9,
+      "scene_design_agreement_count": 101,
+      "scene_design_agreement_rate": 0.808
+    },
+    {
+      "condition_key": "C2_D4",
+      "condition_name": "R Qualitative D4",
+      "n": 125,
+      "RETRIEVE_NOW": 41,
+      "REARRANGE_FIRST": 84,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 25,
+          "REARRANGE_FIRST": 0,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 16,
+          "REARRANGE_FIRST": 9,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 23,
+      "changed_vs_c0": 6,
+      "changes_toward_scene_design": 6,
+      "changes_away_from_scene_design": 0,
+      "scene_design_agreement_count": 109,
+      "scene_design_agreement_rate": 0.872
+    },
+    {
+      "condition_key": "C2_D8",
+      "condition_name": "R Qualitative D8",
+      "n": 125,
+      "RETRIEVE_NOW": 31,
+      "REARRANGE_FIRST": 94,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 24,
+          "REARRANGE_FIRST": 1,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 7,
+          "REARRANGE_FIRST": 18,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 23,
+      "changed_vs_c0": 16,
+      "changes_toward_scene_design": 15,
+      "changes_away_from_scene_design": 1,
+      "scene_design_agreement_count": 117,
+      "scene_design_agreement_rate": 0.936
+    },
+    {
+      "condition_key": "C3_D4",
+      "condition_name": "F Numeric D4",
+      "n": 125,
+      "RETRIEVE_NOW": 57,
+      "REARRANGE_FIRST": 68,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 22,
+          "REARRANGE_FIRST": 3,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 22,
+          "REARRANGE_FIRST": 3,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 4,
+          "REARRANGE_FIRST": 21,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 4,
+          "REARRANGE_FIRST": 21,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 5,
+          "REARRANGE_FIRST": 20,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 14,
+      "changed_vs_c0": 22,
+      "changes_toward_scene_design": 3,
+      "changes_away_from_scene_design": 19,
+      "scene_design_agreement_count": 87,
+      "scene_design_agreement_rate": 0.696
+    },
+    {
+      "condition_key": "C3_D8",
+      "condition_name": "F Numeric D8",
+      "n": 125,
+      "RETRIEVE_NOW": 56,
+      "REARRANGE_FIRST": 69,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 25,
+          "REARRANGE_FIRST": 0,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 21,
+          "REARRANGE_FIRST": 4,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 5,
+          "REARRANGE_FIRST": 20,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 4,
+          "REARRANGE_FIRST": 21,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 1,
+          "REARRANGE_FIRST": 24,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 17,
+      "changed_vs_c0": 15,
+      "changes_toward_scene_design": 3,
+      "changes_away_from_scene_design": 12,
+      "scene_design_agreement_count": 94,
+      "scene_design_agreement_rate": 0.752
+    },
+    {
+      "condition_key": "C4_D4",
+      "condition_name": "F Qualitative D4",
+      "n": 125,
+      "RETRIEVE_NOW": 33,
+      "REARRANGE_FIRST": 92,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 16,
+          "REARRANGE_FIRST": 9,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 13,
+          "REARRANGE_FIRST": 12,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 2,
+          "REARRANGE_FIRST": 23,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 2,
+          "REARRANGE_FIRST": 23,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 16,
+      "changed_vs_c0": 16,
+      "changes_toward_scene_design": 6,
+      "changes_away_from_scene_design": 10,
+      "scene_design_agreement_count": 99,
+      "scene_design_agreement_rate": 0.792
+    },
+    {
+      "condition_key": "C4_D8",
+      "condition_name": "F Qualitative D8",
+      "n": 125,
+      "RETRIEVE_NOW": 33,
+      "REARRANGE_FIRST": 92,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 17,
+          "REARRANGE_FIRST": 8,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 14,
+          "REARRANGE_FIRST": 11,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 2,
+          "REARRANGE_FIRST": 23,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 18,
+      "changed_vs_c0": 20,
+      "changes_toward_scene_design": 9,
+      "changes_away_from_scene_design": 11,
+      "scene_design_agreement_count": 101,
+      "scene_design_agreement_rate": 0.808
+    },
+    {
+      "condition_key": "C5_D4",
+      "condition_name": "M Numeric D4",
+      "n": 125,
+      "RETRIEVE_NOW": 38,
+      "REARRANGE_FIRST": 87,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 18,
+          "REARRANGE_FIRST": 7,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 8,
+          "REARRANGE_FIRST": 17,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 4,
+          "REARRANGE_FIRST": 21,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 6,
+          "REARRANGE_FIRST": 19,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 2,
+          "REARRANGE_FIRST": 23,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 16,
+      "changed_vs_c0": 27,
+      "changes_toward_scene_design": 11,
+      "changes_away_from_scene_design": 16,
+      "scene_design_agreement_count": 98,
+      "scene_design_agreement_rate": 0.784
+    },
+    {
+      "condition_key": "C5_D8",
+      "condition_name": "M Numeric D8",
+      "n": 125,
+      "RETRIEVE_NOW": 49,
+      "REARRANGE_FIRST": 76,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 23,
+          "REARRANGE_FIRST": 2,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 19,
+          "REARRANGE_FIRST": 6,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 3,
+          "REARRANGE_FIRST": 22,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 4,
+          "REARRANGE_FIRST": 21,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 17,
+      "changed_vs_c0": 14,
+      "changes_toward_scene_design": 4,
+      "changes_away_from_scene_design": 10,
+      "scene_design_agreement_count": 97,
+      "scene_design_agreement_rate": 0.776
+    },
+    {
+      "condition_key": "C6_D4",
+      "condition_name": "M Qualitative D4",
+      "n": 125,
+      "RETRIEVE_NOW": 36,
+      "REARRANGE_FIRST": 89,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 19,
+          "REARRANGE_FIRST": 6,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 13,
+          "REARRANGE_FIRST": 12,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 4,
+          "REARRANGE_FIRST": 21,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 18,
+      "changed_vs_c0": 21,
+      "changes_toward_scene_design": 10,
+      "changes_away_from_scene_design": 11,
+      "scene_design_agreement_count": 102,
+      "scene_design_agreement_rate": 0.816
+    },
+    {
+      "condition_key": "C6_D8",
+      "condition_name": "M Qualitative D8",
+      "n": 125,
+      "RETRIEVE_NOW": 45,
+      "REARRANGE_FIRST": 80,
+      "INVALID": 0,
+      "by_family": {
+        "FC_CLEAR": {
+          "RETRIEVE_NOW": 22,
+          "REARRANGE_FIRST": 3,
+          "INVALID": 0
+        },
+        "FC_BLOCKED": {
+          "RETRIEVE_NOW": 21,
+          "REARRANGE_FIRST": 4,
+          "INVALID": 0
+        },
+        "TRANSLATE": {
+          "RETRIEVE_NOW": 2,
+          "REARRANGE_FIRST": 23,
+          "INVALID": 0
+        },
+        "ROTATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "RETRIEVE_NOW": 0,
+          "REARRANGE_FIRST": 25,
+          "INVALID": 0
+        }
+      },
+      "unanimous_scenes": 21,
+      "changed_vs_c0": 14,
+      "changes_toward_scene_design": 5,
+      "changes_away_from_scene_design": 9,
+      "scene_design_agreement_count": 99,
+      "scene_design_agreement_rate": 0.792
+    }
+  ],
+  "c0_changes_vs_previous_v15": [
+    {
+      "scene_id": "scene_rotate_v04",
+      "seed": 28102
+    },
+    {
+      "scene_id": "scene_fc_blocked_v05",
+      "seed": 28105
+    },
+    {
+      "scene_id": "scene_rotate_v02",
+      "seed": 28102
+    },
+    {
+      "scene_id": "scene_fc_blocked_v02",
+      "seed": 28101
+    }
+  ],
+  "total_generation_seconds": 137.709,
+  "input_token_range": [
+    1434,
+    2175
+  ],
+  "finished_at": "2026-09-17T06:32:47.753751+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "scene_id": "scene_lift_and_relocate_v05",
+  "candidate_key": "cheezit_box",
+  "candidate_description": "the Cheez-It box in the center",
+  "L2": {
+    "obstructs_grasp": true,
+    "reference_only": true,
+    "reference_definition": "Isaac Sim visual-occlusion reference; not robot-arm grasp rollout"
+  }
+}

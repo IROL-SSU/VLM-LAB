@@ -1,0 +1,7 @@
+Target object to grasp: object 43.
+Candidate obstacle to evaluate: {candidate_description}.
+
+Score how much removing the candidate obstacle would improve the robot's
+ability to grasp the target object.
+
+Return an integer obstruction score from 0 to 10.

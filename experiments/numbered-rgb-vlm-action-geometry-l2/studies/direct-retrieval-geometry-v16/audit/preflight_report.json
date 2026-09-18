@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-17T06:29:05.013656+00:00",
+  "scene_count": 25,
+  "scheduled_calls": 1500,
+  "unique_run_ids": 1500,
+  "condition_counts": {
+    "C4_D8": 125,
+    "C2_D8": 125,
+    "C6_D8": 125,
+    "C4_D4": 125,
+    "C6_D4": 125,
+    "C3_D4": 125,
+    "C2_D4": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C0": 125,
+    "C3_D8": 125,
+    "C1": 125
+  },
+  "run_table_sha256": "9b5f0eb0b5a25c1faf97113bf7e44ba07f0c0977729bff67ee8fbd66f631877b",
+  "c0_exact_input_checks_passed": 125,
+  "geometry_image_hashes_and_instance_correspondence_verified": true,
+  "geometry_policy": "Original R/F/M payloads; ascending visible-object records only. R qualitative retains original 5cm clearance categories, not gripper dimensions.",
+  "filtered_payload_count": 11,
+  "failures": []
+}

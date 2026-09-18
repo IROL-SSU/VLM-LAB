@@ -1,0 +1,109 @@
+{
+  "type": "object",
+  "properties": {
+    "visible_object_ids_left_to_right": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "const": 54
+        },
+        {
+          "const": 79
+        },
+        {
+          "const": 82
+        },
+        {
+          "const": 66
+        },
+        {
+          "const": 49
+        }
+      ],
+      "items": false,
+      "minItems": 5,
+      "maxItems": 5
+    },
+    "target_id": {
+      "const": 54
+    },
+    "occlusion_assessments_left_to_right": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 79
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 82
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 66
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 49
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false,
+      "minItems": 4,
+      "maxItems": 4
+    }
+  },
+  "required": [
+    "visible_object_ids_left_to_right",
+    "target_id",
+    "occlusion_assessments_left_to_right"
+  ],
+  "additionalProperties": false
+}

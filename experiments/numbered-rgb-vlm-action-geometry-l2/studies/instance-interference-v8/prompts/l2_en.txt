@@ -1,0 +1,13 @@
+Assess every numbered physical object in the image relative to the target.
+
+The robot will directly grasp the target from the open front of the shelf.
+
+Return exactly one assessment for every numbered object, including the target.
+Use TARGET for the target object.
+Use INTERFERES when another object is likely to interfere with the gripper
+reaching or closing on the target because it visibly overlaps a meaningful
+part of the target or is directly in front of the target such that the gripper
+may contact it during the grasp.
+Use DOES_NOT_INTERFERE otherwise.
+
+List the assessments in ascending object_id order.

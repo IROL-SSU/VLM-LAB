@@ -1,0 +1,6 @@
+scene_family,n,gt_positive,gt_null,predicted_positive,predicted_null,exact_matches,exact_accuracy,tp,fn,tn,fp,presence_accuracy,presence_balanced_accuracy,presence_recall,null_specificity,presence_precision,positive_id_correct,positive_id_accuracy,id_accuracy_given_non_null_prediction_on_positive,wrong_non_null_id_on_positive
+TRANSLATE,300,300,0,300,0,299,0.9966666666666667,300,0,0,0,1.0,,1.0,,1.0,299,0.9966666666666667,0.9966666666666667,1
+ROTATE,300,300,0,300,0,199,0.6633333333333333,300,0,0,0,1.0,,1.0,,1.0,199,0.6633333333333333,0.6633333333333333,101
+LIFT_AND_RELOCATE,300,300,0,300,0,157,0.5233333333333333,300,0,0,0,1.0,,1.0,,1.0,157,0.5233333333333333,0.5233333333333333,143
+FC_CLEAR,300,0,300,300,0,0,0.0,0,0,0,300,0.0,,,0.0,0.0,0,,,0
+FC_BLOCKED,300,0,300,300,0,0,0.0,0,0,0,300,0.0,,,0.0,0.0,0,,,0

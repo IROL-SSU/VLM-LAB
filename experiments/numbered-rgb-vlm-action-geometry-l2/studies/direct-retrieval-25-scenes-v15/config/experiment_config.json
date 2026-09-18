@@ -1,0 +1,59 @@
+{
+  "experiment_version": "l2_direct_retrieval_25scenes_v15",
+  "reference_config": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_direct_retrieval_v15/config/experiment_config.json",
+  "reference_config_sha256": "cfad3d8ee19fd4fdb397558d9d853b5269a040c302c47b33a292612b376646df",
+  "source_manifest": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/config/frozen_scenes.json",
+  "source_manifest_sha256": "1e4124c363e13d6723a1b702d8a317c6ad60de2d03c0813d33f7084aed967438",
+  "scene_count": 25,
+  "scheduled_calls": 125,
+  "seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260917,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 64
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema"
+  },
+  "system_prompt": "You assess whether a robot can retrieve a target object from a shelf.\n\nEach numbered badge identifies the physical object underneath it.\nBadge positions, sizes, and numbers are identity markers only.\n\nJudge the current scene.\nReturn exactly one JSON object. Do not include explanations.",
+  "user_prompt_template": "Target object ID: {target_object_id}\n\nGeometry information:\nnull\n\nAssume the robot can grasp and retrieve the target when it is\nunobstructed.\n\nIn the current scene, can the robot pick up the target and take it\nout through the shelf opening while leaving all other objects\nin place and avoiding contact with them?\n\nConsider whether surrounding objects obstruct access to the target\nor its removal.\n\nPartial visibility alone does not mean retrieval is blocked.\nBeing near another object alone does not mean retrieval is blocked.\n\nChoose one:\n- RETRIEVE_NOW: the target can be retrieved without rearranging\n  other objects.\n- REARRANGE_FIRST: another object must be moved before the target\n  can be retrieved.\n\nReturn exactly one JSON object with the field \"decision\".\nDo not identify the blocker or propose an action.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "string",
+        "enum": [
+          "RETRIEVE_NOW",
+          "REARRANGE_FIRST"
+        ]
+      }
+    },
+    "required": [
+      "decision"
+    ],
+    "additionalProperties": false
+  },
+  "schema_sha256": "c31365d4928a5cdbfd3f1604529d2aacac69865ece74faa591d22ee64d599efc",
+  "geometry": null,
+  "gripper_information_supplied": false,
+  "evaluation": "descriptive_predictions_no_retrieval_execution_gt"
+}

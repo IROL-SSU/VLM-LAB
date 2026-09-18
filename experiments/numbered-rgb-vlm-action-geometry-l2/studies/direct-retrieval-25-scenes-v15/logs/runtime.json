@@ -1,0 +1,6 @@
+{
+  "python": "3.12.3",
+  "vllm": "0.27.1",
+  "transformers": "5.15.1",
+  "model_load_seconds": 43.377
+}

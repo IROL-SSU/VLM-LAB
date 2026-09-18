@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "target_access_blocked": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "target_access_blocked"
+  ],
+  "additionalProperties": false
+}

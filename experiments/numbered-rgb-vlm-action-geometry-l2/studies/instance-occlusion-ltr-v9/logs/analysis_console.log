@@ -1,0 +1,164 @@
+{
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_instance_occlusion_ltr_v9/results/l2_instance_occlusion_ltr_v9",
+  "integrity": {
+    "status": "pass",
+    "scheduled": 1500,
+    "completed": 1500,
+    "unique_run_ids": 1500,
+    "parse_errors": 0,
+    "post_validation_failures": 0,
+    "output_invariant_failures": 0,
+    "attempt_records": 1500,
+    "infrastructure_errors": 0,
+    "finish_reasons": {
+      "stop": 1500
+    },
+    "failures": []
+  },
+  "overall": {
+    "candidate_instance": {
+      "n": 5340,
+      "positive": 900,
+      "negative": 4440,
+      "tp": 145,
+      "fn": 755,
+      "tn": 4428,
+      "fp": 12,
+      "accuracy": 0.8563670411985018,
+      "balanced_accuracy": 0.5792042042042043,
+      "positive_recall": 0.16111111111111112,
+      "specificity": 0.9972972972972973,
+      "precision": 0.9235668789808917
+    },
+    "run_count": 1500,
+    "full_output_exact_matches": 737,
+    "full_output_exact_match_accuracy": 0.49133333333333334,
+    "occluder_set_exact_matches": 737,
+    "occluder_set_exact_match_accuracy": 0.49133333333333334,
+    "visible_order_correct": 1500,
+    "visible_order_accuracy": 1.0,
+    "target_id_correct": 1500,
+    "target_id_accuracy": 1.0,
+    "scene_any_occlusion": {
+      "n": 1500,
+      "positive": 900,
+      "negative": 600,
+      "tp": 145,
+      "fn": 755,
+      "tn": 595,
+      "fp": 5,
+      "accuracy": 0.49333333333333335,
+      "balanced_accuracy": 0.576388888888889,
+      "positive_recall": 0.16111111111111112,
+      "specificity": 0.9916666666666667,
+      "precision": 0.9666666666666667
+    }
+  },
+  "comparison": {
+    "candidate_instance": {
+      "v9_occlusion_ltr": {
+        "n": 5340,
+        "positive": 900,
+        "negative": 4440,
+        "tp": 145,
+        "fn": 755,
+        "tn": 4428,
+        "fp": 12,
+        "accuracy": 0.8563670411985018,
+        "balanced_accuracy": 0.5792042042042043,
+        "positive_recall": 0.16111111111111112,
+        "specificity": 0.9972972972972973,
+        "precision": 0.9235668789808917
+      },
+      "v8_interference": {
+        "n": 5340,
+        "positive": 900,
+        "negative": 4440,
+        "tp": 590,
+        "fn": 310,
+        "tn": 2709,
+        "fp": 1731,
+        "accuracy": 0.6177902621722846,
+        "balanced_accuracy": 0.6328453453453453,
+        "positive_recall": 0.6555555555555556,
+        "specificity": 0.6101351351351352,
+        "precision": 0.25420077552778975
+      },
+      "v9_correct_v8_wrong": 1772,
+      "v8_correct_v9_wrong": 498
+    },
+    "scene_any": {
+      "v9_occlusion_ltr": {
+        "n": 1500,
+        "positive": 900,
+        "negative": 600,
+        "tp": 145,
+        "fn": 755,
+        "tn": 595,
+        "fp": 5,
+        "accuracy": 0.49333333333333335,
+        "balanced_accuracy": 0.576388888888889,
+        "positive_recall": 0.16111111111111112,
+        "specificity": 0.9916666666666667,
+        "precision": 0.9666666666666667
+      },
+      "v8_interference": {
+        "n": 1500,
+        "positive": 900,
+        "negative": 600,
+        "tp": 606,
+        "fn": 294,
+        "tn": 222,
+        "fp": 378,
+        "accuracy": 0.552,
+        "balanced_accuracy": 0.5216666666666667,
+        "positive_recall": 0.6733333333333333,
+        "specificity": 0.37,
+        "precision": 0.6158536585365854
+      },
+      "v7_boolean": {
+        "n": 1500,
+        "positive": 900,
+        "negative": 600,
+        "tp": 201,
+        "fn": 699,
+        "tn": 592,
+        "fp": 8,
+        "accuracy": 0.5286666666666666,
+        "balanced_accuracy": 0.605,
+        "positive_recall": 0.22333333333333333,
+        "specificity": 0.9866666666666667,
+        "precision": 0.9617224880382775
+      },
+      "v5_direct_occlusion": {
+        "n": 1500,
+        "tp": 356,
+        "fn": 544,
+        "tn": 600,
+        "fp": 0,
+        "predicted_true": 356,
+        "accuracy": 0.6373333333333333,
+        "balanced_accuracy": 0.6977777777777778,
+        "positive_recall": 0.39555555555555555,
+        "specificity": 1.0,
+        "precision": 1.0
+      },
+      "original_l1_non_full": {
+        "n": 1500,
+        "tp": 463,
+        "fn": 437,
+        "tn": 600,
+        "fp": 0,
+        "predicted_true": 463,
+        "accuracy": 0.7086666666666667,
+        "balanced_accuracy": 0.7572222222222222,
+        "positive_recall": 0.5144444444444445,
+        "specificity": 1.0,
+        "precision": 1.0
+      }
+    },
+    "same_numbered_rgb_hash_v8": 1500,
+    "same_geometry_hash_v8": 1500
+  },
+  "candidate_error_count": 767
+}

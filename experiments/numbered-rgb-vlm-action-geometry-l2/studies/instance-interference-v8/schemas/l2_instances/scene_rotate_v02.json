@@ -1,0 +1,117 @@
+{
+  "type": "object",
+  "properties": {
+    "target_id": {
+      "const": 38
+    },
+    "instance_assessments": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 29
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 38
+            },
+            "relation_to_target": {
+              "const": "TARGET"
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 44
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 50
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 74
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false,
+      "minItems": 5,
+      "maxItems": 5
+    }
+  },
+  "required": [
+    "target_id",
+    "instance_assessments"
+  ],
+  "additionalProperties": false
+}

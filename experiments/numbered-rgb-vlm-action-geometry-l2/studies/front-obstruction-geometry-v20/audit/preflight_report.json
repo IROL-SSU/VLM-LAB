@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-17T09:09:47.699567+00:00",
+  "scheduled_calls": 1500,
+  "unique_run_ids": 1500,
+  "scene_count": 25,
+  "condition_counts": {
+    "C4_D8": 125,
+    "C2_D8": 125,
+    "C6_D8": 125,
+    "C4_D4": 125,
+    "C6_D4": 125,
+    "C3_D4": 125,
+    "C2_D4": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C0": 125,
+    "C3_D8": 125,
+    "C1": 125
+  },
+  "identical_v19_images_geometry_model_settings_seeds_order": true,
+  "geometry_payloads_unchanged": 275,
+  "schema_labels": [
+    "BLOCKED",
+    "CLEAR"
+  ],
+  "agreed_question_verbatim": true,
+  "run_table_sha256": "16bd2063013d341f78616267a3f96084d50e68be012d44d1d6ed08638e04aec2",
+  "failures": []
+}

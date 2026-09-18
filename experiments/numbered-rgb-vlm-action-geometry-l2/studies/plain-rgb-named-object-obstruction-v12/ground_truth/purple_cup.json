@@ -1,0 +1,10 @@
+{
+  "scene_id": "scene_lift_and_relocate_v05",
+  "candidate_key": "purple_cup",
+  "candidate_description": "the purple cup on the right",
+  "L2": {
+    "obstructs_grasp": false,
+    "reference_only": true,
+    "reference_definition": "Isaac Sim visual-occlusion reference; not robot-arm grasp rollout"
+  }
+}

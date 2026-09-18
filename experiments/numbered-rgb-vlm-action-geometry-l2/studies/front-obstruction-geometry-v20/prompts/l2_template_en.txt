@@ -1,0 +1,8 @@
+Target object ID: {target_object_id}
+Geometry information:
+{geometry_json}
+
+Does any object in front of target {target_object_id}
+obstruct pulling the target out of the shelf, even slightly?
+
+Return {"decision":"BLOCKED"} or {"decision":"CLEAR"}.

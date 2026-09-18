@@ -1,0 +1,12 @@
+The robot must grasp target object 43.
+
+Score how much removing {candidate_description} would improve the robot's ability
+to grasp the target.
+
+Use an integer score from 0 to 10:
+- 0: Removing it would not help.
+- 5: Removing it would moderately improve grasp access.
+- 10: It must be removed before the target can be grasped.
+
+Return only:
+{"obstruction_score": <integer>}

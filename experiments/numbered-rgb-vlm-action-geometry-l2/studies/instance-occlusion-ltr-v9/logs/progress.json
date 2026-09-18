@@ -1,0 +1,10 @@
+{
+  "expected": 1500,
+  "completed": 1500,
+  "processed_this_invocation": 1499,
+  "elapsed_seconds": 1035.964,
+  "last_run_id": "v1__scene_translate_v04__L2__C4_D8__r04_s28104",
+  "last_finish_reason": "stop",
+  "last_post_validation_pass": true,
+  "updated_at": "2026-09-17T02:18:09.798684+00:00"
+}

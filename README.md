@@ -15,6 +15,7 @@ VLM 기반 로봇 조작 연구의 실험 설계, 고정 설정, 원시 추론 �
 | 실험 | 상태 | 핵심 범위 |
 |---|---|---|
 | [Numbered RGB 기반 VLM 기초 능력 평가 — N0·N1·N2·N3](experiments/numbered-rgb-vlm-basics-n0-n3/) | Complete | ID 인식, ID–물체 의미 연결, 자연어 target grounding, 공간관계 추론 |
+| [Numbered RGB 기반 VLM Action-Level × Geometry 단일정보 — L2](experiments/numbered-rgb-vlm-action-geometry-l2/) | L2 snapshot complete | 직접 회수 가능성 판단과 geometry 단일정보 조건 비교 |
 
 ## 저장 규칙
 

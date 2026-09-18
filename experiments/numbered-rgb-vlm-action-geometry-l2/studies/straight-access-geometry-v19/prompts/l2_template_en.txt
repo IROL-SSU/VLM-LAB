@@ -1,0 +1,10 @@
+Target object ID: {target_object_id}
+Geometry information:
+{geometry_json}
+
+Can the robot approach the target straight from the shelf opening
+without moving or contacting other objects?
+
+A nearby object blocks access only if it obstructs this approach.
+
+Return {"decision": "ACCESSIBLE"} or {"decision": "BLOCKED"}.

@@ -1,0 +1,3 @@
+Assess whether the target is accessible from the shelf opening.
+Numbered badges identify objects.
+Return only a JSON object. Do not include explanations.

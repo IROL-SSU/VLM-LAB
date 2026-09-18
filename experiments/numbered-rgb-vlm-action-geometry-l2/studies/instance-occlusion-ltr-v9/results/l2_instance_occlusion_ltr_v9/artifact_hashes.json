@@ -1,0 +1,13 @@
+{
+  "candidate_instance_errors.csv": "78eacf48d33d88cd16dd6c20b5d161a4a5bc17bcffada3ea7ede91fc8abf07ae",
+  "candidate_instance_outcomes.csv": "335c7a294ea4515b5b6d18948d47831ae0e01aa2bdfba45d499734bc9ba5d857",
+  "candidate_object_metrics.csv": "97ce5677e4ad11322e75cd507a397cc8610a9d096c133b78e4702a58e8b8c27c",
+  "condition_family_metrics.csv": "a0b327be260a4dc48ad68d16b4792007097e0ce92065fe3c510047f2eeea32dc",
+  "condition_metrics.csv": "7154e6ff5e73eb17791ef64f4f7d4a6554c0164ddfff33b5deb44afaec08394f",
+  "family_metrics.csv": "230326a78f55062bcb310015a7e1a94cc264766e7ca2564736d905a54982195c",
+  "report.md": "06bbd5406f50e64d302bdedb771c7d1ca2794f3421272d196d02ef1334136d77",
+  "results.json": "c538d5b942ad41eaab72f94064936dc5c0d2032ecdef9f8c0f2b3d050de6aaf0",
+  "run_outcomes.csv": "2ac9261a5c9daf94e4b8a2f3d95cd6c5f893def7d1b7bb87d452ee9db18adca0",
+  "scene_metrics.csv": "ce5d35eb63e868cf9f192523ae6ef35bb61da7b45c7541231a6ab461b7e21753",
+  "source_artifact_hashes.json": "fee99620904c637590fd8cecd9f54518d3c0eb9eb0b30b2956dbba2e14d4d29a"
+}

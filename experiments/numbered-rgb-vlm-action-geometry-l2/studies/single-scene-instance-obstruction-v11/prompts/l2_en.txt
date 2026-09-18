@@ -1,0 +1,6 @@
+The robot must grasp the target object.
+
+For each numbered object other than the target, determine whether that object
+obstructs grasping the target.
+
+Return one assessment for every non-target numbered object, from left to right.

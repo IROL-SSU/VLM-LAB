@@ -1,0 +1,4 @@
+The robot must grasp the target object.
+
+Select the single numbered object that most obstructs grasping the target.
+If no object obstructs the grasp, return null.

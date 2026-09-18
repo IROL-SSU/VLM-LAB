@@ -1,0 +1,39 @@
+{
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "target_object_id": 43,
+  "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_lift_and_relocate_v05.png",
+  "image_sha256": "8039f728ad87eb686420848ef82fe35b4d3455ff8579c9d4c6684b9dcdc57db3",
+  "completed_calls": 5,
+  "scheduled_calls": 5,
+  "schema_valid_calls": 5,
+  "decision_counts": {
+    "REARRANGE_FIRST": 5
+  },
+  "responses": [
+    {
+      "seed": 28101,
+      "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"
+    },
+    {
+      "seed": 28102,
+      "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"
+    },
+    {
+      "seed": 28103,
+      "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"
+    },
+    {
+      "seed": 28104,
+      "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"
+    },
+    {
+      "seed": 28105,
+      "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"
+    }
+  ],
+  "retrieval_execution_gt_available": false,
+  "accuracy": null,
+  "model_load_seconds": 40.193,
+  "total_generation_seconds": 0.776043,
+  "finished_at": "2026-09-17T06:11:17.111019+00:00"
+}

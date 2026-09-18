@@ -1,0 +1,49 @@
+condition,resolution,name,version,n,tp,fn,tn,fp,accuracy,balanced_accuracy,positive_recall,specificity,precision
+C0,,Numbered RGB only,occlusion_boolean_v5,125,53,27,45,0,0.784,0.83125,0.6625,1.0,1.0
+C0,,Numbered RGB only,visibility_only_v4_inverted,125,15,65,45,0,0.48,0.59375,0.1875,1.0,1.0
+C0,,Numbered RGB only,grasp_zone_v3_inverted,125,75,5,42,3,0.936,0.9354166666666667,0.9375,0.9333333333333333,0.9615384615384616
+C0,,Numbered RGB only,original_l1_non_FULL,125,49,31,45,0,0.752,0.80625,0.6125,1.0,1.0
+C1,,R Numeric,occlusion_boolean_v5,125,28,52,45,0,0.584,0.675,0.35,1.0,1.0
+C1,,R Numeric,visibility_only_v4_inverted,125,15,65,45,0,0.48,0.59375,0.1875,1.0,1.0
+C1,,R Numeric,grasp_zone_v3_inverted,125,52,28,45,0,0.776,0.825,0.65,1.0,1.0
+C1,,R Numeric,original_l1_non_FULL,125,62,18,45,0,0.856,0.8875,0.775,1.0,1.0
+C2,D4,R Qualitative D4,occlusion_boolean_v5,125,46,34,45,0,0.728,0.7875,0.575,1.0,1.0
+C2,D4,R Qualitative D4,visibility_only_v4_inverted,125,18,62,45,0,0.504,0.6125,0.225,1.0,1.0
+C2,D4,R Qualitative D4,grasp_zone_v3_inverted,125,34,46,45,0,0.632,0.7125,0.425,1.0,1.0
+C2,D4,R Qualitative D4,original_l1_non_FULL,125,58,22,45,0,0.824,0.8625,0.725,1.0,1.0
+C2,D8,R Qualitative D8,occlusion_boolean_v5,125,48,32,45,0,0.744,0.8,0.6,1.0,1.0
+C2,D8,R Qualitative D8,visibility_only_v4_inverted,125,21,59,45,0,0.528,0.63125,0.2625,1.0,1.0
+C2,D8,R Qualitative D8,grasp_zone_v3_inverted,125,29,51,45,0,0.592,0.68125,0.3625,1.0,1.0
+C2,D8,R Qualitative D8,original_l1_non_FULL,125,51,29,45,0,0.768,0.81875,0.6375,1.0,1.0
+C3,D4,F Numeric D4,occlusion_boolean_v5,125,14,66,45,0,0.472,0.5875,0.175,1.0,1.0
+C3,D4,F Numeric D4,visibility_only_v4_inverted,125,4,76,45,0,0.392,0.525,0.05,1.0,1.0
+C3,D4,F Numeric D4,grasp_zone_v3_inverted,125,49,31,45,0,0.752,0.80625,0.6125,1.0,1.0
+C3,D4,F Numeric D4,original_l1_non_FULL,125,35,45,45,0,0.64,0.71875,0.4375,1.0,1.0
+C3,D8,F Numeric D8,occlusion_boolean_v5,125,25,55,45,0,0.56,0.65625,0.3125,1.0,1.0
+C3,D8,F Numeric D8,visibility_only_v4_inverted,125,4,76,45,0,0.392,0.525,0.05,1.0,1.0
+C3,D8,F Numeric D8,grasp_zone_v3_inverted,125,45,35,45,0,0.72,0.78125,0.5625,1.0,1.0
+C3,D8,F Numeric D8,original_l1_non_FULL,125,19,61,45,0,0.512,0.61875,0.2375,1.0,1.0
+C4,D4,F Qualitative D4,occlusion_boolean_v5,125,22,58,45,0,0.536,0.6375,0.275,1.0,1.0
+C4,D4,F Qualitative D4,visibility_only_v4_inverted,125,6,74,45,0,0.408,0.5375,0.075,1.0,1.0
+C4,D4,F Qualitative D4,grasp_zone_v3_inverted,125,37,43,45,0,0.656,0.73125,0.4625,1.0,1.0
+C4,D4,F Qualitative D4,original_l1_non_FULL,125,37,43,45,0,0.656,0.73125,0.4625,1.0,1.0
+C4,D8,F Qualitative D8,occlusion_boolean_v5,125,18,62,45,0,0.504,0.6125,0.225,1.0,1.0
+C4,D8,F Qualitative D8,visibility_only_v4_inverted,125,10,70,45,0,0.44,0.5625,0.125,1.0,1.0
+C4,D8,F Qualitative D8,grasp_zone_v3_inverted,125,23,57,45,0,0.544,0.64375,0.2875,1.0,1.0
+C4,D8,F Qualitative D8,original_l1_non_FULL,125,24,56,45,0,0.552,0.65,0.3,1.0,1.0
+C5,D4,M Numeric D4,occlusion_boolean_v5,125,24,56,45,0,0.552,0.65,0.3,1.0,1.0
+C5,D4,M Numeric D4,visibility_only_v4_inverted,125,10,70,45,0,0.44,0.5625,0.125,1.0,1.0
+C5,D4,M Numeric D4,grasp_zone_v3_inverted,125,41,39,45,0,0.688,0.75625,0.5125,1.0,1.0
+C5,D4,M Numeric D4,original_l1_non_FULL,125,33,47,45,0,0.624,0.70625,0.4125,1.0,1.0
+C5,D8,M Numeric D8,occlusion_boolean_v5,125,23,57,45,0,0.544,0.64375,0.2875,1.0,1.0
+C5,D8,M Numeric D8,visibility_only_v4_inverted,125,5,75,45,0,0.4,0.53125,0.0625,1.0,1.0
+C5,D8,M Numeric D8,grasp_zone_v3_inverted,125,28,52,45,0,0.584,0.675,0.35,1.0,1.0
+C5,D8,M Numeric D8,original_l1_non_FULL,125,31,49,45,0,0.608,0.69375,0.3875,1.0,1.0
+C6,D4,M Qualitative D4,occlusion_boolean_v5,125,29,51,45,0,0.592,0.68125,0.3625,1.0,1.0
+C6,D4,M Qualitative D4,visibility_only_v4_inverted,125,11,69,45,0,0.448,0.56875,0.1375,1.0,1.0
+C6,D4,M Qualitative D4,grasp_zone_v3_inverted,125,33,47,45,0,0.624,0.70625,0.4125,1.0,1.0
+C6,D4,M Qualitative D4,original_l1_non_FULL,125,37,43,45,0,0.656,0.73125,0.4625,1.0,1.0
+C6,D8,M Qualitative D8,occlusion_boolean_v5,125,26,54,45,0,0.568,0.6625,0.325,1.0,1.0
+C6,D8,M Qualitative D8,visibility_only_v4_inverted,125,1,79,45,0,0.368,0.50625,0.0125,1.0,1.0
+C6,D8,M Qualitative D8,grasp_zone_v3_inverted,125,27,53,45,0,0.576,0.66875,0.3375,1.0,1.0
+C6,D8,M Qualitative D8,original_l1_non_FULL,125,27,53,45,0,0.576,0.66875,0.3375,1.0,1.0

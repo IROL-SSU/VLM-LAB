@@ -1,0 +1,9 @@
+The robot approaches the target from the open front of the shelf.
+
+Determine whether another physical object blocks direct access to the target.
+
+Return target_access_blocked=true only when another physical object lies
+between the shelf opening and the target, such that the target cannot be
+directly reached without first moving that object.
+
+Otherwise, return target_access_blocked=false.

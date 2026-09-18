@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "scheduled_calls": 1500,
+  "scene_condition_groups": 300,
+  "notion_prompts_and_schema_exactly_match_v16": true,
+  "all_inputs_prompts_settings_seeds_order_identical_to_v16": true,
+  "new_inference_not_reused_responses": true,
+  "checked_at": "2026-09-17T09:31:42.259897+00:00"
+}

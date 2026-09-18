@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-17T08:34:27.986797+00:00",
+  "scheduled_calls": 1500,
+  "unique_run_ids": 1500,
+  "scene_count": 25,
+  "condition_counts": {
+    "C4_D8": 125,
+    "C2_D8": 125,
+    "C6_D8": 125,
+    "C4_D4": 125,
+    "C6_D4": 125,
+    "C3_D4": 125,
+    "C2_D4": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C0": 125,
+    "C3_D8": 125,
+    "C1": 125
+  },
+  "identical_v16_images_geometry_settings_seeds_and_run_order": true,
+  "geometry_payloads_copied_without_changes": 275,
+  "system_and_user_prompts_match_agreed_text": true,
+  "run_table_sha256": "05ee912371712bd0318f6ec988b6e86c038f980e9432ec691f2f965bbbd6f7ef",
+  "failures": []
+}

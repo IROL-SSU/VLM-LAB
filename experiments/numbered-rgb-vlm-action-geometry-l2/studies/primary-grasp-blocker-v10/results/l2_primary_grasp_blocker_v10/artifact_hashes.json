@@ -1,0 +1,66 @@
+{
+  "config/experiment_config.json": {
+    "bytes": 1835,
+    "sha256": "c78e9ea69665b53324eb14d1385e82a8d05bf561466dddd71e7704e3cba8c534"
+  },
+  "config/run_table.jsonl": {
+    "bytes": 7928625,
+    "sha256": "579ff2e33e633dc6d38d4ecf95dc6f5c802777ecddc9c3217f0d8f4f533843ca"
+  },
+  "prompts/system_en.txt": {
+    "bytes": 62,
+    "sha256": "14c398b5fe4e72ef1920187d638878204594682a36604d7c9f80530b6937d476"
+  },
+  "prompts/l2_en.txt": {
+    "bytes": 163,
+    "sha256": "f7f7b765dce319ef737e8cc4b58209bd28df5c69229bc75dff7cc890d3ba8406"
+  },
+  "schemas/l2.json": {
+    "bytes": 219,
+    "sha256": "60985fb214cf46be0867c7b040e3b6a6fa32662f7e48108d1b9570f4569230be"
+  },
+  "audit/preflight_report.json": {
+    "bytes": 871,
+    "sha256": "60cc71cdf15f29c991f6f61d0a7ad10170ea7e069e4378fbec0bbb62101609f0"
+  },
+  "logs/preparation_console.log": {
+    "bytes": 56445,
+    "sha256": "71bf3e44f63db57eb5ac494195e353ed75e7a1cf6b0e80607d1daecebc394b24"
+  },
+  "logs/pilot_console.log": {
+    "bytes": 17183,
+    "sha256": "1a0358e71ebc0fb16b24e81215e9076e3ec445fb891db2046275929b60db57ed"
+  },
+  "logs/full_console.log": {
+    "bytes": 23449,
+    "sha256": "e3c5331c0d868b785179f612d4558495f1df6667762442f9fad7fbead66623c5"
+  },
+  "logs/runs.jsonl": {
+    "bytes": 7249080,
+    "sha256": "9d89f25d37fba4d3c53e601181fe30595c84acfe17e7b76fc81a7815abeb5afd"
+  },
+  "logs/attempts.jsonl": {
+    "bytes": 491390,
+    "sha256": "6535910ea817b72bf9c00e8e756e5f9cb761caf309793aa250657a7781b24017"
+  },
+  "logs/runtime.json": {
+    "bytes": 487,
+    "sha256": "83cd022867022d6966141af20c88a44c04a2aae82a5c758f8280c82a0bfcf854"
+  },
+  "logs/progress.json": {
+    "bytes": 299,
+    "sha256": "d5e4deaebd237ba53af97714f97a929040a9e9f540ead89993d5d49343895baf"
+  },
+  "logs/last_invocation_summary.json": {
+    "bytes": 324,
+    "sha256": "4ee7a8d0420a1dea161fb5fac46841145afd35cdd40ffd87812662fa6e4eea41"
+  },
+  "results/l2_primary_grasp_blocker_v10/results.json": {
+    "bytes": 13488,
+    "sha256": "5299ecddfce566e2b3810a7ca2e9ff51ae900c0242bc2cbc3278ec23c515edfb"
+  },
+  "results/l2_primary_grasp_blocker_v10/report.md": {
+    "bytes": 3091,
+    "sha256": "2264750b6d7249127f9d88ab16e0194d20fbba0cd41c62a26b1e10f85d3aa8fe"
+  }
+}

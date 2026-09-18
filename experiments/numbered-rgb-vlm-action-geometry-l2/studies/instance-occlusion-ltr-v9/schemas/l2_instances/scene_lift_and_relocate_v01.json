@@ -1,0 +1,128 @@
+{
+  "type": "object",
+  "properties": {
+    "visible_object_ids_left_to_right": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "const": 30
+        },
+        {
+          "const": 16
+        },
+        {
+          "const": 79
+        },
+        {
+          "const": 64
+        },
+        {
+          "const": 59
+        },
+        {
+          "const": 32
+        }
+      ],
+      "items": false,
+      "minItems": 6,
+      "maxItems": 6
+    },
+    "target_id": {
+      "const": 59
+    },
+    "occlusion_assessments_left_to_right": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 30
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 16
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 79
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 64
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 32
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false,
+      "minItems": 5,
+      "maxItems": 5
+    }
+  },
+  "required": [
+    "visible_object_ids_left_to_right",
+    "target_id",
+    "occlusion_assessments_left_to_right"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-17T06:10:36.075482+00:00",
+  "scheduled_calls": 5,
+  "image_sha256": "8039f728ad87eb686420848ef82fe35b4d3455ff8579c9d4c6684b9dcdc57db3",
+  "target_id_verified_from_mapping": 43,
+  "prompt_sha256": "ab11e73fdb246ca8db14c4f3ce1de56eff715f8d4643528e54b24653c4fc86b1",
+  "failures": []
+}

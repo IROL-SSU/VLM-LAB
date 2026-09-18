@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "obstructs_grasp": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "obstructs_grasp"
+  ],
+  "additionalProperties": false
+}

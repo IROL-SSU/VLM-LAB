@@ -1,0 +1,13 @@
+condition,resolution,name,TRANSLATE,ROTATE,LIFT_AND_RELOCATE,FC_CLEAR,FC_BLOCKED
+C0,,Numbered RGB only,1.0,1.0,1.0,0.2,1.0
+C1,,R Numeric,1.0,1.0,1.0,0.32,1.0
+C2,D4,R Qualitative D4,1.0,1.0,1.0,0.24,1.0
+C2,D8,R Qualitative D8,1.0,1.0,1.0,0.2,0.96
+C3,D4,F Numeric D4,1.0,1.0,1.0,0.36,0.44
+C3,D8,F Numeric D8,1.0,1.0,1.0,0.6,0.44
+C4,D4,F Qualitative D4,1.0,1.0,1.0,0.2,1.0
+C4,D8,F Qualitative D8,1.0,1.0,1.0,0.32,0.96
+C5,D4,M Numeric D4,1.0,1.0,1.0,0.6,0.4
+C5,D8,M Numeric D8,1.0,1.0,1.0,0.64,0.64
+C6,D4,M Qualitative D4,1.0,1.0,1.0,0.52,0.92
+C6,D8,M Qualitative D8,1.0,1.0,1.0,0.24,0.84

@@ -1,0 +1,9 @@
+{
+  "completed": 1500,
+  "expected": 1500,
+  "processed_this_invocation": 1500,
+  "model_load_seconds": 39.5,
+  "generation_seconds": 151.449,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_occlusion_boolean_v5/logs/l2_occlusion_boolean_v5/runs.jsonl",
+  "finished_at": "2026-09-16T11:19:49.188646+00:00"
+}

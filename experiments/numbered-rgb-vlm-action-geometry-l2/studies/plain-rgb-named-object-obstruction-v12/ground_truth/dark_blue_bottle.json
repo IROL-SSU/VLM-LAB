@@ -1,0 +1,10 @@
+{
+  "scene_id": "scene_lift_and_relocate_v05",
+  "candidate_key": "dark_blue_bottle",
+  "candidate_description": "the dark blue bottle immediately to the left of and partly behind the Cheez-It box",
+  "L2": {
+    "obstructs_grasp": false,
+    "reference_only": true,
+    "reference_definition": "Isaac Sim visual-occlusion reference; not robot-arm grasp rollout"
+  }
+}

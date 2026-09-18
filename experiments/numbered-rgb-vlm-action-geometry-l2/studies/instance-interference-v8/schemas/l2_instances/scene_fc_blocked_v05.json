@@ -1,0 +1,97 @@
+{
+  "type": "object",
+  "properties": {
+    "target_id": {
+      "const": 59
+    },
+    "instance_assessments": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 26
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 59
+            },
+            "relation_to_target": {
+              "const": "TARGET"
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 69
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 92
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false,
+      "minItems": 4,
+      "maxItems": 4
+    }
+  },
+  "required": [
+    "target_id",
+    "instance_assessments"
+  ],
+  "additionalProperties": false
+}

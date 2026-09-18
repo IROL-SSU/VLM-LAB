@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "obstruction_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10
+    }
+  },
+  "required": [
+    "obstruction_score"
+  ],
+  "additionalProperties": false
+}

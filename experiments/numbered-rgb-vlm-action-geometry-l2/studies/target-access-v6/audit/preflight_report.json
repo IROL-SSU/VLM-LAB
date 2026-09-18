@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "generated_at": "2026-09-16T11:33:09.032750+00:00",
+  "experiment_version": "vlm_action_geometry_single_info_v1",
+  "source_manifest_sha256": "21edca329304432d6eef5b4e47672956f48c204d329889c5ee981630702e00be",
+  "frozen_scene_count": 25,
+  "scene_family_counts": {
+    "FC_BLOCKED": 5,
+    "FC_CLEAR": 5,
+    "LIFT_AND_RELOCATE": 5,
+    "ROTATE": 5,
+    "TRANSLATE": 5
+  },
+  "run_table_rows": 6250,
+  "unique_run_ids": 6250,
+  "level_counts": {
+    "L1": 1500,
+    "L2": 1500,
+    "L3": 1500,
+    "L4": 1750
+  },
+  "per_scene_seed_rows": 50,
+  "object_coverage_report": "audit/object_coverage_report.json",
+  "object_coverage_status": "pass",
+  "failures": [],
+  "run_table_sha256": "4512c195bc81bb0174b3f92f73c456984abb2ad7c924867414267678ba24a1bf",
+  "frozen_scenes_sha256": "f9e82cde33ce5ac6b58b13b4d52fbe4e01d9965eb08b726c90a18d25028946ed"
+}

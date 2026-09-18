@@ -1,0 +1,1498 @@
+[
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28103,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_rotate_v03",
+    "seed": 28105,
+    "condition_key": "C1",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28103,
+    "condition_key": "C1",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v03",
+    "seed": 28101,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v01",
+    "seed": 28104,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v03",
+    "seed": 28103,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28101,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28104,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v01",
+    "seed": 28101,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v01",
+    "seed": 28103,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28103,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28102,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28101,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28101,
+    "condition_key": "C1",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28101,
+    "condition_key": "C1",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28104,
+    "condition_key": "C1",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28105,
+    "condition_key": "C2_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28102,
+    "condition_key": "C2_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28103,
+    "condition_key": "C2_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28101,
+    "condition_key": "C2_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28102,
+    "condition_key": "C2_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28104,
+    "condition_key": "C2_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28104,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28102,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28101,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28103,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28105,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28104,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28103,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28105,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28105,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28102,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28102,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28103,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28102,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28101,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28104,
+    "condition_key": "C2_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v05",
+    "seed": 28105,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28104,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v03",
+    "seed": 28105,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28103,
+    "condition_key": "C3_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28101,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28105,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v01",
+    "seed": 28102,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28105,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28101,
+    "condition_key": "C3_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28105,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v01",
+    "seed": 28105,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28102,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28102,
+    "condition_key": "C3_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28103,
+    "condition_key": "C3_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v03",
+    "seed": 28102,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28103,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28102,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28104,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28103,
+    "condition_key": "C3_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C3_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28105,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28102,
+    "condition_key": "C3_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v02",
+    "seed": 28102,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28101,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28105,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28103,
+    "condition_key": "C3_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28105,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28101,
+    "condition_key": "C3_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28105,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v04",
+    "seed": 28105,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28104,
+    "condition_key": "C3_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28102,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28102,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28102,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28105,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28104,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28103,
+    "condition_key": "C3_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28103,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v01",
+    "seed": 28101,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28104,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28103,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28103,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28101,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28104,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28104,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28101,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v03",
+    "seed": 28103,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v03",
+    "seed": 28101,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28101,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28103,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28103,
+    "condition_key": "C4_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28105,
+    "condition_key": "C4_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28105,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28103,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28104,
+    "condition_key": "C4_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v03",
+    "seed": 28101,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28104,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28103,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28104,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28103,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28102,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28105,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28101,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28102,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28103,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28101,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28102,
+    "condition_key": "C4_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28103,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28102,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28101,
+    "condition_key": "C4_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28105,
+    "condition_key": "C4_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28103,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28104,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28103,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28105,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28104,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28105,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28102,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28101,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28103,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28105,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28101,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "seed": 28101,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28105,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28104,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v01",
+    "seed": 28102,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28103,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28104,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28104,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v03",
+    "seed": 28101,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28103,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28101,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28105,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28102,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28102,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v01",
+    "seed": 28105,
+    "condition_key": "C5_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28103,
+    "condition_key": "C5_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28105,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28103,
+    "condition_key": "C5_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28104,
+    "condition_key": "C5_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28102,
+    "condition_key": "C5_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28103,
+    "condition_key": "C5_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_translate_v05",
+    "seed": 28102,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28105,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28102,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28102,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28101,
+    "condition_key": "C5_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28101,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C5_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28105,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "seed": 28105,
+    "condition_key": "C5_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28102,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28101,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28102,
+    "condition_key": "C6_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28105,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28103,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28104,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28104,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28102,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28104,
+    "condition_key": "C6_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28104,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_translate_v05",
+    "seed": 28105,
+    "condition_key": "C6_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28104,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "seed": 28101,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v05",
+    "seed": 28102,
+    "condition_key": "C6_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28104,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28103,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28103,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28105,
+    "condition_key": "C6_D4",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "seed": 28101,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "seed": 28103,
+    "condition_key": "C6_D4",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28104,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28101,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28103,
+    "condition_key": "C6_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28104,
+    "condition_key": "C6_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28103,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "seed": 28103,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "RETRIEVE_NOW"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "seed": 28104,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28102,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28102,
+    "condition_key": "C6_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "seed": 28105,
+    "condition_key": "C6_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28105,
+    "condition_key": "C6_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "seed": 28102,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "seed": 28105,
+    "condition_key": "C6_D8",
+    "c0_decision": "RETRIEVE_NOW",
+    "condition_decision": "REARRANGE_FIRST",
+    "scene_design_reference": "REARRANGE_FIRST"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "seed": 28102,
+    "condition_key": "C6_D8",
+    "c0_decision": "REARRANGE_FIRST",
+    "condition_decision": "RETRIEVE_NOW",
+    "scene_design_reference": "REARRANGE_FIRST"
+  }
+]

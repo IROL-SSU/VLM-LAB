@@ -1,0 +1,709 @@
+{
+  "experiment_version": "l2_front_obstruction_geometry_v20",
+  "completed_calls": 1500,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "schema_valid_calls": 1500,
+  "infrastructure_errors": 0,
+  "all_first_attempt": true,
+  "total_generation_seconds": 93.332,
+  "finish_reasons": {
+    "stop": 1500
+  },
+  "overall": {
+    "CLEAR": 1306,
+    "BLOCKED": 194
+  },
+  "overall_by_family": {
+    "FC_CLEAR": {
+      "CLEAR": 299,
+      "BLOCKED": 1
+    },
+    "FC_BLOCKED": {
+      "BLOCKED": 68,
+      "CLEAR": 232
+    },
+    "TRANSLATE": {
+      "CLEAR": 232,
+      "BLOCKED": 68
+    },
+    "ROTATE": {
+      "CLEAR": 271,
+      "BLOCKED": 29
+    },
+    "LIFT_AND_RELOCATE": {
+      "CLEAR": 272,
+      "BLOCKED": 28
+    }
+  },
+  "accuracy": null,
+  "front_obstruction_ground_truth_available": false,
+  "interpretation": "BLOCKED response frequency, not correct counts. CLEAR is not a guarantee of grasp/removal feasibility.",
+  "condition_results": [
+    {
+      "condition_key": "C0",
+      "condition_name": "RGB only",
+      "n": 125,
+      "BLOCKED": 16,
+      "CLEAR": 109,
+      "unanimous_scenes": 24,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C0",
+          "condition_name": "RGB only",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C0",
+          "condition_name": "RGB only",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C0",
+          "condition_name": "RGB only",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 10,
+          "CLEAR": 15,
+          "v19_BLOCKED": 5
+        },
+        "ROTATE": {
+          "condition_key": "C0",
+          "condition_name": "RGB only",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 5,
+          "CLEAR": 20,
+          "v19_BLOCKED": 5
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C0",
+          "condition_name": "RGB only",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 14
+        }
+      }
+    },
+    {
+      "condition_key": "C1",
+      "condition_name": "R Numeric",
+      "n": 125,
+      "BLOCKED": 7,
+      "CLEAR": 118,
+      "unanimous_scenes": 24,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C1",
+          "condition_name": "R Numeric",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C1",
+          "condition_name": "R Numeric",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 5,
+          "CLEAR": 20,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C1",
+          "condition_name": "R Numeric",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 2,
+          "CLEAR": 23,
+          "v19_BLOCKED": 5
+        },
+        "ROTATE": {
+          "condition_key": "C1",
+          "condition_name": "R Numeric",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C1",
+          "condition_name": "R Numeric",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C2_D4",
+      "condition_name": "R Qualitative D4",
+      "n": 125,
+      "BLOCKED": 52,
+      "CLEAR": 73,
+      "unanimous_scenes": 21,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C2_D4",
+          "condition_name": "R Qualitative D4",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C2_D4",
+          "condition_name": "R Qualitative D4",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 15,
+          "CLEAR": 10,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C2_D4",
+          "condition_name": "R Qualitative D4",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 17,
+          "CLEAR": 8,
+          "v19_BLOCKED": 5
+        },
+        "ROTATE": {
+          "condition_key": "C2_D4",
+          "condition_name": "R Qualitative D4",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 3,
+          "CLEAR": 22,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C2_D4",
+          "condition_name": "R Qualitative D4",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 17,
+          "CLEAR": 8,
+          "v19_BLOCKED": 7
+        }
+      }
+    },
+    {
+      "condition_key": "C2_D8",
+      "condition_name": "R Qualitative D8",
+      "n": 125,
+      "BLOCKED": 52,
+      "CLEAR": 73,
+      "unanimous_scenes": 18,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C2_D8",
+          "condition_name": "R Qualitative D8",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C2_D8",
+          "condition_name": "R Qualitative D8",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 19,
+          "CLEAR": 6,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C2_D8",
+          "condition_name": "R Qualitative D8",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 16,
+          "CLEAR": 9,
+          "v19_BLOCKED": 5
+        },
+        "ROTATE": {
+          "condition_key": "C2_D8",
+          "condition_name": "R Qualitative D8",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 5,
+          "CLEAR": 20,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C2_D8",
+          "condition_name": "R Qualitative D8",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 11,
+          "CLEAR": 14,
+          "v19_BLOCKED": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C3_D4",
+      "condition_name": "F Numeric D4",
+      "n": 125,
+      "BLOCKED": 3,
+      "CLEAR": 122,
+      "unanimous_scenes": 23,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C3_D4",
+          "condition_name": "F Numeric D4",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C3_D4",
+          "condition_name": "F Numeric D4",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 2,
+          "CLEAR": 23,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C3_D4",
+          "condition_name": "F Numeric D4",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 0
+        },
+        "ROTATE": {
+          "condition_key": "C3_D4",
+          "condition_name": "F Numeric D4",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C3_D4",
+          "condition_name": "F Numeric D4",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C3_D8",
+      "condition_name": "F Numeric D8",
+      "n": 125,
+      "BLOCKED": 5,
+      "CLEAR": 120,
+      "unanimous_scenes": 22,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C3_D8",
+          "condition_name": "F Numeric D8",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C3_D8",
+          "condition_name": "F Numeric D8",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C3_D8",
+          "condition_name": "F Numeric D8",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 3,
+          "CLEAR": 22,
+          "v19_BLOCKED": 0
+        },
+        "ROTATE": {
+          "condition_key": "C3_D8",
+          "condition_name": "F Numeric D8",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C3_D8",
+          "condition_name": "F Numeric D8",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C4_D4",
+      "condition_name": "F Qualitative D4",
+      "n": 125,
+      "BLOCKED": 3,
+      "CLEAR": 122,
+      "unanimous_scenes": 22,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C4_D4",
+          "condition_name": "F Qualitative D4",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C4_D4",
+          "condition_name": "F Qualitative D4",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C4_D4",
+          "condition_name": "F Qualitative D4",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "ROTATE": {
+          "condition_key": "C4_D4",
+          "condition_name": "F Qualitative D4",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 3,
+          "CLEAR": 22,
+          "v19_BLOCKED": 5
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C4_D4",
+          "condition_name": "F Qualitative D4",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 5
+        }
+      }
+    },
+    {
+      "condition_key": "C4_D8",
+      "condition_name": "F Qualitative D8",
+      "n": 125,
+      "BLOCKED": 9,
+      "CLEAR": 116,
+      "unanimous_scenes": 23,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C4_D8",
+          "condition_name": "F Qualitative D8",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C4_D8",
+          "condition_name": "F Qualitative D8",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 5,
+          "CLEAR": 20,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C4_D8",
+          "condition_name": "F Qualitative D8",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 3,
+          "CLEAR": 22,
+          "v19_BLOCKED": 0
+        },
+        "ROTATE": {
+          "condition_key": "C4_D8",
+          "condition_name": "F Qualitative D8",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C4_D8",
+          "condition_name": "F Qualitative D8",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 4
+        }
+      }
+    },
+    {
+      "condition_key": "C5_D4",
+      "condition_name": "M Numeric D4",
+      "n": 125,
+      "BLOCKED": 9,
+      "CLEAR": 116,
+      "unanimous_scenes": 22,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C5_D4",
+          "condition_name": "M Numeric D4",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C5_D4",
+          "condition_name": "M Numeric D4",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 5,
+          "CLEAR": 20,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C5_D4",
+          "condition_name": "M Numeric D4",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 4
+        },
+        "ROTATE": {
+          "condition_key": "C5_D4",
+          "condition_name": "M Numeric D4",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 3,
+          "CLEAR": 22,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C5_D4",
+          "condition_name": "M Numeric D4",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C5_D8",
+      "condition_name": "M Numeric D8",
+      "n": 125,
+      "BLOCKED": 13,
+      "CLEAR": 112,
+      "unanimous_scenes": 23,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C5_D8",
+          "condition_name": "M Numeric D8",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C5_D8",
+          "condition_name": "M Numeric D8",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 6,
+          "CLEAR": 19,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C5_D8",
+          "condition_name": "M Numeric D8",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 5,
+          "CLEAR": 20,
+          "v19_BLOCKED": 0
+        },
+        "ROTATE": {
+          "condition_key": "C5_D8",
+          "condition_name": "M Numeric D8",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 2,
+          "CLEAR": 23,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C5_D8",
+          "condition_name": "M Numeric D8",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C6_D4",
+      "condition_name": "M Qualitative D4",
+      "n": 125,
+      "BLOCKED": 11,
+      "CLEAR": 114,
+      "unanimous_scenes": 22,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C6_D4",
+          "condition_name": "M Qualitative D4",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C6_D4",
+          "condition_name": "M Qualitative D4",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 6,
+          "CLEAR": 19,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C6_D4",
+          "condition_name": "M Qualitative D4",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 4,
+          "CLEAR": 21,
+          "v19_BLOCKED": 0
+        },
+        "ROTATE": {
+          "condition_key": "C6_D4",
+          "condition_name": "M Qualitative D4",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 1,
+          "CLEAR": 24,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C6_D4",
+          "condition_name": "M Qualitative D4",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        }
+      }
+    },
+    {
+      "condition_key": "C6_D8",
+      "condition_name": "M Qualitative D8",
+      "n": 125,
+      "BLOCKED": 14,
+      "CLEAR": 111,
+      "unanimous_scenes": 22,
+      "by_family": {
+        "FC_CLEAR": {
+          "condition_key": "C6_D8",
+          "condition_name": "M Qualitative D8",
+          "scene_family": "FC_CLEAR",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        },
+        "FC_BLOCKED": {
+          "condition_key": "C6_D8",
+          "condition_name": "M Qualitative D8",
+          "scene_family": "FC_BLOCKED",
+          "n": 25,
+          "BLOCKED": 3,
+          "CLEAR": 22,
+          "v19_BLOCKED": 0
+        },
+        "TRANSLATE": {
+          "condition_key": "C6_D8",
+          "condition_name": "M Qualitative D8",
+          "scene_family": "TRANSLATE",
+          "n": 25,
+          "BLOCKED": 6,
+          "CLEAR": 19,
+          "v19_BLOCKED": 0
+        },
+        "ROTATE": {
+          "condition_key": "C6_D8",
+          "condition_name": "M Qualitative D8",
+          "scene_family": "ROTATE",
+          "n": 25,
+          "BLOCKED": 5,
+          "CLEAR": 20,
+          "v19_BLOCKED": 0
+        },
+        "LIFT_AND_RELOCATE": {
+          "condition_key": "C6_D8",
+          "condition_name": "M Qualitative D8",
+          "scene_family": "LIFT_AND_RELOCATE",
+          "n": 25,
+          "BLOCKED": 0,
+          "CLEAR": 25,
+          "v19_BLOCKED": 0
+        }
+      }
+    }
+  ],
+  "finished_at": "2026-09-17T09:09:47.796470+00:00",
+  "plots": [
+    "plots/01_blocked_by_condition_family.png",
+    "plots/02_v19_v20_blocked_comparison.png",
+    "plots/03_scene_blocked_matrix.png"
+  ]
+}

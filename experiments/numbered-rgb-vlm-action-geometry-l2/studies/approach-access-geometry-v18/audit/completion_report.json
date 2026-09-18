@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "completed": 1500,
+  "unique_run_ids": 1500,
+  "schema_valid_calls": 1500,
+  "condition_counts": {
+    "C4_D8": 125,
+    "C2_D8": 125,
+    "C6_D8": 125,
+    "C4_D4": 125,
+    "C6_D4": 125,
+    "C3_D4": 125,
+    "C2_D4": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C0": 125,
+    "C3_D8": 125,
+    "C1": 125
+  },
+  "all_scene_condition_seed_sets_complete": true,
+  "finish_reasons": {
+    "stop": 1500
+  },
+  "infrastructure_errors": 0,
+  "total_generation_seconds": 113.025,
+  "logs_sha256": "5586b54e3d98e05ad7a9f4b5719a39233fbe40454d1735212a6979c408fdb9a9",
+  "finished_at": "2026-09-17T08:37:49.335736+00:00"
+}

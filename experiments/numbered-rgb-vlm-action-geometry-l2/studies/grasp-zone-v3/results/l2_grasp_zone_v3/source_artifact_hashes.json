@@ -1,0 +1,38 @@
+{
+  "runs": {
+    "path": "logs/l2_grasp_zone_v3/runs.jsonl",
+    "sha256": "0ea187c614f5499ceb24374e63cd7fecde8098376a0c5f16f03e438874ad40ec"
+  },
+  "attempts": {
+    "path": "logs/l2_grasp_zone_v3/attempts.jsonl",
+    "sha256": "4d0e6e11953174cb003955e659bf3b53ffb9a3860a61ff22adfb3ea00b2f6aa2"
+  },
+  "runtime": {
+    "path": "logs/l2_grasp_zone_v3/runtime.json",
+    "sha256": "085f7b2fe6eacdaf8cfa42835ccccfaa8cf8beac99508709d592e5d3477c0a32"
+  },
+  "last_invocation_summary": {
+    "path": "logs/l2_grasp_zone_v3/last_invocation_summary.json",
+    "sha256": "acd78758527351ee6ddfa4c03a0d5946d55bdf55a4e94476323fa6ccc5fae169"
+  },
+  "prompt_l2": {
+    "path": "prompts/l2_en.txt",
+    "sha256": "573bd9869bc9ffa4386f88270c6d527ee8bdf5642c1854c3dc64adf8829cfe32"
+  },
+  "experiment_config": {
+    "path": "config/experiment_config.json",
+    "sha256": "33b937f00627e4acb5d0fb56b59e3ec27232d1ce422108512fd18711c5b60027"
+  },
+  "run_table": {
+    "path": "config/run_table.jsonl",
+    "sha256": "8501e46303e5d91a68a46571fbff5be9377250c2818f1bbe2208676548486e29"
+  },
+  "preflight": {
+    "path": "audit/preflight_report.json",
+    "sha256": "951edd66a556dae8cc5886197bbdedb2c63fa0a8be5f4dbd765e21203f107cda"
+  },
+  "object_coverage": {
+    "path": "audit/object_coverage_report.json",
+    "sha256": "1049fcfd237f0d2c83c98fd389ca6a2cf632a702622170fb2667a00aa11a8e0d"
+  }
+}

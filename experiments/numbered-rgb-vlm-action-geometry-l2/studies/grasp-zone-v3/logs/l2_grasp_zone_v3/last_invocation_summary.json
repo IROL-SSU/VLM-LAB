@@ -1,0 +1,9 @@
+{
+  "completed": 1500,
+  "expected": 1500,
+  "processed_this_invocation": 1500,
+  "model_load_seconds": 42.586,
+  "generation_seconds": 166.672,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_grasp_zone_v3/logs/l2_grasp_zone_v3/runs.jsonl",
+  "finished_at": "2026-09-16T10:23:12.606909+00:00"
+}

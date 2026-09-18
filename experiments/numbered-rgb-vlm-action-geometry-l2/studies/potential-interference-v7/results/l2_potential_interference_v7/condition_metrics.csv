@@ -1,0 +1,49 @@
+condition,resolution,name,version,n,tp,fn,tn,fp,accuracy,balanced_accuracy,positive_recall,specificity,precision
+C0,,Numbered RGB only,potential_interference_v7,125,23,52,50,0,0.584,0.6533333333333333,0.30666666666666664,1.0,1.0
+C0,,Numbered RGB only,direct_occlusion_v5_rescored,125,53,22,50,0,0.824,0.8533333333333333,0.7066666666666667,1.0,1.0
+C0,,Numbered RGB only,target_access_v6_rescored,125,10,65,50,0,0.48,0.5666666666666667,0.13333333333333333,1.0,1.0
+C0,,Numbered RGB only,original_l1_non_FULL_rescored,125,49,26,50,0,0.792,0.8266666666666667,0.6533333333333333,1.0,1.0
+C1,,R Numeric,potential_interference_v7,125,7,68,48,2,0.44,0.5266666666666666,0.09333333333333334,0.96,0.7777777777777778
+C1,,R Numeric,direct_occlusion_v5_rescored,125,28,47,50,0,0.624,0.6866666666666666,0.37333333333333335,1.0,1.0
+C1,,R Numeric,target_access_v6_rescored,125,7,68,50,0,0.456,0.5466666666666666,0.09333333333333334,1.0,1.0
+C1,,R Numeric,original_l1_non_FULL_rescored,125,62,13,50,0,0.896,0.9133333333333333,0.8266666666666667,1.0,1.0
+C2,D4,R Qualitative D4,potential_interference_v7,125,32,43,50,0,0.656,0.7133333333333334,0.4266666666666667,1.0,1.0
+C2,D4,R Qualitative D4,direct_occlusion_v5_rescored,125,46,29,50,0,0.768,0.8066666666666666,0.6133333333333333,1.0,1.0
+C2,D4,R Qualitative D4,target_access_v6_rescored,125,26,49,50,0,0.608,0.6733333333333333,0.3466666666666667,1.0,1.0
+C2,D4,R Qualitative D4,original_l1_non_FULL_rescored,125,58,17,50,0,0.864,0.8866666666666667,0.7733333333333333,1.0,1.0
+C2,D8,R Qualitative D8,potential_interference_v7,125,36,39,45,5,0.648,0.69,0.48,0.9,0.8780487804878049
+C2,D8,R Qualitative D8,direct_occlusion_v5_rescored,125,48,27,50,0,0.784,0.8200000000000001,0.64,1.0,1.0
+C2,D8,R Qualitative D8,target_access_v6_rescored,125,29,46,50,0,0.632,0.6933333333333334,0.38666666666666666,1.0,1.0
+C2,D8,R Qualitative D8,original_l1_non_FULL_rescored,125,51,24,50,0,0.808,0.8400000000000001,0.68,1.0,1.0
+C3,D4,F Numeric D4,potential_interference_v7,125,11,64,50,0,0.488,0.5733333333333334,0.14666666666666667,1.0,1.0
+C3,D4,F Numeric D4,direct_occlusion_v5_rescored,125,14,61,50,0,0.512,0.5933333333333334,0.18666666666666668,1.0,1.0
+C3,D4,F Numeric D4,target_access_v6_rescored,125,4,71,50,0,0.432,0.5266666666666666,0.05333333333333334,1.0,1.0
+C3,D4,F Numeric D4,original_l1_non_FULL_rescored,125,35,40,50,0,0.68,0.7333333333333334,0.4666666666666667,1.0,1.0
+C3,D8,F Numeric D8,potential_interference_v7,125,10,65,50,0,0.48,0.5666666666666667,0.13333333333333333,1.0,1.0
+C3,D8,F Numeric D8,direct_occlusion_v5_rescored,125,25,50,50,0,0.6,0.6666666666666666,0.3333333333333333,1.0,1.0
+C3,D8,F Numeric D8,target_access_v6_rescored,125,0,75,50,0,0.4,0.5,0.0,1.0,
+C3,D8,F Numeric D8,original_l1_non_FULL_rescored,125,19,56,50,0,0.552,0.6266666666666667,0.25333333333333335,1.0,1.0
+C4,D4,F Qualitative D4,potential_interference_v7,125,8,67,50,0,0.464,0.5533333333333333,0.10666666666666667,1.0,1.0
+C4,D4,F Qualitative D4,direct_occlusion_v5_rescored,125,22,53,50,0,0.576,0.6466666666666667,0.29333333333333333,1.0,1.0
+C4,D4,F Qualitative D4,target_access_v6_rescored,125,12,63,50,0,0.496,0.58,0.16,1.0,1.0
+C4,D4,F Qualitative D4,original_l1_non_FULL_rescored,125,37,38,50,0,0.696,0.7466666666666667,0.49333333333333335,1.0,1.0
+C4,D8,F Qualitative D8,potential_interference_v7,125,6,69,50,0,0.448,0.54,0.08,1.0,1.0
+C4,D8,F Qualitative D8,direct_occlusion_v5_rescored,125,18,57,50,0,0.544,0.62,0.24,1.0,1.0
+C4,D8,F Qualitative D8,target_access_v6_rescored,125,9,66,50,0,0.472,0.56,0.12,1.0,1.0
+C4,D8,F Qualitative D8,original_l1_non_FULL_rescored,125,24,51,50,0,0.592,0.66,0.32,1.0,1.0
+C5,D4,M Numeric D4,potential_interference_v7,125,15,60,50,0,0.52,0.6,0.2,1.0,1.0
+C5,D4,M Numeric D4,direct_occlusion_v5_rescored,125,24,51,50,0,0.592,0.66,0.32,1.0,1.0
+C5,D4,M Numeric D4,target_access_v6_rescored,125,5,70,50,0,0.44,0.5333333333333333,0.06666666666666667,1.0,1.0
+C5,D4,M Numeric D4,original_l1_non_FULL_rescored,125,33,42,50,0,0.664,0.72,0.44,1.0,1.0
+C5,D8,M Numeric D8,potential_interference_v7,125,13,62,49,1,0.496,0.5766666666666667,0.17333333333333334,0.98,0.9285714285714286
+C5,D8,M Numeric D8,direct_occlusion_v5_rescored,125,23,52,50,0,0.584,0.6533333333333333,0.30666666666666664,1.0,1.0
+C5,D8,M Numeric D8,target_access_v6_rescored,125,3,72,50,0,0.424,0.52,0.04,1.0,1.0
+C5,D8,M Numeric D8,original_l1_non_FULL_rescored,125,31,44,50,0,0.648,0.7066666666666667,0.41333333333333333,1.0,1.0
+C6,D4,M Qualitative D4,potential_interference_v7,125,21,54,50,0,0.568,0.64,0.28,1.0,1.0
+C6,D4,M Qualitative D4,direct_occlusion_v5_rescored,125,29,46,50,0,0.632,0.6933333333333334,0.38666666666666666,1.0,1.0
+C6,D4,M Qualitative D4,target_access_v6_rescored,125,11,64,50,0,0.488,0.5733333333333334,0.14666666666666667,1.0,1.0
+C6,D4,M Qualitative D4,original_l1_non_FULL_rescored,125,37,38,50,0,0.696,0.7466666666666667,0.49333333333333335,1.0,1.0
+C6,D8,M Qualitative D8,potential_interference_v7,125,19,56,50,0,0.552,0.6266666666666667,0.25333333333333335,1.0,1.0
+C6,D8,M Qualitative D8,direct_occlusion_v5_rescored,125,26,49,50,0,0.608,0.6733333333333333,0.3466666666666667,1.0,1.0
+C6,D8,M Qualitative D8,target_access_v6_rescored,125,4,71,50,0,0.432,0.5266666666666666,0.05333333333333334,1.0,1.0
+C6,D8,M Qualitative D8,original_l1_non_FULL_rescored,125,27,48,50,0,0.616,0.6799999999999999,0.36,1.0,1.0

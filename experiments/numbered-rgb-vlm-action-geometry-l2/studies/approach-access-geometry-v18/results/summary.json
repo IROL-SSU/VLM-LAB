@@ -1,0 +1,862 @@
+{
+  "experiment_version": "l2_approach_access_geometry_v18",
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "completed_calls": 1500,
+  "scene_count": 25,
+  "condition_count": 12,
+  "seed_count": 5,
+  "schema_valid_calls": 1500,
+  "infrastructure_errors": 0,
+  "access_ground_truth_available": false,
+  "retrieval_execution_gt_available": false,
+  "accuracy": null,
+  "evaluation": "response_distributions_and_paired_semantic_task_change_no_family_ground_truth",
+  "baseline": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_direct_retrieval_geometry_v16",
+  "v16_label_correspondence_for_description_only": {
+    "RETRIEVE_NOW": "ACCESSIBLE",
+    "REARRANGE_FIRST": "BLOCKED"
+  },
+  "condition_results": [
+    {
+      "condition_key": "C0",
+      "condition_name": "RGB only",
+      "n": 125,
+      "ACCESSIBLE": 50,
+      "BLOCKED": 75,
+      "INVALID": 0,
+      "positive_rate": 0.4,
+      "unanimous_scenes": 25,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 0,
+          "BLOCKED": 25,
+          "INVALID": 0,
+          "positive_rate": 0.0
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 0,
+          "BLOCKED": 25,
+          "INVALID": 0,
+          "positive_rate": 0.0
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 0,
+          "BLOCKED": 25,
+          "INVALID": 0,
+          "positive_rate": 0.0
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 75,
+      "blocked_to_accessible": 0,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 0,
+      "net_accessible_change": 0,
+      "v16_RETRIEVE_NOW": 47,
+      "v16_to_v18_positive_delta_pp": 2.400000000000002,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 44,
+        "unchanged_blocked": 72,
+        "blocked_to_accessible": 6,
+        "accessible_to_blocked": 3,
+        "changed_valid_pairs": 9,
+        "net_accessible_change": 3
+      }
+    },
+    {
+      "condition_key": "C1",
+      "condition_name": "R Numeric",
+      "n": 125,
+      "ACCESSIBLE": 56,
+      "BLOCKED": 69,
+      "INVALID": 0,
+      "positive_rate": 0.448,
+      "unanimous_scenes": 18,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 20,
+          "BLOCKED": 5,
+          "INVALID": 0,
+          "positive_rate": 0.8
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 1,
+          "BLOCKED": 24,
+          "INVALID": 0,
+          "positive_rate": 0.04
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 6,
+          "BLOCKED": 19,
+          "INVALID": 0,
+          "positive_rate": 0.24
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 4,
+          "BLOCKED": 21,
+          "INVALID": 0,
+          "positive_rate": 0.16
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 45,
+      "unchanged_blocked": 64,
+      "blocked_to_accessible": 11,
+      "accessible_to_blocked": 5,
+      "changed_valid_pairs": 16,
+      "net_accessible_change": 6,
+      "v16_RETRIEVE_NOW": 39,
+      "v16_to_v18_positive_delta_pp": 13.600000000000001,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 34,
+        "unchanged_blocked": 64,
+        "blocked_to_accessible": 22,
+        "accessible_to_blocked": 5,
+        "changed_valid_pairs": 27,
+        "net_accessible_change": 17
+      }
+    },
+    {
+      "condition_key": "C2_D4",
+      "condition_name": "R Qualitative D4",
+      "n": 125,
+      "ACCESSIBLE": 53,
+      "BLOCKED": 72,
+      "INVALID": 0,
+      "positive_rate": 0.424,
+      "unanimous_scenes": 23,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 16,
+          "BLOCKED": 9,
+          "INVALID": 0,
+          "positive_rate": 0.64
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 0,
+          "BLOCKED": 25,
+          "INVALID": 0,
+          "positive_rate": 0.0
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 12,
+          "BLOCKED": 13,
+          "INVALID": 0,
+          "positive_rate": 0.48
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 0,
+          "BLOCKED": 25,
+          "INVALID": 0,
+          "positive_rate": 0.0
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 41,
+      "unchanged_blocked": 63,
+      "blocked_to_accessible": 12,
+      "accessible_to_blocked": 9,
+      "changed_valid_pairs": 21,
+      "net_accessible_change": 3,
+      "v16_RETRIEVE_NOW": 41,
+      "v16_to_v18_positive_delta_pp": 9.599999999999998,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 38,
+        "unchanged_blocked": 69,
+        "blocked_to_accessible": 15,
+        "accessible_to_blocked": 3,
+        "changed_valid_pairs": 18,
+        "net_accessible_change": 12
+      }
+    },
+    {
+      "condition_key": "C2_D8",
+      "condition_name": "R Qualitative D8",
+      "n": 125,
+      "ACCESSIBLE": 45,
+      "BLOCKED": 80,
+      "INVALID": 0,
+      "positive_rate": 0.36,
+      "unanimous_scenes": 21,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 13,
+          "BLOCKED": 12,
+          "INVALID": 0,
+          "positive_rate": 0.52
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 1,
+          "BLOCKED": 24,
+          "INVALID": 0,
+          "positive_rate": 0.04
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 6,
+          "BLOCKED": 19,
+          "INVALID": 0,
+          "positive_rate": 0.24
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 0,
+          "BLOCKED": 25,
+          "INVALID": 0,
+          "positive_rate": 0.0
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 38,
+      "unchanged_blocked": 68,
+      "blocked_to_accessible": 7,
+      "accessible_to_blocked": 12,
+      "changed_valid_pairs": 19,
+      "net_accessible_change": -5,
+      "v16_RETRIEVE_NOW": 31,
+      "v16_to_v18_positive_delta_pp": 11.2,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 30,
+        "unchanged_blocked": 79,
+        "blocked_to_accessible": 15,
+        "accessible_to_blocked": 1,
+        "changed_valid_pairs": 16,
+        "net_accessible_change": 14
+      }
+    },
+    {
+      "condition_key": "C3_D4",
+      "condition_name": "F Numeric D4",
+      "n": 125,
+      "ACCESSIBLE": 80,
+      "BLOCKED": 45,
+      "INVALID": 0,
+      "positive_rate": 0.64,
+      "unanimous_scenes": 19,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 12,
+          "BLOCKED": 13,
+          "INVALID": 0,
+          "positive_rate": 0.48
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 11,
+          "BLOCKED": 14,
+          "INVALID": 0,
+          "positive_rate": 0.44
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 7,
+          "BLOCKED": 18,
+          "INVALID": 0,
+          "positive_rate": 0.28
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 45,
+      "blocked_to_accessible": 30,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 30,
+      "net_accessible_change": 30,
+      "v16_RETRIEVE_NOW": 57,
+      "v16_to_v18_positive_delta_pp": 18.4,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 49,
+        "unchanged_blocked": 37,
+        "blocked_to_accessible": 31,
+        "accessible_to_blocked": 8,
+        "changed_valid_pairs": 39,
+        "net_accessible_change": 23
+      }
+    },
+    {
+      "condition_key": "C3_D8",
+      "condition_name": "F Numeric D8",
+      "n": 125,
+      "ACCESSIBLE": 81,
+      "BLOCKED": 44,
+      "INVALID": 0,
+      "positive_rate": 0.648,
+      "unanimous_scenes": 19,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 12,
+          "BLOCKED": 13,
+          "INVALID": 0,
+          "positive_rate": 0.48
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 5,
+          "BLOCKED": 20,
+          "INVALID": 0,
+          "positive_rate": 0.2
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 14,
+          "BLOCKED": 11,
+          "INVALID": 0,
+          "positive_rate": 0.56
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 44,
+      "blocked_to_accessible": 31,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 31,
+      "net_accessible_change": 31,
+      "v16_RETRIEVE_NOW": 56,
+      "v16_to_v18_positive_delta_pp": 20.0,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 52,
+        "unchanged_blocked": 40,
+        "blocked_to_accessible": 29,
+        "accessible_to_blocked": 4,
+        "changed_valid_pairs": 33,
+        "net_accessible_change": 25
+      }
+    },
+    {
+      "condition_key": "C4_D4",
+      "condition_name": "F Qualitative D4",
+      "n": 125,
+      "ACCESSIBLE": 71,
+      "BLOCKED": 54,
+      "INVALID": 0,
+      "positive_rate": 0.568,
+      "unanimous_scenes": 20,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 12,
+          "BLOCKED": 13,
+          "INVALID": 0,
+          "positive_rate": 0.48
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 6,
+          "BLOCKED": 19,
+          "INVALID": 0,
+          "positive_rate": 0.24
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 3,
+          "BLOCKED": 22,
+          "INVALID": 0,
+          "positive_rate": 0.12
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 54,
+      "blocked_to_accessible": 21,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 21,
+      "net_accessible_change": 21,
+      "v16_RETRIEVE_NOW": 33,
+      "v16_to_v18_positive_delta_pp": 30.399999999999995,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 32,
+        "unchanged_blocked": 53,
+        "blocked_to_accessible": 39,
+        "accessible_to_blocked": 1,
+        "changed_valid_pairs": 40,
+        "net_accessible_change": 38
+      }
+    },
+    {
+      "condition_key": "C4_D8",
+      "condition_name": "F Qualitative D8",
+      "n": 125,
+      "ACCESSIBLE": 97,
+      "BLOCKED": 28,
+      "INVALID": 0,
+      "positive_rate": 0.776,
+      "unanimous_scenes": 22,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 20,
+          "BLOCKED": 5,
+          "INVALID": 0,
+          "positive_rate": 0.8
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 16,
+          "BLOCKED": 9,
+          "INVALID": 0,
+          "positive_rate": 0.64
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 11,
+          "BLOCKED": 14,
+          "INVALID": 0,
+          "positive_rate": 0.44
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 28,
+      "blocked_to_accessible": 47,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 47,
+      "net_accessible_change": 47,
+      "v16_RETRIEVE_NOW": 33,
+      "v16_to_v18_positive_delta_pp": 51.2,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 33,
+        "unchanged_blocked": 28,
+        "blocked_to_accessible": 64,
+        "accessible_to_blocked": 0,
+        "changed_valid_pairs": 64,
+        "net_accessible_change": 64
+      }
+    },
+    {
+      "condition_key": "C5_D4",
+      "condition_name": "M Numeric D4",
+      "n": 125,
+      "ACCESSIBLE": 72,
+      "BLOCKED": 53,
+      "INVALID": 0,
+      "positive_rate": 0.576,
+      "unanimous_scenes": 20,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 15,
+          "BLOCKED": 10,
+          "INVALID": 0,
+          "positive_rate": 0.6
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 5,
+          "BLOCKED": 20,
+          "INVALID": 0,
+          "positive_rate": 0.2
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 2,
+          "BLOCKED": 23,
+          "INVALID": 0,
+          "positive_rate": 0.08
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 53,
+      "blocked_to_accessible": 22,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 22,
+      "net_accessible_change": 22,
+      "v16_RETRIEVE_NOW": 38,
+      "v16_to_v18_positive_delta_pp": 27.199999999999996,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 32,
+        "unchanged_blocked": 47,
+        "blocked_to_accessible": 40,
+        "accessible_to_blocked": 6,
+        "changed_valid_pairs": 46,
+        "net_accessible_change": 34
+      }
+    },
+    {
+      "condition_key": "C5_D8",
+      "condition_name": "M Numeric D8",
+      "n": 125,
+      "ACCESSIBLE": 88,
+      "BLOCKED": 37,
+      "INVALID": 0,
+      "positive_rate": 0.704,
+      "unanimous_scenes": 18,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 11,
+          "BLOCKED": 14,
+          "INVALID": 0,
+          "positive_rate": 0.44
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 17,
+          "BLOCKED": 8,
+          "INVALID": 0,
+          "positive_rate": 0.68
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 10,
+          "BLOCKED": 15,
+          "INVALID": 0,
+          "positive_rate": 0.4
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 37,
+      "blocked_to_accessible": 38,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 38,
+      "net_accessible_change": 38,
+      "v16_RETRIEVE_NOW": 49,
+      "v16_to_v18_positive_delta_pp": 31.199999999999996,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 48,
+        "unchanged_blocked": 36,
+        "blocked_to_accessible": 40,
+        "accessible_to_blocked": 1,
+        "changed_valid_pairs": 41,
+        "net_accessible_change": 39
+      }
+    },
+    {
+      "condition_key": "C6_D4",
+      "condition_name": "M Qualitative D4",
+      "n": 125,
+      "ACCESSIBLE": 81,
+      "BLOCKED": 44,
+      "INVALID": 0,
+      "positive_rate": 0.648,
+      "unanimous_scenes": 19,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 11,
+          "BLOCKED": 14,
+          "INVALID": 0,
+          "positive_rate": 0.44
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 15,
+          "BLOCKED": 10,
+          "INVALID": 0,
+          "positive_rate": 0.6
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 5,
+          "BLOCKED": 20,
+          "INVALID": 0,
+          "positive_rate": 0.2
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 44,
+      "blocked_to_accessible": 31,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 31,
+      "net_accessible_change": 31,
+      "v16_RETRIEVE_NOW": 36,
+      "v16_to_v18_positive_delta_pp": 36.00000000000001,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 35,
+        "unchanged_blocked": 43,
+        "blocked_to_accessible": 46,
+        "accessible_to_blocked": 1,
+        "changed_valid_pairs": 47,
+        "net_accessible_change": 45
+      }
+    },
+    {
+      "condition_key": "C6_D8",
+      "condition_name": "M Qualitative D8",
+      "n": 125,
+      "ACCESSIBLE": 81,
+      "BLOCKED": 44,
+      "INVALID": 0,
+      "positive_rate": 0.648,
+      "unanimous_scenes": 21,
+      "by_family": {
+        "FC_CLEAR": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "FC_BLOCKED": {
+          "n": 25,
+          "ACCESSIBLE": 25,
+          "BLOCKED": 0,
+          "INVALID": 0,
+          "positive_rate": 1.0
+        },
+        "TRANSLATE": {
+          "n": 25,
+          "ACCESSIBLE": 19,
+          "BLOCKED": 6,
+          "INVALID": 0,
+          "positive_rate": 0.76
+        },
+        "ROTATE": {
+          "n": 25,
+          "ACCESSIBLE": 9,
+          "BLOCKED": 16,
+          "INVALID": 0,
+          "positive_rate": 0.36
+        },
+        "LIFT_AND_RELOCATE": {
+          "n": 25,
+          "ACCESSIBLE": 3,
+          "BLOCKED": 22,
+          "INVALID": 0,
+          "positive_rate": 0.12
+        }
+      },
+      "valid_pairs": 125,
+      "invalid_pairs": 0,
+      "unchanged_accessible": 50,
+      "unchanged_blocked": 44,
+      "blocked_to_accessible": 31,
+      "accessible_to_blocked": 0,
+      "changed_valid_pairs": 31,
+      "net_accessible_change": 31,
+      "v16_RETRIEVE_NOW": 45,
+      "v16_to_v18_positive_delta_pp": 28.800000000000004,
+      "paired_vs_v16": {
+        "n": 125,
+        "valid_pairs": 125,
+        "invalid_pairs": 0,
+        "unchanged_accessible": 45,
+        "unchanged_blocked": 44,
+        "blocked_to_accessible": 36,
+        "accessible_to_blocked": 0,
+        "changed_valid_pairs": 36,
+        "net_accessible_change": 36
+      }
+    }
+  ],
+  "total_generation_seconds": 113.025,
+  "finished_at": "2026-09-17T08:37:56.912890+00:00",
+  "plots": [
+    {
+      "png": "plots/01_accessible_by_family_condition.png",
+      "pdf": "plots/01_accessible_by_family_condition.pdf",
+      "caption": "조건·family별 ACCESSIBLE 비율. 각 칸은 25회이며 정확도를 뜻하지 않습니다."
+    },
+    {
+      "png": "plots/02_fc_blocked_per_scene.png",
+      "pdf": "plots/02_fc_blocked_per_scene.pdf",
+      "caption": "FC_BLOCKED 장면별 ACCESSIBLE 횟수(/5). 한 장면 안에서 seed 간 응답이 달라지는지도 확인할 수 있습니다."
+    },
+    {
+      "png": "plots/03_v16_v18_c0_c2d8.png",
+      "pdf": "plots/03_v16_v18_c0_c2d8.pdf",
+      "caption": "C0 및 C2 D8의 v16 RETRIEVE_NOW ↔ v18 ACCESSIBLE 비율 비교. 질문과 라벨의 의미가 달라 정확도 향상으로 해석하지 않습니다."
+    },
+    {
+      "png": "plots/04_v16_v18_family_delta.png",
+      "pdf": "plots/04_v16_v18_family_delta.pdf",
+      "caption": "모든 조건에서 v16→v18 응답 비율 변화(%p). FC_BLOCKED 외 family로 변화가 확산됐는지 확인합니다."
+    }
+  ],
+  "plot_note": null
+}

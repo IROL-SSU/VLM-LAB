@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "properties": {
+    "target_id": {
+      "const": 67
+    },
+    "instance_assessments": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 35
+            },
+            "relation_to_target": {
+              "type": "string",
+              "enum": [
+                "INTERFERES",
+                "DOES_NOT_INTERFERE"
+              ]
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 67
+            },
+            "relation_to_target": {
+              "const": "TARGET"
+            }
+          },
+          "required": [
+            "object_id",
+            "relation_to_target"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    }
+  },
+  "required": [
+    "target_id",
+    "instance_assessments"
+  ],
+  "additionalProperties": false
+}

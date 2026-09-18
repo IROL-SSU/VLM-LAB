@@ -1,0 +1,88 @@
+{
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_instance_interference_v8/results/l2_instance_interference_v8",
+  "integrity": {
+    "status": "pass",
+    "scheduled": 1500,
+    "completed": 1500,
+    "unique_run_ids": 1500,
+    "parse_errors": 0,
+    "post_validation_failures": 0,
+    "output_invariant_failures": 0,
+    "attempt_records": 1500,
+    "infrastructure_errors": 0,
+    "finish_reasons": {
+      "stop": 1500
+    },
+    "failures": []
+  },
+  "overall": {
+    "candidate_instance": {
+      "n": 5340,
+      "positive": 900,
+      "negative": 4440,
+      "tp": 590,
+      "fn": 310,
+      "tn": 2709,
+      "fp": 1731,
+      "accuracy": 0.6177902621722846,
+      "balanced_accuracy": 0.6328453453453453,
+      "positive_recall": 0.6555555555555556,
+      "specificity": 0.6101351351351352,
+      "precision": 0.25420077552778975
+    },
+    "run_count": 1500,
+    "instance_exact_matches": 389,
+    "instance_exact_match_accuracy": 0.25933333333333336,
+    "blocker_set_exact_matches": 389,
+    "blocker_set_exact_match_accuracy": 0.25933333333333336,
+    "target_role_correct": 1500,
+    "target_role_accuracy": 1.0,
+    "scene_any_interference": {
+      "n": 1500,
+      "positive": 900,
+      "negative": 600,
+      "tp": 606,
+      "fn": 294,
+      "tn": 222,
+      "fp": 378,
+      "accuracy": 0.552,
+      "balanced_accuracy": 0.5216666666666667,
+      "positive_recall": 0.6733333333333333,
+      "specificity": 0.37,
+      "precision": 0.6158536585365854
+    }
+  },
+  "comparison": {
+    "v8_any_instance_interferes": {
+      "n": 1500,
+      "positive": 900,
+      "negative": 600,
+      "tp": 606,
+      "fn": 294,
+      "tn": 222,
+      "fp": 378,
+      "accuracy": 0.552,
+      "balanced_accuracy": 0.5216666666666667,
+      "positive_recall": 0.6733333333333333,
+      "specificity": 0.37,
+      "precision": 0.6158536585365854
+    },
+    "v7_single_boolean": {
+      "n": 1500,
+      "positive": 900,
+      "negative": 600,
+      "tp": 201,
+      "fn": 699,
+      "tn": 592,
+      "fp": 8,
+      "accuracy": 0.5286666666666666,
+      "balanced_accuracy": 0.605,
+      "positive_recall": 0.22333333333333333,
+      "specificity": 0.9866666666666667,
+      "precision": 0.9617224880382775
+    },
+    "same_numbered_rgb_hash": 1500,
+    "same_geometry_hash": 1500
+  },
+  "error_candidate_count": 2041
+}

@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "generated_at": "2026-09-17T03:59:11.582181+00:00",
+  "scene_count": 25,
+  "physical_object_count": 115,
+  "rgb_visible_object_count": 114,
+  "fully_occluded_object_count": 1,
+  "fully_occluded_objects": [
+    {
+      "scene_id": "scene_lift_and_relocate_v04",
+      "display_id": 16,
+      "instance_id": "Mug_4"
+    }
+  ],
+  "design_label_mismatches": [],
+  "invariants": {
+    "every_rgb_visible_object_has_badge": true,
+    "every_physical_object_has_saved_visible_mask": true,
+    "every_physical_object_is_in_geometry": true,
+    "fully_occluded_objects_are_not_badged": true
+  },
+  "failures": []
+}

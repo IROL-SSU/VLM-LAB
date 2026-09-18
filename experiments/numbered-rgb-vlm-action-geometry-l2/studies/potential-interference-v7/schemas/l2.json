@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "potential_grasp_interference": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "potential_grasp_interference"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "properties": {
+    "target_id": {
+      "const": 43
+    },
+    "grasp_obstruction_assessments_left_to_right": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 52
+            },
+            "obstructs_grasp": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "obstructs_grasp"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 48
+            },
+            "obstructs_grasp": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "obstructs_grasp"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 15
+            },
+            "obstructs_grasp": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "obstructs_grasp"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 76
+            },
+            "obstructs_grasp": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "obstructs_grasp"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 24
+            },
+            "obstructs_grasp": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "obstructs_grasp"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false,
+      "minItems": 5,
+      "maxItems": 5
+    }
+  },
+  "required": [
+    "target_id",
+    "grasp_obstruction_assessments_left_to_right"
+  ],
+  "additionalProperties": false
+}

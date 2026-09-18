@@ -1,0 +1,13 @@
+Target object ID: {target_object_id}
+
+Geometry information:
+{geometry_json}
+
+Is there a clear approach path from the shelf opening to the target
+without moving or contacting other objects?
+
+Choose:
+- ACCESSIBLE: there is a clear approach path.
+- BLOCKED: other objects block the approach.
+
+Return exactly one JSON object with the field "decision".

@@ -1,0 +1,7 @@
+You assess whether a robot can retrieve a target object from a shelf.
+
+Each numbered badge identifies the physical object underneath it.
+Badge positions, sizes, and numbers are identity markers only.
+
+Judge the current scene.
+Return exactly one JSON object. Do not include explanations.

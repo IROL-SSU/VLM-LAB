@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "scheduled_calls": 1500,
+  "completed_calls": 1500,
+  "unique_run_ids": 1500,
+  "all_scene_condition_seed_sets_complete": true,
+  "same_images_geometry_targets_model_generation_as_v16": true,
+  "condition_counts": {
+    "C4_D8": 125,
+    "C2_D8": 125,
+    "C6_D8": 125,
+    "C4_D4": 125,
+    "C6_D4": 125,
+    "C3_D4": 125,
+    "C2_D4": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C0": 125,
+    "C3_D8": 125,
+    "C1": 125
+  },
+  "finish_reasons": {
+    "stop": 1500
+  },
+  "logs_sha256": "5586b54e3d98e05ad7a9f4b5719a39233fbe40454d1735212a6979c408fdb9a9",
+  "v16_logs_sha256": "88453cb134d0716699237aff0ab7abd83cfe6e0b635fca46629befe4c8a70f4c",
+  "run_table_sha256": "05ee912371712bd0318f6ec988b6e86c038f980e9432ec691f2f965bbbd6f7ef"
+}

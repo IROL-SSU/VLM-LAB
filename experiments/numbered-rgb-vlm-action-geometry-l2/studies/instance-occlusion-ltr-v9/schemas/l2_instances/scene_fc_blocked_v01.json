@@ -1,0 +1,90 @@
+{
+  "type": "object",
+  "properties": {
+    "visible_object_ids_left_to_right": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "const": 46
+        },
+        {
+          "const": 64
+        },
+        {
+          "const": 40
+        },
+        {
+          "const": 59
+        }
+      ],
+      "items": false,
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "target_id": {
+      "const": 64
+    },
+    "occlusion_assessments_left_to_right": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 46
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 40
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "object_id": {
+              "const": 59
+            },
+            "occludes_target": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "object_id",
+            "occludes_target"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false,
+      "minItems": 3,
+      "maxItems": 3
+    }
+  },
+  "required": [
+    "visible_object_ids_left_to_right",
+    "target_id",
+    "occlusion_assessments_left_to_right"
+  ],
+  "additionalProperties": false
+}

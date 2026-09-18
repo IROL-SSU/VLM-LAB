@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": [
+        "RETRIEVE_NOW",
+        "REARRANGE_FIRST"
+      ]
+    }
+  },
+  "required": [
+    "decision"
+  ],
+  "additionalProperties": false
+}

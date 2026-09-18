@@ -1,0 +1,38 @@
+{
+  "runs": {
+    "path": "logs/l2_visibility_only_v4/runs.jsonl",
+    "sha256": "f5dcd5236b78d646d7e293692cfff11f4df9e879020a3ca9463a76ae09eb1c15"
+  },
+  "attempts": {
+    "path": "logs/l2_visibility_only_v4/attempts.jsonl",
+    "sha256": "79eeeb15dccaeb86ad200bfe7119e0a8b12bfa0418c4413d5984f17e29746f91"
+  },
+  "runtime": {
+    "path": "logs/l2_visibility_only_v4/runtime.json",
+    "sha256": "4555e81caa92bfa59f912d46f429eee399ebdad50a5ffb533e4d5bb6ddbaf9d5"
+  },
+  "last_invocation_summary": {
+    "path": "logs/l2_visibility_only_v4/last_invocation_summary.json",
+    "sha256": "9c75875dccfcab81bbdfbc91ba47f5ec4ed2855ae33928e81527e2bed7262323"
+  },
+  "prompt_l2": {
+    "path": "prompts/l2_en.txt",
+    "sha256": "b818fce06b232b583e4234984d3755ae6b18959db6956c0835b4b4cbbb868b8e"
+  },
+  "experiment_config": {
+    "path": "config/experiment_config.json",
+    "sha256": "af285506053bd2429e0f8909d8048d5124c833198f0eb83c250bbf823887bb27"
+  },
+  "run_table": {
+    "path": "config/run_table.jsonl",
+    "sha256": "cac1d1b1080207291c86375c85ec498f01b4df7ea56c9f8a3edc960de9aa8055"
+  },
+  "preflight": {
+    "path": "audit/preflight_report.json",
+    "sha256": "76e601f35c034389d9f10aa914296c08e55e173603cd473586110fe7012af355"
+  },
+  "object_coverage": {
+    "path": "audit/object_coverage_report.json",
+    "sha256": "e0bf03cbd72482fb265dca39015809ff29ccc7a273e4148e81cb6172e9364cc0"
+  }
+}

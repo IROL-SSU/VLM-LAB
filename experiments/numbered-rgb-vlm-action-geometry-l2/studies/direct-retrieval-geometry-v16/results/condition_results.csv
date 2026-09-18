@@ -1,0 +1,13 @@
+condition_key,condition_name,RETRIEVE_NOW,REARRANGE_FIRST,INVALID,unanimous_scenes,changed_vs_c0,changes_toward_scene_design,changes_away_from_scene_design,scene_design_agreement_count
+C0,RGB only,47,78,0,22,0,0,0,103
+C1,R Numeric,39,86,0,17,16,7,9,101
+C2_D4,R Qualitative D4,41,84,0,23,6,6,0,109
+C2_D8,R Qualitative D8,31,94,0,23,16,15,1,117
+C3_D4,F Numeric D4,57,68,0,14,22,3,19,87
+C3_D8,F Numeric D8,56,69,0,17,15,3,12,94
+C4_D4,F Qualitative D4,33,92,0,16,16,6,10,99
+C4_D8,F Qualitative D8,33,92,0,18,20,9,11,101
+C5_D4,M Numeric D4,38,87,0,16,27,11,16,98
+C5_D8,M Numeric D8,49,76,0,17,14,4,10,97
+C6_D4,M Qualitative D4,36,89,0,18,21,10,11,102
+C6_D8,M Qualitative D8,45,80,0,21,14,5,9,99

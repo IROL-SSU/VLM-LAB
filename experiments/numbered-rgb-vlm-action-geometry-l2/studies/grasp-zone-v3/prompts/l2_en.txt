@@ -1,0 +1,51 @@
+For this benchmark, direct_graspable is a formal Boolean predicate.
+It does not mean general real-world grasp feasibility.
+
+Evaluate the following two tests independently.
+
+1. Visibility test
+Determine visibility from the numbered RGB image.
+The test passes only when the target is FULL.
+
+FULL means 100% of the target-only projected silhouette is visible,
+ignoring the numbered badge overlay.
+PARTIAL and NOT_VISIBLE fail this test.
+
+Geometry describing distance, direction, occupied angular sectors, or
+finger-placement clearance must not be used as evidence that the target is
+visually occluded.
+
+2. Finger-placement test
+Assume a parallel-jaw gripper whose fingers close along the shelf LEFT_RIGHT
+axis. The test passes only when the immediate LEFT and RIGHT finger-placement
+zones beside the target are both clear.
+
+An object blocks the grasp only when its shelf-plane footprint occupies or
+overlaps one of those two finger-placement zones. Mere proximity outside the
+finger-placement zones, including proximity in FRONT or BACK, does not fail
+this test. Do not impose a universal target-to-object distance threshold.
+
+Use the supplied information as follows:
+- For R_NUMERIC, distance_to_finger_placement_zone_cm is authoritative.
+  A value of 0 means that object occupies that side's zone; a positive value
+  means it is outside that zone. Both LEFT and RIGHT must remain unoccupied.
+  surface_gap_cm is supplemental and is not a decision threshold.
+- For R_QUALITATIVE, finger_placement_zone_status is authoritative.
+  Both LEFT and RIGHT must be CLEAR. OCCUPIED fails the test.
+- If neither representation is supplied, make the best binary visual estimate
+  of whether there is room immediately beside the target for both fingers.
+  Do not return false only because an exact distance is unavailable.
+- Other geometry may help evaluate these two tests, but it must not introduce
+  an additional decision criterion.
+
+Final decision:
+- Return direct_graspable=true if and only if both tests pass.
+- Otherwise return direct_graspable=false.
+
+Do not add approach-path, gripper-pose, reachability, stability,
+collision-path, confidence, uncertainty, or extra safety-margin requirements.
+
+Examples:
+- FULL and LEFT=CLEAR and RIGHT=CLEAR -> true
+- FULL and either side OCCUPIED -> false
+- PARTIAL and both sides CLEAR -> false

@@ -1,0 +1,139 @@
+{
+  "scene_count": 25,
+  "scheduled_calls": 1500,
+  "seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260917,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 64
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema"
+  },
+  "conditions": [
+    {
+      "condition": "C0",
+      "resolution": null,
+      "directory": null,
+      "name": "RGB only"
+    },
+    {
+      "condition": "C1",
+      "resolution": null,
+      "directory": "r_numeric",
+      "name": "R Numeric"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D4",
+      "directory": "r_qualitative_d4",
+      "name": "R Qualitative D4"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D8",
+      "directory": "r_qualitative_d8",
+      "name": "R Qualitative D8"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D4",
+      "directory": "f_numeric_d4",
+      "name": "F Numeric D4"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D8",
+      "directory": "f_numeric_d8",
+      "name": "F Numeric D8"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D4",
+      "directory": "f_qualitative_d4",
+      "name": "F Qualitative D4"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D8",
+      "directory": "f_qualitative_d8",
+      "name": "F Qualitative D8"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D4",
+      "directory": "m_numeric_d4",
+      "name": "M Numeric D4"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D8",
+      "directory": "m_numeric_d8",
+      "name": "M Numeric D8"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D4",
+      "directory": "m_qualitative_d4",
+      "name": "M Qualitative D4"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D8",
+      "directory": "m_qualitative_d8",
+      "name": "M Qualitative D8"
+    }
+  ],
+  "geometry_policy": "Original R/F/M payloads; ascending visible-object records only. R qualitative retains original 5cm clearance categories, not gripper dimensions.",
+  "system_prompt": "You assess whether a robot can retrieve a target object from a shelf.\n\nEach numbered badge identifies the physical object underneath it.\nBadge positions, sizes, and numbers are identity markers only.\n\nJudge the current scene.\nReturn exactly one JSON object. Do not include explanations.",
+  "user_prompt_template": "Target object ID: {target_object_id}\n\nGeometry information:\n{geometry_json}\n\nAssume the robot can grasp and retrieve the target when it is\nunobstructed.\n\nIn the current scene, can the robot pick up the target and take it\nout through the shelf opening while leaving all other objects\nin place and avoiding contact with them?\n\nConsider whether surrounding objects obstruct access to the target\nor its removal.\n\nPartial visibility alone does not mean retrieval is blocked.\nBeing near another object alone does not mean retrieval is blocked.\n\nChoose one:\n- RETRIEVE_NOW: the target can be retrieved without rearranging\n  other objects.\n- REARRANGE_FIRST: another object must be moved before the target\n  can be retrieved.\n\nReturn exactly one JSON object with the field \"decision\".\nDo not identify the blocker or propose an action.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "string",
+        "enum": [
+          "RETRIEVE_NOW",
+          "REARRANGE_FIRST"
+        ]
+      }
+    },
+    "required": [
+      "decision"
+    ],
+    "additionalProperties": false
+  },
+  "schema_sha256": "c31365d4928a5cdbfd3f1604529d2aacac69865ece74faa591d22ee64d599efc",
+  "experiment_version": "l2_v16_prompt_replay_v21",
+  "reference_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_direct_retrieval_geometry_v16",
+  "reference_config_sha256": "c6d66bb611ec1e6ef09b0d2e0bf89af25ba433b115ae4d5ea154a89c5cd0e6e9",
+  "reference_run_table_sha256": "9b5f0eb0b5a25c1faf97113bf7e44ba07f0c0977729bff67ee8fbd66f631877b",
+  "reference_logs_sha256": "88453cb134d0716699237aff0ab7abd83cfe6e0b635fca46629befe4c8a70f4c",
+  "notion_source_sha256": "3dc2226ad4fd5e8e1816fadd8f9177d9db96152bff633ac2d635dce6c0a42276",
+  "notion_url": "https://app.notion.com/p/3de952c9e27381e5969cdef5d80d54d2?pvs=204",
+  "notion_page_last_edited_at": "2026-09-17T08:13:32.202Z",
+  "inference_implementation": "/home/ssu/ShelfScene/scripts/run_l2_approach_access_geometry_v18.py",
+  "inference_implementation_sha256": "74a2719490eadbccc56857c6872536350c408809a6e3807d773d5e9effc43160",
+  "gripper_information_supplied": false,
+  "evaluation": "response_counts_and_original_v16_scene_design_agreement_not_physical_accuracy",
+  "comparison_note": "Fresh 1500-call repeat of exact v16 prompts and inputs; not reuse of prior responses. Original image/geometry files are hash-verified and referenced read-only."
+}

@@ -1,0 +1,4 @@
+The robot must grasp the light blue cup partially visible immediately to the right of the Cheez-It box.
+
+Does {candidate_description} obstruct grasping the light blue cup?
+Return the answer as obstructs_grasp=true or obstructs_grasp=false.

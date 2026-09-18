@@ -1,0 +1,13 @@
+condition_key,condition_name,n,BLOCKED,CLEAR,unanimous_scenes
+C0,RGB only,125,16,109,24
+C1,R Numeric,125,7,118,24
+C2_D4,R Qualitative D4,125,52,73,21
+C2_D8,R Qualitative D8,125,52,73,18
+C3_D4,F Numeric D4,125,3,122,23
+C3_D8,F Numeric D8,125,5,120,22
+C4_D4,F Qualitative D4,125,3,122,22
+C4_D8,F Qualitative D8,125,9,116,23
+C5_D4,M Numeric D4,125,9,116,22
+C5_D8,M Numeric D8,125,13,112,23
+C6_D4,M Qualitative D4,125,11,114,22
+C6_D8,M Qualitative D8,125,14,111,22

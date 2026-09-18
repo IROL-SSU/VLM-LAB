@@ -1,0 +1,18 @@
+{
+  "cosine_mid_layer24_raw.csv": "2c23fc00f4dfd7edbe90f70b6b6d60b574d993809b9942c8fb29c452e1970391",
+  "cosine_mid_layer24_centered.csv": "3302573a8df31993b4c05888567d1e07baa77f05b552dd56a80e28db3ac10164",
+  "scene_latent_summary.csv": "077375e753dec643aaf41d00a4feae938b390e636910aa0bf2924eb385cabb0b",
+  "analysis_summary.json": "5cab8af4bc53026d1e3e194385142a559ddf24ad75348890d90a53d649257a1b",
+  "README.md": "76d0cd8638df83f25c8fd5af8197eaa24776fc54212752e189fb652d902bd3ac",
+  "cosine_final_norm_raw.csv": "d0ddc7ca838dd96cf9fe014fafe08fd5ec51a77f057a994d708319ed983e54cd",
+  "cosine_final_norm_centered.csv": "0714fb3c2bc4a682f27df9b17a0b3340bb66454dd2301826469acada3cd8a6e1",
+  "extraction_manifest.json": "460540554ad0092b6493ae29d72d31a6af11ca6bc7bbea82ba70346c38953962",
+  "pairwise_cosine.csv": "697cac77b38cfad1d4daaeefbfda97b957e2f66a5919c72f282d485c7348daa0",
+  "records.json": "fb96d2892634224ff972c211f310e660dd82a6a100d556ed174643f5db04b687",
+  "latent_states.npz": "96ebdfd8f06bb8cbfd4008680eca3b9123471bce7b814d9a574b9bcae3ef1233",
+  "figures/03_final_minus_mid_cosine.png": "5c59dc645e440bd6b703a38b099d48ad66ccdd86528a5a180e8318281638e91e",
+  "figures/02_centered_cosine_mid_vs_final.png": "969ea3b35f6b0e2ce4be0ecf4ad6a1908ba1c4630fdea2561761e4733fe4fab9",
+  "figures/05_group_mean_cosine.png": "e4ece9a2caccf6f855dada192de5599a6e23bcd506413b8045d450e4aa157ef8",
+  "figures/01_raw_cosine_mid_vs_final.png": "065a5296e5783f0c28b85c8a79da66be30c50793e9396d21b606bf7cc2b39ac9",
+  "figures/04_decision_branch_logits.png": "65eb34161253a2237e3e66646a1af1a80430c99f39348828f4a3eb0f80f3baf5"
+}

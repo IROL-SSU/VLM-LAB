@@ -1,0 +1,15 @@
+Determine whether the target object is occluded by another physical object
+in the numbered RGB image.
+
+Return occluded_by_other_object=true if another physical object visually
+covers any part of the target object's projected silhouette.
+
+Return occluded_by_other_object=false only if no other physical object
+visually covers any part of the target object's projected silhouette.
+
+Consider only visual occlusion. Ignore object proximity, contact, available
+finger space, grasp clearance, approach path, reachability, stability, and
+all other manipulation constraints.
+
+The supplied geometry information must not override the visual occlusion
+judgment.

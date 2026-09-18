@@ -1,0 +1,135 @@
+{
+  "scene_count": 25,
+  "scheduled_calls": 1500,
+  "seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260917,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 64
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema"
+  },
+  "conditions": [
+    {
+      "condition": "C0",
+      "resolution": null,
+      "directory": null,
+      "name": "RGB only"
+    },
+    {
+      "condition": "C1",
+      "resolution": null,
+      "directory": "r_numeric",
+      "name": "R Numeric"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D4",
+      "directory": "r_qualitative_d4",
+      "name": "R Qualitative D4"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D8",
+      "directory": "r_qualitative_d8",
+      "name": "R Qualitative D8"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D4",
+      "directory": "f_numeric_d4",
+      "name": "F Numeric D4"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D8",
+      "directory": "f_numeric_d8",
+      "name": "F Numeric D8"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D4",
+      "directory": "f_qualitative_d4",
+      "name": "F Qualitative D4"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D8",
+      "directory": "f_qualitative_d8",
+      "name": "F Qualitative D8"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D4",
+      "directory": "m_numeric_d4",
+      "name": "M Numeric D4"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D8",
+      "directory": "m_numeric_d8",
+      "name": "M Numeric D8"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D4",
+      "directory": "m_qualitative_d4",
+      "name": "M Qualitative D4"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D8",
+      "directory": "m_qualitative_d8",
+      "name": "M Qualitative D8"
+    }
+  ],
+  "geometry_policy": "Original R/F/M payloads; ascending visible-object records only. R qualitative retains original 5cm clearance categories, not gripper dimensions.",
+  "experiment_version": "l2_approach_access_geometry_v18",
+  "reference_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_direct_retrieval_geometry_v16",
+  "reference_config_sha256": "c6d66bb611ec1e6ef09b0d2e0bf89af25ba433b115ae4d5ea154a89c5cd0e6e9",
+  "reference_run_table_sha256": "9b5f0eb0b5a25c1faf97113bf7e44ba07f0c0977729bff67ee8fbd66f631877b",
+  "reference_logs_sha256": "88453cb134d0716699237aff0ab7abd83cfe6e0b635fca46629befe4c8a70f4c",
+  "system_prompt": "Assess whether the target is accessible from the shelf opening.\nNumbered badges identify objects.\nReturn only a JSON object. Do not include explanations.",
+  "user_prompt_template": "Target object ID: {target_object_id}\n\nGeometry information:\n{geometry_json}\n\nIs there a clear approach path from the shelf opening to the target\nwithout moving or contacting other objects?\n\nChoose:\n- ACCESSIBLE: there is a clear approach path.\n- BLOCKED: other objects block the approach.\n\nReturn exactly one JSON object with the field \"decision\".",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "string",
+        "enum": [
+          "ACCESSIBLE",
+          "BLOCKED"
+        ]
+      }
+    },
+    "required": [
+      "decision"
+    ],
+    "additionalProperties": false
+  },
+  "schema_sha256": "cb5c9bfb3e0f7259b72005f35c1cccb6ad7755df413ec547fe97a913ccdf6008",
+  "gripper_information_supplied": false,
+  "task_definition": "Clear approach path from shelf opening to target without moving or contacting other objects; no grasp or removal judgment.",
+  "evaluation": "descriptive_accessibility_predictions_no_approach_execution_gt",
+  "v16_comparison": "RETRIEVE_NOW to ACCESSIBLE and REARRANGE_FIRST to BLOCKED is a semantic response comparison, not correctness or accuracy."
+}

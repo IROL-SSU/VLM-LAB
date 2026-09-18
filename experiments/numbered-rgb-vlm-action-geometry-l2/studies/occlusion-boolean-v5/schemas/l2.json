@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "occluded_by_other_object": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "occluded_by_other_object"
+  ],
+  "additionalProperties": false
+}

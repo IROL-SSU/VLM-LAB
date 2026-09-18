@@ -1,0 +1,11 @@
+{
+  "scene_id": "scene_lift_and_relocate_v05",
+  "target_object_id": 43,
+  "L2": {
+    "evaluation": "descriptive_score_without_action_level_scalar_gt",
+    "score_range": [
+      0,
+      10
+    ]
+  }
+}

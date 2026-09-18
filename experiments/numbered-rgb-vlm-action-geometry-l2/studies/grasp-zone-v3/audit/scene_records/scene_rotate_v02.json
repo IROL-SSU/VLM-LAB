@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene_rotate_v02",
+  "scene_family": "ROTATE",
+  "source_rgb": "experiments/action_scene_variants_20260915/images/scene_rotate_v02.png",
+  "source_rgb_sha256": "0eddeca94d16eb8f5c1ad5973756821df758cf3814a2fc1026db3ef0f9f30a0d",
+  "source_usd": "experiments/action_scene_variants_20260915/scenes/scene_rotate_v02.usd",
+  "source_usd_sha256": "afe891a861c28bf617c43497ca4b09443f909cd4705bf15c15412e85ee896aae",
+  "numbered_rgb": "images/numbered_rgb/scene_rotate_v02.png",
+  "numbered_rgb_sha256": "c9e9fc4ca2f15f492e92d67d073bc30f224fcbc18db7057d1c757270d475aba6",
+  "id_mapping": "images/id_mappings/scene_rotate_v02.json",
+  "id_mapping_sha256": "a1fb0b4335c7f5c41292b833cf6e279c3a0f921e6d0a326ae8749165305d4dfd",
+  "target_object_id": 38,
+  "visible_ids": [
+    29,
+    38,
+    44,
+    50,
+    74
+  ],
+  "ground_truth": "geometry/ground_truth/scene_rotate_v02.json",
+  "ground_truth_sha256": "1281c34547d4300365feb356264eedde0d46f56318f2ad949b40999ae5bbea07",
+  "scene_geometry": "audit/scene_geometry/scene_rotate_v02.json",
+  "scene_geometry_sha256": "d036fcb5db8c87e2ede865f10891f48eb2c68b6eb0bfb60fa3765760cb12403b",
+  "geometry_files": {
+    "R_NUMERIC": {
+      "path": "geometry/r_numeric/scene_rotate_v02.json",
+      "sha256": "b6643698973eefe5cc5fca386b4cf95c6a2a8e173782627569c4ceaf9970cc14"
+    },
+    "R_QUALITATIVE_D4": {
+      "path": "geometry/r_qualitative_d4/scene_rotate_v02.json",
+      "sha256": "1a445e9c03c21d2573072bf7530a5da9bdec8768674d98fa7b6c24f4c1d2007e"
+    },
+    "R_QUALITATIVE_D8": {
+      "path": "geometry/r_qualitative_d8/scene_rotate_v02.json",
+      "sha256": "54281677f6891e7f19442403dca04521d6758bf4b184f59f0c4d61bf7471a78b"
+    },
+    "F_NUMERIC_D4": {
+      "path": "geometry/f_numeric_d4/scene_rotate_v02.json",
+      "sha256": "bfdd982b096bd5271d348eada743615bf13604de7725da0aaa031f138dbfb4db"
+    },
+    "F_QUALITATIVE_D4": {
+      "path": "geometry/f_qualitative_d4/scene_rotate_v02.json",
+      "sha256": "204b2ee2a7b21d2dc85c5441192470d394354bc88cd1c820a61c454eced8faee"
+    },
+    "M_NUMERIC_D4": {
+      "path": "geometry/m_numeric_d4/scene_rotate_v02.json",
+      "sha256": "72b0a61964d8fe20d405b7ef9df17ba95db451be521c67b91d673237371c8d6f"
+    },
+    "M_QUALITATIVE_D4": {
+      "path": "geometry/m_qualitative_d4/scene_rotate_v02.json",
+      "sha256": "f1646333bcd3ef852aaced4c92e2224d99af0368cb7e3ac29440f559494083a6"
+    },
+    "F_NUMERIC_D8": {
+      "path": "geometry/f_numeric_d8/scene_rotate_v02.json",
+      "sha256": "385706bee1a66895bf9306b56235fd8e70b4ac782be81c68d9f6e39b26ecb763"
+    },
+    "F_QUALITATIVE_D8": {
+      "path": "geometry/f_qualitative_d8/scene_rotate_v02.json",
+      "sha256": "153e3758d236d8b56a23c1420acba6750ebc020b1c56235b1fe1ac166801580b"
+    },
+    "M_NUMERIC_D8": {
+      "path": "geometry/m_numeric_d8/scene_rotate_v02.json",
+      "sha256": "ec45fa97c6607ba4c75162817afa2d467ff6232d4e99fd8e49114ad193bd59d7"
+    },
+    "M_QUALITATIVE_D8": {
+      "path": "geometry/m_qualitative_d8/scene_rotate_v02.json",
+      "sha256": "d99a6ce919a194eaf3a3f0dd3b3e35557f9282fadbd8e0fc8e826baa680f48b6"
+    }
+  },
+  "manifest_focus_action_advisory_only": "ROTATE",
+  "manifest_action_parameters_advisory_only": {
+    "object": "blocker_cracker_box",
+    "axis": "SHELF_UP",
+    "initial_yaw_deg": 20.0,
+    "yaw_delta_deg": 70.0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "experiment_version": "l2_single_image_obstruction_score_v13",
+  "l2_prompt_version": "per_object_removal_benefit_score_0_10_v13",
+  "scene_count": 1,
+  "candidate_count": 5,
+  "scheduled_calls": 25,
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260917,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 64
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema"
+  },
+  "prompts": {
+    "system": "prompts/system_en.txt",
+    "l1": "prompts/l1_en.txt",
+    "l2": "prompts/l2_en.txt",
+    "l3": "prompts/l3_en.txt",
+    "l4": "prompts/l4_en.txt"
+  }
+}

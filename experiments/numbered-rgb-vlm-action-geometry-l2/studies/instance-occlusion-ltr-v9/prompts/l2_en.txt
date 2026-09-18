@@ -1,0 +1,20 @@
+Identify all numbered physical objects visible in the image.
+
+For every numbered object except the target, determine whether that specific
+object visually occludes the target.
+
+Set occludes_target=true only when the object is visibly in front of the target
+and covers part of the target in the image.
+
+Set occludes_target=false when the object does not directly cause any part of
+the target to be visually hidden.
+
+Evaluate visual occlusion only. Do not evaluate grasp interference, proximity,
+finger clearance, contact risk, or general action feasibility.
+
+List the numbered objects from left to right according to the horizontal center
+of each object's visible region in the image. Do not use the badge position to
+determine the ordering.
+
+Return exactly one occlusion assessment for every visible object except the
+target, in the same left-to-right order.

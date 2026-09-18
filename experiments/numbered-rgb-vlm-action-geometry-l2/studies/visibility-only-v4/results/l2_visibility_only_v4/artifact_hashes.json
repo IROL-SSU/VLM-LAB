@@ -1,0 +1,9 @@
+{
+  "condition_metrics.csv": "4182cf46fa541ee6e83d066160618ebca4d6836e65cbe102673aa4cd7711b250",
+  "family_accuracy.csv": "87be26ea028ba4090b016a4979d02f3ca4bf18511a642880959051eca8f10539",
+  "report.md": "560f2bab3a17bfb8cfbd4dac9b8064a6d272beca3301f7f4c8920d008d9585be",
+  "results.json": "5024e55c195f4877033a314247c505e6aa3a83f4b8165fb9db8cfddd6de021fe",
+  "run_outcomes.csv": "e6e32b93dff2cb1a636730e6682a33fd6e458f0ebc4f736a873bc5ce36626253",
+  "scene_metrics.csv": "ffd3e76387a8849861ffffbf3539900c28bd995ca710b86aa3486c26cacd1943",
+  "source_artifact_hashes.json": "e50496db125d6ef08a957bacb06fb946457ba9d5d312728b19ca8b93ded08102"
+}

@@ -1,0 +1,137 @@
+{
+  "scene_count": 25,
+  "scheduled_calls": 1500,
+  "seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260917,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 64
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema"
+  },
+  "conditions": [
+    {
+      "condition": "C0",
+      "resolution": null,
+      "directory": null,
+      "name": "RGB only"
+    },
+    {
+      "condition": "C1",
+      "resolution": null,
+      "directory": "r_numeric",
+      "name": "R Numeric"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D4",
+      "directory": "r_qualitative_d4",
+      "name": "R Qualitative D4"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D8",
+      "directory": "r_qualitative_d8",
+      "name": "R Qualitative D8"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D4",
+      "directory": "f_numeric_d4",
+      "name": "F Numeric D4"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D8",
+      "directory": "f_numeric_d8",
+      "name": "F Numeric D8"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D4",
+      "directory": "f_qualitative_d4",
+      "name": "F Qualitative D4"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D8",
+      "directory": "f_qualitative_d8",
+      "name": "F Qualitative D8"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D4",
+      "directory": "m_numeric_d4",
+      "name": "M Numeric D4"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D8",
+      "directory": "m_numeric_d8",
+      "name": "M Numeric D8"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D4",
+      "directory": "m_qualitative_d4",
+      "name": "M Qualitative D4"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D8",
+      "directory": "m_qualitative_d8",
+      "name": "M Qualitative D8"
+    }
+  ],
+  "geometry_policy": "Original R/F/M payloads; ascending visible-object records only. R qualitative retains original 5cm clearance categories, not gripper dimensions.",
+  "experiment_version": "l2_front_obstruction_geometry_v20",
+  "reference_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_straight_access_geometry_v19",
+  "reference_config_sha256": "94a5b8789c0fba622774b936a53764fe20c75c867e3dd2dd4556d400ca004218",
+  "reference_run_table_sha256": "7b13876e1b4585ec273f53955f0130dbea487a7bc19f31042cdd7048f04e95a1",
+  "reference_logs_sha256": "25e63fb03eab44d0bbe9ea0287fbf57146438b18145b83384fb665332f14fab4",
+  "inference_implementation": "/home/ssu/ShelfScene/scripts/run_l2_approach_access_geometry_v18.py",
+  "inference_implementation_sha256": "74a2719490eadbccc56857c6872536350c408809a6e3807d773d5e9effc43160",
+  "system_prompt": "Assess whether objects in front of the target obstruct its removal.\nNumbered badges identify objects.\nReturn only a JSON object.",
+  "user_prompt_template": "Target object ID: {target_object_id}\nGeometry information:\n{geometry_json}\n\nDoes any object in front of target {target_object_id}\nobstruct pulling the target out of the shelf, even slightly?\n\nReturn {\"decision\":\"BLOCKED\"} or {\"decision\":\"CLEAR\"}.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "string",
+        "enum": [
+          "BLOCKED",
+          "CLEAR"
+        ]
+      }
+    },
+    "required": [
+      "decision"
+    ],
+    "additionalProperties": false
+  },
+  "schema_sha256": "eca0154932f84496653a0bd711861a9356df6f009dd04e740fb3c4f1dc6ab2c2",
+  "gripper_information_supplied": false,
+  "task_definition": "Any object in front obstructing pulling target out, even slightly; binary BLOCKED/CLEAR, not visual occlusion degree.",
+  "evaluation": "descriptive_front_obstruction_predictions_no_front_obstruction_execution_ground_truth",
+  "comparison_note": "Question, system wording and labels changed from v19; CLEAR is not a complete retrieval feasibility guarantee."
+}

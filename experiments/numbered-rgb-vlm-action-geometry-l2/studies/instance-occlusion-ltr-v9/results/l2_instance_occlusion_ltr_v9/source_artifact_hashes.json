@@ -1,0 +1,146 @@
+{
+  "runs": {
+    "path": "logs/runs.jsonl",
+    "sha256": "853728130628d117e3be8094a960b780629fe21939656a13a2f66431bde6cb4f"
+  },
+  "attempts": {
+    "path": "logs/attempts.jsonl",
+    "sha256": "43e0f3ede92ff97e5ba01356afc397b878487018cc1005807bf4f57616d1d227"
+  },
+  "runtime": {
+    "path": "logs/runtime.json",
+    "sha256": "48e25f13ad8126509ac5a22d2c818a376bd28234b42365c59f96f60a77553091"
+  },
+  "pilot_console": {
+    "path": "logs/pilot_console.log",
+    "sha256": "8e52213b0be705ea84829d6400d0667c7b604ca42a974d45f6ae3e2b4634ab2c"
+  },
+  "full_console": {
+    "path": "logs/full_console.log",
+    "sha256": "37da1ff4a61db740c743f0e7fa12843842b8fd1b32ef4b0977e7b59c2c42bb8e"
+  },
+  "preparation_console": {
+    "path": "logs/preparation_console.log",
+    "sha256": "03cfc0300b96ea4da785f3a183aa647fd647002beec39725edb5edc97df80020"
+  },
+  "system_prompt": {
+    "path": "prompts/system_en.txt",
+    "sha256": "3ed54135bce98adb7ed4c237b93bd244a5008758aefc104d5387e6d6e240b1b9"
+  },
+  "l2_prompt": {
+    "path": "prompts/l2_en.txt",
+    "sha256": "1ae2111f49770b1b45e36bba1168fb2792e03c4499509e10c85d6b7816d01d8c"
+  },
+  "config": {
+    "path": "config/experiment_config.json",
+    "sha256": "bed08ba29a31a23ad1c03c1ac6500694eded3240fe442611b8ed8254ba778063"
+  },
+  "run_table": {
+    "path": "config/run_table.jsonl",
+    "sha256": "1170086b1e7cf5300d963cd3e51f037b294abd2117aac08f5b3153652fb2dacd"
+  },
+  "preflight": {
+    "path": "audit/preflight_report.json",
+    "sha256": "395d0dc8c2727781746ffeaa60ee98a704337a5a841650e0d4ba950b11737a98"
+  },
+  "schema/scene_fc_blocked_v01": {
+    "path": "schemas/l2_instances/scene_fc_blocked_v01.json",
+    "sha256": "01d7c48665f55c22d11bf3fdc65ccd98c92b5507166f3ed53580085567336842"
+  },
+  "schema/scene_fc_blocked_v02": {
+    "path": "schemas/l2_instances/scene_fc_blocked_v02.json",
+    "sha256": "d2bae38ca7145ab39c3103f274e00232a507b3cd58a18b5c955462ca7daa9d01"
+  },
+  "schema/scene_fc_blocked_v03": {
+    "path": "schemas/l2_instances/scene_fc_blocked_v03.json",
+    "sha256": "f4ba6ebbb691e804607ec06dfe4fcfb3d4f4ada668449728e01fbbc1414f638d"
+  },
+  "schema/scene_fc_blocked_v04": {
+    "path": "schemas/l2_instances/scene_fc_blocked_v04.json",
+    "sha256": "ff9dabf1d01f1e00a3651108fa21b45d7b9557a06ef1e6ea169eb513ce9bc51c"
+  },
+  "schema/scene_fc_blocked_v05": {
+    "path": "schemas/l2_instances/scene_fc_blocked_v05.json",
+    "sha256": "76b36126eff56d47fd38ab5883b73ad7cad3b78ab0341346ed3bbae5d2241c73"
+  },
+  "schema/scene_fc_clear_v01": {
+    "path": "schemas/l2_instances/scene_fc_clear_v01.json",
+    "sha256": "5d2304603c0f95a073496b4a82a539e2830b03eff2d6dcdf1497ce4695219b01"
+  },
+  "schema/scene_fc_clear_v02": {
+    "path": "schemas/l2_instances/scene_fc_clear_v02.json",
+    "sha256": "f95ca5a7f69adfadc6c3097374dc1cee287bfa28e0e9af7db8da7e140fd928fc"
+  },
+  "schema/scene_fc_clear_v03": {
+    "path": "schemas/l2_instances/scene_fc_clear_v03.json",
+    "sha256": "9a9262f60873446c4a5dc2d2a1ad92c09415aae9bb430610b8baf5d407985bba"
+  },
+  "schema/scene_fc_clear_v04": {
+    "path": "schemas/l2_instances/scene_fc_clear_v04.json",
+    "sha256": "e6eacae4cfc19945d977a93d222211ea102bd89d453d21b4eb859e6a321407ba"
+  },
+  "schema/scene_fc_clear_v05": {
+    "path": "schemas/l2_instances/scene_fc_clear_v05.json",
+    "sha256": "beb6940567fb10ccf5ecb19e564e0b825b642b008144a458fdbf7798830093cb"
+  },
+  "schema/scene_lift_and_relocate_v01": {
+    "path": "schemas/l2_instances/scene_lift_and_relocate_v01.json",
+    "sha256": "cad85c6c9bc0b395737ab1ea2ca7cc4f10915996ee073f2c67c31fcf2c447354"
+  },
+  "schema/scene_lift_and_relocate_v02": {
+    "path": "schemas/l2_instances/scene_lift_and_relocate_v02.json",
+    "sha256": "792c7f8fe8ce3b5aa29aa2d465f84ff8ca8bf606a9630a079b324921f9b65f28"
+  },
+  "schema/scene_lift_and_relocate_v03": {
+    "path": "schemas/l2_instances/scene_lift_and_relocate_v03.json",
+    "sha256": "364bb4afe68c7b0c1bada6052d99f577c29e11a387c94fa881c6a5b1741dbb4e"
+  },
+  "schema/scene_lift_and_relocate_v04": {
+    "path": "schemas/l2_instances/scene_lift_and_relocate_v04.json",
+    "sha256": "4d169e4c8565df6c9aab080eb73e861bec4dcfb0c86e473fd4aa1c45650d2c85"
+  },
+  "schema/scene_lift_and_relocate_v05": {
+    "path": "schemas/l2_instances/scene_lift_and_relocate_v05.json",
+    "sha256": "4364272f22ef0c526e226ad9dd843f2dcdf91635568294135c0bc8628b7ff3f5"
+  },
+  "schema/scene_rotate_v01": {
+    "path": "schemas/l2_instances/scene_rotate_v01.json",
+    "sha256": "cd071539f44ca73e2c6067ef832914e8addc021ba50ed5394bf19c81a7085b80"
+  },
+  "schema/scene_rotate_v02": {
+    "path": "schemas/l2_instances/scene_rotate_v02.json",
+    "sha256": "535d4406d75ccac6733ec3dbc5bbe4744588af6e7b0857dbe6aff4af4e4b615b"
+  },
+  "schema/scene_rotate_v03": {
+    "path": "schemas/l2_instances/scene_rotate_v03.json",
+    "sha256": "e8338a6dc41d340aef1a1a781cb9fa6f45e0dd22b2034860386a7e0110083ed7"
+  },
+  "schema/scene_rotate_v04": {
+    "path": "schemas/l2_instances/scene_rotate_v04.json",
+    "sha256": "0bd82a1951dc94f6eebe0d955f1c534d6afa9d1167a9252ef5f4c83e93327045"
+  },
+  "schema/scene_rotate_v05": {
+    "path": "schemas/l2_instances/scene_rotate_v05.json",
+    "sha256": "2d33d587c6ff6db45e989d00a9e88e47fc2b298d3cc5802115c733bbd4643266"
+  },
+  "schema/scene_translate_v01": {
+    "path": "schemas/l2_instances/scene_translate_v01.json",
+    "sha256": "cb6644fef9ebe037c3548cdb4bee0af681b10726e63e01efbc06d26009a9caee"
+  },
+  "schema/scene_translate_v02": {
+    "path": "schemas/l2_instances/scene_translate_v02.json",
+    "sha256": "195fa698bbcc194cf2348b2e5638614482be9f29fc4a055f3e434d7a8da5f4d4"
+  },
+  "schema/scene_translate_v03": {
+    "path": "schemas/l2_instances/scene_translate_v03.json",
+    "sha256": "c52993e462255f3a504bdecb47ddbe4b28cfd6dc9e0b31bf2b644101eecd55d8"
+  },
+  "schema/scene_translate_v04": {
+    "path": "schemas/l2_instances/scene_translate_v04.json",
+    "sha256": "e39121384ed83554c274ac7892030e79c9c96b379875c11a9e85c110b8a43d19"
+  },
+  "schema/scene_translate_v05": {
+    "path": "schemas/l2_instances/scene_translate_v05.json",
+    "sha256": "6453750ebd957abdc672373b388a3bd3802f968e9a683e0067dcc7037205fd59"
+  }
+}

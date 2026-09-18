@@ -1,0 +1,26 @@
+Target object ID: 43
+
+Geometry information:
+null
+
+Assume the robot can grasp and retrieve the target when it is
+unobstructed.
+
+In the current scene, can the robot pick up the target and take it
+out through the shelf opening while leaving all other objects
+in place and avoiding contact with them?
+
+Consider whether surrounding objects obstruct access to the target
+or its removal.
+
+Partial visibility alone does not mean retrieval is blocked.
+Being near another object alone does not mean retrieval is blocked.
+
+Choose one:
+- RETRIEVE_NOW: the target can be retrieved without rearranging
+  other objects.
+- REARRANGE_FIRST: another object must be moved before the target
+  can be retrieved.
+
+Return exactly one JSON object with the field "decision".
+Do not identify the blocker or propose an action.

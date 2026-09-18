@@ -1,0 +1,9 @@
+{
+  "completed": 1500,
+  "expected": 1500,
+  "processed_this_invocation": 1500,
+  "model_load_seconds": 40.755,
+  "generation_seconds": 152.167,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_potential_interference_v7/logs/l2_potential_interference_v7/runs.jsonl",
+  "finished_at": "2026-09-16T12:01:11.177606+00:00"
+}

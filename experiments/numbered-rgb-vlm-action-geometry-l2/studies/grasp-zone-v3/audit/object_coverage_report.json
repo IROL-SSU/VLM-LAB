@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "generated_at": "2026-09-16T10:18:44.843551+00:00",
+  "scene_count": 25,
+  "physical_object_count": 115,
+  "rgb_visible_object_count": 114,
+  "fully_occluded_object_count": 1,
+  "fully_occluded_objects": [
+    {
+      "scene_id": "scene_lift_and_relocate_v04",
+      "display_id": 16,
+      "instance_id": "Mug_4"
+    }
+  ],
+  "design_label_mismatches": [
+    {
+      "scene_id": "scene_fc_blocked_v02",
+      "scene_family": "FC_BLOCKED",
+      "manifest_intended_direct_graspable": false,
+      "isaac_geometry_direct_graspable": true,
+      "finger_placement_zone_status": {
+        "LEFT": "CLEAR",
+        "RIGHT": "CLEAR"
+      },
+      "minimum_surface_gap_cm": 2.352752,
+      "required_side_clearance_cm": 2.1999999999999997
+    }
+  ],
+  "invariants": {
+    "every_rgb_visible_object_has_badge": true,
+    "every_physical_object_has_saved_visible_mask": true,
+    "every_physical_object_is_in_geometry": true,
+    "fully_occluded_objects_are_not_badged": true
+  },
+  "failures": []
+}

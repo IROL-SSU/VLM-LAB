@@ -1,0 +1,3 @@
+Assess whether objects in front of the target obstruct its removal.
+Numbered badges identify objects.
+Return only a JSON object.

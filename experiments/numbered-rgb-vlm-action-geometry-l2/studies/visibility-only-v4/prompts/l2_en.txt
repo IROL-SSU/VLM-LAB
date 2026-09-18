@@ -1,0 +1,22 @@
+For this experiment, direct_graspable is a visibility-only Boolean proxy.
+
+Evaluate only whether another physical object visually blocks any part of the
+target in the numbered RGB image.
+
+- Return direct_graspable=true when the target is FULLY visible: no other
+  physical object covers any part of its projected silhouette.
+- Return direct_graspable=false when the target is PARTIALLY visible or
+  NOT_VISIBLE because another physical object covers it.
+
+An object merely being beside, near, or touching the target does not make the
+target ungraspable in this experiment. Even if there would not be enough room
+for gripper fingers, return true whenever the target is FULLY visible.
+
+Ignore target-to-object distance, finger-placement clearance, approach path,
+reachability, stability, and all other grasp constraints. Geometry information
+must not override the visual occlusion judgment.
+
+Examples:
+- Fully visible target with a neighboring object immediately beside it -> true
+- Partially hidden target with ample side clearance -> false
+- Fully visible isolated target -> true

@@ -1,0 +1,80 @@
+{
+  "scene_id": "scene_fc_blocked_v04",
+  "scene_family": "FC_BLOCKED",
+  "source_rgb": "experiments/action_scene_variants_20260915/images/scene_fc_blocked_v04.png",
+  "source_rgb_sha256": "43a6b40d3db94b3d327f293347659ef4033aaf537e5955177ccc0ef58354d732",
+  "source_usd": "experiments/action_scene_variants_20260915/scenes/scene_fc_blocked_v04.usd",
+  "source_usd_sha256": "154903c3f1382f72f8a3b62d6a1d35cbf1f91daac69f2d428f212354833678dc",
+  "numbered_rgb": "images/numbered_rgb/scene_fc_blocked_v04.png",
+  "numbered_rgb_sha256": "5f2240db3a07b9c2b8e4e772628e3ba108de5d36adcb676f8e3de29bd15af4cb",
+  "id_mapping": "images/id_mappings/scene_fc_blocked_v04.json",
+  "id_mapping_sha256": "068102b1f5cb81dd8c67f687afb63f726cc6bbfbc5a72ea163ff7136910b5f6f",
+  "target_object_id": 89,
+  "visible_ids": [
+    19,
+    44,
+    77,
+    89
+  ],
+  "ground_truth": "geometry/ground_truth/scene_fc_blocked_v04.json",
+  "ground_truth_sha256": "96f6006d176b6a5c959ca24a403a60336eb2bd4eb11c7f406176459869be0c7b",
+  "scene_geometry": "audit/scene_geometry/scene_fc_blocked_v04.json",
+  "scene_geometry_sha256": "872b9a44539e803f0f6d1a8237938894450a4920032e61213117dfe1d7899a36",
+  "geometry_files": {
+    "R_NUMERIC": {
+      "path": "geometry/r_numeric/scene_fc_blocked_v04.json",
+      "sha256": "e199e6f9e11dd7a3b49d1a7bc15a5b16e5391536af98c88d22f9044f9a7da13f"
+    },
+    "R_QUALITATIVE_D4": {
+      "path": "geometry/r_qualitative_d4/scene_fc_blocked_v04.json",
+      "sha256": "7310ee849b8931d664b9e9d7073793f333ce7e2e5ccc1ed99b64177914ab15e8"
+    },
+    "R_QUALITATIVE_D8": {
+      "path": "geometry/r_qualitative_d8/scene_fc_blocked_v04.json",
+      "sha256": "3612aaf5d209d326a253dd98c9c4b96253cc09c6cc8ee17e0568aeaef92897bb"
+    },
+    "F_NUMERIC_D4": {
+      "path": "geometry/f_numeric_d4/scene_fc_blocked_v04.json",
+      "sha256": "454e1c7dca440e8d30a3738cf5b9f1caf2d932fe4ed54bf2c7806662af46963d"
+    },
+    "F_QUALITATIVE_D4": {
+      "path": "geometry/f_qualitative_d4/scene_fc_blocked_v04.json",
+      "sha256": "7892dd264b3a76fcdd348e3ad1a3dc9d149229a873d375e3097dc5030a3fce2c"
+    },
+    "M_NUMERIC_D4": {
+      "path": "geometry/m_numeric_d4/scene_fc_blocked_v04.json",
+      "sha256": "5d59dd8f9c8cbf42e6ef51a8f05d1e21ae525deb56f88b09315894267437709d"
+    },
+    "M_QUALITATIVE_D4": {
+      "path": "geometry/m_qualitative_d4/scene_fc_blocked_v04.json",
+      "sha256": "491fa2cb96da94d453637c1ca6c3461b7beda98dd58e2f53c14b6aaa2ab3b924"
+    },
+    "F_NUMERIC_D8": {
+      "path": "geometry/f_numeric_d8/scene_fc_blocked_v04.json",
+      "sha256": "6cbcd50118ba2a093f5bb104423d4257af391c8d2676df11caa1fa0e1fafca1e"
+    },
+    "F_QUALITATIVE_D8": {
+      "path": "geometry/f_qualitative_d8/scene_fc_blocked_v04.json",
+      "sha256": "4eb6425a9e7c718c2f281ee42ab329d5d8b2c6cde73d23f721d92c4ed29be42e"
+    },
+    "M_NUMERIC_D8": {
+      "path": "geometry/m_numeric_d8/scene_fc_blocked_v04.json",
+      "sha256": "2deb87c4d750c5a9e85175e0c2addaa59f144d6a4c0005af6349447e53fd08cb"
+    },
+    "M_QUALITATIVE_D8": {
+      "path": "geometry/m_qualitative_d8/scene_fc_blocked_v04.json",
+      "sha256": "dd9c9dde2fa90ee28f6dd0d1d15eefaf53fdd97c23df32cd84815dadc6d4790e"
+    }
+  },
+  "l2_instance_schema": {
+    "path": "schemas/l2_instances/scene_fc_blocked_v04.json",
+    "sha256": "ff9dabf1d01f1e00a3651108fa21b45d7b9557a06ef1e6ea169eb513ce9bc51c"
+  },
+  "manifest_focus_action_advisory_only": "TRANSLATE",
+  "manifest_action_parameters_advisory_only": {
+    "object": "Mug_2",
+    "frame": "SHELF",
+    "direction": "LEFT",
+    "minimum_distance_cm": 1.6
+  }
+}

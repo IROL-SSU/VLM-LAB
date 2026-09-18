@@ -1,0 +1,37 @@
+condition,resolution,name,version,n,tp,fn,tn,fp,accuracy,balanced_accuracy,positive_recall,specificity,precision
+C0,,Numbered RGB only,visibility_only_v4,125,45,0,15,65,0.48,0.59375,1.0,0.1875,0.4090909090909091
+C0,,Numbered RGB only,grasp_zone_v3_rescored,125,42,3,75,5,0.936,0.9354166666666667,0.9333333333333333,0.9375,0.8936170212765957
+C0,,Numbered RGB only,original_l1_full_rescored,125,45,0,49,31,0.752,0.80625,1.0,0.6125,0.5921052631578947
+C1,,R Numeric,visibility_only_v4,125,45,0,15,65,0.48,0.59375,1.0,0.1875,0.4090909090909091
+C1,,R Numeric,grasp_zone_v3_rescored,125,45,0,52,28,0.776,0.825,1.0,0.65,0.6164383561643836
+C1,,R Numeric,original_l1_full_rescored,125,45,0,62,18,0.856,0.8875,1.0,0.775,0.7142857142857143
+C2,D4,R Qualitative D4,visibility_only_v4,125,45,0,18,62,0.504,0.6125,1.0,0.225,0.4205607476635514
+C2,D4,R Qualitative D4,grasp_zone_v3_rescored,125,45,0,34,46,0.632,0.7125,1.0,0.425,0.4945054945054945
+C2,D4,R Qualitative D4,original_l1_full_rescored,125,45,0,58,22,0.824,0.8625,1.0,0.725,0.6716417910447762
+C2,D8,R Qualitative D8,visibility_only_v4,125,45,0,21,59,0.528,0.63125,1.0,0.2625,0.4326923076923077
+C2,D8,R Qualitative D8,grasp_zone_v3_rescored,125,45,0,29,51,0.592,0.68125,1.0,0.3625,0.46875
+C2,D8,R Qualitative D8,original_l1_full_rescored,125,45,0,51,29,0.768,0.81875,1.0,0.6375,0.6081081081081081
+C3,D4,F Numeric D4,visibility_only_v4,125,45,0,4,76,0.392,0.525,1.0,0.05,0.371900826446281
+C3,D4,F Numeric D4,grasp_zone_v3_rescored,125,45,0,49,31,0.752,0.80625,1.0,0.6125,0.5921052631578947
+C3,D4,F Numeric D4,original_l1_full_rescored,125,45,0,35,45,0.64,0.71875,1.0,0.4375,0.5
+C3,D8,F Numeric D8,visibility_only_v4,125,45,0,4,76,0.392,0.525,1.0,0.05,0.371900826446281
+C3,D8,F Numeric D8,grasp_zone_v3_rescored,125,45,0,45,35,0.72,0.78125,1.0,0.5625,0.5625
+C3,D8,F Numeric D8,original_l1_full_rescored,125,45,0,19,61,0.512,0.61875,1.0,0.2375,0.42452830188679247
+C4,D4,F Qualitative D4,visibility_only_v4,125,45,0,6,74,0.408,0.5375,1.0,0.075,0.37815126050420167
+C4,D4,F Qualitative D4,grasp_zone_v3_rescored,125,45,0,37,43,0.656,0.73125,1.0,0.4625,0.5113636363636364
+C4,D4,F Qualitative D4,original_l1_full_rescored,125,45,0,37,43,0.656,0.73125,1.0,0.4625,0.5113636363636364
+C4,D8,F Qualitative D8,visibility_only_v4,125,45,0,10,70,0.44,0.5625,1.0,0.125,0.391304347826087
+C4,D8,F Qualitative D8,grasp_zone_v3_rescored,125,45,0,23,57,0.544,0.64375,1.0,0.2875,0.4411764705882353
+C4,D8,F Qualitative D8,original_l1_full_rescored,125,45,0,24,56,0.552,0.65,1.0,0.3,0.44554455445544555
+C5,D4,M Numeric D4,visibility_only_v4,125,45,0,10,70,0.44,0.5625,1.0,0.125,0.391304347826087
+C5,D4,M Numeric D4,grasp_zone_v3_rescored,125,45,0,41,39,0.688,0.75625,1.0,0.5125,0.5357142857142857
+C5,D4,M Numeric D4,original_l1_full_rescored,125,45,0,33,47,0.624,0.70625,1.0,0.4125,0.4891304347826087
+C5,D8,M Numeric D8,visibility_only_v4,125,45,0,5,75,0.4,0.53125,1.0,0.0625,0.375
+C5,D8,M Numeric D8,grasp_zone_v3_rescored,125,45,0,28,52,0.584,0.675,1.0,0.35,0.4639175257731959
+C5,D8,M Numeric D8,original_l1_full_rescored,125,45,0,31,49,0.608,0.69375,1.0,0.3875,0.4787234042553192
+C6,D4,M Qualitative D4,visibility_only_v4,125,45,0,11,69,0.448,0.56875,1.0,0.1375,0.39473684210526316
+C6,D4,M Qualitative D4,grasp_zone_v3_rescored,125,45,0,33,47,0.624,0.70625,1.0,0.4125,0.4891304347826087
+C6,D4,M Qualitative D4,original_l1_full_rescored,125,45,0,37,43,0.656,0.73125,1.0,0.4625,0.5113636363636364
+C6,D8,M Qualitative D8,visibility_only_v4,125,45,0,1,79,0.368,0.50625,1.0,0.0125,0.3629032258064516
+C6,D8,M Qualitative D8,grasp_zone_v3_rescored,125,45,0,27,53,0.576,0.66875,1.0,0.3375,0.45918367346938777
+C6,D8,M Qualitative D8,original_l1_full_rescored,125,45,0,27,53,0.576,0.66875,1.0,0.3375,0.45918367346938777

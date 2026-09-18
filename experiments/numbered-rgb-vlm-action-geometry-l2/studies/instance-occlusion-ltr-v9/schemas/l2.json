@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "visible_object_ids_left_to_right": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "target_id": {
+      "type": "integer"
+    },
+    "occlusion_assessments_left_to_right": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "object_id": {
+            "type": "integer"
+          },
+          "occludes_target": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "object_id",
+          "occludes_target"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "visible_object_ids_left_to_right",
+    "target_id",
+    "occlusion_assessments_left_to_right"
+  ],
+  "additionalProperties": false
+}

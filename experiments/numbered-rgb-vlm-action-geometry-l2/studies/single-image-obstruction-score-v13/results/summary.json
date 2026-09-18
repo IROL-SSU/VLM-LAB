@@ -1,0 +1,17 @@
+{
+  "experiment": "l2_single_image_obstruction_score_v13",
+  "model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "target_object_id": 43,
+  "scheduled_calls": 25,
+  "completed_calls": 25,
+  "schema_valid_calls": 25,
+  "parse_errors": 0,
+  "action_level_scalar_gt_available": false,
+  "candidate_scores": {
+    "52": {"scores": [0, 0, 0, 0, 0], "mean": 0.0, "median": 0, "min": 0, "max": 0, "population_sd": 0.0},
+    "48": {"scores": [0, 0, 0, 0, 0], "mean": 0.0, "median": 0, "min": 0, "max": 0, "population_sd": 0.0},
+    "15": {"scores": [5, 5, 5, 5, 5], "mean": 5.0, "median": 5, "min": 5, "max": 5, "population_sd": 0.0},
+    "76": {"scores": [5, 5, 5, 5, 5], "mean": 5.0, "median": 5, "min": 5, "max": 5, "population_sd": 0.0},
+    "24": {"scores": [5, 5, 5, 5, 5], "mean": 5.0, "median": 5, "min": 5, "max": 5, "population_sd": 0.0}
+  }
+}

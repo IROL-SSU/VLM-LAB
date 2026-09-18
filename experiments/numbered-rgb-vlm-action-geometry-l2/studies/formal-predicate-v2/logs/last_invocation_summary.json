@@ -1,0 +1,9 @@
+{
+  "completed": 1500,
+  "expected": 1500,
+  "processed_this_invocation": 1500,
+  "model_load_seconds": 42.287,
+  "generation_seconds": 166.481,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_maskfix_validation/logs/l2_formal_v2/runs.jsonl",
+  "finished_at": "2026-09-16T09:40:16.210936+00:00"
+}

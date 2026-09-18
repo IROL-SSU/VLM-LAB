@@ -1,0 +1,9 @@
+{
+  "completed": 25,
+  "expected": 25,
+  "processed_this_invocation": 25,
+  "model_load_seconds": 41.421,
+  "generation_seconds": 3.062,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_simple_obstruction_score_v14/logs/runs.jsonl",
+  "finished_at": "2026-09-17T05:15:50.890561+00:00"
+}

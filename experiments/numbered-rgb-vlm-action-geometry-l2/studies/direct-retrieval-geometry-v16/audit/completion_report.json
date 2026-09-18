@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "completed": 1500,
+  "unique_run_ids": 1500,
+  "condition_counts": {
+    "C4_D8": 125,
+    "C2_D8": 125,
+    "C6_D8": 125,
+    "C4_D4": 125,
+    "C6_D4": 125,
+    "C3_D4": 125,
+    "C2_D4": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C0": 125,
+    "C3_D8": 125,
+    "C1": 125
+  },
+  "all_scene_condition_seed_sets_complete": true,
+  "finish_reasons": {
+    "stop": 1500
+  },
+  "logs_sha256": "88453cb134d0716699237aff0ab7abd83cfe6e0b635fca46629befe4c8a70f4c",
+  "finished_at": "2026-09-17T06:32:47.764814+00:00"
+}

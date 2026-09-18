@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "object_to_remove_id": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "object_to_remove_id"
+  ],
+  "additionalProperties": false
+}

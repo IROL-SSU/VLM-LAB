@@ -1,0 +1,18 @@
+{
+  "experiment": "l2_plain_rgb_named_object_obstruction_v12",
+  "model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "scheduled_calls": 25,
+  "completed_calls": 25,
+  "schema_valid_calls": 25,
+  "parse_errors": 0,
+  "input": "plain RGB without numbered badges",
+  "target_description": "the light blue cup partially visible immediately to the right of the Cheez-It box",
+  "candidate_results": {
+    "black_mug": {"true": 0, "false": 5},
+    "dark_blue_bottle": {"true": 4, "false": 1},
+    "cheezit_box": {"true": 5, "false": 0},
+    "purple_cup": {"true": 5, "false": 0},
+    "brown_mug": {"true": 5, "false": 0}
+  },
+  "ground_truth_note": "Stored labels are visual-occlusion references, not robot-arm grasp-rollout labels."
+}

@@ -1,0 +1,827 @@
+{
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "scene_count": 25,
+  "completed_calls": 125,
+  "scheduled_calls": 125,
+  "schema_valid_calls": 125,
+  "decision_counts": {
+    "RETRIEVE_NOW": 49,
+    "REARRANGE_FIRST": 76,
+    "INVALID": 0
+  },
+  "unanimous_scenes": 22,
+  "mixed_scenes": [
+    "scene_fc_blocked_v05",
+    "scene_rotate_v02",
+    "scene_translate_v02"
+  ],
+  "by_family": {
+    "FC_BLOCKED": {
+      "RETRIEVE_NOW": 21,
+      "REARRANGE_FIRST": 4,
+      "INVALID": 0
+    },
+    "FC_CLEAR": {
+      "RETRIEVE_NOW": 25,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0
+    },
+    "LIFT_AND_RELOCATE": {
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 25,
+      "INVALID": 0
+    },
+    "ROTATE": {
+      "RETRIEVE_NOW": 1,
+      "REARRANGE_FIRST": 24,
+      "INVALID": 0
+    },
+    "TRANSLATE": {
+      "RETRIEVE_NOW": 2,
+      "REARRANGE_FIRST": 23,
+      "INVALID": 0
+    }
+  },
+  "by_scene": [
+    {
+      "scene_id": "scene_fc_blocked_v01",
+      "scene_family": "FC_BLOCKED",
+      "target_object_id": 64,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_blocked_v02",
+      "scene_family": "FC_BLOCKED",
+      "target_object_id": 53,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_blocked_v03",
+      "scene_family": "FC_BLOCKED",
+      "target_object_id": 12,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_blocked_v04",
+      "scene_family": "FC_BLOCKED",
+      "target_object_id": 89,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_blocked_v05",
+      "scene_family": "FC_BLOCKED",
+      "target_object_id": 59,
+      "RETRIEVE_NOW": 1,
+      "REARRANGE_FIRST": 4,
+      "INVALID": 0,
+      "unanimous": false,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_clear_v01",
+      "scene_family": "FC_CLEAR",
+      "target_object_id": 53,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_clear_v02",
+      "scene_family": "FC_CLEAR",
+      "target_object_id": 29,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_clear_v03",
+      "scene_family": "FC_CLEAR",
+      "target_object_id": 95,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_clear_v04",
+      "scene_family": "FC_CLEAR",
+      "target_object_id": 61,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_fc_clear_v05",
+      "scene_family": "FC_CLEAR",
+      "target_object_id": 62,
+      "RETRIEVE_NOW": 5,
+      "REARRANGE_FIRST": 0,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28104,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_lift_and_relocate_v01",
+      "scene_family": "LIFT_AND_RELOCATE",
+      "target_object_id": 59,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_lift_and_relocate_v02",
+      "scene_family": "LIFT_AND_RELOCATE",
+      "target_object_id": 70,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_lift_and_relocate_v03",
+      "scene_family": "LIFT_AND_RELOCATE",
+      "target_object_id": 12,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_lift_and_relocate_v04",
+      "scene_family": "LIFT_AND_RELOCATE",
+      "target_object_id": 68,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_lift_and_relocate_v05",
+      "scene_family": "LIFT_AND_RELOCATE",
+      "target_object_id": 43,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_rotate_v01",
+      "scene_family": "ROTATE",
+      "target_object_id": 12,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_rotate_v02",
+      "scene_family": "ROTATE",
+      "target_object_id": 38,
+      "RETRIEVE_NOW": 1,
+      "REARRANGE_FIRST": 4,
+      "INVALID": 0,
+      "unanimous": false,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_rotate_v03",
+      "scene_family": "ROTATE",
+      "target_object_id": 83,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_rotate_v04",
+      "scene_family": "ROTATE",
+      "target_object_id": 47,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_rotate_v05",
+      "scene_family": "ROTATE",
+      "target_object_id": 44,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_translate_v01",
+      "scene_family": "TRANSLATE",
+      "target_object_id": 67,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_translate_v02",
+      "scene_family": "TRANSLATE",
+      "target_object_id": 45,
+      "RETRIEVE_NOW": 2,
+      "REARRANGE_FIRST": 3,
+      "INVALID": 0,
+      "unanimous": false,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "RETRIEVE_NOW"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "RETRIEVE_NOW"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_translate_v03",
+      "scene_family": "TRANSLATE",
+      "target_object_id": 18,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_translate_v04",
+      "scene_family": "TRANSLATE",
+      "target_object_id": 13,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_translate_v05",
+      "scene_family": "TRANSLATE",
+      "target_object_id": 54,
+      "RETRIEVE_NOW": 0,
+      "REARRANGE_FIRST": 5,
+      "INVALID": 0,
+      "unanimous": true,
+      "responses": [
+        {
+          "seed": 28101,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28102,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28103,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28104,
+          "decision": "REARRANGE_FIRST"
+        },
+        {
+          "seed": 28105,
+          "decision": "REARRANGE_FIRST"
+        }
+      ]
+    }
+  ],
+  "retrieval_execution_gt_available": false,
+  "accuracy": null,
+  "model_load_seconds": 43.377,
+  "total_generation_seconds": 13.103,
+  "finished_at": "2026-09-17T06:17:03.009340+00:00"
+}

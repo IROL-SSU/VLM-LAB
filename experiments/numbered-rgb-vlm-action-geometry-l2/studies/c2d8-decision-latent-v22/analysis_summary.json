@@ -1,0 +1,585 @@
+{
+  "n_scenes": 25,
+  "condition": "C2_D8",
+  "readout": "Last common token RE, whose state predicts the first divergent TR versus ARR token.",
+  "independent_unit": "scene, not seed",
+  "historical_responses": 125,
+  "historical_decision_counts": {
+    "RETRIEVE_NOW": 31,
+    "REARRANGE_FIRST": 94
+  },
+  "historical_outcomes": {
+    "all_correct": 22,
+    "mixed": 2,
+    "all_wrong": 1
+  },
+  "raw_cosine": {
+    "mid_layer24": {
+      "pair_count": 300,
+      "mean": 0.9917484563294761,
+      "std": 0.004451425532100224,
+      "min": 0.9756625420340166,
+      "median": 0.9930212910959586,
+      "max": 0.9979979583626476
+    },
+    "final_norm": {
+      "pair_count": 300,
+      "mean": 0.9859968984209813,
+      "std": 0.00888162934188664,
+      "min": 0.9496520169595468,
+      "median": 0.9887364499729235,
+      "max": 0.9972545641651841
+    },
+    "pairwise_correlation_mid_vs_final": 0.37513123005309756,
+    "final_minus_mid": {
+      "pair_count": 300,
+      "mean": -0.005751557908494854,
+      "std": 0.008308803687691142,
+      "min": -0.04442282558975719,
+      "median": -0.0037206485918186982,
+      "max": 0.01178150808603784
+    },
+    "mean_absolute_pair_change": 0.006814195306184681
+  },
+  "mean_centered_cosine": {
+    "mid_layer24": {
+      "pair_count": 300,
+      "mean": -0.03649125709095738,
+      "std": 0.35476333224354734,
+      "min": -0.7713891061792966,
+      "median": -0.03411055863688687,
+      "max": 0.8587780327797095
+    },
+    "final_norm": {
+      "pair_count": 300,
+      "mean": -0.037065989771907934,
+      "std": 0.37408470655998244,
+      "min": -0.8129189446195947,
+      "median": -0.054060940573684074,
+      "max": 0.9064326280471957
+    },
+    "pairwise_correlation_mid_vs_final": 0.23597313705873343
+  },
+  "group_pair_cosine": {
+    "mid": {
+      "family": {
+        "same": {
+          "n": 50,
+          "mean": 0.993819687065383,
+          "std": 0.002676735190072765
+        },
+        "different": {
+          "n": 250,
+          "mean": 0.9913342101822946,
+          "std": 0.004616887007835248
+        },
+        "mean_gap_same_minus_different": 0.002485476883088422
+      },
+      "expected": {
+        "same": {
+          "n": 200,
+          "mean": 0.9934256770048496,
+          "std": 0.0027723017088607527
+        },
+        "different": {
+          "n": 100,
+          "mean": 0.988394014978729,
+          "std": 0.00521496300180494
+        },
+        "mean_gap_same_minus_different": 0.005031662026120598
+      },
+      "majority": {
+        "same": {
+          "n": 186,
+          "mean": 0.9933011401820555,
+          "std": 0.002853008273075489
+        },
+        "different": {
+          "n": 114,
+          "mean": 0.9892151300436882,
+          "std": 0.005339807704676075
+        },
+        "mean_gap_same_minus_different": 0.004086010138367291
+      }
+    },
+    "final": {
+      "family": {
+        "same": {
+          "n": 50,
+          "mean": 0.9910587665141121,
+          "std": 0.004762043752091927
+        },
+        "different": {
+          "n": 250,
+          "mean": 0.9849845248023551,
+          "std": 0.009163797985468946
+        },
+        "mean_gap_same_minus_different": 0.006074241711756967
+      },
+      "expected": {
+        "same": {
+          "n": 200,
+          "mean": 0.9892259649846237,
+          "std": 0.005425663901140156
+        },
+        "different": {
+          "n": 100,
+          "mean": 0.9795387652936961,
+          "std": 0.01073373823647235
+        },
+        "mean_gap_same_minus_different": 0.009687199690927573
+      },
+      "majority": {
+        "same": {
+          "n": 186,
+          "mean": 0.9890819544542503,
+          "std": 0.005687458233032852
+        },
+        "different": {
+          "n": 114,
+          "mean": 0.9809633859456476,
+          "std": 0.010674541703653444
+        },
+        "mean_gap_same_minus_different": 0.008118568508602708
+      }
+    }
+  },
+  "nearest_neighbor": {
+    "mid_layer24": {
+      "same_family": 12,
+      "same_family_rate": 0.48,
+      "same_expected_decision": 22,
+      "same_expected_decision_rate": 0.88,
+      "same_majority_decision": 20,
+      "same_majority_decision_rate": 0.8,
+      "neighbors": [
+        {
+          "scene_id": "scene_fc_clear_v01",
+          "nearest_scene_id": "scene_fc_clear_v05",
+          "cosine": 0.9975061045340721,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_clear_v02",
+          "nearest_scene_id": "scene_lift_and_relocate_v04",
+          "cosine": 0.9959646996561254,
+          "same_family": false,
+          "same_expected_decision": false,
+          "same_majority_decision": false
+        },
+        {
+          "scene_id": "scene_fc_clear_v03",
+          "nearest_scene_id": "scene_fc_clear_v05",
+          "cosine": 0.9952582087098364,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_clear_v04",
+          "nearest_scene_id": "scene_fc_clear_v01",
+          "cosine": 0.9965478619215835,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_clear_v05",
+          "nearest_scene_id": "scene_fc_clear_v01",
+          "cosine": 0.9975061045340721,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v01",
+          "nearest_scene_id": "scene_fc_blocked_v02",
+          "cosine": 0.9967723434419127,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v02",
+          "nearest_scene_id": "scene_fc_blocked_v01",
+          "cosine": 0.9967723434419127,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v03",
+          "nearest_scene_id": "scene_translate_v05",
+          "cosine": 0.9966323554413612,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": false
+        },
+        {
+          "scene_id": "scene_fc_blocked_v04",
+          "nearest_scene_id": "scene_fc_blocked_v02",
+          "cosine": 0.9965650162436654,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v05",
+          "nearest_scene_id": "scene_fc_clear_v05",
+          "cosine": 0.9951096983254958,
+          "same_family": false,
+          "same_expected_decision": false,
+          "same_majority_decision": false
+        },
+        {
+          "scene_id": "scene_translate_v01",
+          "nearest_scene_id": "scene_fc_clear_v02",
+          "cosine": 0.9949851262372408,
+          "same_family": false,
+          "same_expected_decision": false,
+          "same_majority_decision": false
+        },
+        {
+          "scene_id": "scene_translate_v02",
+          "nearest_scene_id": "scene_lift_and_relocate_v04",
+          "cosine": 0.9949345601940784,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v03",
+          "nearest_scene_id": "scene_rotate_v03",
+          "cosine": 0.9951506442275,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v04",
+          "nearest_scene_id": "scene_lift_and_relocate_v04",
+          "cosine": 0.997557116398961,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v05",
+          "nearest_scene_id": "scene_fc_blocked_v03",
+          "cosine": 0.9966323554413612,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": false
+        },
+        {
+          "scene_id": "scene_rotate_v01",
+          "nearest_scene_id": "scene_lift_and_relocate_v04",
+          "cosine": 0.9977150575218657,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v02",
+          "nearest_scene_id": "scene_rotate_v04",
+          "cosine": 0.9979979583626476,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v03",
+          "nearest_scene_id": "scene_rotate_v02",
+          "cosine": 0.9959022364238442,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v04",
+          "nearest_scene_id": "scene_rotate_v02",
+          "cosine": 0.9979979583626476,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v05",
+          "nearest_scene_id": "scene_lift_and_relocate_v05",
+          "cosine": 0.9969121368470698,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v01",
+          "nearest_scene_id": "scene_lift_and_relocate_v02",
+          "cosine": 0.9976468481922258,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v02",
+          "nearest_scene_id": "scene_lift_and_relocate_v01",
+          "cosine": 0.9976468481922258,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v03",
+          "nearest_scene_id": "scene_rotate_v04",
+          "cosine": 0.9978265687547485,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v04",
+          "nearest_scene_id": "scene_rotate_v01",
+          "cosine": 0.9977150575218657,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v05",
+          "nearest_scene_id": "scene_rotate_v05",
+          "cosine": 0.9969121368470698,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        }
+      ]
+    },
+    "final_norm": {
+      "same_family": 11,
+      "same_family_rate": 0.44,
+      "same_expected_decision": 24,
+      "same_expected_decision_rate": 0.96,
+      "same_majority_decision": 23,
+      "same_majority_decision_rate": 0.92,
+      "neighbors": [
+        {
+          "scene_id": "scene_fc_clear_v01",
+          "nearest_scene_id": "scene_fc_clear_v03",
+          "cosine": 0.9966091026580575,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_clear_v02",
+          "nearest_scene_id": "scene_fc_blocked_v02",
+          "cosine": 0.9956019025006115,
+          "same_family": false,
+          "same_expected_decision": false,
+          "same_majority_decision": false
+        },
+        {
+          "scene_id": "scene_fc_clear_v03",
+          "nearest_scene_id": "scene_fc_clear_v01",
+          "cosine": 0.9966091026580575,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_clear_v04",
+          "nearest_scene_id": "scene_fc_clear_v05",
+          "cosine": 0.9961348829506134,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_clear_v05",
+          "nearest_scene_id": "scene_fc_clear_v04",
+          "cosine": 0.9961348829506134,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v01",
+          "nearest_scene_id": "scene_lift_and_relocate_v01",
+          "cosine": 0.9956331822634348,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v02",
+          "nearest_scene_id": "scene_rotate_v05",
+          "cosine": 0.9957462898239934,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v03",
+          "nearest_scene_id": "scene_rotate_v01",
+          "cosine": 0.9953531384055329,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": false
+        },
+        {
+          "scene_id": "scene_fc_blocked_v04",
+          "nearest_scene_id": "scene_lift_and_relocate_v01",
+          "cosine": 0.9948931360513703,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_fc_blocked_v05",
+          "nearest_scene_id": "scene_translate_v05",
+          "cosine": 0.9939745396881389,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v01",
+          "nearest_scene_id": "scene_translate_v04",
+          "cosine": 0.992181835411905,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v02",
+          "nearest_scene_id": "scene_lift_and_relocate_v04",
+          "cosine": 0.9940790881730885,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v03",
+          "nearest_scene_id": "scene_rotate_v05",
+          "cosine": 0.9962658754882281,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v04",
+          "nearest_scene_id": "scene_lift_and_relocate_v04",
+          "cosine": 0.9961011454211234,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_translate_v05",
+          "nearest_scene_id": "scene_lift_and_relocate_v04",
+          "cosine": 0.9944007452655501,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v01",
+          "nearest_scene_id": "scene_rotate_v03",
+          "cosine": 0.9962619605951613,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v02",
+          "nearest_scene_id": "scene_lift_and_relocate_v01",
+          "cosine": 0.9968038006177923,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v03",
+          "nearest_scene_id": "scene_rotate_v04",
+          "cosine": 0.9972545641651841,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v04",
+          "nearest_scene_id": "scene_rotate_v03",
+          "cosine": 0.9972545641651841,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_rotate_v05",
+          "nearest_scene_id": "scene_translate_v03",
+          "cosine": 0.9962658754882281,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v01",
+          "nearest_scene_id": "scene_rotate_v02",
+          "cosine": 0.9968038006177923,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v02",
+          "nearest_scene_id": "scene_lift_and_relocate_v03",
+          "cosine": 0.9960227314141185,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v03",
+          "nearest_scene_id": "scene_lift_and_relocate_v05",
+          "cosine": 0.9968320404245048,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v04",
+          "nearest_scene_id": "scene_translate_v04",
+          "cosine": 0.9961011454211234,
+          "same_family": false,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        },
+        {
+          "scene_id": "scene_lift_and_relocate_v05",
+          "nearest_scene_id": "scene_lift_and_relocate_v03",
+          "cosine": 0.9968320404245048,
+          "same_family": true,
+          "same_expected_decision": true,
+          "same_majority_decision": true
+        }
+      ]
+    }
+  },
+  "branch_preference": {
+    "matches_historical_majority": 21,
+    "matches_historical_majority_rate": 0.84,
+    "matches_scene_design": 20,
+    "matches_scene_design_rate": 0.8,
+    "caution": "Transformers BF16 raw logits versus historical vLLM constrained sampling; exact backend equivalence is not assumed."
+  },
+  "limitations": [
+    "25 scenes only; pairwise cosine values are not independent samples.",
+    "Raw decoder hidden states can be anisotropic, so mean-centered cosine is shown as a sensitivity view.",
+    "Scene family, object identity, image layout, prompt length, and geometry payload all vary together.",
+    "Five original vLLM constrained-decoding responses per scene. They were not regenerated during this extraction; exact backend numerical equivalence is not claimed.",
+    "A latent similarity pattern is descriptive and does not establish a causal reasoning mechanism."
+  ],
+  "source_code_sha256": "882d9860e86574b0499c89a691f5675582f5e473df0ad67080f8bec7e1fe2637",
+  "latent_states_sha256": "96ebdfd8f06bb8cbfd4008680eca3b9123471bce7b814d9a574b9bcae3ef1233"
+}

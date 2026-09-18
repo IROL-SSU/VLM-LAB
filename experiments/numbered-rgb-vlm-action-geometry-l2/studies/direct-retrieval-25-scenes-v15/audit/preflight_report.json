@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-17T06:16:05.002862+00:00",
+  "scene_count": 25,
+  "run_table_rows": 125,
+  "unique_run_ids": 125,
+  "source_image_and_mapping_hashes_verified": true,
+  "single_scene_prompt_image_and_settings_preserved": true,
+  "run_table_sha256": "a3d1dab87317c49a969e6b54b0cced4ec194ba232b52b8fd88a5cee2b9b153a5",
+  "failures": []
+}

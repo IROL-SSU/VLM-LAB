@@ -1,0 +1,137 @@
+{
+  "scene_count": 25,
+  "scheduled_calls": 1500,
+  "seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260917,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 64
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema"
+  },
+  "conditions": [
+    {
+      "condition": "C0",
+      "resolution": null,
+      "directory": null,
+      "name": "RGB only"
+    },
+    {
+      "condition": "C1",
+      "resolution": null,
+      "directory": "r_numeric",
+      "name": "R Numeric"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D4",
+      "directory": "r_qualitative_d4",
+      "name": "R Qualitative D4"
+    },
+    {
+      "condition": "C2",
+      "resolution": "D8",
+      "directory": "r_qualitative_d8",
+      "name": "R Qualitative D8"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D4",
+      "directory": "f_numeric_d4",
+      "name": "F Numeric D4"
+    },
+    {
+      "condition": "C3",
+      "resolution": "D8",
+      "directory": "f_numeric_d8",
+      "name": "F Numeric D8"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D4",
+      "directory": "f_qualitative_d4",
+      "name": "F Qualitative D4"
+    },
+    {
+      "condition": "C4",
+      "resolution": "D8",
+      "directory": "f_qualitative_d8",
+      "name": "F Qualitative D8"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D4",
+      "directory": "m_numeric_d4",
+      "name": "M Numeric D4"
+    },
+    {
+      "condition": "C5",
+      "resolution": "D8",
+      "directory": "m_numeric_d8",
+      "name": "M Numeric D8"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D4",
+      "directory": "m_qualitative_d4",
+      "name": "M Qualitative D4"
+    },
+    {
+      "condition": "C6",
+      "resolution": "D8",
+      "directory": "m_qualitative_d8",
+      "name": "M Qualitative D8"
+    }
+  ],
+  "geometry_policy": "Original R/F/M payloads; ascending visible-object records only. R qualitative retains original 5cm clearance categories, not gripper dimensions.",
+  "experiment_version": "l2_straight_access_geometry_v19",
+  "reference_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_approach_access_geometry_v18",
+  "reference_config_sha256": "04197a12d3c3d273c3413d821fa2b7ba33d5ac6a61111a2dd31641cc133167fd",
+  "reference_run_table_sha256": "05ee912371712bd0318f6ec988b6e86c038f980e9432ec691f2f965bbbd6f7ef",
+  "reference_logs_sha256": "5586b54e3d98e05ad7a9f4b5719a39233fbe40454d1735212a6979c408fdb9a9",
+  "inference_implementation": "/home/ssu/ShelfScene/scripts/run_l2_approach_access_geometry_v18.py",
+  "inference_implementation_sha256": "74a2719490eadbccc56857c6872536350c408809a6e3807d773d5e9effc43160",
+  "system_prompt": "Assess direct access to the target from the shelf opening.\nNumbered badges identify objects.\nReturn only a JSON object.",
+  "user_prompt_template": "Target object ID: {target_object_id}\nGeometry information:\n{geometry_json}\n\nCan the robot approach the target straight from the shelf opening\nwithout moving or contacting other objects?\n\nA nearby object blocks access only if it obstructs this approach.\n\nReturn {\"decision\": \"ACCESSIBLE\"} or {\"decision\": \"BLOCKED\"}.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "string",
+        "enum": [
+          "ACCESSIBLE",
+          "BLOCKED"
+        ]
+      }
+    },
+    "required": [
+      "decision"
+    ],
+    "additionalProperties": false
+  },
+  "schema_sha256": "cb5c9bfb3e0f7259b72005f35c1cccb6ad7755df413ec547fe97a913ccdf6008",
+  "gripper_information_supplied": false,
+  "task_definition": "Straight approach from shelf opening without moving or contacting other objects; nearby objects block only when obstructing this approach.",
+  "evaluation": "descriptive_predictions_and_paired_v18_changes_no_execution_ground_truth",
+  "comparison_note": "Agreed system and user wording both changed; this is not an isolated ablation of the word straight."
+}

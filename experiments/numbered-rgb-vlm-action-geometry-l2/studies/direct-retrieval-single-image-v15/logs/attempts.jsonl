@@ -1,0 +1,5 @@
+{"seed": 28101, "attempt": 1, "status": "response_received", "started_at": "2026-09-17T06:11:16.276863+00:00", "finished_at": "2026-09-17T06:11:16.711429+00:00", "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"}
+{"seed": 28102, "attempt": 1, "status": "response_received", "started_at": "2026-09-17T06:11:16.726804+00:00", "finished_at": "2026-09-17T06:11:16.817797+00:00", "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"}
+{"seed": 28103, "attempt": 1, "status": "response_received", "started_at": "2026-09-17T06:11:16.828555+00:00", "finished_at": "2026-09-17T06:11:16.912046+00:00", "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"}
+{"seed": 28104, "attempt": 1, "status": "response_received", "started_at": "2026-09-17T06:11:16.922562+00:00", "finished_at": "2026-09-17T06:11:17.005690+00:00", "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"}
+{"seed": 28105, "attempt": 1, "status": "response_received", "started_at": "2026-09-17T06:11:17.016259+00:00", "finished_at": "2026-09-17T06:11:17.100298+00:00", "raw_response": "{\"decision\": \"REARRANGE_FIRST\"}"}

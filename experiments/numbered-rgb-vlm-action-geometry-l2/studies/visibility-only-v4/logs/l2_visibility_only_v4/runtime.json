@@ -1,0 +1,16 @@
+{
+  "python": "3.12.3",
+  "vllm": "0.27.1",
+  "transformers": "5.15.1",
+  "backend": "vllm_offline",
+  "batch_size": 1,
+  "max_num_seqs": 1,
+  "max_model_len": 8192,
+  "gpu_memory_utilization": 0.9,
+  "moe_backend": "triton",
+  "structured_output": "json_schema_oneOf",
+  "model_load_seconds": 40.892,
+  "invocation_started_at": "2026-09-16T10:58:15.559905+00:00",
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct"
+}

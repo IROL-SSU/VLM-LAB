@@ -1,0 +1,37 @@
+# L2 direct retrieval — v15, all 25 scenes
+
+Same system/user prompt, model, sampling settings, schema, and source image family as the single-scene v15 test. Only the target ID changes between prompts. No geometry or gripper information is supplied.
+
+- Model: Qwen/Qwen3-VL-30B-A3B-Instruct
+- Calls: 125/125; seeds: [28101, 28102, 28103, 28104, 28105]; temperature: 0.3
+- Decision counts: {'RETRIEVE_NOW': 49, 'REARRANGE_FIRST': 76, 'INVALID': 0}
+- Unanimous scenes: 22/25
+- These are model predictions, not measured retrieval accuracy. No matching execution GT was used.
+
+| Scene | Target | RETRIEVE_NOW | REARRANGE_FIRST | Invalid | Unanimous |
+|---|---:|---:|---:|---:|---|
+| scene_fc_blocked_v01 | 64 | 5 | 0 | 0 | True |
+| scene_fc_blocked_v02 | 53 | 5 | 0 | 0 | True |
+| scene_fc_blocked_v03 | 12 | 5 | 0 | 0 | True |
+| scene_fc_blocked_v04 | 89 | 5 | 0 | 0 | True |
+| scene_fc_blocked_v05 | 59 | 1 | 4 | 0 | False |
+| scene_fc_clear_v01 | 53 | 5 | 0 | 0 | True |
+| scene_fc_clear_v02 | 29 | 5 | 0 | 0 | True |
+| scene_fc_clear_v03 | 95 | 5 | 0 | 0 | True |
+| scene_fc_clear_v04 | 61 | 5 | 0 | 0 | True |
+| scene_fc_clear_v05 | 62 | 5 | 0 | 0 | True |
+| scene_lift_and_relocate_v01 | 59 | 0 | 5 | 0 | True |
+| scene_lift_and_relocate_v02 | 70 | 0 | 5 | 0 | True |
+| scene_lift_and_relocate_v03 | 12 | 0 | 5 | 0 | True |
+| scene_lift_and_relocate_v04 | 68 | 0 | 5 | 0 | True |
+| scene_lift_and_relocate_v05 | 43 | 0 | 5 | 0 | True |
+| scene_rotate_v01 | 12 | 0 | 5 | 0 | True |
+| scene_rotate_v02 | 38 | 1 | 4 | 0 | False |
+| scene_rotate_v03 | 83 | 0 | 5 | 0 | True |
+| scene_rotate_v04 | 47 | 0 | 5 | 0 | True |
+| scene_rotate_v05 | 44 | 0 | 5 | 0 | True |
+| scene_translate_v01 | 67 | 0 | 5 | 0 | True |
+| scene_translate_v02 | 45 | 2 | 3 | 0 | False |
+| scene_translate_v03 | 18 | 0 | 5 | 0 | True |
+| scene_translate_v04 | 13 | 0 | 5 | 0 | True |
+| scene_translate_v05 | 54 | 0 | 5 | 0 | True |

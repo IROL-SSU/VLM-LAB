@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": [
+        "ACCESSIBLE",
+        "BLOCKED"
+      ]
+    }
+  },
+  "required": [
+    "decision"
+  ],
+  "additionalProperties": false
+}

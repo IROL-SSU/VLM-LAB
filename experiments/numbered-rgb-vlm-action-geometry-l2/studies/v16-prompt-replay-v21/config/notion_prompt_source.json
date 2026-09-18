@@ -1,0 +1,25 @@
+{
+  "page_id": "3de952c9-e273-81e5-969c-def5d80d54d2",
+  "title": "L2 직접 회수 판단 × Geometry 단일정보 — v16 결과 (25장면·1,500회)",
+  "url": "https://app.notion.com/p/3de952c9e27381e5969cdef5d80d54d2?pvs=204",
+  "page_last_edited_at": "2026-09-17T08:13:32.202Z",
+  "system_prompt": "You assess whether a robot can retrieve a target object from a shelf.\n\nEach numbered badge identifies the physical object underneath it.\nBadge positions, sizes, and numbers are identity markers only.\n\nJudge the current scene.\nReturn exactly one JSON object. Do not include explanations.",
+  "user_prompt_template": "Target object ID: {target_object_id}\n\nGeometry information:\n{geometry_json}\n\nAssume the robot can grasp and retrieve the target when it is\nunobstructed.\n\nIn the current scene, can the robot pick up the target and take it\nout through the shelf opening while leaving all other objects\nin place and avoiding contact with them?\n\nConsider whether surrounding objects obstruct access to the target\nor its removal.\n\nPartial visibility alone does not mean retrieval is blocked.\nBeing near another object alone does not mean retrieval is blocked.\n\nChoose one:\n- RETRIEVE_NOW: the target can be retrieved without rearranging\n  other objects.\n- REARRANGE_FIRST: another object must be moved before the target\n  can be retrieved.\n\nReturn exactly one JSON object with the field \"decision\".\nDo not identify the blocker or propose an action.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "string",
+        "enum": [
+          "RETRIEVE_NOW",
+          "REARRANGE_FIRST"
+        ]
+      }
+    },
+    "required": [
+      "decision"
+    ],
+    "additionalProperties": false
+  },
+  "prompt_section": "## 3. 실제 사용 프롬프트\n아래는 실행 config에 저장된 원문이다. Geometry JSON 외에 조건별 추가 설명이나 그리퍼 사양은 넣지 않았다.\n### System prompt\n```plain text\nYou assess whether a robot can retrieve a target object from a shelf.\n\nEach numbered badge identifies the physical object underneath it.\nBadge positions, sizes, and numbers are identity markers only.\n\nJudge the current scene.\nReturn exactly one JSON object. Do not include explanations.\n```\n### User prompt template\n```plain text\nTarget object ID: {target_object_id}\n\nGeometry information:\n{geometry_json}\n\nAssume the robot can grasp and retrieve the target when it is\nunobstructed.\n\nIn the current scene, can the robot pick up the target and take it\nout through the shelf opening while leaving all other objects\nin place and avoiding contact with them?\n\nConsider whether surrounding objects obstruct access to the target\nor its removal.\n\nPartial visibility alone does not mean retrieval is blocked.\nBeing near another object alone does not mean retrieval is blocked.\n\nChoose one:\n- RETRIEVE_NOW: the target can be retrieved without rearranging\n  other objects.\n- REARRANGE_FIRST: another object must be moved before the target\n  can be retrieved.\n\nReturn exactly one JSON object with the field \"decision\".\nDo not identify the blocker or propose an action.\n```\nC0에서는 `{geometry_json}`을 `null`로, 나머지는 각 조건의 JSON 원문으로 치환한다.\n### Output schema\n```json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"decision\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"RETRIEVE_NOW\",\n        \"REARRANGE_FIRST\"\n      ]\n    }\n  },\n  \"required\": [\n    \"decision\"\n  ],\n  \"additionalProperties\": false\n}\n```\n"
+}

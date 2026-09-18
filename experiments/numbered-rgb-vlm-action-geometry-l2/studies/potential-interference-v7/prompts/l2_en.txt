@@ -1,0 +1,10 @@
+The robot will directly grasp the target from the open front of the shelf.
+
+Determine whether another physical object is likely to interfere with the
+gripper reaching or closing on the target.
+
+Return potential_grasp_interference=true when another physical object visibly
+overlaps a meaningful part of the target or is directly in front of the target
+such that the gripper may contact it during the grasp.
+
+Otherwise, return potential_grasp_interference=false.

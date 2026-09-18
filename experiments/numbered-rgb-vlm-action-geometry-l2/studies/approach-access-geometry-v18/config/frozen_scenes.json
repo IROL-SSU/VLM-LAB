@@ -1,0 +1,327 @@
+[
+  {
+    "scene_id": "scene_fc_blocked_v01",
+    "scene_family": "FC_BLOCKED",
+    "target_object_id": 64,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_blocked_v01.png",
+    "image_sha256": "d1ebd712ddccb297e54d270b3f5751d115d5b40880b463226b2369105a86fcb5",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_blocked_v01.json",
+    "id_mapping_sha256": "5b9294f6302c46979abdd0a7f79d653d424bdf85bc47797e2f65205849be01f7"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v02",
+    "scene_family": "FC_BLOCKED",
+    "target_object_id": 53,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_blocked_v02.png",
+    "image_sha256": "e20a6149a549a8f50a9078ee691a9b6eb80104658d79ed52a0bbce96d7f56937",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_blocked_v02.json",
+    "id_mapping_sha256": "ef2b928e41a6cbf488604e4b0207e8f8c0febd0d50dd3064148244ba76bbd7e9"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v03",
+    "scene_family": "FC_BLOCKED",
+    "target_object_id": 12,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_blocked_v03.png",
+    "image_sha256": "2f5cf641290b13c33b25f4fdccc291443785dacf8e4e97ef17f3960da93fa183",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_blocked_v03.json",
+    "id_mapping_sha256": "bd0b06bd35597bffa556ef52479e5a7f09fb5eaf53353dc996917dd0e0495a75"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v04",
+    "scene_family": "FC_BLOCKED",
+    "target_object_id": 89,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_blocked_v04.png",
+    "image_sha256": "5f2240db3a07b9c2b8e4e772628e3ba108de5d36adcb676f8e3de29bd15af4cb",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_blocked_v04.json",
+    "id_mapping_sha256": "068102b1f5cb81dd8c67f687afb63f726cc6bbfbc5a72ea163ff7136910b5f6f"
+  },
+  {
+    "scene_id": "scene_fc_blocked_v05",
+    "scene_family": "FC_BLOCKED",
+    "target_object_id": 59,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_blocked_v05.png",
+    "image_sha256": "46d63cd6fb5320b7bb81cf8f7304c137757f9f31752e8922736a2e1a8a843689",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_blocked_v05.json",
+    "id_mapping_sha256": "578dafefcb96263d0a190950c5475df6d6ff2f823b7e978689a9909136307179"
+  },
+  {
+    "scene_id": "scene_fc_clear_v01",
+    "scene_family": "FC_CLEAR",
+    "target_object_id": 53,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_clear_v01.png",
+    "image_sha256": "b866a25498163660e5d6ef5b42a5f213760578cb691fa111c40c91e5de926c8b",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_clear_v01.json",
+    "id_mapping_sha256": "b437c8f971ca1b927bc1e69c66368f96c0deb17a9f8abc32cc81f98d2a0d54e8"
+  },
+  {
+    "scene_id": "scene_fc_clear_v02",
+    "scene_family": "FC_CLEAR",
+    "target_object_id": 29,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_clear_v02.png",
+    "image_sha256": "9cec6eec366865e1b003678eb301f54f3a458cab4c12bc9b293ec15478486b20",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_clear_v02.json",
+    "id_mapping_sha256": "cc3dee3f76dba2a36e1edee2554186eaf06aed24813216454e33aa5e4e855931"
+  },
+  {
+    "scene_id": "scene_fc_clear_v03",
+    "scene_family": "FC_CLEAR",
+    "target_object_id": 95,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_clear_v03.png",
+    "image_sha256": "fe92e7b417c8d453b90f708092da0ee2ea4c68e0902fbb5f25e7d21de1e2a307",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_clear_v03.json",
+    "id_mapping_sha256": "e75d84a63f62fcf603518a636841ab2185be0d9bc355c60c878bd556d30fa4ed"
+  },
+  {
+    "scene_id": "scene_fc_clear_v04",
+    "scene_family": "FC_CLEAR",
+    "target_object_id": 61,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_clear_v04.png",
+    "image_sha256": "cb22f3cbf6d42d798e8e0bea07d0c3a10eb371e56120f5d3e204f06f125c08bd",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_clear_v04.json",
+    "id_mapping_sha256": "436b4fe705c9ab1aae822e4d02fd60afaa6e33fb417902676c28b8ed98f6857f"
+  },
+  {
+    "scene_id": "scene_fc_clear_v05",
+    "scene_family": "FC_CLEAR",
+    "target_object_id": 62,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_fc_clear_v05.png",
+    "image_sha256": "82b5b9302b9febefc5a617e196cd52fbf19c89d00e4efb267859424e8999c184",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_fc_clear_v05.json",
+    "id_mapping_sha256": "0ceeef043e5f8c6289c7a310aa17090ab7753d3aab13bb688e557eddf750e5c4"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v01",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "target_object_id": 59,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_lift_and_relocate_v01.png",
+    "image_sha256": "6b5fe5a1cf8508346beeb78d60b9526a12467af9f81967e29eb612f960d8da64",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_lift_and_relocate_v01.json",
+    "id_mapping_sha256": "b3531903af7d5fd108aa1aca8eb757338bc8f5af84a1f85efbe5ea753a299f32"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v02",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "target_object_id": 70,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_lift_and_relocate_v02.png",
+    "image_sha256": "ef931272196f3fd3acb8ce67d7d4056efb53249517e7304abb56e92ac0c33367",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_lift_and_relocate_v02.json",
+    "id_mapping_sha256": "75393569f2ea2a8c4ae8a17a21a10dd932f6d2d50c6e151306385276485583dd"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v03",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "target_object_id": 12,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_lift_and_relocate_v03.png",
+    "image_sha256": "d1a1ab77908fd339c72020d9931410b44c67a2476dbe2696c1583b55a10ec441",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_lift_and_relocate_v03.json",
+    "id_mapping_sha256": "a309e6d45f0d14bb7f497fcc01d8cde8011ce4c72bf1a2ee81e756d945115b01"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v04",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "target_object_id": 68,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_lift_and_relocate_v04.png",
+    "image_sha256": "beb1d9a56570539e881631e734265bc9259a11650fed047e47af9f063140178b",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_lift_and_relocate_v04.json",
+    "id_mapping_sha256": "85f190b53d21ff25fb9f9d24a24c5407b114e56e3a82537b569eab43fcef52f1"
+  },
+  {
+    "scene_id": "scene_lift_and_relocate_v05",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "target_object_id": 43,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_lift_and_relocate_v05.png",
+    "image_sha256": "8039f728ad87eb686420848ef82fe35b4d3455ff8579c9d4c6684b9dcdc57db3",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_lift_and_relocate_v05.json",
+    "id_mapping_sha256": "99a2cea8a71edfb411fd57f2a50b711d474253e24531433ed68e375d01d76956"
+  },
+  {
+    "scene_id": "scene_rotate_v01",
+    "scene_family": "ROTATE",
+    "target_object_id": 12,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_rotate_v01.png",
+    "image_sha256": "e5819a700de1db4f43f9eb514671488b656e67640e8e985f199541d0db0672d8",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_rotate_v01.json",
+    "id_mapping_sha256": "5f859103b8533846a2d9cc1b3b9d023dd5163921c48103f57e2c6d032bc50fed"
+  },
+  {
+    "scene_id": "scene_rotate_v02",
+    "scene_family": "ROTATE",
+    "target_object_id": 38,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_rotate_v02.png",
+    "image_sha256": "c9e9fc4ca2f15f492e92d67d073bc30f224fcbc18db7057d1c757270d475aba6",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_rotate_v02.json",
+    "id_mapping_sha256": "9705f17375b68b6de7f72e1a00994c326e23f7483750983fb8fb9d75be972d76"
+  },
+  {
+    "scene_id": "scene_rotate_v03",
+    "scene_family": "ROTATE",
+    "target_object_id": 83,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_rotate_v03.png",
+    "image_sha256": "dec25dad22ce31119c7b1ba863e9cc5ce3e07107af1ea22e28c240cdfb69d0da",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_rotate_v03.json",
+    "id_mapping_sha256": "2b91cf8a75e3e66197923f5134263d2a46a94420995e6d1693e53c276278bb9d"
+  },
+  {
+    "scene_id": "scene_rotate_v04",
+    "scene_family": "ROTATE",
+    "target_object_id": 47,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_rotate_v04.png",
+    "image_sha256": "5f79485007292f53caeb238928d5bb55af34f136ca153e12e4be7b7be1868584",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_rotate_v04.json",
+    "id_mapping_sha256": "5adf1bded4fc59d598989a5614a987b92d325ee289143cc5feb7f75338709053"
+  },
+  {
+    "scene_id": "scene_rotate_v05",
+    "scene_family": "ROTATE",
+    "target_object_id": 44,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_rotate_v05.png",
+    "image_sha256": "46e31daae3e1506fe5424f60cb9c4b5e00e50311f0575e720b9ddda11b61a1be",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_rotate_v05.json",
+    "id_mapping_sha256": "7e9aa19158dafe25b3e09fb7b23583649b25f2f9754b2f7a858ef38f2c7905aa"
+  },
+  {
+    "scene_id": "scene_translate_v01",
+    "scene_family": "TRANSLATE",
+    "target_object_id": 67,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_translate_v01.png",
+    "image_sha256": "243a8b2c043a218a3fe4e8414ecd6a69961c0a206a5ddf4539338b7f802e20a3",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_translate_v01.json",
+    "id_mapping_sha256": "451ce52c78131b0b5d695f4cb1a35c670bb7dd01501fe6764e309d8494751f89"
+  },
+  {
+    "scene_id": "scene_translate_v02",
+    "scene_family": "TRANSLATE",
+    "target_object_id": 45,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_translate_v02.png",
+    "image_sha256": "2c4337c25c1611b14c3937d5894ddfb4460ebb5355878ae8470a1cc14ebf37bc",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_translate_v02.json",
+    "id_mapping_sha256": "4c5dcee770962d3fae860573bb09de55ddab0020de660dd3874fd94dd3892d3c"
+  },
+  {
+    "scene_id": "scene_translate_v03",
+    "scene_family": "TRANSLATE",
+    "target_object_id": 18,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_translate_v03.png",
+    "image_sha256": "20bad56bcf1a2f86583b6918b4a173020b3722d8bcd55f72fbc28cc21e675374",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_translate_v03.json",
+    "id_mapping_sha256": "5539abdd472b03dae3e8863efdca476b19190a1bce46dc288c33d42927d3dd2d"
+  },
+  {
+    "scene_id": "scene_translate_v04",
+    "scene_family": "TRANSLATE",
+    "target_object_id": 13,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_translate_v04.png",
+    "image_sha256": "b46cdfe8d9e2501d069730f58cbe57b27987a2582ccd6bd55e2fbf71819ebfd1",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_translate_v04.json",
+    "id_mapping_sha256": "52b28139d88ec0da1bfb88bc4bf7cf1c312f0b8ac01523fb668e7e038a271cde"
+  },
+  {
+    "scene_id": "scene_translate_v05",
+    "scene_family": "TRANSLATE",
+    "target_object_id": 54,
+    "image_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/numbered_rgb/scene_translate_v05.png",
+    "image_sha256": "64f5623f7c200ccceeb1a1e90b8c3cee774156968d8e2b1712aeac1ab4146246",
+    "image_size": [
+      1280,
+      960
+    ],
+    "id_mapping_path": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10/images/id_mappings/scene_translate_v05.json",
+    "id_mapping_sha256": "8342683c33a513a7fe85d5c4f530fe8115ebde685bcb8a12ecbce6b8be1b6d98"
+  }
+]

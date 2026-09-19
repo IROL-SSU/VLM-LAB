@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "RETRIEVE",
+        "TRANSLATE",
+        "ROTATE",
+        "LIFT_AND_RELOCATE"
+      ]
+    }
+  },
+  "required": [
+    "action"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+level,geometry_condition,condition_name,direction_resolution,paired_n,baseline_accuracy,condition_accuracy,accuracy_delta,c0_only_correct,condition_only_correct,mcnemar_exact_two_sided_p
+L4,C1,R numeric,D4,125,0.16,0.12,-0.04,5,0,0.0625
+L4,C1,R numeric,D8,125,0.16,0.152,-0.008,1,0,1.0
+L4,C2,R qualitative,D4,125,0.16,0.088,-0.072,9,0,0.00390625
+L4,C2,R qualitative,D8,125,0.16,0.112,-0.048,6,0,0.03125
+L4,C3,F numeric,D4,125,0.16,0.016,-0.144,18,0,7.62939453125e-06
+L4,C3,F numeric,D8,125,0.16,0.144,-0.016,2,0,0.5
+L4,C4,F qualitative,D4,125,0.16,0.016,-0.144,18,0,7.62939453125e-06
+L4,C4,F qualitative,D8,125,0.16,0.08,-0.08,10,0,0.001953125
+L4,C5,M numeric,D4,125,0.16,0.0,-0.16,20,0,1.9073486328125e-06
+L4,C5,M numeric,D8,125,0.16,0.0,-0.16,20,0,1.9073486328125e-06
+L4,C6,M qualitative,D4,125,0.16,0.0,-0.16,20,0,1.9073486328125e-06
+L4,C6,M qualitative,D8,125,0.16,0.0,-0.16,20,0,1.9073486328125e-06

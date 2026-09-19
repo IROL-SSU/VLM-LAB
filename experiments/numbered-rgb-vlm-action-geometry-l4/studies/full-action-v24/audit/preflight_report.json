@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-18T07:39:58.242341+00:00",
+  "experiment_version": "l4_action_full_from_v19_v24",
+  "source_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19",
+  "source_run_table_sha256": "0f2cb62474478433c5e3e1707aca601fb7487c2c32d6fff2d84724e3519f1c25",
+  "run_table_sha256": "0d28e1c6613f94ba9b33f08714f1b14852e3ddf543e2bfa5f8abd972bb0e9511",
+  "scheduled_calls": 1750,
+  "scene_count": 25,
+  "seed_count": 5,
+  "condition_count": 14,
+  "condition_sizes": {
+    "C0_D4": 125,
+    "C0_D8": 125,
+    "C1_D4": 125,
+    "C1_D8": 125,
+    "C2_D4": 125,
+    "C2_D8": 125,
+    "C3_D4": 125,
+    "C3_D8": 125,
+    "C4_D4": 125,
+    "C4_D8": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C6_D4": 125,
+    "C6_D8": 125
+  },
+  "frozen_file_count": 438,
+  "native_l4_action_schema": true,
+  "direct_isaac_sim_replay_required": true,
+  "failures": []
+}

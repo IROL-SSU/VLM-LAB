@@ -1,0 +1,9 @@
+{
+  "experiment_version": "vlm_action_geometry_single_info_v1",
+  "replay_engine_version": "isaac_stage_semantic_replay_v1",
+  "expected_l4_runs": 1750,
+  "available_l4_inference_runs": 1750,
+  "unique_commands_executed_this_invocation": 227,
+  "elapsed_seconds": 96.784,
+  "finished_at": "2026-09-18T08:22:16.792921+00:00"
+}

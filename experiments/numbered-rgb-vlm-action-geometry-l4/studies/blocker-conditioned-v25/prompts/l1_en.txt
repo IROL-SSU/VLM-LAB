@@ -1,0 +1,6 @@
+Determine whether the target object can be located in the numbered RGB image
+and classify its visibility.
+
+FULL means 100% of the target-only projected silhouette is visible, ignoring
+the badge overlay. PARTIAL means some but not all of that silhouette is
+visible. NOT_VISIBLE means no part of the target can be located.

@@ -1,0 +1,9 @@
+{
+  "completed": 1750,
+  "expected": 1750,
+  "processed_this_invocation": 1750,
+  "model_load_seconds": 41.246,
+  "generation_seconds": 176.525,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l4_action_only_v26/logs/runs.jsonl",
+  "finished_at": "2026-09-19T09:34:22.120273+00:00"
+}

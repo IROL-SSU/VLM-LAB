@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "experiment_version": "l4_blocker_conditioned_from_l3_v19_v25",
+  "generated_at": "2026-09-18T08:22:22.812755+00:00",
+  "scheduled_runs": 1750,
+  "completed_inference_runs": 1750,
+  "raw_inference_log_rows": 1750,
+  "scheduled_l4_runs": 1750,
+  "completed_replay_runs": 1750,
+  "raw_append_only_replay_log_rows": 1750,
+  "run_table_sha256": "dc1531fe66a98488de2ac44e50faa3e3a58f7c18ef8974635b31f16a6a4d86da",
+  "inference_log_sha256": "398dde1df1a6eefac3d3265e1f2905877b28e9ff796bd98c466202f2e7fcd702",
+  "replay_log_sha256": "5a49c8f09fd6bb11f4ee67c11ba93a1cb3aadf49e8d4a6a6334266bad6426612",
+  "total_input_tokens": 3440088,
+  "total_output_tokens": 70231,
+  "latency_seconds": {
+    "sum": 502.855,
+    "mean": 0.287346,
+    "min": 0.122134,
+    "max": 1.207235
+  },
+  "errors": {
+    "parse_error_runs": 0,
+    "post_validation_failed_runs": 178,
+    "inference_attempt_errors": 0,
+    "replay_attempt_errors": 0,
+    "replay_not_executed_due_to_invalid_model_output": 178,
+    "post_validation_error_distribution": {
+      "TRANSLATE cannot manipulate the target in this benchmark": 9,
+      "distance_level is inconsistent with distance_cm": 173,
+      "object_id does not equal the L3-selected blocker_id": 9
+    }
+  },
+  "replay": {
+    "unique_simulator_artifacts": 227,
+    "simulator_executed_runs": 1572,
+    "action_valid_runs": 350,
+    "collision_runs": 321,
+    "boundary_violation_runs": 67,
+    "action_distribution": {
+      "RETRIEVE": 181,
+      "TRANSLATE": 1569
+    },
+    "all_artifacts_direct_stage_execution": true,
+    "all_artifact_baselines_match_preparation": true,
+    "isaac_sim_versions": [
+      "5.1.0-rc.19+release.26219.9c81211b.gl"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+The perception stage has already applied the L3 strongest-blocker rule.
+Its frozen output for this exact scene, geometry condition, and seed is:
+
+- blocking_reason: {selected_blocking_reason}
+- selected blocker_id: {selected_blocker_id}
+
+Choose exactly one next action from:
+RETRIEVE, TRANSLATE, ROTATE, LIFT_AND_RELOCATE.
+
+Follow these constraints exactly:
+
+1. If blocking_reason is NONE and blocker_id is null, output RETRIEVE with the
+   target object ID. Do not output any other action.
+2. Otherwise, the selected blocker_id is the single visible non-target blocker
+   chosen by L3. Output TRANSLATE, ROTATE, or LIFT_AND_RELOCATE for exactly that
+   blocker_id. Never select the target and never select a different object.
+3. Select the action that can be executed without contacting any unselected
+   object and that makes the target directly graspable after the action.
+4. TRANSLATE: output a shelf direction, an integer distance in 1 cm increments,
+   and the matching qualitative distance level.
+5. ROTATE: rotate around the vertical axis through the selected blocker's
+   footprint center. Output CW or CCW as viewed from above, an angle in 5-degree
+   increments, and the matching qualitative angle level.
+6. LIFT_AND_RELOCATE: do not output a destination, lift height, or path.
+7. Output one action only, not a sequence.
+
+Allowed translation directions:
+{direction_list}

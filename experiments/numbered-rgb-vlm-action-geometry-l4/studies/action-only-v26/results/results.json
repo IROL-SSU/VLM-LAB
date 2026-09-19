@@ -1,0 +1,222 @@
+{
+  "scope": "v26 action-only, same 1,750 v25 input/L3 cells",
+  "scoring_note": "advisory action-label agreement; not official physical action_valid",
+  "overall": {
+    "total": 1750,
+    "correct": 878,
+    "accuracy": 0.5017142857142857
+  },
+  "parse_count": 1750,
+  "schema_valid_count": 1750,
+  "output_distribution": {
+    "TRANSLATE": 1110,
+    "LIFT_AND_RELOCATE": 459,
+    "RETRIEVE": 181
+  },
+  "by_family": {
+    "FC_CLEAR": {
+      "total": 350,
+      "correct": 180,
+      "accuracy": 0.5142857142857142
+    },
+    "FC_BLOCKED": {
+      "total": 350,
+      "correct": 334,
+      "accuracy": 0.9542857142857143
+    },
+    "TRANSLATE": {
+      "total": 350,
+      "correct": 212,
+      "accuracy": 0.6057142857142858
+    },
+    "ROTATE": {
+      "total": 350,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "LIFT_AND_RELOCATE": {
+      "total": 350,
+      "correct": 152,
+      "accuracy": 0.4342857142857143
+    }
+  },
+  "by_condition_resolution": {
+    "C0_D4": {
+      "total": 125,
+      "correct": 55,
+      "accuracy": 0.44
+    },
+    "C0_D8": {
+      "total": 125,
+      "correct": 56,
+      "accuracy": 0.448
+    },
+    "C1_D4": {
+      "total": 125,
+      "correct": 52,
+      "accuracy": 0.416
+    },
+    "C1_D8": {
+      "total": 125,
+      "correct": 53,
+      "accuracy": 0.424
+    },
+    "C2_D4": {
+      "total": 125,
+      "correct": 70,
+      "accuracy": 0.56
+    },
+    "C2_D8": {
+      "total": 125,
+      "correct": 68,
+      "accuracy": 0.544
+    },
+    "C3_D4": {
+      "total": 125,
+      "correct": 68,
+      "accuracy": 0.544
+    },
+    "C3_D8": {
+      "total": 125,
+      "correct": 55,
+      "accuracy": 0.44
+    },
+    "C4_D4": {
+      "total": 125,
+      "correct": 72,
+      "accuracy": 0.576
+    },
+    "C4_D8": {
+      "total": 125,
+      "correct": 60,
+      "accuracy": 0.48
+    },
+    "C5_D4": {
+      "total": 125,
+      "correct": 65,
+      "accuracy": 0.52
+    },
+    "C5_D8": {
+      "total": 125,
+      "correct": 69,
+      "accuracy": 0.552
+    },
+    "C6_D4": {
+      "total": 125,
+      "correct": 64,
+      "accuracy": 0.512
+    },
+    "C6_D8": {
+      "total": 125,
+      "correct": 71,
+      "accuracy": 0.568
+    }
+  },
+  "by_condition": {
+    "C0": {
+      "total": 250,
+      "correct": 111,
+      "accuracy": 0.444
+    },
+    "C1": {
+      "total": 250,
+      "correct": 105,
+      "accuracy": 0.42
+    },
+    "C2": {
+      "total": 250,
+      "correct": 138,
+      "accuracy": 0.552
+    },
+    "C3": {
+      "total": 250,
+      "correct": 123,
+      "accuracy": 0.492
+    },
+    "C4": {
+      "total": 250,
+      "correct": 132,
+      "accuracy": 0.528
+    },
+    "C5": {
+      "total": 250,
+      "correct": 134,
+      "accuracy": 0.536
+    },
+    "C6": {
+      "total": 250,
+      "correct": 135,
+      "accuracy": 0.54
+    }
+  },
+  "by_resolution": {
+    "D4": {
+      "total": 875,
+      "correct": 446,
+      "accuracy": 0.5097142857142857
+    },
+    "D8": {
+      "total": 875,
+      "correct": 432,
+      "accuracy": 0.4937142857142857
+    }
+  },
+  "by_l3_joint_correctness": {
+    "joint_correct": {
+      "total": 590,
+      "correct": 456,
+      "accuracy": 0.7728813559322034
+    },
+    "joint_wrong": {
+      "total": 1160,
+      "correct": 422,
+      "accuracy": 0.36379310344827587
+    }
+  },
+  "by_l3_joint_correctness_non_none_only": {
+    "joint_correct": {
+      "total": 438,
+      "correct": 304,
+      "accuracy": 0.6940639269406392
+    },
+    "joint_wrong": {
+      "total": 1131,
+      "correct": 394,
+      "accuracy": 0.34836427939876213
+    }
+  },
+  "confusion_gt_rows_prediction_columns": {
+    "RETRIEVE": {
+      "RETRIEVE": 180,
+      "TRANSLATE": 135,
+      "ROTATE": 0,
+      "LIFT_AND_RELOCATE": 35
+    },
+    "TRANSLATE": {
+      "RETRIEVE": 1,
+      "TRANSLATE": 546,
+      "ROTATE": 0,
+      "LIFT_AND_RELOCATE": 153
+    },
+    "ROTATE": {
+      "RETRIEVE": 0,
+      "TRANSLATE": 231,
+      "ROTATE": 0,
+      "LIFT_AND_RELOCATE": 119
+    },
+    "LIFT_AND_RELOCATE": {
+      "RETRIEVE": 0,
+      "TRANSLATE": 198,
+      "ROTATE": 0,
+      "LIFT_AND_RELOCATE": 152
+    }
+  },
+  "paired_v25_action_advisory_match": {
+    "v25_correct_v26_correct": 726,
+    "v25_correct_v26_wrong": 153,
+    "v25_wrong_v26_correct": 152,
+    "v25_wrong_v26_wrong": 719,
+    "v25_advisory_correct": 879,
+    "v26_advisory_correct": 878
+  }
+}

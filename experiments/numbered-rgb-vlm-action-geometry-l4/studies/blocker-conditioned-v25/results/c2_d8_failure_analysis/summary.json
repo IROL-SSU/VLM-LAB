@@ -1,0 +1,49 @@
+{
+  "scope": "v25 C2 D8",
+  "total_runs": 125,
+  "success": 41,
+  "failure": 84,
+  "primary_failure_counts": {
+    "ACTION_WRONG": 49,
+    "DISTANCE_WRONG": 9,
+    "PHYSICAL_FAILURE_AFTER_GT_MATCH": 15,
+    "DIRECTION_WRONG": 9,
+    "PRECHECK_ERROR": 2
+  },
+  "independent_mismatch_counts_among_failures": {
+    "precheck_error": 2,
+    "action_mismatch_advisory": 50,
+    "object_mismatch_scene_gt": 8,
+    "object_mismatch_frozen_l3": 0,
+    "direction_mismatch_when_comparable": 10,
+    "distance_mismatch_when_comparable": 18
+  },
+  "by_family": {
+    "FC_CLEAR": {
+      "total": 25,
+      "success": 24,
+      "failure": 1
+    },
+    "FC_BLOCKED": {
+      "total": 25,
+      "success": 5,
+      "failure": 20
+    },
+    "TRANSLATE": {
+      "total": 25,
+      "success": 11,
+      "failure": 14
+    },
+    "ROTATE": {
+      "total": 25,
+      "success": 1,
+      "failure": 24
+    },
+    "LIFT_AND_RELOCATE": {
+      "total": 25,
+      "success": 0,
+      "failure": 25
+    }
+  },
+  "gt_note": "L4 manifest action and parameters are advisory_only; official correctness is direct Isaac Sim replay."
+}

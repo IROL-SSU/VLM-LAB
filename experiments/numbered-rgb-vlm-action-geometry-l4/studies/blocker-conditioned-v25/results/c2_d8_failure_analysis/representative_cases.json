@@ -1,0 +1,434 @@
+[
+  {
+    "filename": "case_01_precheck_error.png",
+    "run_id": "v25__scene_rotate_v02__L4__C2_D8__r02_s28102",
+    "scene_id": "scene_rotate_v02",
+    "scene_family": "ROTATE",
+    "seed": 28102,
+    "repeat_index": 2,
+    "numbered_rgb": "images/numbered_rgb/scene_rotate_v02.png",
+    "target_object_id": 38,
+    "l3_output": {
+      "blocker_id": 50,
+      "blocking_reason": "BOTH"
+    },
+    "l3_reason_correct": false,
+    "l3_blocker_correct": true,
+    "l3_joint_correct": false,
+    "model_raw_response": "{\"action\": \"TRANSLATE\", \"object_id\": 50, \"direction\": \"LEFT\", \"distance_cm\": 10, \"distance_level\": \"SHORT\"}",
+    "model_output": {
+      "action": "TRANSLATE",
+      "direction": "LEFT",
+      "distance_cm": 10,
+      "distance_level": "SHORT",
+      "object_id": 50
+    },
+    "post_validation_pass": false,
+    "post_validation_errors": [
+      "distance_level is inconsistent with distance_cm"
+    ],
+    "gt": {
+      "target_object_id": 38,
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        50
+      ],
+      "advisory_action": "ROTATE",
+      "advisory_parameters": {
+        "object": "blocker_cracker_box",
+        "axis": "SHELF_UP",
+        "initial_yaw_deg": 20.0,
+        "yaw_delta_deg": 70.0
+      }
+    },
+    "comparison": {
+      "action_match_advisory": false,
+      "object_matches_scene_gt": true,
+      "object_matches_frozen_l3": true,
+      "direction_match_advisory": null,
+      "distance_match_advisory": null,
+      "distance_rule": null,
+      "gt_distance_cm": null
+    },
+    "primary_class": "PRECHECK_ERROR",
+    "replay": {
+      "action_valid": false,
+      "simulator_executed": false,
+      "failure_reason": "inference_post_validation_error",
+      "collision": null,
+      "boundary_violation": null,
+      "post_visibility": null,
+      "post_minimum_surface_gap_cm": null,
+      "post_direct_graspable": null,
+      "post_target_mask": null
+    }
+  },
+  {
+    "filename": "case_02_action_wrong.png",
+    "run_id": "v25__scene_fc_clear_v05__L4__C2_D8__r03_s28103",
+    "scene_id": "scene_fc_clear_v05",
+    "scene_family": "FC_CLEAR",
+    "seed": 28103,
+    "repeat_index": 3,
+    "numbered_rgb": "images/numbered_rgb/scene_fc_clear_v05.png",
+    "target_object_id": 62,
+    "l3_output": {
+      "blocker_id": 82,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "l3_reason_correct": true,
+    "l3_blocker_correct": true,
+    "l3_joint_correct": true,
+    "model_raw_response": "{\n  \"action\": \"TRANSLATE\",\n  \"object_id\": 82,\n  \"direction\": \"LEFT\",\n  \"distance_cm\": 3,\n  \"distance_level\": \"SHORT\"\n}",
+    "model_output": {
+      "action": "TRANSLATE",
+      "direction": "LEFT",
+      "distance_cm": 3,
+      "distance_level": "SHORT",
+      "object_id": 82
+    },
+    "post_validation_pass": true,
+    "post_validation_errors": [],
+    "gt": {
+      "target_object_id": 62,
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        82
+      ],
+      "advisory_action": "RETRIEVE",
+      "advisory_parameters": {
+        "object": "target_teal"
+      }
+    },
+    "comparison": {
+      "action_match_advisory": false,
+      "object_matches_scene_gt": false,
+      "object_matches_frozen_l3": true,
+      "direction_match_advisory": null,
+      "distance_match_advisory": null,
+      "distance_rule": null,
+      "gt_distance_cm": null
+    },
+    "primary_class": "ACTION_WRONG",
+    "replay": {
+      "action_valid": false,
+      "simulator_executed": true,
+      "failure_reason": "simulator_replay_failed",
+      "collision": false,
+      "boundary_violation": false,
+      "post_visibility": "FULL",
+      "post_minimum_surface_gap_cm": 1.075463,
+      "post_direct_graspable": false,
+      "post_target_mask": "simulator_replay/post_masks/24b62232cecd046adf00892f4036aef714c1af45b67c4457cc1d3c5a0129ff8d.png"
+    }
+  },
+  {
+    "filename": "case_03_action_wrong.png",
+    "run_id": "v25__scene_rotate_v01__L4__C2_D8__r01_s28101",
+    "scene_id": "scene_rotate_v01",
+    "scene_family": "ROTATE",
+    "seed": 28101,
+    "repeat_index": 1,
+    "numbered_rgb": "images/numbered_rgb/scene_rotate_v01.png",
+    "target_object_id": 12,
+    "l3_output": {
+      "blocker_id": 95,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "l3_reason_correct": false,
+    "l3_blocker_correct": true,
+    "l3_joint_correct": false,
+    "model_raw_response": "{\n  \"action\": \"TRANSLATE\",\n  \"object_id\": 95,\n  \"direction\": \"LEFT\",\n  \"distance_cm\": 5,\n  \"distance_level\": \"SHORT\"\n}",
+    "model_output": {
+      "action": "TRANSLATE",
+      "direction": "LEFT",
+      "distance_cm": 5,
+      "distance_level": "SHORT",
+      "object_id": 95
+    },
+    "post_validation_pass": true,
+    "post_validation_errors": [],
+    "gt": {
+      "target_object_id": 12,
+      "blocking_reason": "OCCLUSION",
+      "valid_blocker_ids": [
+        95
+      ],
+      "advisory_action": "ROTATE",
+      "advisory_parameters": {
+        "object": "blocker_cracker_box",
+        "axis": "SHELF_UP",
+        "initial_yaw_deg": -20.0,
+        "yaw_delta_deg": -70.0
+      }
+    },
+    "comparison": {
+      "action_match_advisory": false,
+      "object_matches_scene_gt": true,
+      "object_matches_frozen_l3": true,
+      "direction_match_advisory": null,
+      "distance_match_advisory": null,
+      "distance_rule": null,
+      "gt_distance_cm": null
+    },
+    "primary_class": "ACTION_WRONG",
+    "replay": {
+      "action_valid": false,
+      "simulator_executed": true,
+      "failure_reason": "simulator_replay_failed",
+      "collision": false,
+      "boundary_violation": false,
+      "post_visibility": "NOT_VISIBLE",
+      "post_minimum_surface_gap_cm": 7.003563,
+      "post_direct_graspable": false,
+      "post_target_mask": "simulator_replay/post_masks/a1a3cea3d7dd5e677dbde62900216ab225849bbb77855c5c4141ba7619444864.png"
+    }
+  },
+  {
+    "filename": "case_04_action_wrong.png",
+    "run_id": "v25__scene_lift_and_relocate_v01__L4__C2_D8__r01_s28101",
+    "scene_id": "scene_lift_and_relocate_v01",
+    "scene_family": "LIFT_AND_RELOCATE",
+    "seed": 28101,
+    "repeat_index": 1,
+    "numbered_rgb": "images/numbered_rgb/scene_lift_and_relocate_v01.png",
+    "target_object_id": 59,
+    "l3_output": {
+      "blocker_id": 64,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "l3_reason_correct": false,
+    "l3_blocker_correct": true,
+    "l3_joint_correct": false,
+    "model_raw_response": "{\n  \"action\": \"TRANSLATE\",\n  \"object_id\": 64,\n  \"direction\": \"LEFT\",\n  \"distance_cm\": 5,\n  \"distance_level\": \"SHORT\"\n}",
+    "model_output": {
+      "action": "TRANSLATE",
+      "direction": "LEFT",
+      "distance_cm": 5,
+      "distance_level": "SHORT",
+      "object_id": 64
+    },
+    "post_validation_pass": true,
+    "post_validation_errors": [],
+    "gt": {
+      "target_object_id": 59,
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        64
+      ],
+      "advisory_action": "LIFT_AND_RELOCATE",
+      "advisory_parameters": {
+        "object": "blocker_cracker_box",
+        "destination_region": "SHELF_RIGHT_OPEN_REGION",
+        "minimum_lift_cm": 5.0
+      }
+    },
+    "comparison": {
+      "action_match_advisory": false,
+      "object_matches_scene_gt": true,
+      "object_matches_frozen_l3": true,
+      "direction_match_advisory": null,
+      "distance_match_advisory": null,
+      "distance_rule": null,
+      "gt_distance_cm": null
+    },
+    "primary_class": "ACTION_WRONG",
+    "replay": {
+      "action_valid": false,
+      "simulator_executed": true,
+      "failure_reason": "simulator_replay_failed",
+      "collision": true,
+      "boundary_violation": false,
+      "post_visibility": "PARTIAL",
+      "post_minimum_surface_gap_cm": 3.798969,
+      "post_direct_graspable": false,
+      "post_target_mask": "simulator_replay/post_masks/99b090b22c824f25803d2183712f07240939a3ca5ab0a6bf6cd61ea2f7dcbf0c.png"
+    }
+  },
+  {
+    "filename": "case_05_direction_wrong.png",
+    "run_id": "v25__scene_translate_v02__L4__C2_D8__r01_s28101",
+    "scene_id": "scene_translate_v02",
+    "scene_family": "TRANSLATE",
+    "seed": 28101,
+    "repeat_index": 1,
+    "numbered_rgb": "images/numbered_rgb/scene_translate_v02.png",
+    "target_object_id": 45,
+    "l3_output": {
+      "blocker_id": 95,
+      "blocking_reason": "BOTH"
+    },
+    "l3_reason_correct": true,
+    "l3_blocker_correct": true,
+    "l3_joint_correct": true,
+    "model_raw_response": "{\n  \"action\": \"TRANSLATE\",\n  \"object_id\": 95,\n  \"direction\": \"LEFT\",\n  \"distance_cm\": 5,\n  \"distance_level\": \"SHORT\"\n}",
+    "model_output": {
+      "action": "TRANSLATE",
+      "direction": "LEFT",
+      "distance_cm": 5,
+      "distance_level": "SHORT",
+      "object_id": 95
+    },
+    "post_validation_pass": true,
+    "post_validation_errors": [],
+    "gt": {
+      "target_object_id": 45,
+      "blocking_reason": "BOTH",
+      "valid_blocker_ids": [
+        95
+      ],
+      "advisory_action": "TRANSLATE",
+      "advisory_parameters": {
+        "object": "blocker_cracker_box",
+        "frame": "SHELF",
+        "direction": "RIGHT",
+        "distance_cm": 14.0
+      }
+    },
+    "comparison": {
+      "action_match_advisory": true,
+      "object_matches_scene_gt": true,
+      "object_matches_frozen_l3": true,
+      "direction_match_advisory": false,
+      "distance_match_advisory": false,
+      "distance_rule": "exact",
+      "gt_distance_cm": 14.0
+    },
+    "primary_class": "DIRECTION_WRONG",
+    "replay": {
+      "action_valid": false,
+      "simulator_executed": true,
+      "failure_reason": "simulator_replay_failed",
+      "collision": false,
+      "boundary_violation": false,
+      "post_visibility": "NOT_VISIBLE",
+      "post_minimum_surface_gap_cm": 3.259628,
+      "post_direct_graspable": false,
+      "post_target_mask": "simulator_replay/post_masks/fe758dc325d3adb442b4b53d099f6e12d17034a1aa2fe436cec66aafd0d2bbdb.png"
+    }
+  },
+  {
+    "filename": "case_06_distance_wrong.png",
+    "run_id": "v25__scene_fc_blocked_v01__L4__C2_D8__r01_s28101",
+    "scene_id": "scene_fc_blocked_v01",
+    "scene_family": "FC_BLOCKED",
+    "seed": 28101,
+    "repeat_index": 1,
+    "numbered_rgb": "images/numbered_rgb/scene_fc_blocked_v01.png",
+    "target_object_id": 64,
+    "l3_output": {
+      "blocker_id": 40,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "l3_reason_correct": true,
+    "l3_blocker_correct": true,
+    "l3_joint_correct": true,
+    "model_raw_response": "{\n  \"action\": \"TRANSLATE\",\n  \"object_id\": 40,\n  \"direction\": \"RIGHT\",\n  \"distance_cm\": 1,\n  \"distance_level\": \"SHORT\"\n}",
+    "model_output": {
+      "action": "TRANSLATE",
+      "direction": "RIGHT",
+      "distance_cm": 1,
+      "distance_level": "SHORT",
+      "object_id": 40
+    },
+    "post_validation_pass": true,
+    "post_validation_errors": [],
+    "gt": {
+      "target_object_id": 64,
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        40
+      ],
+      "advisory_action": "TRANSLATE",
+      "advisory_parameters": {
+        "object": "cantata",
+        "frame": "SHELF",
+        "direction": "RIGHT",
+        "minimum_distance_cm": 1.8
+      }
+    },
+    "comparison": {
+      "action_match_advisory": true,
+      "object_matches_scene_gt": true,
+      "object_matches_frozen_l3": true,
+      "direction_match_advisory": true,
+      "distance_match_advisory": false,
+      "distance_rule": "minimum",
+      "gt_distance_cm": 1.8
+    },
+    "primary_class": "DISTANCE_WRONG",
+    "replay": {
+      "action_valid": false,
+      "simulator_executed": true,
+      "failure_reason": "simulator_replay_failed",
+      "collision": false,
+      "boundary_violation": false,
+      "post_visibility": "FULL",
+      "post_minimum_surface_gap_cm": 1.430782,
+      "post_direct_graspable": false,
+      "post_target_mask": "simulator_replay/post_masks/cbee98638dc1e882b1a8cecce13fcf63c5a0e72447fb7ce3cde7f88b4fb54851.png"
+    }
+  },
+  {
+    "filename": "case_07_physical_failure_after_gt_match.png",
+    "run_id": "v25__scene_fc_blocked_v01__L4__C2_D8__r04_s28104",
+    "scene_id": "scene_fc_blocked_v01",
+    "scene_family": "FC_BLOCKED",
+    "seed": 28104,
+    "repeat_index": 4,
+    "numbered_rgb": "images/numbered_rgb/scene_fc_blocked_v01.png",
+    "target_object_id": 64,
+    "l3_output": {
+      "blocker_id": 40,
+      "blocking_reason": "CLEARANCE_OVERLAP"
+    },
+    "l3_reason_correct": true,
+    "l3_blocker_correct": true,
+    "l3_joint_correct": true,
+    "model_raw_response": "{\"action\": \"TRANSLATE\", \"object_id\": 40, \"direction\": \"RIGHT\", \"distance_cm\": 2, \"distance_level\": \"SHORT\"}",
+    "model_output": {
+      "action": "TRANSLATE",
+      "direction": "RIGHT",
+      "distance_cm": 2,
+      "distance_level": "SHORT",
+      "object_id": 40
+    },
+    "post_validation_pass": true,
+    "post_validation_errors": [],
+    "gt": {
+      "target_object_id": 64,
+      "blocking_reason": "CLEARANCE_OVERLAP",
+      "valid_blocker_ids": [
+        40
+      ],
+      "advisory_action": "TRANSLATE",
+      "advisory_parameters": {
+        "object": "cantata",
+        "frame": "SHELF",
+        "direction": "RIGHT",
+        "minimum_distance_cm": 1.8
+      }
+    },
+    "comparison": {
+      "action_match_advisory": true,
+      "object_matches_scene_gt": true,
+      "object_matches_frozen_l3": true,
+      "direction_match_advisory": true,
+      "distance_match_advisory": true,
+      "distance_rule": "minimum",
+      "gt_distance_cm": 1.8
+    },
+    "primary_class": "PHYSICAL_FAILURE_AFTER_GT_MATCH",
+    "replay": {
+      "action_valid": false,
+      "simulator_executed": true,
+      "failure_reason": "simulator_replay_failed",
+      "collision": false,
+      "boundary_violation": false,
+      "post_visibility": "FULL",
+      "post_minimum_surface_gap_cm": 2.430497,
+      "post_direct_graspable": false,
+      "post_target_mask": "simulator_replay/post_masks/7f7473b4621feb6b11d0d2d42a595afb33a002c007bf55d033ae5e7f16ffe7ac.png"
+    }
+  }
+]

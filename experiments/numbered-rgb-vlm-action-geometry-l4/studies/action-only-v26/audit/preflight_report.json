@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-19T09:29:56.250762+00:00",
+  "experiment_version": "l4_action_only_from_l3_v19_v26",
+  "scheduled_calls": 1750,
+  "run_table_sha256": "7a171b0590fc928d3dfdc02d844979309c248ad9eebc7d7aad20ddac74759ec2",
+  "source_v25_run_table_sha256": "dc1531fe66a98488de2ac44e50faa3e3a58f7c18ef8974635b31f16a6a4d86da",
+  "source_l3_inference_sha256": "09f291c3571812cee86c36b9684105a77df8b7dfcef2227dcbb7ff53d1fb8147",
+  "frozen_file_count": 439,
+  "failures": []
+}

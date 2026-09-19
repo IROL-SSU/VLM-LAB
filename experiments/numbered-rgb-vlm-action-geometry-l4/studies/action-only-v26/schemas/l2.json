@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "direct_graspable": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "direct_graspable"
+  ],
+  "additionalProperties": false
+}

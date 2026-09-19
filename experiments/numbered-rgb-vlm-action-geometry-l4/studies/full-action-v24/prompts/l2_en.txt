@@ -1,0 +1,7 @@
+Determine whether the target is directly graspable.
+
+The answer is true only if:
+1. the target visibility is FULL, and
+2. every other object is more than 5 cm from the target's outer boundary.
+
+Otherwise return false. Do not add a separate approach-path requirement.

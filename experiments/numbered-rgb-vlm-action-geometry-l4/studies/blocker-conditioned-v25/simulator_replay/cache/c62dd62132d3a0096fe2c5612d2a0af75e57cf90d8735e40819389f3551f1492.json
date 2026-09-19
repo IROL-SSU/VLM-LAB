@@ -1,0 +1,54 @@
+{
+  "replay_engine_version": "isaac_stage_semantic_replay_v1",
+  "cache_key": "c62dd62132d3a0096fe2c5612d2a0af75e57cf90d8735e40819389f3551f1492",
+  "scene_id": "scene_fc_blocked_v02",
+  "source_usd": "experiments/action_scene_variants_20260915/scenes/scene_fc_blocked_v02.usd",
+  "source_usd_sha256": "043e17bec6c2531d7f586dabc00ce3dc3e39a526c6146a9bffa382ac30a0fd3a",
+  "command": {
+    "action": "RETRIEVE",
+    "object_id": 53
+  },
+  "selected_object_id": 53,
+  "selected_prim_path": "/World/SceneObjects/target_teal",
+  "direct_stage_execution": true,
+  "execution_mode": "USD stage transform/visibility with deterministic kinematic substeps",
+  "contact_oracle": "visual convex-hull shelf-plane intersection at every substep",
+  "visibility_oracle": "Isaac Sim semantic segmentation exact target-only mask",
+  "clearance_oracle": "visual convex-hull surface gap > 5.0 cm",
+  "baseline_target_mask_matches_preparation": true,
+  "path": {
+    "collision": false,
+    "boundary_violation": false,
+    "first_failure_step": null,
+    "steps_requested": 1,
+    "steps_executed": 1,
+    "collision_object_ids": [],
+    "stage_substeps_authored": 0
+  },
+  "collision": false,
+  "boundary_violation": false,
+  "post_target_visible_area_px": 0,
+  "post_visibility": "REMOVED",
+  "post_target_mask": "simulator_replay/post_masks/c62dd62132d3a0096fe2c5612d2a0af75e57cf90d8735e40819389f3551f1492.png",
+  "post_target_mask_sha256": "4da2c43dc24453c334dbca90c632c8e410110ea8e5e575d437e5a7b0695d8fa7",
+  "post_geometry": {
+    "surface_gaps_cm": {
+      "49": 2.352752,
+      "60": 29.648815,
+      "78": 21.704847
+    },
+    "minimum_surface_gap_cm": 2.352752,
+    "clearance_pass": false
+  },
+  "retrieval_precondition_direct_graspable": false,
+  "post_direct_graspable": null,
+  "action_valid": false,
+  "created_at": "2026-09-18T08:20:48.390170+00:00",
+  "runtime": {
+    "isaac_sim": "5.1.0-rc.19+release.26219.9c81211b.gl",
+    "python": "3.11.13",
+    "translation_substep_cm": 0.25,
+    "rotation_substep_deg": 5,
+    "wall_seconds": 0.244687
+  }
+}

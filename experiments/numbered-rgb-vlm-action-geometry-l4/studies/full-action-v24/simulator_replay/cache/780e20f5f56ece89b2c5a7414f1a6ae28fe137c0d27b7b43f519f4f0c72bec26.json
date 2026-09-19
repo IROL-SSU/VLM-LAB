@@ -1,0 +1,56 @@
+{
+  "replay_engine_version": "isaac_stage_semantic_replay_v1",
+  "cache_key": "780e20f5f56ece89b2c5a7414f1a6ae28fe137c0d27b7b43f519f4f0c72bec26",
+  "scene_id": "scene_lift_and_relocate_v05",
+  "source_usd": "experiments/action_scene_variants_20260915/scenes/scene_lift_and_relocate_v05.usd",
+  "source_usd_sha256": "11884bccf1925bd7d6c4e84237b9d000198594e5b8b9548514f0ed23cf60b69c",
+  "command": {
+    "action": "RETRIEVE",
+    "object_id": 43
+  },
+  "selected_object_id": 43,
+  "selected_prim_path": "/World/SceneObjects/target_teal",
+  "direct_stage_execution": true,
+  "execution_mode": "USD stage transform/visibility with deterministic kinematic substeps",
+  "contact_oracle": "visual convex-hull shelf-plane intersection at every substep",
+  "visibility_oracle": "Isaac Sim semantic segmentation exact target-only mask",
+  "clearance_oracle": "visual convex-hull surface gap > 5.0 cm",
+  "baseline_target_mask_matches_preparation": true,
+  "path": {
+    "collision": false,
+    "boundary_violation": false,
+    "first_failure_step": null,
+    "steps_requested": 1,
+    "steps_executed": 1,
+    "collision_object_ids": [],
+    "stage_substeps_authored": 0
+  },
+  "collision": false,
+  "boundary_violation": false,
+  "post_target_visible_area_px": 0,
+  "post_visibility": "REMOVED",
+  "post_target_mask": "simulator_replay/post_masks/780e20f5f56ece89b2c5a7414f1a6ae28fe137c0d27b7b43f519f4f0c72bec26.png",
+  "post_target_mask_sha256": "4da2c43dc24453c334dbca90c632c8e410110ea8e5e575d437e5a7b0695d8fa7",
+  "post_geometry": {
+    "surface_gaps_cm": {
+      "15": 4.516055,
+      "52": 20.240579,
+      "76": 7.18699,
+      "48": 10.376594,
+      "24": 6.00412
+    },
+    "minimum_surface_gap_cm": 4.516055,
+    "clearance_pass": false
+  },
+  "retrieval_precondition_direct_graspable": false,
+  "post_direct_graspable": null,
+  "action_valid": false,
+  "created_at": "2026-09-18T07:49:46.284638+00:00",
+  "runtime": {
+    "isaac_sim": "5.1.0-rc.19+release.26219.9c81211b.gl",
+    "python": "3.11.13",
+    "translation_substep_cm": 0.25,
+    "rotation_substep_deg": 5,
+    "wall_seconds": 0.198278
+  }
+}

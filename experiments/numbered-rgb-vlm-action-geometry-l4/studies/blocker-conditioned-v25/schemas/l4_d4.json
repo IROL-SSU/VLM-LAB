@@ -1,0 +1,115 @@
+{
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "action": {
+          "const": "RETRIEVE"
+        },
+        "object_id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "action",
+        "object_id"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "action": {
+          "const": "TRANSLATE"
+        },
+        "object_id": {
+          "type": "integer"
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "RIGHT",
+            "BACK",
+            "LEFT",
+            "FRONT"
+          ]
+        },
+        "distance_cm": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "distance_level": {
+          "type": "string",
+          "enum": [
+            "SHORT",
+            "MEDIUM",
+            "LONG"
+          ]
+        }
+      },
+      "required": [
+        "action",
+        "object_id",
+        "direction",
+        "distance_cm",
+        "distance_level"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "action": {
+          "const": "ROTATE"
+        },
+        "object_id": {
+          "type": "integer"
+        },
+        "rotation_direction": {
+          "type": "string",
+          "enum": [
+            "CW",
+            "CCW"
+          ]
+        },
+        "angle_deg": {
+          "type": "integer",
+          "minimum": 5,
+          "multipleOf": 5
+        },
+        "angle_level": {
+          "type": "string",
+          "enum": [
+            "SMALL",
+            "MEDIUM",
+            "LARGE"
+          ]
+        }
+      },
+      "required": [
+        "action",
+        "object_id",
+        "rotation_direction",
+        "angle_deg",
+        "angle_level"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "action": {
+          "const": "LIFT_AND_RELOCATE"
+        },
+        "object_id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "action",
+        "object_id"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

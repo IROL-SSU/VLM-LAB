@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-18T08:09:38.853787+00:00",
+  "experiment_version": "l4_blocker_conditioned_from_l3_v19_v25",
+  "scheduled_calls": 1750,
+  "scene_count": 25,
+  "seed_count": 5,
+  "condition_count": 14,
+  "run_table_sha256": "dc1531fe66a98488de2ac44e50faa3e3a58f7c18ef8974635b31f16a6a4d86da",
+  "l3_source_run_table_sha256": "0f2cb62474478433c5e3e1707aca601fb7487c2c32d6fff2d84724e3519f1c25",
+  "l3_source_inference_sha256": "09f291c3571812cee86c36b9684105a77df8b7dfcef2227dcbb7ff53d1fb8147",
+  "source_l3_reason_counts": {
+    "BOTH": 163,
+    "CLEARANCE_OVERLAP": 1338,
+    "NONE": 181,
+    "OCCLUSION": 68
+  },
+  "source_l3_joint_correct_counts": {
+    "false": 1160,
+    "true": 590
+  },
+  "condition_sizes": {
+    "C0_D4": 125,
+    "C0_D8": 125,
+    "C1_D4": 125,
+    "C1_D8": 125,
+    "C2_D4": 125,
+    "C2_D8": 125,
+    "C3_D4": 125,
+    "C3_D8": 125,
+    "C4_D4": 125,
+    "C4_D8": 125,
+    "C5_D4": 125,
+    "C5_D8": 125,
+    "C6_D4": 125,
+    "C6_D8": 125
+  },
+  "frozen_file_count": 438,
+  "failures": []
+}

@@ -1,0 +1,85 @@
+{
+  "experiment_version": "l4_blocker_conditioned_from_l3_v19_v25",
+  "source_manifest": "experiments/action_scene_variants_20260915/scene_manifest.json",
+  "source_manifest_sha256": "21edca329304432d6eef5b4e47672956f48c204d329889c5ee981630702e00be",
+  "scene_count": 25,
+  "scheduled_calls": 1750,
+  "main_seeds": [
+    28101,
+    28102,
+    28103,
+    28104,
+    28105
+  ],
+  "run_order_seed": 20260915,
+  "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "model_path": "/home/ssu/ShelfScene/models/Qwen3-VL-30B-A3B-Instruct",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "max_tokens": 1024
+  },
+  "runtime": {
+    "backend": "vllm_offline",
+    "batch_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9,
+    "moe_backend": "triton",
+    "structured_output": "json_schema_oneOf"
+  },
+  "isaac_sim": {
+    "geometry_method": "visual_convex_hull_shelf_plane_v1",
+    "visibility_method": "isaac_semantic_target_only_pixel_exact_v1",
+    "shelf_bounds_cm": [
+      -18.0,
+      74.0,
+      -16.0,
+      16.0
+    ],
+    "motion_translation_internal_step_cm": 0.25,
+    "motion_rotation_step_deg": 5
+  },
+  "prompts": {
+    "system": "prompts/system_en.txt",
+    "l1": "prompts/l1_en.txt",
+    "l2": "prompts/l2_en.txt",
+    "l3": "prompts/l3_en.txt",
+    "l4": "prompts/l4_en.txt"
+  },
+  "schemas": {
+    "L1": "schemas/l1.json",
+    "L2": "schemas/l2.json",
+    "L3": "schemas/l3.json",
+    "L4_D4": "schemas/l4_d4.json",
+    "L4_D8": "schemas/l4_d8.json"
+  },
+  "levels": [
+    "L4"
+  ],
+  "reference_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l4_full_from_v19_v24",
+  "corrected_input_source": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_maskfix_validation",
+  "image_crosscheck_source": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l2_primary_grasp_blocker_v10",
+  "task_definition": "Two-stage evaluation: reuse the exact L3 v19 strongest-blocker output, then choose one executable L4 action for exactly that selected blocker.",
+  "geometry_policy": "Original corrected R/F/M measurements, sorted visible-object records only. Hidden-object records excluded; remaining measurements unchanged.",
+  "gt_policy": "Corrected source L3 reason unchanged. Valid blocker set intersected with visible IDs to match the original output validator.",
+  "gripper_information_supplied": false,
+  "prompt_change": "Arbitrary valid blocker choice replaced by strongest-blocker/first-removal selection; scalar blocker_id schema retained.",
+  "comparison_note": "The current 25-scene set has no scene with multiple visible valid blocker IDs, so blocker ranking quality cannot be directly evaluated.",
+  "input_source_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19",
+  "baseline_mask_source": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_maskfix_validation",
+  "matrix_definition": "C0-C6 crossed with D4/D8, 25 scenes, five fixed seeds; corrected v19 images and geometry are held fixed.",
+  "source_v19_task_note": "Only the frozen inputs are inherited from v19. The native L4 task and output schema are action selection, not L3 blocker-reason classification.",
+  "l3_selection_source_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l3_primary_blocker_v19",
+  "stage_policy": {
+    "stage_1": "Frozen L3 v19 blocking_reason and strongest blocker_id",
+    "stage_2": "L4 action selection conditioned on the frozen blocker",
+    "none_case": "blocking_reason NONE requires RETRIEVE target",
+    "blocked_case": "non-NONE requires non-target action on selected blocker only"
+  },
+  "comparison_experiment": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l4_full_from_v19_v24"
+}

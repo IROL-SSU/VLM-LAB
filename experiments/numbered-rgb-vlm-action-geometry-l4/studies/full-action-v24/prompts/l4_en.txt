@@ -1,0 +1,23 @@
+Choose exactly one next action from:
+RETRIEVE, TRANSLATE, ROTATE, LIFT_AND_RELOCATE.
+
+RETRIEVE: directly grasp and remove the target. Use it only when the target
+is directly graspable.
+
+TRANSLATE: move one selected object along the shelf plane. Output a shelf
+direction, an integer distance in 1 cm increments, and its qualitative level.
+
+ROTATE: rotate one selected object around the vertical axis through the
+center of its footprint while keeping the center approximately fixed.
+Output CW or CCW as viewed from above, an angle in 5-degree increments,
+and its qualitative level.
+
+LIFT_AND_RELOCATE: lift one selected object and relocate it. Do not output
+a destination, lift height, or path.
+
+A proposed action is valid only if it can be executed without contacting any
+unselected object and the target becomes directly graspable after the action.
+Output only one next action, not a sequence.
+
+Allowed translation directions:
+{direction_list}

@@ -1,0 +1,278 @@
+{
+  "replay_engine_version": "isaac_stage_semantic_replay_v1",
+  "cache_key": "f10920d6bda05bfa4da37c62e515bfa4944b7da2aa5852d148e5d7365634ae6f",
+  "scene_id": "scene_translate_v02",
+  "source_usd": "experiments/action_scene_variants_20260915/scenes/scene_translate_v02.usd",
+  "source_usd_sha256": "0ce3889df6a2efcf251b315508ddda8dcfd83ea8780c6f70a5fbc1826d2a1583",
+  "command": {
+    "action": "TRANSLATE",
+    "direction": "LEFT",
+    "distance_cm": 53,
+    "distance_level": "LONG",
+    "object_id": 95
+  },
+  "selected_object_id": 95,
+  "selected_prim_path": "/World/SceneObjects/blocker_cracker_box",
+  "direct_stage_execution": true,
+  "execution_mode": "USD stage transform/visibility with deterministic kinematic substeps",
+  "contact_oracle": "visual convex-hull shelf-plane intersection at every substep",
+  "visibility_oracle": "Isaac Sim semantic segmentation exact target-only mask",
+  "clearance_oracle": "visual convex-hull surface gap > 5.0 cm",
+  "baseline_target_mask_matches_preparation": true,
+  "path": {
+    "collision": false,
+    "boundary_violation": false,
+    "first_failure_step": null,
+    "steps_requested": 212,
+    "steps_executed": 212,
+    "checked_amount": 53.0,
+    "requested_amount": 53.0,
+    "terminal_fraction": 1.0,
+    "collision_object_ids": [],
+    "stage_substeps_authored": 212,
+    "terminal_footprint_xy_cm": [
+      [
+        -17.2018,
+        -5.0981
+      ],
+      [
+        -17.2016,
+        -5.419
+      ],
+      [
+        -17.1731,
+        -5.5243
+      ],
+      [
+        -16.9425,
+        -5.9555
+      ],
+      [
+        -16.832001,
+        -6.0518
+      ],
+      [
+        -15.957,
+        -6.2696
+      ],
+      [
+        -15.6386,
+        -6.3423
+      ],
+      [
+        -15.0379,
+        -6.4018
+      ],
+      [
+        -13.9936,
+        -6.465
+      ],
+      [
+        -13.4281,
+        -6.491
+      ],
+      [
+        -11.8699,
+        -6.5467
+      ],
+      [
+        -9.4102,
+        -6.5771
+      ],
+      [
+        -8.0379,
+        -6.59
+      ],
+      [
+        -7.3554,
+        -6.5837
+      ],
+      [
+        -6.1768,
+        -6.5705
+      ],
+      [
+        -5.6541,
+        -6.5571
+      ],
+      [
+        -4.5481,
+        -6.5168
+      ],
+      [
+        -3.9982,
+        -6.4719
+      ],
+      [
+        -3.6847,
+        -6.4463
+      ],
+      [
+        -3.4307,
+        -6.4246
+      ],
+      [
+        -3.3041,
+        -6.4107
+      ],
+      [
+        -2.9444,
+        -6.3595
+      ],
+      [
+        -2.4052,
+        -6.2632
+      ],
+      [
+        -1.9614,
+        -6.1736
+      ],
+      [
+        -1.5039,
+        -6.026
+      ],
+      [
+        -1.284201,
+        -5.9545
+      ],
+      [
+        -1.279,
+        -5.9526
+      ],
+      [
+        -1.2432,
+        -5.9366
+      ],
+      [
+        -1.1572,
+        -5.8969
+      ],
+      [
+        -1.0656,
+        -5.7836
+      ],
+      [
+        -1.0326,
+        -5.7067
+      ],
+      [
+        -0.9694,
+        -5.0758
+      ],
+      [
+        -0.8351,
+        -3.6086
+      ],
+      [
+        -0.7982,
+        -1.1995
+      ],
+      [
+        -0.8068,
+        -0.6438
+      ],
+      [
+        -0.8307,
+        -0.3234
+      ],
+      [
+        -0.8883,
+        0.0499
+      ],
+      [
+        -0.962,
+        0.2339
+      ],
+      [
+        -0.9694,
+        0.248
+      ],
+      [
+        -1.0347,
+        0.3321
+      ],
+      [
+        -1.1161,
+        0.347
+      ],
+      [
+        -3.2459,
+        0.466
+      ],
+      [
+        -4.7092,
+        0.5452
+      ],
+      [
+        -5.6514,
+        0.5824
+      ],
+      [
+        -6.3923,
+        0.5852
+      ],
+      [
+        -7.6546,
+        0.5884
+      ],
+      [
+        -10.4606,
+        0.59
+      ],
+      [
+        -12.3467,
+        0.5528
+      ],
+      [
+        -16.7506,
+        0.4177
+      ],
+      [
+        -16.9785,
+        0.3784
+      ],
+      [
+        -17.0148,
+        0.3358
+      ],
+      [
+        -17.025801,
+        0.2878
+      ],
+      [
+        -17.0429,
+        -0.0451
+      ],
+      [
+        -17.1908,
+        -4.571
+      ]
+    ]
+  },
+  "collision": false,
+  "boundary_violation": false,
+  "post_target_visible_area_px": 9805,
+  "post_visibility": "FULL",
+  "post_target_mask": "simulator_replay/post_masks/f10920d6bda05bfa4da37c62e515bfa4944b7da2aa5852d148e5d7365634ae6f.png",
+  "post_target_mask_sha256": "fb0f9fb207fcbec72b981d2c23f760a8411c11595c6cb9b7a4313e30db33f4aa",
+  "post_geometry": {
+    "surface_gaps_cm": {
+      "95": 33.550119,
+      "86": 34.217976,
+      "81": 24.722566
+    },
+    "minimum_surface_gap_cm": 24.722566,
+    "clearance_pass": true
+  },
+  "retrieval_precondition_direct_graspable": null,
+  "post_direct_graspable": true,
+  "action_valid": true,
+  "created_at": "2026-09-18T08:22:06.351334+00:00",
+  "runtime": {
+    "isaac_sim": "5.1.0-rc.19+release.26219.9c81211b.gl",
+    "python": "3.11.13",
+    "translation_substep_cm": 0.25,
+    "rotation_substep_deg": 5,
+    "wall_seconds": 1.38269
+  }
+}

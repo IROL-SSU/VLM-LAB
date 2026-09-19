@@ -1,0 +1,9 @@
+{
+  "completed": 1750,
+  "expected": 1750,
+  "processed_this_invocation": 1750,
+  "model_load_seconds": 40.918,
+  "generation_seconds": 530.183,
+  "output": "/home/ssu/ShelfScene/experiments/vlm_action_geometry_single_info_l4_blocker_conditioned_v25/logs/runs.jsonl",
+  "finished_at": "2026-09-18T08:20:09.086207+00:00"
+}

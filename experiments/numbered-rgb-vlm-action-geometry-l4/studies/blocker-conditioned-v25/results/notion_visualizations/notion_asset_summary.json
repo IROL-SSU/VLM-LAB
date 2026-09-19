@@ -1,0 +1,26 @@
+{
+  "experiment": "l4_blocker_conditioned_from_l3_v19_v25",
+  "scheduled": 1750,
+  "parsed": 1750,
+  "rule_valid": 1572,
+  "stage_rule_adherent": 1741,
+  "replay_success": 350,
+  "actions": {
+    "TRANSLATE": 1569,
+    "RETRIEVE": 181
+  },
+  "figures_for_v25_page": [
+    "01_pipeline.png",
+    "02_v25_evaluation_funnel.png",
+    "03_v25_condition_accuracy.png",
+    "04_condition_family_heatmap_d4.png",
+    "04_condition_family_heatmap_d8.png",
+    "05_v25_family_accuracy.png",
+    "06_action_distribution.png",
+    "07_l3_correctness_effect.png",
+    "08_resolution_and_failures.png",
+    "09_case_translate_success.png",
+    "10_case_translate_failure.png",
+    "11_case_retrieve_success.png"
+  ]
+}

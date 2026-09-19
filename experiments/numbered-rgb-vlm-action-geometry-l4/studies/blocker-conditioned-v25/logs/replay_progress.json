@@ -1,0 +1,8 @@
+{
+  "experiment_version": "vlm_action_geometry_single_info_v1",
+  "expected_l4_runs": 1750,
+  "completed_l4_runs": 1750,
+  "simulator_executed_runs": 1572,
+  "action_valid_runs": 350,
+  "updated_at": "2026-09-18T08:22:16.792086+00:00"
+}

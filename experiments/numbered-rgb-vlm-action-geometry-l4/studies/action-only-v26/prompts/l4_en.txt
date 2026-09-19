@@ -1,0 +1,15 @@
+The perception stage has already selected one blocker for this exact
+scene, geometry condition, and seed:
+
+- blocking_reason: {selected_blocking_reason}
+- selected blocker_id: {selected_blocker_id}
+
+Choose exactly ONE next action: RETRIEVE, TRANSLATE, ROTATE, or
+LIFT_AND_RELOCATE.
+
+If blocking_reason is NONE and blocker_id is null, choose RETRIEVE for the
+target. Otherwise, decide which ONE action on the selected blocker would make
+the target directly graspable without contacting another object.
+
+Output only a JSON object with the single key action. Do not output an object
+ID, direction, distance, rotation angle, destination, explanation, or sequence.

@@ -1,0 +1,12 @@
+Identify why the target is not directly graspable and select exactly one
+visible causal blocker for the next action.
+
+OCCLUSION means the target is not FULL.
+CLEARANCE_OVERLAP means another object is within 5 cm of the target's outer
+boundary. BOTH means both conditions hold. NONE means the target is directly
+graspable.
+
+Choose the single object that most strongly prevents direct graspability and
+should be removed first. If several objects contribute, select the one whose
+removal would most improve direct graspability. Do not list alternatives. Use
+null when the reason is NONE.

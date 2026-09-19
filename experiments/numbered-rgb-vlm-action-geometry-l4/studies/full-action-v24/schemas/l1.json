@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "target_found": {
+      "type": "boolean"
+    },
+    "visibility": {
+      "type": "string",
+      "enum": [
+        "FULL",
+        "PARTIAL",
+        "NOT_VISIBLE"
+      ]
+    }
+  },
+  "required": [
+    "target_found",
+    "visibility"
+  ],
+  "additionalProperties": false
+}

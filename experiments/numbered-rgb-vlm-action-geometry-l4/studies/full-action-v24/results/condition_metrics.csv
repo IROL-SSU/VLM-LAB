@@ -1,0 +1,15 @@
+level,geometry_condition,condition_name,direction_resolution,n,parsed_n,post_validation_pass_n,correct_n,accuracy,translate_n,translate_correct_n,translate_accuracy,rotate_n,rotate_correct_n,rotate_accuracy,lift_and_relocate_n,lift_and_relocate_correct_n,lift_and_relocate_accuracy,fc_clear_n,fc_clear_correct_n,fc_clear_accuracy,fc_blocked_n,fc_blocked_correct_n,fc_blocked_accuracy
+L4,C0,Numbered RGB only,D4,125,125,111,20,0.16,25,0,0.0,25,0,0.0,25,0,0.0,25,20,0.8,25,0,0.0
+L4,C0,Numbered RGB only,D8,125,125,97,20,0.16,25,0,0.0,25,0,0.0,25,0,0.0,25,20,0.8,25,0,0.0
+L4,C1,R numeric,D4,125,125,53,15,0.12,25,0,0.0,25,0,0.0,25,0,0.0,25,15,0.6,25,0,0.0
+L4,C1,R numeric,D8,125,125,61,19,0.152,25,0,0.0,25,0,0.0,25,0,0.0,25,19,0.76,25,0,0.0
+L4,C2,R qualitative,D4,125,125,20,11,0.088,25,0,0.0,25,0,0.0,25,0,0.0,25,11,0.44,25,0,0.0
+L4,C2,R qualitative,D8,125,125,37,14,0.112,25,0,0.0,25,0,0.0,25,0,0.0,25,14,0.56,25,0,0.0
+L4,C3,F numeric,D4,125,125,10,2,0.016,25,0,0.0,25,0,0.0,25,0,0.0,25,2,0.08,25,0,0.0
+L4,C3,F numeric,D8,125,125,43,18,0.144,25,0,0.0,25,0,0.0,25,0,0.0,25,18,0.72,25,0,0.0
+L4,C4,F qualitative,D4,125,125,3,2,0.016,25,0,0.0,25,0,0.0,25,0,0.0,25,2,0.08,25,0,0.0
+L4,C4,F qualitative,D8,125,125,23,10,0.08,25,0,0.0,25,0,0.0,25,0,0.0,25,10,0.4,25,0,0.0
+L4,C5,M numeric,D4,125,125,0,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0
+L4,C5,M numeric,D8,125,125,0,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0
+L4,C6,M qualitative,D4,125,125,0,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0
+L4,C6,M qualitative,D8,125,125,3,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0,25,0,0.0

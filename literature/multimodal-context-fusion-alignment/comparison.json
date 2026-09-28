@@ -1,0 +1,149 @@
+{
+  "snapshot_date": "2026-09-26",
+  "source": "https://www.notion.so/6be98779ee7148b5b820590f18300785",
+  "papers": [
+    {
+      "slug": "forcevla",
+      "notion_url": "https://app.notion.com/p/3e3952c9e2738134b842f1627e53a17b?pvs=204",
+      "source_last_edited": "2026-09-22T04:57:24.433Z",
+      "Ablation Evidence": "baseline 45%; linear before VLM 55%; MoE before VLM 0%; concat after VLM 60%; ForceVLA 80%",
+      "Alignment Type": "Implicit",
+      "Context Strategy": "VLM-first로 VL context 보존 → 6D F/T를 1 force token으로 projection → post-VLM concat → self-attention으로 cross-modal contextualization → Top-1 MoE routing으로 task/phase-dependent specialization",
+      "Cross-modal Interaction": [
+        "Concat",
+        "Self-Attention",
+        "MoE Routing",
+        "Prompt/Token"
+      ],
+      "Fusion Stage": "Post-VLM / Late",
+      "Key Result": "평균 success 60.5%; π0-base w/o F 대비 +23.2 percentage points. Visual Occlusion 90%.",
+      "Limitation (This View)": "Explicit alignment loss/metric 없음. Self-attention-only vs MoE-only 분해 ablation 없음. Pre-VLM baselines 구현 상세 부족. Linear-before-VLM 55%라 early fusion 일반 부정은 어려움.",
+      "Modalities": [
+        "Vision",
+        "Language",
+        "F/T",
+        "Proprioception",
+        "Action"
+      ],
+      "Paper": "ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation",
+      "Paper URL": "https://arxiv.org/abs/2505.22159",
+      "Strength (This View)": "Pretrained VL representation을 보존하면서 F/T를 late-inject하고 self-attention + MoE로 context-dependent interaction을 학습. Fusion timing ablation 및 router analysis 제공.",
+      "Task": [
+        "Insertion",
+        "Surface Contact",
+        "Peeling",
+        "Pumping"
+      ],
+      "Year": 2025
+    },
+    {
+      "slug": "adaptive-vision-torque",
+      "notion_url": "https://app.notion.com/p/3e3952c9e27381779b87c6e8c9c1e328?pvs=204",
+      "source_last_edited": "2026-09-23T04:54:28.278Z",
+      "Ablation Evidence": "Vision-only 30%; Feature Concatenation 30%; Torque Gating 68%; Auxiliary Goals 28%; MoE 24%; MoE w/o torque encoding 54%; Ours 82%; Torque-Gated MoE 12/20 vs Ours 16/20",
+      "Alignment Type": "Implicit",
+      "Context Strategy": "Vision을 base planning context로 유지 → joint external torque threshold로 contact 판별 → non-contact에서는 real torque를 learned f\\*로 대체 → contact에서 torque expert 활성화 → vision+gated torque로 scale predictor가 w_torque 결정 → CFG-style로 vision prediction을 torque correction이 수정",
+      "Cross-modal Interaction": [
+        "Concat",
+        "Contact Gating",
+        "CFG Guidance"
+      ],
+      "Fusion Stage": "Hybrid",
+      "Key Result": "Average success 82%; strongest baseline Torque Gating 68% 대비 +14 percentage points. 가장 큰 jump는 Feature Concatenation 30% → Torque Gating 68%로, modality relevance selection의 중요성을 보여줌.",
+      "Limitation (This View)": "Explicit alignment loss/metric 없음. Contact detection이 predefined torque threshold에 의존. Binary contact state, 3 real-world tasks 및 적은 trial 수. Passive F/T reasoning만 검증하고 active force control은 다루지 않음.",
+      "Modalities": [
+        "Vision",
+        "F/T",
+        "Proprioception",
+        "Action"
+      ],
+      "Paper": "Learning When to See and When to Feel: Adaptive Vision-Torque Fusion for Contact-Aware Manipulation",
+      "Paper URL": "https://arxiv.org/abs/2604.01414",
+      "Strength (This View)": "Fusion 전에 modality relevance를 contact state로 구조화하고, contact에서만 learned CFG correction을 적용. 동일 Diffusion Policy backbone에서 concat/gating/auxiliary/MoE를 controlled comparison하며 router/weight analysis까지 제공.",
+      "Task": [
+        "Surface Contact",
+        "Disassembly",
+        "Force Discrimination"
+      ],
+      "Year": 2026
+    },
+    {
+      "slug": "fuse",
+      "notion_url": "https://app.notion.com/p/3e4952c9e27381739056cffb6421c87f?pvs=204",
+      "source_last_edited": "2026-09-23T06:22:59.128Z",
+      "Ablation Evidence": "Shopping Bag ablation: full FuSe with both contrastive and generative auxiliary losses outperforms removing either loss or both, especially on unseen test objects.",
+      "Alignment Type": "Explicit",
+      "Context Strategy": "Natural language as common cross-modal grounding; modality-specific encoders → shared pretrained Transformer; CLIP-style contrastive alignment + observation-to-language generation for available modality combinations.",
+      "Cross-modal Interaction": [
+        "Self-Attention",
+        "Contrastive Alignment",
+        "Prompt/Token"
+      ],
+      "Fusion Stage": "Early",
+      "Key Result": "FuSe reports \\>20% higher success than considered baselines overall; gains are especially clear in partially observable Shopping Bag, and the recipe transfers from Octo to a PaliGemma-based 3B VLA.",
+      "Limitation (This View)": "0.4 s observation history; added training cost; modality-specific language annotations required. Paper does not clearly specify timestep-level masking/gating of tactile/audio semantic losses before the sensor becomes informative.",
+      "Modalities": [
+        "Vision",
+        "Language",
+        "Tactile",
+        "Proprioception",
+        "Action"
+      ],
+      "Paper": "Beyond Sight: Finetuning Generalist Robot Policies with Heterogeneous Sensors via Language Grounding",
+      "Paper URL": "https://arxiv.org/abs/2501.04693",
+      "Strength (This View)": "Explicitly connects new heterogeneous sensors to pretrained semantic knowledge through language, rather than relying on BC/action loss alone; supports multimodal and compositional cross-modal prompting.",
+      "Year": 2025
+    },
+    {
+      "slug": "vitas",
+      "notion_url": "https://app.notion.com/p/3e6952c9e273811fa3aac09ed8e0dd52?pvs=204",
+      "source_last_edited": "2026-09-25T14:40:15.459Z",
+      "Ablation Evidence": "Table V avg: ViTaS 92.5; w/o tactile 60.9; unified encoder 27.1; w/o soft fusion contrastive 54.7; w/o CVAE 63.2; time contrastive 70.6; K=1 78.8; K=20 68.1; K=50 67.3.",
+      "Alignment Type": "Explicit",
+      "Context Strategy": "Separate CNN encoders → alternating cross-modal Top-K neighborhood transfer (Vision→Tactile / Tactile→Vision) → feature concatenation → CVAE current-image reconstruction as complementarity regularizer → PPO or Diffusion Policy.",
+      "Cross-modal Interaction": [
+        "Concat",
+        "Contrastive Alignment"
+      ],
+      "Fusion Stage": "Mid",
+      "Key Result": "Simulation 12-task avg 91.4; simulation IL avg DP+ViTaS 60.4 vs DP+CNN 38.2 / Transformer 33.4; real-world avg 46.0 vs DP 30.0.",
+      "Limitation (This View)": "No language-semantic modality; no direct representation-level alignment metric; CVAE reconstructs the current image rather than a clean de-occluded target; natural vision-touch timestep correspondence may not transfer to Language–F/T.",
+      "Modalities": [
+        "Vision",
+        "Tactile",
+        "Action"
+      ],
+      "Paper": "ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Learning",
+      "Paper URL": "https://arxiv.org/abs/2602.11643",
+      "Strength (This View)": "Separate heterogeneous modalities with modality-specific encoders, explicitly align cross-modal neighborhood structure, then fuse features; CVAE adds complementarity-oriented representation supervision.",
+      "Year": 2026
+    },
+    {
+      "slug": "tacfilm",
+      "notion_url": "https://app.notion.com/p/3e6952c9e273819bbf87eec7d65dbd72?pvs=204",
+      "source_last_edited": "2026-09-25T15:35:15.086Z",
+      "Ablation Evidence": "Table 2: All/Early/Middle/Late FiLM; 80% dimming and 50% frame updates. Table 3: tactile classifier average T3 83.04, IJEPA 93.56, MAE 96.64, DINO 97.72.",
+      "Alignment Type": "Implicit",
+      "Context Strategy": "Pretrained tactile encoder → pooled z → block-wise MLP → channel scale/shift inside DINOv2 & SigLIP (after normalization, before self-attention) → projector → language integration → action.",
+      "Cross-modal Interaction": [
+        "FiLM Conditioning"
+      ],
+      "Fusion Stage": "Mid",
+      "Key Result": "Table 1 reported averages: ID success 86.67% vs Concat 71.11%; ID peak-force mean 8.34 vs 10.29 N. OOD success 86.67% vs 73.33%. USB +30 percentage points; not best on every task/metric.",
+      "Limitation (This View)": "No explicit semantic-alignment evidence, patch-contact correspondence, F/T/proprioception fusion or high-level sub-goal evaluation. Camera tests are dimming/stale frames, not arm-induced spatial occlusion; insertion-only setup.",
+      "Modalities": [
+        "Vision",
+        "Language",
+        "Tactile",
+        "Action"
+      ],
+      "Paper": "TacFiLM: Tactile Modality Fusion for Vision-Language-Action Models",
+      "Paper URL": "https://arxiv.org/abs/2603.14604",
+      "Strength (This View)": "Encoder-internal tactile conditioning without extra LLM tokens; separate pretrained tactile representation; task-driven connection without explicit cross-modal alignment loss.",
+      "Task": [
+        "Insertion"
+      ],
+      "Year": 2026
+    }
+  ]
+}

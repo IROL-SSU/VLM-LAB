@@ -4,7 +4,7 @@
 
 **Vision–Language와 F/T·tactile·proprioception처럼 통계적·의미적 성격이 다른 모달리티를 로봇 매니퓰레이션 모델이 어디서, 어떤 방식으로 연결·정렬·융합하는지 비교한다.**
 
-정리 기준일: 2026-09-26. 노션의 5개 행과 상세 본문을 가져왔다. 기존 분류·보고 수치는 snapshot으로 보존하고, 현재 sub-goal 연구와의 연결은 논문별 첫 섹션에 구분했다.
+정리 기준일: 2026-09-29. 노션의 6개 행과 상세 본문을 가져왔다. 기존 5편은 2026-09-26 snapshot이며, 2026-09-29 TA-VLA를 추가하고 기존 비교 속성이 노션과 동일함을 확인했다. 기존 분류·보고 수치는 snapshot으로 보존하고, 현재 sub-goal 연구와의 연결은 논문별 첫 섹션에 구분했다.
 
 ## 읽는 관점
 
@@ -13,7 +13,7 @@
 - **융합·선택:** concat, attention, FiLM, gating, routing이 각각 어떤 역할인가?
 - **현재 목표와의 거리:** 저수준 행동 개선이 접촉 상태 이해나 sub-goal 생성 능력까지 검증한 것인가?
 
-`Implicit`은 별도 명시적 정렬 loss 없이 task learning으로 관계를 학습하는 분류다. 의미 정렬이 입증됐다는 뜻은 아니다. `Modalities`에는 원본 분류에 따라 출력 Action도 포함돼 있다. FuSe의 Audio는 상세 본문에서 다루지만 원본 테이블 태그에는 없다. Adaptive Vision–Torque의 F/T 태그는 실제 관측인 joint external torque와 구별해 읽는다.
+`Implicit`은 별도 명시적 정렬 loss 없이 task learning으로 관계를 학습하는 분류다. 의미 정렬이 입증됐다는 뜻은 아니다. `Modalities`에는 원본 분류에 따라 출력 Action도 포함돼 있다. FuSe의 Audio는 상세 본문에서 다루지만 원본 테이블 태그에는 없다. Adaptive Vision–Torque의 F/T 태그는 실제 관측인 joint external torque와 구별해 읽는다. TA-VLA의 F/T 태그 역시 원본 분류이며, 실제 입력은 motor-current 기반 joint torque로 별도 6축 F/T 센서를 사용하지 않는다. TA-VLA의 HSIC는 통계적 의존성 분석이며 학습용 명시적 alignment loss가 아니다.
 
 ## 융합·정렬 비교
 
@@ -24,6 +24,7 @@
 | [Beyond Sight: Finetuning Generalist Robot Policies with Heterogeneous Sensors via Language Grounding](papers/fuse.md) | Vision, Language, Tactile, Proprioception, Action | Early | Self-Attention, Contrastive Alignment, Prompt/Token | Explicit | Natural language as common cross-modal grounding; modality-specific encoders → shared pretrained Transformer; CLIP-style contrastive alignment + observation-to-language generation for available modality combinations. |
 | [ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Learning](papers/vitas.md) | Vision, Tactile, Action | Mid | Concat, Contrastive Alignment | Explicit | Separate CNN encoders → alternating cross-modal Top-K neighborhood transfer (Vision→Tactile / Tactile→Vision) → feature concatenation → CVAE current-image reconstruction as complementarity regularizer → PPO or Diffusion Policy. |
 | [TacFiLM: Tactile Modality Fusion for Vision-Language-Action Models](papers/tacfilm.md) | Vision, Language, Tactile, Action | Mid | FiLM Conditioning | Implicit | Pretrained tactile encoder → pooled z → block-wise MLP → channel scale/shift inside DINOv2 & SigLIP (after normalization, before self-attention) → projector → language integration → action. |
+| [TA-VLA: Elucidating the Design Space of Torque-aware Vision-Language-Action Models](papers/ta-vla.md) | Vision, Language, F/T, Proprioception, Action | Post-VLM / Late | Concat, Prompt/Token | Implicit | VL conditioning을 유지 → joint torque를 MLP token으로 projection → decoder/action expert에 late injection. 최적 설계는 과거 2초·10-frame torque를 140D로 flatten해 1 history token으로 넣고, future torque를 action과 함께 auxiliary objective로 예측. |
 
 ## 실험 근거와 해석 범위
 
@@ -34,6 +35,7 @@
 | [Beyond Sight: Finetuning Generalist Robot Policies with Heterogeneous Sensors via Language Grounding](papers/fuse.md) | — | FuSe reports \>20% higher success than considered baselines overall; gains are especially clear in partially observable Shopping Bag, and the recipe transfers from Octo to a PaliGemma-based 3B VLA. | Shopping Bag ablation: full FuSe with both contrastive and generative auxiliary losses outperforms removing either loss or both, especially on unseen test objects. | Explicitly connects new heterogeneous sensors to pretrained semantic knowledge through language, rather than relying on BC/action loss alone; supports multimodal and compositional cross-modal prompting. | 0.4 s observation history; added training cost; modality-specific language annotations required. Paper does not clearly specify timestep-level masking/gating of tactile/audio semantic losses before the sensor becomes informative. |
 | [ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Learning](papers/vitas.md) | — | Simulation 12-task avg 91.4; simulation IL avg DP+ViTaS 60.4 vs DP+CNN 38.2 / Transformer 33.4; real-world avg 46.0 vs DP 30.0. | Table V avg: ViTaS 92.5; w/o tactile 60.9; unified encoder 27.1; w/o soft fusion contrastive 54.7; w/o CVAE 63.2; time contrastive 70.6; K=1 78.8; K=20 68.1; K=50 67.3. | Separate heterogeneous modalities with modality-specific encoders, explicitly align cross-modal neighborhood structure, then fuse features; CVAE adds complementarity-oriented representation supervision. | No language-semantic modality; no direct representation-level alignment metric; CVAE reconstructs the current image rather than a clean de-occluded target; natural vision-touch timestep correspondence may not transfer to Language–F/T. |
 | [TacFiLM: Tactile Modality Fusion for Vision-Language-Action Models](papers/tacfilm.md) | Insertion | Table 1 reported averages: ID success 86.67% vs Concat 71.11%; ID peak-force mean 8.34 vs 10.29 N. OOD success 86.67% vs 73.33%. USB +30 percentage points; not best on every task/metric. | Table 2: All/Early/Middle/Late FiLM; 80% dimming and 50% frame updates. Table 3: tactile classifier average T3 83.04, IJEPA 93.56, MAE 96.64, DINO 97.72. | Encoder-internal tactile conditioning without extra LLM tokens; separate pretrained tactile representation; task-driven connection without explicit cross-modal alignment loss. | No explicit semantic-alignment evidence, patch-contact correspondence, F/T/proprioception fusion or high-level sub-goal evaluation. Camera tests are dimming/stale frames, not arm-induced spatial occlusion; insertion-only setup. |
+| [TA-VLA: Elucidating the Design Space of Torque-aware Vision-Language-Action Models](papers/ta-vla.md) | Insertion, Surface Contact, Disassembly | Contact-rich 5-task 평균: π0 23% → π0+obs+obj 86% (+63 pp, Table 5에서 계산). Regular 5-task는 85% → 89%. RDT cross-model 3-task 합계는 22/60 → 50/60. | Table 1: DePost가 Enc/DePre보다 우수. Table 3: Dec-1 = 15/20,16/20로 Dec-H = 9/20,7/20보다 우수. Table 4: extra token disruption은 decoder에 더 큰 영향. Table 9 β ablation, Table 10 MLP/RNN/Attention history aggregation 비교. | Physical modality를 pretrained VLA에 넣는 위치·tokenization·history·prediction objective를 체계적으로 분해. HSIC와 noise-token ablation으로 decoder-side fusion 근거를 제시하고, future torque auxiliary prediction까지 연결. | Explicit VL–torque alignment loss/metric은 없음. Torque는 motor-current 추정이라 calibration/noise/thermal drift에 민감. History는 고정 2 s/10 frames. richer physical modalities와 shared token budget 확장은 미검증. |
 
 ## 비교의 경계
 

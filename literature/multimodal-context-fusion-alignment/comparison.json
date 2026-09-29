@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-09-26",
+  "snapshot_date": "2026-09-29",
   "source": "https://www.notion.so/6be98779ee7148b5b820590f18300785",
   "papers": [
     {
@@ -144,6 +144,37 @@
         "Insertion"
       ],
       "Year": 2026
+    },
+    {
+      "slug": "ta-vla",
+      "notion_url": "https://app.notion.com/p/3e9952c9e27381ebbc71f4f90fe032ee",
+      "source_last_edited": "2026-09-28T11:40:06.752Z",
+      "Ablation Evidence": "Table 1: DePost가 Enc/DePre보다 우수. Table 3: Dec-1 = 15/20,16/20로 Dec-H = 9/20,7/20보다 우수. Table 4: extra token disruption은 decoder에 더 큰 영향. Table 9 β ablation, Table 10 MLP/RNN/Attention history aggregation 비교.",
+      "Alignment Type": "Implicit",
+      "Context Strategy": "VL conditioning을 유지 → joint torque를 MLP token으로 projection → decoder/action expert에 late injection. 최적 설계는 과거 2초·10-frame torque를 140D로 flatten해 1 history token으로 넣고, future torque를 action과 함께 auxiliary objective로 예측.",
+      "Cross-modal Interaction": [
+        "Concat",
+        "Prompt/Token"
+      ],
+      "Fusion Stage": "Post-VLM / Late",
+      "Key Result": "Contact-rich 5-task 평균: π0 23% → π0+obs+obj 86% (+63 pp, Table 5에서 계산). Regular 5-task는 85% → 89%. RDT cross-model 3-task 합계는 22/60 → 50/60.",
+      "Limitation (This View)": "Explicit VL–torque alignment loss/metric은 없음. Torque는 motor-current 추정이라 calibration/noise/thermal drift에 민감. History는 고정 2 s/10 frames. richer physical modalities와 shared token budget 확장은 미검증.",
+      "Modalities": [
+        "Vision",
+        "Language",
+        "F/T",
+        "Proprioception",
+        "Action"
+      ],
+      "Paper": "TA-VLA: Elucidating the Design Space of Torque-aware Vision-Language-Action Models",
+      "Paper URL": "https://proceedings.mlr.press/v305/zhang25k.html",
+      "Strength (This View)": "Physical modality를 pretrained VLA에 넣는 위치·tokenization·history·prediction objective를 체계적으로 분해. HSIC와 noise-token ablation으로 decoder-side fusion 근거를 제시하고, future torque auxiliary prediction까지 연결.",
+      "Task": [
+        "Insertion",
+        "Surface Contact",
+        "Disassembly"
+      ],
+      "Year": 2025
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 | 주제 | 핵심 관점 | 현재 문헌 |
 |---|---|---|
-| [Multimodal Context Fusion / Alignment](multimodal-context-fusion-alignment/README.md) | 이종 모달리티를 어디서, 어떻게 연결·정렬·융합하는가? | 5편 |
+| [Multimodal Context Fusion / Alignment](multimodal-context-fusion-alignment/README.md) | 이종 모달리티를 어디서, 어떻게 연결·정렬·융합하는가? | 6편 |
 
 ## 기록 방법
 
@@ -19,4 +19,4 @@
 - 입력 센서, 학습 감독 신호, 출력 Action을 구분한다. 서로 다른 과제의 성공률을 순위처럼 비교하지 않는다.
 - 상세 문서에는 원문 그림 링크와 Mermaid 해설 도식을 포함한다. 이미지·표의 출처와 외부 링크 의존성은 주제별 SOURCES에 기록한다.
 
-2026-09-26 노션에서 수동으로 옮긴 snapshot이며 자동 동기화는 설정하지 않았다.
+2026-09-26 최초 이전 후 2026-09-29 TA-VLA를 추가한 노션 수동 snapshot이며 자동 동기화는 설정하지 않았다.

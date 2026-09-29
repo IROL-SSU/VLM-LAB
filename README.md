@@ -47,7 +47,7 @@ L2의 장면 설계 일치율, L3의 label 정확도, L4의 시뮬레이션 repl
 
 [**Multimodal Context Fusion / Alignment**](literature/multimodal-context-fusion-alignment/README.md)
 
-ForceVLA, Adaptive Vision–Torque Fusion, FuSe, ViTaS, TacFiLM의 모달리티·융합 위치·정렬 학습·실험 근거·한계를 비교합니다. 논문 결과와 본 연구에 적용하기 위한 가설을 구분합니다.
+ForceVLA, Adaptive Vision–Torque Fusion, FuSe, ViTaS, TacFiLM, TA-VLA의 모달리티·융합 위치·정렬 학습·실험 근거·한계를 비교합니다. 논문 결과와 본 연구에 적용하기 위한 가설을 구분합니다.
 
 ## 기록 원칙
 

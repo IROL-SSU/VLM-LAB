@@ -15,14 +15,15 @@ Clutter한 선반에서 target 물체를 회수하려면 주변 방해물을 이
 
 모달리티 연결 연산뿐 아니라 표현 학습 목표, 시간적 대응, 센서의 유효성, 실제 의사결정 기여를 함께 살펴봅니다. Concatenation의 사용 여부만으로 융합의 유효성을 판단하지 않습니다.
 
-## 두 가지 연구 축
+## 세 가지 연구 축
 
 | 경로 | 역할 | 현재 내용 |
 |---|---|---|
 | [experiments/](experiments/README.md) | 기존 VLM의 능력·한계와 추가 정보의 효과를 실험으로 파악 | Numbered RGB N0–N3, Action-Level × Geometry L2–L4 |
 | [literature/](literature/README.md) | 모델 구조와 학습 목표를 설계하기 위한 문헌 조사 | Multimodal Context Fusion / Alignment 비교표와 논문별 상세 정리 |
+| [research/](research/multimodal-online-subgoal-adaptation/) | 최종 시스템 목표와 단계별 검증 관계를 관리 | Multimodal online adaptation과 Grounded RGB-D TRANSLATE 중간 목표 |
 
-실험은 모델이 어려워하는 판단과 필요한 정보를 찾고, 문헌 조사는 그 정보를 표현·연결·학습하는 방법의 근거를 제공합니다. 두 결과를 접촉 정보를 이용한 sub-goal 생성 모델의 설계와 검증으로 연결합니다.
+실험은 모델이 어려워하는 판단과 필요한 정보를 찾고, 문헌 조사는 그 정보를 표현·연결·학습하는 방법의 근거를 제공합니다. 연구 로드맵은 두 결과를 최종 multimodal state estimation 및 online sub-goal adaptation의 설계·검증 단계로 연결합니다.
 
 ## 목표 출력과 현재 진행 상태
 
@@ -56,4 +57,4 @@ ForceVLA, Adaptive Vision–Torque Fusion, FuSe, ViTaS, TacFiLM, TA-VLA의 모�
 - 논문별 원문과 노션 출처, 정리 기준일, 연구적 해석을 남깁니다.
 - 원문 그림·표와 해설 도식을 구분합니다. PDF와 대용량 자산은 출처 링크·manifest를 우선 사용합니다.
 
-[실험 기록 안내](experiments/README.md) · [실험 템플릿](docs/experiment-template.md) · [문헌 기록 안내](literature/README.md)
+[최종 연구 로드맵](research/multimodal-online-subgoal-adaptation/) · [실험 기록 안내](experiments/README.md) · [실험 템플릿](docs/experiment-template.md) · [문헌 기록 안내](literature/README.md)

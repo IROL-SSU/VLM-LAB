@@ -1,0 +1,20 @@
+{
+  "epoch": 44,
+  "learning_rate": 0.0008913130516324728,
+  "elapsed_s": 4.386819222941995,
+  "train_loss": 0.016720538958907127,
+  "train_direction_loss": 0.000995937967672944,
+  "train_distance_loss": 0.003144920337945223,
+  "train_direction_accuracy": 1.0,
+  "train_distance_mae_mm": 2.1632914543151855,
+  "train_gt_direction_head_distance_mae_mm": 2.1632914543151855,
+  "validation_loss": 1.2376220226287842,
+  "validation_direction_loss": 1.0824226140975952,
+  "validation_distance_loss": 0.031039871275424957,
+  "validation_direction_accuracy": 0.7699999809265137,
+  "validation_distance_mae_mm": 21.26811981201172,
+  "validation_gt_direction_head_distance_mae_mm": 9.835516929626465,
+  "selected_best": false,
+  "best_epoch": 14,
+  "stale_epochs": 30
+}

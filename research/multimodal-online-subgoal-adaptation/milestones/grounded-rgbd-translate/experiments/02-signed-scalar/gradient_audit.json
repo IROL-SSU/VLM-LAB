@@ -1,0 +1,30 @@
+{
+  "first_step": {
+    "rgb_encoder": {
+      "grad_l2": 0.0,
+      "parameters_with_grad": 0
+    },
+    "geometry_encoder": {
+      "grad_l2": 0.10631662128081039,
+      "parameters_with_grad": 6
+    },
+    "rgb_projection": {
+      "grad_l2": 0.32525561449256757,
+      "parameters_with_grad": 4
+    },
+    "geo_projection": {
+      "grad_l2": 0.22778206963572692,
+      "parameters_with_grad": 4
+    },
+    "fusion": {
+      "grad_l2": 0.23109749369671093,
+      "parameters_with_grad": 4
+    },
+    "displacement_head": {
+      "grad_l2": 0.21608676687419545,
+      "parameters_with_grad": 2
+    }
+  },
+  "frozen_rgb_unchanged": true,
+  "rgb_state_sha256": "919c52be19989482baaa37c34d7043fab1364e3a874f28d3efb199a80d0065db"
+}

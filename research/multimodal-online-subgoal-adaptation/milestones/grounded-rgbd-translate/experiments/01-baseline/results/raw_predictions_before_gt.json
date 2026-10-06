@@ -1,0 +1,602 @@
+[
+  {
+    "scene_id": "translate_diverse_0024",
+    "direction": "RIGHT",
+    "distance_m": 0.05787801370024681,
+    "confidence": 0.8881186842918396
+  },
+  {
+    "scene_id": "translate_diverse_0026",
+    "direction": "RIGHT",
+    "distance_m": 0.06197918578982353,
+    "confidence": 0.9081497192382812
+  },
+  {
+    "scene_id": "translate_diverse_0065",
+    "direction": "LEFT",
+    "distance_m": 0.03870052844285965,
+    "confidence": 0.6184647679328918
+  },
+  {
+    "scene_id": "translate_diverse_0073",
+    "direction": "LEFT",
+    "distance_m": 0.061619486659765244,
+    "confidence": 0.5687668919563293
+  },
+  {
+    "scene_id": "translate_diverse_0077",
+    "direction": "LEFT",
+    "distance_m": 0.04861462861299515,
+    "confidence": 0.692717432975769
+  },
+  {
+    "scene_id": "translate_diverse_0088",
+    "direction": "RIGHT",
+    "distance_m": 0.08101355284452438,
+    "confidence": 0.5961911678314209
+  },
+  {
+    "scene_id": "translate_diverse_0104",
+    "direction": "RIGHT",
+    "distance_m": 0.1482224315404892,
+    "confidence": 0.5289697647094727
+  },
+  {
+    "scene_id": "translate_diverse_0117",
+    "direction": "RIGHT",
+    "distance_m": 0.037077367305755615,
+    "confidence": 0.9643740653991699
+  },
+  {
+    "scene_id": "translate_diverse_0126",
+    "direction": "RIGHT",
+    "distance_m": 0.05080268904566765,
+    "confidence": 0.9503496289253235
+  },
+  {
+    "scene_id": "translate_diverse_0131",
+    "direction": "LEFT",
+    "distance_m": 0.03282535448670387,
+    "confidence": 0.9834639430046082
+  },
+  {
+    "scene_id": "translate_diverse_0132",
+    "direction": "RIGHT",
+    "distance_m": 0.031977709382772446,
+    "confidence": 0.802335262298584
+  },
+  {
+    "scene_id": "translate_diverse_0139",
+    "direction": "RIGHT",
+    "distance_m": 0.08096521347761154,
+    "confidence": 0.7614862322807312
+  },
+  {
+    "scene_id": "translate_diverse_0147",
+    "direction": "RIGHT",
+    "distance_m": 0.03428317606449127,
+    "confidence": 0.9144818782806396
+  },
+  {
+    "scene_id": "translate_diverse_0149",
+    "direction": "LEFT",
+    "distance_m": 0.030724599957466125,
+    "confidence": 0.9976869821548462
+  },
+  {
+    "scene_id": "translate_diverse_0152",
+    "direction": "RIGHT",
+    "distance_m": 0.07701802253723145,
+    "confidence": 0.607317328453064
+  },
+  {
+    "scene_id": "translate_diverse_0158",
+    "direction": "LEFT",
+    "distance_m": 0.03856874257326126,
+    "confidence": 0.9065574407577515
+  },
+  {
+    "scene_id": "translate_diverse_0162",
+    "direction": "RIGHT",
+    "distance_m": 0.0899316594004631,
+    "confidence": 0.597046434879303
+  },
+  {
+    "scene_id": "translate_diverse_0203",
+    "direction": "LEFT",
+    "distance_m": 0.07091715186834335,
+    "confidence": 0.9291666150093079
+  },
+  {
+    "scene_id": "translate_diverse_0207",
+    "direction": "RIGHT",
+    "distance_m": 0.07829012721776962,
+    "confidence": 0.9287569522857666
+  },
+  {
+    "scene_id": "translate_diverse_0221",
+    "direction": "RIGHT",
+    "distance_m": 0.06423657387495041,
+    "confidence": 0.9289249181747437
+  },
+  {
+    "scene_id": "translate_diverse_0230",
+    "direction": "RIGHT",
+    "distance_m": 0.1396581530570984,
+    "confidence": 0.6235563158988953
+  },
+  {
+    "scene_id": "translate_diverse_0231",
+    "direction": "RIGHT",
+    "distance_m": 0.05487947538495064,
+    "confidence": 0.9565825462341309
+  },
+  {
+    "scene_id": "translate_diverse_0235",
+    "direction": "RIGHT",
+    "distance_m": 0.08354486525058746,
+    "confidence": 0.5719661116600037
+  },
+  {
+    "scene_id": "translate_diverse_0246",
+    "direction": "RIGHT",
+    "distance_m": 0.04558830335736275,
+    "confidence": 0.8713563680648804
+  },
+  {
+    "scene_id": "translate_diverse_0268",
+    "direction": "LEFT",
+    "distance_m": 0.05802394449710846,
+    "confidence": 0.9837290644645691
+  },
+  {
+    "scene_id": "translate_diverse_0279",
+    "direction": "LEFT",
+    "distance_m": 0.07406434416770935,
+    "confidence": 0.8900036811828613
+  },
+  {
+    "scene_id": "translate_diverse_0285",
+    "direction": "RIGHT",
+    "distance_m": 0.14467625319957733,
+    "confidence": 0.5622991919517517
+  },
+  {
+    "scene_id": "translate_diverse_0324",
+    "direction": "RIGHT",
+    "distance_m": 0.06380100548267365,
+    "confidence": 0.9009481072425842
+  },
+  {
+    "scene_id": "translate_diverse_0340",
+    "direction": "RIGHT",
+    "distance_m": 0.06817102432250977,
+    "confidence": 0.6650484800338745
+  },
+  {
+    "scene_id": "translate_diverse_0358",
+    "direction": "RIGHT",
+    "distance_m": 0.06157563999295235,
+    "confidence": 0.8875858187675476
+  },
+  {
+    "scene_id": "translate_diverse_0361",
+    "direction": "RIGHT",
+    "distance_m": 0.048004988580942154,
+    "confidence": 0.9494021534919739
+  },
+  {
+    "scene_id": "translate_diverse_0362",
+    "direction": "RIGHT",
+    "distance_m": 0.12069710344076157,
+    "confidence": 0.6549607515335083
+  },
+  {
+    "scene_id": "translate_diverse_0366",
+    "direction": "RIGHT",
+    "distance_m": 0.045726433396339417,
+    "confidence": 0.9787787795066833
+  },
+  {
+    "scene_id": "translate_diverse_0368",
+    "direction": "LEFT",
+    "distance_m": 0.0692611113190651,
+    "confidence": 0.9038809537887573
+  },
+  {
+    "scene_id": "translate_diverse_0370",
+    "direction": "LEFT",
+    "distance_m": 0.032542768865823746,
+    "confidence": 0.7104076147079468
+  },
+  {
+    "scene_id": "translate_diverse_0379",
+    "direction": "RIGHT",
+    "distance_m": 0.05911160260438919,
+    "confidence": 0.7818815112113953
+  },
+  {
+    "scene_id": "translate_diverse_0394",
+    "direction": "RIGHT",
+    "distance_m": 0.05338475480675697,
+    "confidence": 0.9889138340950012
+  },
+  {
+    "scene_id": "translate_diverse_0396",
+    "direction": "LEFT",
+    "distance_m": 0.06515169888734818,
+    "confidence": 0.9905224442481995
+  },
+  {
+    "scene_id": "translate_diverse_0401",
+    "direction": "RIGHT",
+    "distance_m": 0.042698729783296585,
+    "confidence": 0.9948024749755859
+  },
+  {
+    "scene_id": "translate_diverse_0405",
+    "direction": "RIGHT",
+    "distance_m": 0.07666409015655518,
+    "confidence": 0.9135079979896545
+  },
+  {
+    "scene_id": "translate_diverse_0406",
+    "direction": "RIGHT",
+    "distance_m": 0.043802808970212936,
+    "confidence": 0.9909883141517639
+  },
+  {
+    "scene_id": "translate_diverse_0421",
+    "direction": "RIGHT",
+    "distance_m": 0.0623999647796154,
+    "confidence": 0.9184854030609131
+  },
+  {
+    "scene_id": "translate_diverse_0426",
+    "direction": "LEFT",
+    "distance_m": 0.08455531299114227,
+    "confidence": 0.5375699996948242
+  },
+  {
+    "scene_id": "translate_diverse_0438",
+    "direction": "LEFT",
+    "distance_m": 0.07314589619636536,
+    "confidence": 0.610692024230957
+  },
+  {
+    "scene_id": "translate_diverse_0451",
+    "direction": "RIGHT",
+    "distance_m": 0.06231771782040596,
+    "confidence": 0.9043585062026978
+  },
+  {
+    "scene_id": "translate_diverse_0478",
+    "direction": "RIGHT",
+    "distance_m": 0.12548217177391052,
+    "confidence": 0.5878734588623047
+  },
+  {
+    "scene_id": "translate_diverse_0484",
+    "direction": "RIGHT",
+    "distance_m": 0.0682443231344223,
+    "confidence": 0.9524627327919006
+  },
+  {
+    "scene_id": "translate_diverse_0499",
+    "direction": "LEFT",
+    "distance_m": 0.03455575555562973,
+    "confidence": 0.770150363445282
+  },
+  {
+    "scene_id": "translate_diverse_0516",
+    "direction": "LEFT",
+    "distance_m": 0.07496784627437592,
+    "confidence": 0.6388106346130371
+  },
+  {
+    "scene_id": "translate_diverse_0526",
+    "direction": "RIGHT",
+    "distance_m": 0.11477729678153992,
+    "confidence": 0.8330755233764648
+  },
+  {
+    "scene_id": "translate_diverse_0540",
+    "direction": "LEFT",
+    "distance_m": 0.05033348128199577,
+    "confidence": 0.9819262623786926
+  },
+  {
+    "scene_id": "translate_diverse_0544",
+    "direction": "RIGHT",
+    "distance_m": 0.12522363662719727,
+    "confidence": 0.6063714623451233
+  },
+  {
+    "scene_id": "translate_diverse_0547",
+    "direction": "RIGHT",
+    "distance_m": 0.07684743404388428,
+    "confidence": 0.9367842674255371
+  },
+  {
+    "scene_id": "translate_diverse_0560",
+    "direction": "RIGHT",
+    "distance_m": 0.034489262849092484,
+    "confidence": 0.8159039616584778
+  },
+  {
+    "scene_id": "translate_diverse_0567",
+    "direction": "LEFT",
+    "distance_m": 0.08528537303209305,
+    "confidence": 0.704845666885376
+  },
+  {
+    "scene_id": "translate_diverse_0598",
+    "direction": "RIGHT",
+    "distance_m": 0.060085639357566833,
+    "confidence": 0.9747068881988525
+  },
+  {
+    "scene_id": "translate_diverse_0602",
+    "direction": "LEFT",
+    "distance_m": 0.06158994883298874,
+    "confidence": 0.8894523978233337
+  },
+  {
+    "scene_id": "translate_diverse_0605",
+    "direction": "LEFT",
+    "distance_m": 0.057023826986551285,
+    "confidence": 0.9378163814544678
+  },
+  {
+    "scene_id": "translate_diverse_0644",
+    "direction": "RIGHT",
+    "distance_m": 0.051497336477041245,
+    "confidence": 0.6833736300468445
+  },
+  {
+    "scene_id": "translate_diverse_0677",
+    "direction": "RIGHT",
+    "distance_m": 0.04972062632441521,
+    "confidence": 0.9351546168327332
+  },
+  {
+    "scene_id": "translate_diverse_0678",
+    "direction": "RIGHT",
+    "distance_m": 0.041769493371248245,
+    "confidence": 0.9453263878822327
+  },
+  {
+    "scene_id": "translate_diverse_0685",
+    "direction": "LEFT",
+    "distance_m": 0.04672321304678917,
+    "confidence": 0.7957608699798584
+  },
+  {
+    "scene_id": "translate_diverse_0698",
+    "direction": "LEFT",
+    "distance_m": 0.060662440955638885,
+    "confidence": 0.9750292897224426
+  },
+  {
+    "scene_id": "translate_diverse_0699",
+    "direction": "LEFT",
+    "distance_m": 0.07660957425832748,
+    "confidence": 0.826777994632721
+  },
+  {
+    "scene_id": "translate_diverse_0718",
+    "direction": "RIGHT",
+    "distance_m": 0.07549477368593216,
+    "confidence": 0.9503762125968933
+  },
+  {
+    "scene_id": "translate_diverse_0724",
+    "direction": "RIGHT",
+    "distance_m": 0.06303612142801285,
+    "confidence": 0.9413629770278931
+  },
+  {
+    "scene_id": "translate_diverse_0726",
+    "direction": "RIGHT",
+    "distance_m": 0.07717174291610718,
+    "confidence": 0.9134617447853088
+  },
+  {
+    "scene_id": "translate_diverse_0731",
+    "direction": "RIGHT",
+    "distance_m": 0.06691589951515198,
+    "confidence": 0.8140385150909424
+  },
+  {
+    "scene_id": "translate_diverse_0745",
+    "direction": "RIGHT",
+    "distance_m": 0.04050152376294136,
+    "confidence": 0.8929365873336792
+  },
+  {
+    "scene_id": "translate_diverse_0749",
+    "direction": "LEFT",
+    "distance_m": 0.04166056960821152,
+    "confidence": 0.8889818787574768
+  },
+  {
+    "scene_id": "translate_diverse_0751",
+    "direction": "LEFT",
+    "distance_m": 0.03379492089152336,
+    "confidence": 0.9810934662818909
+  },
+  {
+    "scene_id": "translate_diverse_0756",
+    "direction": "RIGHT",
+    "distance_m": 0.07690754532814026,
+    "confidence": 0.5798036456108093
+  },
+  {
+    "scene_id": "translate_diverse_0764",
+    "direction": "RIGHT",
+    "distance_m": 0.05788714811205864,
+    "confidence": 0.9640027284622192
+  },
+  {
+    "scene_id": "translate_diverse_0767",
+    "direction": "RIGHT",
+    "distance_m": 0.06257370859384537,
+    "confidence": 0.6176486611366272
+  },
+  {
+    "scene_id": "translate_diverse_0777",
+    "direction": "LEFT",
+    "distance_m": 0.040429092943668365,
+    "confidence": 0.9000877141952515
+  },
+  {
+    "scene_id": "translate_diverse_0795",
+    "direction": "RIGHT",
+    "distance_m": 0.11019565165042877,
+    "confidence": 0.8848471641540527
+  },
+  {
+    "scene_id": "translate_diverse_0808",
+    "direction": "LEFT",
+    "distance_m": 0.04926622658967972,
+    "confidence": 0.7770602107048035
+  },
+  {
+    "scene_id": "translate_diverse_0817",
+    "direction": "RIGHT",
+    "distance_m": 0.14471448957920074,
+    "confidence": 0.7857971787452698
+  },
+  {
+    "scene_id": "translate_diverse_0820",
+    "direction": "RIGHT",
+    "distance_m": 0.05163245648145676,
+    "confidence": 0.9737749695777893
+  },
+  {
+    "scene_id": "translate_diverse_0823",
+    "direction": "RIGHT",
+    "distance_m": 0.08907748758792877,
+    "confidence": 0.9931883811950684
+  },
+  {
+    "scene_id": "translate_diverse_0845",
+    "direction": "LEFT",
+    "distance_m": 0.07563882321119308,
+    "confidence": 0.5968839526176453
+  },
+  {
+    "scene_id": "translate_diverse_0849",
+    "direction": "RIGHT",
+    "distance_m": 0.12216052412986755,
+    "confidence": 0.7142780423164368
+  },
+  {
+    "scene_id": "translate_diverse_0862",
+    "direction": "RIGHT",
+    "distance_m": 0.06088341027498245,
+    "confidence": 0.7458845973014832
+  },
+  {
+    "scene_id": "translate_diverse_0879",
+    "direction": "RIGHT",
+    "distance_m": 0.03962712734937668,
+    "confidence": 0.5719754695892334
+  },
+  {
+    "scene_id": "translate_diverse_0894",
+    "direction": "RIGHT",
+    "distance_m": 0.05693534016609192,
+    "confidence": 0.9804807305335999
+  },
+  {
+    "scene_id": "translate_diverse_0898",
+    "direction": "RIGHT",
+    "distance_m": 0.05027538165450096,
+    "confidence": 0.9492508769035339
+  },
+  {
+    "scene_id": "translate_diverse_0911",
+    "direction": "RIGHT",
+    "distance_m": 0.04097774997353554,
+    "confidence": 0.8914613127708435
+  },
+  {
+    "scene_id": "translate_diverse_0912",
+    "direction": "RIGHT",
+    "distance_m": 0.05768578499555588,
+    "confidence": 0.8398168683052063
+  },
+  {
+    "scene_id": "translate_diverse_0914",
+    "direction": "LEFT",
+    "distance_m": 0.05212019756436348,
+    "confidence": 0.8745746612548828
+  },
+  {
+    "scene_id": "translate_diverse_0936",
+    "direction": "LEFT",
+    "distance_m": 0.06631588935852051,
+    "confidence": 0.597542405128479
+  },
+  {
+    "scene_id": "translate_diverse_0947",
+    "direction": "RIGHT",
+    "distance_m": 0.06272673606872559,
+    "confidence": 0.9067884087562561
+  },
+  {
+    "scene_id": "translate_diverse_0949",
+    "direction": "LEFT",
+    "distance_m": 0.04992390796542168,
+    "confidence": 0.7419267892837524
+  },
+  {
+    "scene_id": "translate_diverse_0954",
+    "direction": "LEFT",
+    "distance_m": 0.05299512669444084,
+    "confidence": 0.9653222560882568
+  },
+  {
+    "scene_id": "translate_diverse_0958",
+    "direction": "RIGHT",
+    "distance_m": 0.08691130578517914,
+    "confidence": 0.9385371208190918
+  },
+  {
+    "scene_id": "translate_diverse_0967",
+    "direction": "LEFT",
+    "distance_m": 0.1206102967262268,
+    "confidence": 0.6830528974533081
+  },
+  {
+    "scene_id": "translate_diverse_0973",
+    "direction": "LEFT",
+    "distance_m": 0.034279715269804,
+    "confidence": 0.8941360116004944
+  },
+  {
+    "scene_id": "translate_diverse_0976",
+    "direction": "LEFT",
+    "distance_m": 0.09885373711585999,
+    "confidence": 0.5511859655380249
+  },
+  {
+    "scene_id": "translate_diverse_0986",
+    "direction": "RIGHT",
+    "distance_m": 0.09907127171754837,
+    "confidence": 0.7966641783714294
+  },
+  {
+    "scene_id": "translate_diverse_0988",
+    "direction": "RIGHT",
+    "distance_m": 0.07917065918445587,
+    "confidence": 0.9590847492218018
+  },
+  {
+    "scene_id": "translate_diverse_0993",
+    "direction": "LEFT",
+    "distance_m": 0.04420821741223335,
+    "confidence": 0.9494286179542542
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "complete": true,
+  "best_epoch": 13,
+  "epochs_run": 43,
+  "best_validation_metrics": {
+    "loss": 1.330853819847107,
+    "acceptable_set_nll": 0.6066197156906128,
+    "ranking_loss": 0.2820076644420624,
+    "preferred_set_nll": 3.2686607837677,
+    "acceptable_probability_mass": 0.6550747752189636,
+    "safe_action_hit_rate": 0.800000011920929,
+    "safe_action_hit_count": 80,
+    "preferred_action_hit_rate": 0.09000000357627869,
+    "preferred_action_hit_count": 9,
+    "direction_accuracy": 0.7799999713897705,
+    "direction_correct_count": 78,
+    "distance_mae_mm": 33.37000274658203,
+    "signed_displacement_mae_mm": 61.94999694824219,
+    "mean_predicted_distance_mm": 104.93999481201172,
+    "direction_and_5mm_count": 11
+  },
+  "training_seconds": 585.9593825652264,
+  "test_evaluations": 1,
+  "test": {
+    "loss": 1.76356840133667,
+    "acceptable_set_nll": 0.9508670568466187,
+    "ranking_loss": 0.5269055366516113,
+    "preferred_set_nll": 3.404874801635742,
+    "acceptable_probability_mass": 0.5301384925842285,
+    "safe_action_hit_rate": 0.6399999856948853,
+    "safe_action_hit_count": 64,
+    "preferred_action_hit_rate": 0.09000000357627869,
+    "preferred_action_hit_count": 9,
+    "direction_accuracy": 0.7099999785423279,
+    "direction_correct_count": 71,
+    "distance_mae_mm": 38.720001220703125,
+    "signed_displacement_mae_mm": 73.94000244140625,
+    "mean_predicted_distance_mm": 98.63999938964844,
+    "direction_and_5mm_count": 10,
+    "sample_count": 100,
+    "checkpoint_epoch": 13,
+    "checkpoint_sha256": "7811653c02ce06de414ad442447fb05cecd05bcf19ba1aaa55bdc88b5634ec1f",
+    "distance_median_error_mm": 23.999996721744537,
+    "distance_p90_error_mm": 95.30000655651095,
+    "distance_max_error_mm": 165.9999976158142,
+    "displacement_mae_mm": 73.94000158160925,
+    "proxy_valid_count": 64,
+    "corridor_clear_count": 87,
+    "collision_free_count": 76,
+    "direction_and_proxy_valid_count": 54,
+    "preferred_action_count": 9,
+    "opposite_direction_acceptable_scenes": 35,
+    "catalog_coverage_count": 100,
+    "constant_baseline": {
+      "fitted_on": "training labels only",
+      "direction": "LEFT",
+      "direction_accuracy": 0.5,
+      "distance_m": 0.07513375,
+      "distance_mae_mm": 29.437450000000005
+    },
+    "protocol": "checkpoint selected only on validation safe-action hits, canonical direction accuracy, mean movement distance, and loss; test evaluated once",
+    "test_reuse_warning": "This split was inspected in earlier experiments and is a reused comparison benchmark, not an untouched final test.",
+    "limitations": "Mirroring adds symmetry supervision, not new physical layouts. Same assets and role pairs across splits; static AABB proxy only; no execution/grasp test.",
+    "by_direction": {
+      "LEFT": {
+        "count": 50,
+        "correct": 34,
+        "proxy_valid": 28,
+        "distance_mae_mm": 41.70000132024288
+      },
+      "RIGHT": {
+        "count": 50,
+        "correct": 37,
+        "proxy_valid": 36,
+        "distance_mae_mm": 35.740001574754714
+      }
+    },
+    "confusion_matrix": {
+      "LEFT": {
+        "LEFT": 34,
+        "RIGHT": 16
+      },
+      "RIGHT": {
+        "LEFT": 13,
+        "RIGHT": 37
+      }
+    },
+    "checkpoint_unchanged": true
+  }
+}

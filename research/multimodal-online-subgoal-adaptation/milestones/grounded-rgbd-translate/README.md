@@ -240,15 +240,15 @@ E_{goal}=\|\hat s\hat d-s^*d^*\|_2
 - 동일 asset/pair에서 새로운 배치만 held-out
 - 정확한 target/blocker mask가 주어진 조건
 
-초기 baseline은 방향 정확도 74%, 실제 예측 방향 기준 거리 MAE 25.60 mm, 정적 목표 유효성 40%를 기록했다. 이후 방향·거리 결합 방식과 안전 objective를 바꾸어 총 5개 모델을 같은 Test 100장에서 비교했다.
+초기 baseline은 방향 정확도 74%, 실제 예측 방향 기준 거리 MAE 25.60 mm, 정적 목표 유효성 40%를 기록했다. 이후 방향·거리 결합 방식과 안전 objective를 바꾸어 총 5개 모델을 같은 Test 100장에서 비교했다. 각 모델의 설정·전체 학습 history·checkpoint 선택 기록·테스트 예측·평가 로그와 실행 당시 source snapshot은 [실험 로그 인덱스](experiments/)에서 확인할 수 있다.
 
 | 모델 | 방향 | 방향+안전 | 정적 안전 | 통로 확보 | 충돌·경계 안전 | 최소거리 MAE | 평균 이동 |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Baseline | 74% | 40% | 40% | 54% | 75% | 25.60 mm | 66.78 mm |
-| Signed scalar | 68% | 41% | 43% | 63% | 74% | 35.24 mm | 81.48 mm |
-| Joint + mirror | 72% | 54% | 61% | 87% | 73% | 40.53 mm | 105.25 mm |
-| Joint + short-safe | 71% | **54%** | **64%** | **87%** | **76%** | 38.72 mm | 98.64 mm |
-| Direction-first | **79%** | 53% | 55% | 74% | **76%** | 30.67 mm | 83.19 mm |
+| [Baseline](experiments/01-baseline/) | 74% | 40% | 40% | 54% | 75% | 25.60 mm | 66.78 mm |
+| [Signed scalar](experiments/02-signed-scalar/) | 68% | 41% | 43% | 63% | 74% | 35.24 mm | 81.48 mm |
+| [Joint + mirror](experiments/03-joint-mirror/) | 72% | 54% | 61% | 87% | 73% | 40.53 mm | 105.25 mm |
+| [Joint + short-safe](experiments/04-joint-short-safe/) | 71% | **54%** | **64%** | **87%** | **76%** | 38.72 mm | 98.64 mm |
+| [Direction-first](experiments/05-direction-first/) | **79%** | 53% | 55% | 74% | **76%** | 30.67 mm | 83.19 mm |
 
 현재 해석은 다음과 같다.
 

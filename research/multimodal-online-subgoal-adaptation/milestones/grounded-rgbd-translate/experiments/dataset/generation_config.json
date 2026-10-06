@@ -1,0 +1,97 @@
+{
+  "schema": "shelfscene.translate_diverse.v1",
+  "requested_scenes": 1000,
+  "seed": 20261003,
+  "role_pairs": 50,
+  "per_pair": 20,
+  "LEFT": 500,
+  "RIGHT": 500,
+  "splits": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "split_policy": "independent randomized layouts; each role pair has 16 train / 2 validation / 2 test; no multiview or augmentation siblings",
+  "role_assets": [
+    "mug_7",
+    "Mug_2",
+    "Mug_4",
+    "cup_7",
+    "cup_8",
+    "Cup_2",
+    "Cup_4",
+    "acafela",
+    "cantata",
+    "coldgrape",
+    "top",
+    "cocopalm",
+    "biracsikhye",
+    "letsbe",
+    "minutemad"
+  ],
+  "distractor_count_range": [
+    2,
+    7
+  ],
+  "yaw_range_deg": [
+    -180,
+    180
+  ],
+  "target_visible_fraction": [
+    0.4,
+    0.8
+  ],
+  "blocker_occlusion_fraction": [
+    0.2,
+    0.6
+  ],
+  "max_other_occlusion_fraction": 0.1,
+  "min_visible_pixels_each_object": 50,
+  "palettes": [
+    "light_oak",
+    "walnut",
+    "ivory",
+    "slate",
+    "sage"
+  ],
+  "camera_xyz_cm_ranges": [
+    [
+      22,
+      34
+    ],
+    [
+      -100,
+      -90
+    ],
+    [
+      62,
+      66
+    ]
+  ],
+  "camera_pitch_deg_range": [
+    76,
+    80
+  ],
+  "distance_bins_m": {
+    "short": [
+      0.02,
+      0.05
+    ],
+    "medium": [
+      0.05,
+      0.09
+    ],
+    "long": [
+      0.09,
+      0.251
+    ]
+  },
+  "desired_distance_bin_counts": {
+    "short": 300,
+    "medium": 400,
+    "long": 300
+  },
+  "distance_bin_policy": "best-effort per scene; after 100 visual configurations may accept another feasible bin, explicitly recorded",
+  "label_policy": "shortest valid 1mm-grid displacement over original 8 directions; accept only prescribed LEFT/RIGHT label",
+  "limitations": "One shelf geometry with varied materials, lighting and viewpoint; 15 existing object meshes; no robot executor/dynamics/grasp validation; static conservative AABB corridor proxy"
+}

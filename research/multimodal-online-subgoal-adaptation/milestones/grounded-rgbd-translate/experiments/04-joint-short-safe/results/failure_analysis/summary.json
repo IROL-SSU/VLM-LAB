@@ -1,0 +1,9 @@
+{
+  "experiment": "experiments/translate_joint_bins_flip_preferred_1000_20261002_v1",
+  "corridor_fail_count": 13,
+  "corridor_fail_wrong_direction": 3,
+  "corridor_fail_correct_direction": 10,
+  "corridor_clear_but_collision_count": 23,
+  "collision_wrong_direction": 16,
+  "collision_correct_direction": 7
+}

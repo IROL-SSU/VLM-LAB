@@ -1,0 +1,2468 @@
+{
+  "summary": {
+    "loss": 0.7563058733940125,
+    "direction_loss": 0.582956075668335,
+    "distance_loss": 0.03466995805501938,
+    "direction_accuracy": 0.7400000095367432,
+    "distance_mae_mm": 25.599773406982422,
+    "gt_direction_head_distance_mae_mm": 10.982211112976074,
+    "sample_count": 100,
+    "checkpoint_epoch": 14,
+    "checkpoint_sha256": "d64e87452d400eb5c0cb5e3cba85750db7cb6f8b710b8239d55cf7a8a3d3602f",
+    "direction_correct_count": 74,
+    "distance_median_error_mm": 12.228948071599008,
+    "distance_p90_error_mm": 67.25575690567494,
+    "distance_max_error_mm": 127.9226326942444,
+    "displacement_mae_mm": 57.39811105102301,
+    "direction_and_5mm_count": 25,
+    "proxy_valid_count": 40,
+    "corridor_clear_count": 54,
+    "collision_free_count": 75,
+    "constant_baseline": {
+      "fitted_on": "training labels only",
+      "direction": "LEFT",
+      "direction_accuracy": 0.5,
+      "distance_m": 0.07513375,
+      "distance_mae_mm": 29.437450000000005
+    },
+    "protocol": "one final test evaluation; best checkpoint selected by validation loss; uncorrected predictions",
+    "limitations": "Same 15 assets and 50 role pairs across splits; only layouts held out. LEFT/RIGHT only. Static AABB goal proxy, not execution/grasp success.",
+    "by_direction": {
+      "LEFT": {
+        "count": 50,
+        "correct": 30,
+        "distance_mae_mm": 34.123745355606076
+      },
+      "RIGHT": {
+        "count": 50,
+        "correct": 44,
+        "distance_mae_mm": 17.075805894732476
+      }
+    },
+    "confusion_matrix": {
+      "LEFT": {
+        "BACK": 0,
+        "BACK_RIGHT": 0,
+        "RIGHT": 20,
+        "FRONT_RIGHT": 0,
+        "FRONT": 0,
+        "FRONT_LEFT": 0,
+        "LEFT": 30,
+        "BACK_LEFT": 0
+      },
+      "RIGHT": {
+        "BACK": 0,
+        "BACK_RIGHT": 0,
+        "RIGHT": 44,
+        "FRONT_RIGHT": 0,
+        "FRONT": 0,
+        "FRONT_LEFT": 0,
+        "LEFT": 6,
+        "BACK_LEFT": 0
+      }
+    },
+    "checkpoint_unchanged": true
+  },
+  "predictions": [
+    {
+      "scene_id": "translate_diverse_0024",
+      "direction": "RIGHT",
+      "distance_m": 0.05787801370024681,
+      "confidence": 0.8881186842918396,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.07,
+      "direction_correct": true,
+      "distance_error_mm": 12.121986299753196,
+      "signed_distance_error_mm": -12.121986299753196,
+      "displacement_error_mm": 12.121986299753196,
+      "delta_shelf_m": [
+        0.05787801370024681,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0013926673025410512,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09779177910628992,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0026",
+      "direction": "RIGHT",
+      "distance_m": 0.06197918578982353,
+      "confidence": 0.9081497192382812,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.126,
+      "direction_correct": false,
+      "distance_error_mm": 64.02081421017647,
+      "signed_distance_error_mm": -64.02081421017647,
+      "displacement_error_mm": 187.97918578982353,
+      "delta_shelf_m": [
+        0.06197918578982353,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.001693214005713602,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.05188799878447148,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0065",
+      "direction": "LEFT",
+      "distance_m": 0.03870052844285965,
+      "confidence": 0.6184647679328918,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.034,
+      "direction_correct": true,
+      "distance_error_mm": 4.700528442859647,
+      "signed_distance_error_mm": 4.700528442859647,
+      "displacement_error_mm": 4.700528442859647,
+      "delta_shelf_m": [
+        -0.03870052844285965,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.22661672087376908,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0073",
+      "direction": "LEFT",
+      "distance_m": 0.061619486659765244,
+      "confidence": 0.5687668919563293,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.057,
+      "direction_correct": true,
+      "distance_error_mm": 4.619486659765242,
+      "signed_distance_error_mm": 4.619486659765242,
+      "displacement_error_mm": 4.619486659765242,
+      "delta_shelf_m": [
+        -0.061619486659765244,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.08408306339479887,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0077",
+      "direction": "LEFT",
+      "distance_m": 0.04861462861299515,
+      "confidence": 0.692717432975769,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.049,
+      "direction_correct": true,
+      "distance_error_mm": 0.3853713870048542,
+      "signed_distance_error_mm": -0.3853713870048542,
+      "displacement_error_mm": 0.3853713870048542,
+      "delta_shelf_m": [
+        -0.04861462861299515,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.30612768665671003,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0088",
+      "direction": "RIGHT",
+      "distance_m": 0.08101355284452438,
+      "confidence": 0.5961911678314209,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.127,
+      "direction_correct": false,
+      "distance_error_mm": 45.98644715547562,
+      "signed_distance_error_mm": -45.98644715547562,
+      "displacement_error_mm": 208.01355284452438,
+      "delta_shelf_m": [
+        0.08101355284452438,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.0061903187971593665,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0104",
+      "direction": "RIGHT",
+      "distance_m": 0.1482224315404892,
+      "confidence": 0.5289697647094727,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.138,
+      "direction_correct": true,
+      "distance_error_mm": 10.222431540489186,
+      "signed_distance_error_mm": 10.222431540489186,
+      "displacement_error_mm": 10.222431540489186,
+      "delta_shelf_m": [
+        0.1482224315404892,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.23677972612574105,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0117",
+      "direction": "RIGHT",
+      "distance_m": 0.037077367305755615,
+      "confidence": 0.9643740653991699,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.165,
+      "direction_correct": false,
+      "distance_error_mm": 127.9226326942444,
+      "signed_distance_error_mm": -127.9226326942444,
+      "displacement_error_mm": 202.07736730575562,
+      "delta_shelf_m": [
+        0.037077367305755615,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.007759177925541705,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0126",
+      "direction": "RIGHT",
+      "distance_m": 0.05080268904566765,
+      "confidence": 0.9503496289253235,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.151,
+      "direction_correct": false,
+      "distance_error_mm": 100.19731095433235,
+      "signed_distance_error_mm": -100.19731095433235,
+      "displacement_error_mm": 201.80268904566765,
+      "delta_shelf_m": [
+        0.05080268904566765,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0010569933794817943,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.054184518352173666,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0131",
+      "direction": "LEFT",
+      "distance_m": 0.03282535448670387,
+      "confidence": 0.9834639430046082,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.024,
+      "direction_correct": true,
+      "distance_error_mm": 8.825354486703873,
+      "signed_distance_error_mm": 8.825354486703873,
+      "displacement_error_mm": 8.825354486703873,
+      "delta_shelf_m": [
+        -0.03282535448670387,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09917301666544792,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0132",
+      "direction": "RIGHT",
+      "distance_m": 0.031977709382772446,
+      "confidence": 0.802335262298584,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.037,
+      "direction_correct": true,
+      "distance_error_mm": 5.0222906172275525,
+      "signed_distance_error_mm": -5.0222906172275525,
+      "displacement_error_mm": 5.0222906172275525,
+      "delta_shelf_m": [
+        0.031977709382772446,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00033674040966095114,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.05175014737785122,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0139",
+      "direction": "RIGHT",
+      "distance_m": 0.08096521347761154,
+      "confidence": 0.7614862322807312,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.07,
+      "direction_correct": true,
+      "distance_error_mm": 10.965213477611535,
+      "signed_distance_error_mm": 10.965213477611535,
+      "displacement_error_mm": 10.965213477611535,
+      "delta_shelf_m": [
+        0.08096521347761154,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.11608602136954949,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0147",
+      "direction": "RIGHT",
+      "distance_m": 0.03428317606449127,
+      "confidence": 0.9144818782806396,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.033,
+      "direction_correct": true,
+      "distance_error_mm": 1.2831760644912704,
+      "signed_distance_error_mm": 1.2831760644912704,
+      "displacement_error_mm": 1.2831760644912704,
+      "delta_shelf_m": [
+        0.03428317606449127,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09653169497343672,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0149",
+      "direction": "LEFT",
+      "distance_m": 0.030724599957466125,
+      "confidence": 0.9976869821548462,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.066,
+      "direction_correct": true,
+      "distance_error_mm": 35.275400042533875,
+      "signed_distance_error_mm": -35.275400042533875,
+      "displacement_error_mm": 35.275400042533875,
+      "delta_shelf_m": [
+        -0.030724599957466125,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0036357771741223743,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.2054654758116078,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0152",
+      "direction": "RIGHT",
+      "distance_m": 0.07701802253723145,
+      "confidence": 0.607317328453064,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.106,
+      "direction_correct": false,
+      "distance_error_mm": 28.98197746276855,
+      "signed_distance_error_mm": -28.98197746276855,
+      "displacement_error_mm": 183.01802253723142,
+      "delta_shelf_m": [
+        0.07701802253723145,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00030002529413953823,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.025555708989316167,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0158",
+      "direction": "LEFT",
+      "distance_m": 0.03856874257326126,
+      "confidence": 0.9065574407577515,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.024,
+      "direction_correct": true,
+      "distance_error_mm": 14.568742573261261,
+      "signed_distance_error_mm": 14.568742573261261,
+      "displacement_error_mm": 14.568742573261261,
+      "delta_shelf_m": [
+        -0.03856874257326126,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.03978973958136167,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0162",
+      "direction": "RIGHT",
+      "distance_m": 0.0899316594004631,
+      "confidence": 0.597046434879303,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.084,
+      "direction_correct": false,
+      "distance_error_mm": 5.931659400463099,
+      "signed_distance_error_mm": 5.931659400463099,
+      "displacement_error_mm": 173.93165940046313,
+      "delta_shelf_m": [
+        0.0899316594004631,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0033512438917963697,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.13564764826721476,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0203",
+      "direction": "LEFT",
+      "distance_m": 0.07091715186834335,
+      "confidence": 0.9291666150093079,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.105,
+      "direction_correct": true,
+      "distance_error_mm": 34.08284813165664,
+      "signed_distance_error_mm": -34.08284813165664,
+      "displacement_error_mm": 34.08284813165664,
+      "delta_shelf_m": [
+        -0.07091715186834335,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.004657552694785068,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.18811489589422475,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0207",
+      "direction": "RIGHT",
+      "distance_m": 0.07829012721776962,
+      "confidence": 0.9287569522857666,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.062,
+      "direction_correct": true,
+      "distance_error_mm": 16.290127217769623,
+      "signed_distance_error_mm": 16.290127217769623,
+      "displacement_error_mm": 16.290127217769623,
+      "delta_shelf_m": [
+        0.07829012721776962,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.11472227015548384,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0221",
+      "direction": "RIGHT",
+      "distance_m": 0.06423657387495041,
+      "confidence": 0.9289249181747437,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.109,
+      "direction_correct": false,
+      "distance_error_mm": 44.76342612504959,
+      "signed_distance_error_mm": -44.76342612504959,
+      "displacement_error_mm": 173.2365738749504,
+      "delta_shelf_m": [
+        0.06423657387495041,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0006796276370562173,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.018917891300334333,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0230",
+      "direction": "RIGHT",
+      "distance_m": 0.1396581530570984,
+      "confidence": 0.6235563158988953,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.109,
+      "direction_correct": true,
+      "distance_error_mm": 30.65815305709839,
+      "signed_distance_error_mm": 30.65815305709839,
+      "displacement_error_mm": 30.65815305709839,
+      "delta_shelf_m": [
+        0.1396581530570984,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.4114147300052892,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0231",
+      "direction": "RIGHT",
+      "distance_m": 0.05487947538495064,
+      "confidence": 0.9565825462341309,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.038,
+      "direction_correct": true,
+      "distance_error_mm": 16.879475384950638,
+      "signed_distance_error_mm": 16.879475384950638,
+      "displacement_error_mm": 16.879475384950638,
+      "delta_shelf_m": [
+        0.05487947538495064,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.05100731491962052,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0235",
+      "direction": "RIGHT",
+      "distance_m": 0.08354486525058746,
+      "confidence": 0.5719661116600037,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.064,
+      "direction_correct": true,
+      "distance_error_mm": 19.544865250587463,
+      "signed_distance_error_mm": 19.544865250587463,
+      "displacement_error_mm": 19.544865250587463,
+      "delta_shelf_m": [
+        0.08354486525058746,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.14185187684883382,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0246",
+      "direction": "RIGHT",
+      "distance_m": 0.04558830335736275,
+      "confidence": 0.8713563680648804,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.13,
+      "direction_correct": false,
+      "distance_error_mm": 84.41169664263725,
+      "signed_distance_error_mm": -84.41169664263725,
+      "displacement_error_mm": 175.58830335736275,
+      "delta_shelf_m": [
+        0.04558830335736275,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.015627082731071607,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0268",
+      "direction": "LEFT",
+      "distance_m": 0.05802394449710846,
+      "confidence": 0.9837290644645691,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.055,
+      "direction_correct": true,
+      "distance_error_mm": 3.023944497108459,
+      "signed_distance_error_mm": 3.023944497108459,
+      "displacement_error_mm": 3.023944497108459,
+      "delta_shelf_m": [
+        -0.05802394449710846,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.1441348004003819,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0279",
+      "direction": "LEFT",
+      "distance_m": 0.07406434416770935,
+      "confidence": 0.8900036811828613,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.09,
+      "direction_correct": true,
+      "distance_error_mm": 15.935655832290646,
+      "signed_distance_error_mm": -15.935655832290646,
+      "displacement_error_mm": 15.935655832290646,
+      "delta_shelf_m": [
+        -0.07406434416770935,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0011299790869209645,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09647589460943938,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0285",
+      "direction": "RIGHT",
+      "distance_m": 0.14467625319957733,
+      "confidence": 0.5622991919517517,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.063,
+      "direction_correct": false,
+      "distance_error_mm": 81.67625319957733,
+      "signed_distance_error_mm": 81.67625319957733,
+      "displacement_error_mm": 207.67625319957733,
+      "delta_shelf_m": [
+        0.14467625319957733,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.001714624664481677,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.42309418264843074,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0324",
+      "direction": "RIGHT",
+      "distance_m": 0.06380100548267365,
+      "confidence": 0.9009481072425842,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.053,
+      "direction_correct": true,
+      "distance_error_mm": 10.801005482673647,
+      "signed_distance_error_mm": 10.801005482673647,
+      "displacement_error_mm": 10.801005482673647,
+      "delta_shelf_m": [
+        0.06380100548267365,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.055235882617185095,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0340",
+      "direction": "RIGHT",
+      "distance_m": 0.06817102432250977,
+      "confidence": 0.6650484800338745,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.17,
+      "direction_correct": false,
+      "distance_error_mm": 101.82897567749025,
+      "signed_distance_error_mm": -101.82897567749025,
+      "displacement_error_mm": 238.17102432250977,
+      "delta_shelf_m": [
+        0.06817102432250977,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0032812525611204436,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.06591978600705467,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0358",
+      "direction": "RIGHT",
+      "distance_m": 0.06157563999295235,
+      "confidence": 0.8875858187675476,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.058,
+      "direction_correct": true,
+      "distance_error_mm": 3.5756399929523437,
+      "signed_distance_error_mm": 3.5756399929523437,
+      "displacement_error_mm": 3.5756399929523437,
+      "delta_shelf_m": [
+        0.06157563999295235,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.23946616221571448,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0361",
+      "direction": "RIGHT",
+      "distance_m": 0.048004988580942154,
+      "confidence": 0.9494021534919739,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.104,
+      "direction_correct": false,
+      "distance_error_mm": 55.99501141905784,
+      "signed_distance_error_mm": -55.99501141905784,
+      "displacement_error_mm": 152.00498858094215,
+      "delta_shelf_m": [
+        0.048004988580942154,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.0032510985567732187,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0362",
+      "direction": "RIGHT",
+      "distance_m": 0.12069710344076157,
+      "confidence": 0.6549607515335083,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.118,
+      "direction_correct": true,
+      "distance_error_mm": 2.6971034407615724,
+      "signed_distance_error_mm": 2.6971034407615724,
+      "displacement_error_mm": 2.6971034407615586,
+      "delta_shelf_m": [
+        0.12069710344076157,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.21669154281301778,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0366",
+      "direction": "RIGHT",
+      "distance_m": 0.045726433396339417,
+      "confidence": 0.9787787795066833,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.026,
+      "direction_correct": true,
+      "distance_error_mm": 19.726433396339417,
+      "signed_distance_error_mm": 19.726433396339417,
+      "displacement_error_mm": 19.726433396339413,
+      "delta_shelf_m": [
+        0.045726433396339417,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.06113373903150718,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0368",
+      "direction": "LEFT",
+      "distance_m": 0.0692611113190651,
+      "confidence": 0.9038809537887573,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.055,
+      "direction_correct": true,
+      "distance_error_mm": 14.261111319065094,
+      "signed_distance_error_mm": 14.261111319065094,
+      "displacement_error_mm": 14.261111319065094,
+      "delta_shelf_m": [
+        -0.0692611113190651,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.15236773837797318,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0370",
+      "direction": "LEFT",
+      "distance_m": 0.032542768865823746,
+      "confidence": 0.7104076147079468,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.038,
+      "direction_correct": true,
+      "distance_error_mm": 5.457231134176253,
+      "signed_distance_error_mm": -5.457231134176253,
+      "displacement_error_mm": 5.457231134176253,
+      "delta_shelf_m": [
+        -0.032542768865823746,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0003768962393239789,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.06577755497144588,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0379",
+      "direction": "RIGHT",
+      "distance_m": 0.05911160260438919,
+      "confidence": 0.7818815112113953,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.03,
+      "direction_correct": true,
+      "distance_error_mm": 29.11160260438919,
+      "signed_distance_error_mm": 29.11160260438919,
+      "displacement_error_mm": 29.11160260438919,
+      "delta_shelf_m": [
+        0.05911160260438919,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.25932736670382805,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0394",
+      "direction": "RIGHT",
+      "distance_m": 0.05338475480675697,
+      "confidence": 0.9889138340950012,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.051,
+      "direction_correct": true,
+      "distance_error_mm": 2.3847548067569764,
+      "signed_distance_error_mm": 2.3847548067569764,
+      "displacement_error_mm": 2.3847548067569697,
+      "delta_shelf_m": [
+        0.05338475480675697,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.13919189733937215,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0396",
+      "direction": "LEFT",
+      "distance_m": 0.06515169888734818,
+      "confidence": 0.9905224442481995,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.069,
+      "direction_correct": true,
+      "distance_error_mm": 3.8483011126518307,
+      "signed_distance_error_mm": -3.8483011126518307,
+      "displacement_error_mm": 3.8483011126518307,
+      "delta_shelf_m": [
+        -0.06515169888734818,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00037028296045095633,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.11280479143039462,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0401",
+      "direction": "RIGHT",
+      "distance_m": 0.042698729783296585,
+      "confidence": 0.9948024749755859,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.022,
+      "direction_correct": true,
+      "distance_error_mm": 20.698729783296585,
+      "signed_distance_error_mm": 20.698729783296585,
+      "displacement_error_mm": 20.698729783296585,
+      "delta_shelf_m": [
+        0.042698729783296585,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.0677447922894246,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0405",
+      "direction": "RIGHT",
+      "distance_m": 0.07666409015655518,
+      "confidence": 0.9135079979896545,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.089,
+      "direction_correct": true,
+      "distance_error_mm": 12.33590984344482,
+      "signed_distance_error_mm": -12.33590984344482,
+      "displacement_error_mm": 12.33590984344482,
+      "delta_shelf_m": [
+        0.07666409015655518,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0016439549231858077,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.08997424691933648,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0406",
+      "direction": "RIGHT",
+      "distance_m": 0.043802808970212936,
+      "confidence": 0.9909883141517639,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.04,
+      "direction_correct": true,
+      "distance_error_mm": 3.8028089702129355,
+      "signed_distance_error_mm": 3.8028089702129355,
+      "displacement_error_mm": 3.8028089702129355,
+      "delta_shelf_m": [
+        0.043802808970212936,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.14432164399999756,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0421",
+      "direction": "RIGHT",
+      "distance_m": 0.0623999647796154,
+      "confidence": 0.9184854030609131,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.075,
+      "direction_correct": true,
+      "distance_error_mm": 12.600035220384594,
+      "signed_distance_error_mm": -12.600035220384594,
+      "displacement_error_mm": 12.600035220384594,
+      "delta_shelf_m": [
+        0.0623999647796154,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.001475507114038774,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09676617171941776,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0426",
+      "direction": "LEFT",
+      "distance_m": 0.08455531299114227,
+      "confidence": 0.5375699996948242,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.108,
+      "direction_correct": true,
+      "distance_error_mm": 23.444687008857727,
+      "signed_distance_error_mm": -23.444687008857727,
+      "displacement_error_mm": 23.444687008857727,
+      "delta_shelf_m": [
+        -0.08455531299114227,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.001712364646871258,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.1459036291883048,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0438",
+      "direction": "LEFT",
+      "distance_m": 0.07314589619636536,
+      "confidence": 0.610692024230957,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.08,
+      "direction_correct": true,
+      "distance_error_mm": 6.854103803634645,
+      "signed_distance_error_mm": -6.854103803634645,
+      "displacement_error_mm": 6.854103803634645,
+      "delta_shelf_m": [
+        -0.07314589619636536,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0006221512570542046,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.10406029192330919,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0451",
+      "direction": "RIGHT",
+      "distance_m": 0.06231771782040596,
+      "confidence": 0.9043585062026978,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.072,
+      "direction_correct": true,
+      "distance_error_mm": 9.682282179594035,
+      "signed_distance_error_mm": -9.682282179594035,
+      "displacement_error_mm": 9.682282179594049,
+      "delta_shelf_m": [
+        0.06231771782040596,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0007602172741677181,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.14587872860117568,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0478",
+      "direction": "RIGHT",
+      "distance_m": 0.12548217177391052,
+      "confidence": 0.5878734588623047,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.073,
+      "direction_correct": false,
+      "distance_error_mm": 52.48217177391053,
+      "signed_distance_error_mm": 52.48217177391053,
+      "displacement_error_mm": 198.48217177391052,
+      "delta_shelf_m": [
+        0.12548217177391052,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0009431928142158965,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.09103991099498118,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0484",
+      "direction": "RIGHT",
+      "distance_m": 0.0682443231344223,
+      "confidence": 0.9524627327919006,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.067,
+      "direction_correct": true,
+      "distance_error_mm": 1.2443231344222982,
+      "signed_distance_error_mm": 1.2443231344222982,
+      "displacement_error_mm": 1.2443231344222982,
+      "delta_shelf_m": [
+        0.0682443231344223,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.27893018882155446,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0499",
+      "direction": "LEFT",
+      "distance_m": 0.03455575555562973,
+      "confidence": 0.770150363445282,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.024,
+      "direction_correct": true,
+      "distance_error_mm": 10.55575555562973,
+      "signed_distance_error_mm": 10.55575555562973,
+      "displacement_error_mm": 10.55575555562973,
+      "delta_shelf_m": [
+        -0.03455575555562973,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.10414822495044856,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0516",
+      "direction": "LEFT",
+      "distance_m": 0.07496784627437592,
+      "confidence": 0.6388106346130371,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.14,
+      "direction_correct": false,
+      "distance_error_mm": 65.0321537256241,
+      "signed_distance_error_mm": -65.0321537256241,
+      "displacement_error_mm": 214.96784627437592,
+      "delta_shelf_m": [
+        -0.07496784627437592,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.036954947146817824,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0526",
+      "direction": "RIGHT",
+      "distance_m": 0.11477729678153992,
+      "confidence": 0.8330755233764648,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.104,
+      "direction_correct": true,
+      "distance_error_mm": 10.777296781539922,
+      "signed_distance_error_mm": 10.777296781539922,
+      "displacement_error_mm": 10.777296781539908,
+      "delta_shelf_m": [
+        0.11477729678153992,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.2544839212678903,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0540",
+      "direction": "LEFT",
+      "distance_m": 0.05033348128199577,
+      "confidence": 0.9819262623786926,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.071,
+      "direction_correct": true,
+      "distance_error_mm": 20.66651871800422,
+      "signed_distance_error_mm": -20.66651871800422,
+      "displacement_error_mm": 20.666518718004234,
+      "delta_shelf_m": [
+        -0.05033348128199577,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.001624004870366067,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.08079700197425715,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0544",
+      "direction": "RIGHT",
+      "distance_m": 0.12522363662719727,
+      "confidence": 0.6063714623451233,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.071,
+      "direction_correct": false,
+      "distance_error_mm": 54.22363662719727,
+      "signed_distance_error_mm": 54.22363662719727,
+      "displacement_error_mm": 196.22363662719727,
+      "delta_shelf_m": [
+        0.12522363662719727,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.08961057752422685,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0547",
+      "direction": "RIGHT",
+      "distance_m": 0.07684743404388428,
+      "confidence": 0.9367842674255371,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.056,
+      "direction_correct": true,
+      "distance_error_mm": 20.847434043884277,
+      "signed_distance_error_mm": 20.847434043884277,
+      "displacement_error_mm": 20.847434043884277,
+      "delta_shelf_m": [
+        0.07684743404388428,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.1219428376496956,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0560",
+      "direction": "RIGHT",
+      "distance_m": 0.034489262849092484,
+      "confidence": 0.8159039616584778,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.024,
+      "direction_correct": true,
+      "distance_error_mm": 10.489262849092484,
+      "signed_distance_error_mm": 10.489262849092484,
+      "displacement_error_mm": 10.489262849092484,
+      "delta_shelf_m": [
+        0.034489262849092484,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.1304122915773801,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0567",
+      "direction": "LEFT",
+      "distance_m": 0.08528537303209305,
+      "confidence": 0.704845666885376,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.143,
+      "direction_correct": false,
+      "distance_error_mm": 57.71462696790694,
+      "signed_distance_error_mm": -57.71462696790694,
+      "displacement_error_mm": 228.28537303209308,
+      "delta_shelf_m": [
+        -0.08528537303209305,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0002525838251547341,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.07031354800282419,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0598",
+      "direction": "RIGHT",
+      "distance_m": 0.060085639357566833,
+      "confidence": 0.9747068881988525,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.049,
+      "direction_correct": true,
+      "distance_error_mm": 11.085639357566832,
+      "signed_distance_error_mm": 11.085639357566832,
+      "displacement_error_mm": 11.085639357566832,
+      "delta_shelf_m": [
+        0.060085639357566833,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.45,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0602",
+      "direction": "LEFT",
+      "distance_m": 0.06158994883298874,
+      "confidence": 0.8894523978233337,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.056,
+      "direction_correct": true,
+      "distance_error_mm": 5.589948832988738,
+      "signed_distance_error_mm": 5.589948832988738,
+      "displacement_error_mm": 5.589948832988738,
+      "delta_shelf_m": [
+        -0.06158994883298874,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09708194248719751,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0605",
+      "direction": "LEFT",
+      "distance_m": 0.057023826986551285,
+      "confidence": 0.9378163814544678,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.06,
+      "direction_correct": true,
+      "distance_error_mm": 2.976173013448713,
+      "signed_distance_error_mm": -2.976173013448713,
+      "displacement_error_mm": 2.976173013448713,
+      "delta_shelf_m": [
+        -0.057023826986551285,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00019127647063613243,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.2751678936086318,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0644",
+      "direction": "RIGHT",
+      "distance_m": 0.051497336477041245,
+      "confidence": 0.6833736300468445,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.048,
+      "direction_correct": true,
+      "distance_error_mm": 3.4973364770412436,
+      "signed_distance_error_mm": 3.4973364770412436,
+      "displacement_error_mm": 3.4973364770412436,
+      "delta_shelf_m": [
+        0.051497336477041245,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.04851096142875533,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0677",
+      "direction": "RIGHT",
+      "distance_m": 0.04972062632441521,
+      "confidence": 0.9351546168327332,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.135,
+      "direction_correct": false,
+      "distance_error_mm": 85.27937367558481,
+      "signed_distance_error_mm": -85.27937367558481,
+      "displacement_error_mm": 184.7206263244152,
+      "delta_shelf_m": [
+        0.04972062632441521,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.023300322654986716,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0678",
+      "direction": "RIGHT",
+      "distance_m": 0.041769493371248245,
+      "confidence": 0.9453263878822327,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.045,
+      "direction_correct": true,
+      "distance_error_mm": 3.230506628751753,
+      "signed_distance_error_mm": -3.230506628751753,
+      "displacement_error_mm": 3.230506628751753,
+      "delta_shelf_m": [
+        0.041769493371248245,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00042448819295982265,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.10073224516023566,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0685",
+      "direction": "LEFT",
+      "distance_m": 0.04672321304678917,
+      "confidence": 0.7957608699798584,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.044,
+      "direction_correct": true,
+      "distance_error_mm": 2.723213046789172,
+      "signed_distance_error_mm": 2.723213046789172,
+      "displacement_error_mm": 2.723213046789172,
+      "delta_shelf_m": [
+        -0.04672321304678917,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.06259035036908678,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0698",
+      "direction": "LEFT",
+      "distance_m": 0.060662440955638885,
+      "confidence": 0.9750292897224426,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.097,
+      "direction_correct": true,
+      "distance_error_mm": 36.337559044361115,
+      "signed_distance_error_mm": -36.337559044361115,
+      "displacement_error_mm": 36.337559044361115,
+      "delta_shelf_m": [
+        -0.060662440955638885,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.002643982947464352,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.24555826535991346,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0699",
+      "direction": "LEFT",
+      "distance_m": 0.07660957425832748,
+      "confidence": 0.826777994632721,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.079,
+      "direction_correct": true,
+      "distance_error_mm": 2.3904257416725168,
+      "signed_distance_error_mm": -2.3904257416725168,
+      "displacement_error_mm": 2.3904257416725168,
+      "delta_shelf_m": [
+        -0.07660957425832748,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00020281267700943375,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.11825765328327378,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0718",
+      "direction": "RIGHT",
+      "distance_m": 0.07549477368593216,
+      "confidence": 0.9503762125968933,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.067,
+      "direction_correct": true,
+      "distance_error_mm": 8.494773685932156,
+      "signed_distance_error_mm": 8.494773685932156,
+      "displacement_error_mm": 8.494773685932156,
+      "delta_shelf_m": [
+        0.07549477368593216,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.10203473695783005,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0724",
+      "direction": "RIGHT",
+      "distance_m": 0.06303612142801285,
+      "confidence": 0.9413629770278931,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.052,
+      "direction_correct": true,
+      "distance_error_mm": 11.03612142801285,
+      "signed_distance_error_mm": 11.03612142801285,
+      "displacement_error_mm": 11.036121428012843,
+      "delta_shelf_m": [
+        0.06303612142801285,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.08429440235423152,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0726",
+      "direction": "RIGHT",
+      "distance_m": 0.07717174291610718,
+      "confidence": 0.9134617447853088,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.087,
+      "direction_correct": true,
+      "distance_error_mm": 9.828257083892817,
+      "signed_distance_error_mm": -9.828257083892817,
+      "displacement_error_mm": 9.82825708389283,
+      "delta_shelf_m": [
+        0.07717174291610718,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.000742373538589694,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09810579529102359,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0731",
+      "direction": "RIGHT",
+      "distance_m": 0.06691589951515198,
+      "confidence": 0.8140385150909424,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.057,
+      "direction_correct": true,
+      "distance_error_mm": 9.915899515151976,
+      "signed_distance_error_mm": 9.915899515151976,
+      "displacement_error_mm": 9.915899515151976,
+      "delta_shelf_m": [
+        0.06691589951515198,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.12626444036271578,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0745",
+      "direction": "RIGHT",
+      "distance_m": 0.04050152376294136,
+      "confidence": 0.8929365873336792,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.036,
+      "direction_correct": true,
+      "distance_error_mm": 4.501523762941363,
+      "signed_distance_error_mm": 4.501523762941363,
+      "displacement_error_mm": 4.501523762941356,
+      "delta_shelf_m": [
+        0.04050152376294136,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.0923425442062562,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0749",
+      "direction": "LEFT",
+      "distance_m": 0.04166056960821152,
+      "confidence": 0.8889818787574768,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.159,
+      "direction_correct": false,
+      "distance_error_mm": 117.33943039178848,
+      "signed_distance_error_mm": -117.33943039178848,
+      "displacement_error_mm": 200.66056960821152,
+      "delta_shelf_m": [
+        -0.04166056960821152,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00036205533523036546,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.007363798868873839,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0751",
+      "direction": "LEFT",
+      "distance_m": 0.03379492089152336,
+      "confidence": 0.9810934662818909,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.027,
+      "direction_correct": true,
+      "distance_error_mm": 6.794920891523361,
+      "signed_distance_error_mm": 6.794920891523361,
+      "displacement_error_mm": 6.794920891523361,
+      "delta_shelf_m": [
+        -0.03379492089152336,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.12127864568018426,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0756",
+      "direction": "RIGHT",
+      "distance_m": 0.07690754532814026,
+      "confidence": 0.5798036456108093,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.053,
+      "direction_correct": true,
+      "distance_error_mm": 23.90754532814026,
+      "signed_distance_error_mm": 23.90754532814026,
+      "displacement_error_mm": 23.90754532814026,
+      "delta_shelf_m": [
+        0.07690754532814026,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.0759818127225863,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0764",
+      "direction": "RIGHT",
+      "distance_m": 0.05788714811205864,
+      "confidence": 0.9640027284622192,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.126,
+      "direction_correct": false,
+      "distance_error_mm": 68.11285188794136,
+      "signed_distance_error_mm": -68.11285188794136,
+      "displacement_error_mm": 183.88714811205864,
+      "delta_shelf_m": [
+        0.05788714811205864,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.03477465778224906,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0767",
+      "direction": "RIGHT",
+      "distance_m": 0.06257370859384537,
+      "confidence": 0.6176486611366272,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.075,
+      "direction_correct": true,
+      "distance_error_mm": 12.426291406154629,
+      "signed_distance_error_mm": -12.426291406154629,
+      "displacement_error_mm": 12.426291406154629,
+      "delta_shelf_m": [
+        0.06257370859384537,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0010606447177222095,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.12511061020500908,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0777",
+      "direction": "LEFT",
+      "distance_m": 0.040429092943668365,
+      "confidence": 0.9000877141952515,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.059,
+      "direction_correct": true,
+      "distance_error_mm": 18.57090705633163,
+      "signed_distance_error_mm": -18.57090705633163,
+      "displacement_error_mm": 18.570907056331638,
+      "delta_shelf_m": [
+        -0.040429092943668365,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0010569556916318673,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.13981641511168547,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0795",
+      "direction": "RIGHT",
+      "distance_m": 0.11019565165042877,
+      "confidence": 0.8848471641540527,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.056,
+      "direction_correct": false,
+      "distance_error_mm": 54.19565165042877,
+      "signed_distance_error_mm": 54.19565165042877,
+      "displacement_error_mm": 166.19565165042877,
+      "delta_shelf_m": [
+        0.11019565165042877,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.05642551278418095,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0808",
+      "direction": "LEFT",
+      "distance_m": 0.04926622658967972,
+      "confidence": 0.7770602107048035,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.116,
+      "direction_correct": false,
+      "distance_error_mm": 66.73377341032028,
+      "signed_distance_error_mm": -66.73377341032028,
+      "displacement_error_mm": 165.26622658967972,
+      "delta_shelf_m": [
+        -0.04926622658967972,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 1.5931908705904845e-05,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.009599100796007953,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0817",
+      "direction": "RIGHT",
+      "distance_m": 0.14471448957920074,
+      "confidence": 0.7857971787452698,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.139,
+      "direction_correct": true,
+      "distance_error_mm": 5.714489579200732,
+      "signed_distance_error_mm": 5.714489579200732,
+      "displacement_error_mm": 5.714489579200732,
+      "delta_shelf_m": [
+        0.14471448957920074,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.1602350213524859,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0820",
+      "direction": "RIGHT",
+      "distance_m": 0.05163245648145676,
+      "confidence": 0.9737749695777893,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.056,
+      "direction_correct": true,
+      "distance_error_mm": 4.367543518543244,
+      "signed_distance_error_mm": -4.367543518543244,
+      "displacement_error_mm": 4.367543518543244,
+      "delta_shelf_m": [
+        0.05163245648145676,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0002954776870352373,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.09932802451420614,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0823",
+      "direction": "RIGHT",
+      "distance_m": 0.08907748758792877,
+      "confidence": 0.9931883811950684,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.09,
+      "direction_correct": true,
+      "distance_error_mm": 0.9225124120712247,
+      "signed_distance_error_mm": -0.9225124120712247,
+      "displacement_error_mm": 0.9225124120712247,
+      "delta_shelf_m": [
+        0.08907748758792877,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 1.1528300918890643e-05,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.45,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0845",
+      "direction": "LEFT",
+      "distance_m": 0.07563882321119308,
+      "confidence": 0.5968839526176453,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.081,
+      "direction_correct": true,
+      "distance_error_mm": 5.361176788806918,
+      "signed_distance_error_mm": -5.361176788806918,
+      "displacement_error_mm": 5.361176788806918,
+      "delta_shelf_m": [
+        -0.07563882321119308,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.000591762952765796,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.11112214001046537,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0849",
+      "direction": "RIGHT",
+      "distance_m": 0.12216052412986755,
+      "confidence": 0.7142780423164368,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.055,
+      "direction_correct": false,
+      "distance_error_mm": 67.16052412986755,
+      "signed_distance_error_mm": 67.16052412986755,
+      "displacement_error_mm": 177.16052412986755,
+      "delta_shelf_m": [
+        0.12216052412986755,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.001758932758013816,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.11867374684883647,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0862",
+      "direction": "RIGHT",
+      "distance_m": 0.06088341027498245,
+      "confidence": 0.7458845973014832,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.132,
+      "direction_correct": false,
+      "distance_error_mm": 71.11658972501755,
+      "signed_distance_error_mm": -71.11658972501755,
+      "displacement_error_mm": 192.88341027498245,
+      "delta_shelf_m": [
+        0.06088341027498245,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0004566071364951335,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.025342346078384398,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0879",
+      "direction": "RIGHT",
+      "distance_m": 0.03962712734937668,
+      "confidence": 0.5719754695892334,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.152,
+      "direction_correct": false,
+      "distance_error_mm": 112.37287265062332,
+      "signed_distance_error_mm": -112.37287265062332,
+      "displacement_error_mm": 191.62712734937668,
+      "delta_shelf_m": [
+        0.03962712734937668,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.010290169637025753,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0894",
+      "direction": "RIGHT",
+      "distance_m": 0.05693534016609192,
+      "confidence": 0.9804807305335999,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.061,
+      "direction_correct": true,
+      "distance_error_mm": 4.064659833908079,
+      "signed_distance_error_mm": -4.064659833908079,
+      "displacement_error_mm": 4.064659833908079,
+      "delta_shelf_m": [
+        0.05693534016609192,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.000270692203550177,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.20732576951130346,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0898",
+      "direction": "RIGHT",
+      "distance_m": 0.05027538165450096,
+      "confidence": 0.9492508769035339,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.047,
+      "direction_correct": true,
+      "distance_error_mm": 3.2753816545009613,
+      "signed_distance_error_mm": 3.2753816545009613,
+      "displacement_error_mm": 3.2753816545009613,
+      "delta_shelf_m": [
+        0.05027538165450096,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.3737785111402548,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0911",
+      "direction": "RIGHT",
+      "distance_m": 0.04097774997353554,
+      "confidence": 0.8914613127708435,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.028,
+      "direction_correct": true,
+      "distance_error_mm": 12.977749973535538,
+      "signed_distance_error_mm": 12.977749973535538,
+      "displacement_error_mm": 12.977749973535538,
+      "delta_shelf_m": [
+        0.04097774997353554,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.10611728097183598,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0912",
+      "direction": "RIGHT",
+      "distance_m": 0.05768578499555588,
+      "confidence": 0.8398168683052063,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.049,
+      "direction_correct": true,
+      "distance_error_mm": 8.685784995555876,
+      "signed_distance_error_mm": 8.685784995555876,
+      "displacement_error_mm": 8.685784995555876,
+      "delta_shelf_m": [
+        0.05768578499555588,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.07618002684605246,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0914",
+      "direction": "LEFT",
+      "distance_m": 0.05212019756436348,
+      "confidence": 0.8745746612548828,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.061,
+      "direction_correct": true,
+      "distance_error_mm": 8.879802435636519,
+      "signed_distance_error_mm": -8.879802435636519,
+      "displacement_error_mm": 8.879802435636519,
+      "delta_shelf_m": [
+        -0.05212019756436348,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.000752820399290256,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.0626805965987151,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0936",
+      "direction": "LEFT",
+      "distance_m": 0.06631588935852051,
+      "confidence": 0.597542405128479,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.07,
+      "direction_correct": true,
+      "distance_error_mm": 3.684110641479499,
+      "signed_distance_error_mm": -3.684110641479499,
+      "displacement_error_mm": 3.684110641479499,
+      "delta_shelf_m": [
+        -0.06631588935852051,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.00021323484668385703,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.22175908824046173,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0947",
+      "direction": "RIGHT",
+      "distance_m": 0.06272673606872559,
+      "confidence": 0.9067884087562561,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.122,
+      "direction_correct": false,
+      "distance_error_mm": 59.273263931274414,
+      "signed_distance_error_mm": -59.273263931274414,
+      "displacement_error_mm": 184.7267360687256,
+      "delta_shelf_m": [
+        0.06272673606872559,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 5.276460867306989e-05,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": false,
+        "clearance_limit_m": 0.02572864637223346,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0949",
+      "direction": "LEFT",
+      "distance_m": 0.04992390796542168,
+      "confidence": 0.7419267892837524,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.049,
+      "direction_correct": true,
+      "distance_error_mm": 0.9239079654216747,
+      "signed_distance_error_mm": 0.9239079654216747,
+      "displacement_error_mm": 0.9239079654216747,
+      "delta_shelf_m": [
+        -0.04992390796542168,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.45,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0954",
+      "direction": "LEFT",
+      "distance_m": 0.05299512669444084,
+      "confidence": 0.9653222560882568,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.066,
+      "direction_correct": true,
+      "distance_error_mm": 13.004873305559162,
+      "signed_distance_error_mm": -13.004873305559162,
+      "displacement_error_mm": 13.004873305559162,
+      "delta_shelf_m": [
+        -0.05299512669444084,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0008273361999928164,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.19054451011844128,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0958",
+      "direction": "RIGHT",
+      "distance_m": 0.08691130578517914,
+      "confidence": 0.9385371208190918,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.072,
+      "direction_correct": true,
+      "distance_error_mm": 14.911305785179144,
+      "signed_distance_error_mm": 14.911305785179144,
+      "displacement_error_mm": 14.91130578517913,
+      "delta_shelf_m": [
+        0.08691130578517914,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.1179213659621906,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0967",
+      "direction": "LEFT",
+      "distance_m": 0.1206102967262268,
+      "confidence": 0.6830528974533081,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.07,
+      "direction_correct": false,
+      "distance_error_mm": 50.6102967262268,
+      "signed_distance_error_mm": 50.6102967262268,
+      "displacement_error_mm": 190.6102967262268,
+      "delta_shelf_m": [
+        -0.1206102967262268,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0009043654301512053,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.12195537532359661,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0973",
+      "direction": "LEFT",
+      "distance_m": 0.034279715269804,
+      "confidence": 0.8941360116004944,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.058,
+      "direction_correct": true,
+      "distance_error_mm": 23.720284730196003,
+      "signed_distance_error_mm": -23.720284730196003,
+      "displacement_error_mm": 23.720284730196003,
+      "delta_shelf_m": [
+        -0.034279715269804,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.001576082221432089,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.06227139856191238,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0976",
+      "direction": "LEFT",
+      "distance_m": 0.09885373711585999,
+      "confidence": 0.5511859655380249,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.062,
+      "direction_correct": false,
+      "distance_error_mm": 36.853737115859985,
+      "signed_distance_error_mm": 36.853737115859985,
+      "displacement_error_mm": 160.85373711585999,
+      "delta_shelf_m": [
+        -0.09885373711585999,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0021939564116923286,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.14905030184710055,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0986",
+      "direction": "RIGHT",
+      "distance_m": 0.09907127171754837,
+      "confidence": 0.7966641783714294,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.096,
+      "direction_correct": true,
+      "distance_error_mm": 3.0712717175483686,
+      "signed_distance_error_mm": 3.0712717175483686,
+      "displacement_error_mm": 3.0712717175483686,
+      "delta_shelf_m": [
+        0.09907127171754837,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0,
+        "corridor_clear": true,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.20847043290193845,
+        "proxy_valid": true
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0988",
+      "direction": "RIGHT",
+      "distance_m": 0.07917065918445587,
+      "confidence": 0.9590847492218018,
+      "ground_truth_direction": "RIGHT",
+      "ground_truth_distance_m": 0.089,
+      "direction_correct": true,
+      "distance_error_mm": 9.829340815544125,
+      "signed_distance_error_mm": -9.829340815544125,
+      "displacement_error_mm": 9.829340815544125,
+      "delta_shelf_m": [
+        0.07917065918445587,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.0013051266409233211,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.16310743928835447,
+        "proxy_valid": false
+      }
+    },
+    {
+      "scene_id": "translate_diverse_0993",
+      "direction": "LEFT",
+      "distance_m": 0.04420821741223335,
+      "confidence": 0.9494286179542542,
+      "ground_truth_direction": "LEFT",
+      "ground_truth_distance_m": 0.047,
+      "direction_correct": true,
+      "distance_error_mm": 2.7917825877666473,
+      "signed_distance_error_mm": -2.7917825877666473,
+      "displacement_error_mm": 2.7917825877666473,
+      "delta_shelf_m": [
+        -0.04420821741223335,
+        0.0,
+        0.0
+      ],
+      "geometry": {
+        "corridor_overlap_m2": 0.000166662156137404,
+        "corridor_clear": false,
+        "collision_free_swept_aabb": true,
+        "clearance_limit_m": 0.10150417387769942,
+        "proxy_valid": false
+      }
+    }
+  ]
+}

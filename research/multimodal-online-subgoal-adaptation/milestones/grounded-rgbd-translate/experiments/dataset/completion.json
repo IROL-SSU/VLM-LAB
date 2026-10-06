@@ -1,0 +1,6 @@
+{
+  "complete": true,
+  "audited_samples": 1000,
+  "manifest_sha256": "07948f085443e498f9802b8baabcdea0430c9081483a56eca3c46c2c6223ae9b",
+  "trained_model": false
+}

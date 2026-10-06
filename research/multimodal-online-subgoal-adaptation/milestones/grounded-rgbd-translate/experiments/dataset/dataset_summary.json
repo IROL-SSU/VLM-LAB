@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "sample_count": 1000,
+  "independent_per_sample_audit_passed": 1000,
+  "directions": {
+    "RIGHT": 500,
+    "LEFT": 500
+  },
+  "split_counts": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "split_directions": {
+    "train": {
+      "RIGHT": 400,
+      "LEFT": 400
+    },
+    "validation": {
+      "LEFT": 50,
+      "RIGHT": 50
+    },
+    "test": {
+      "RIGHT": 50,
+      "LEFT": 50
+    }
+  },
+  "ordered_target_blocker_pairs": 50,
+  "unique_target_assets": 15,
+  "unique_blocker_assets": 15,
+  "target_asset_counts": {
+    "cup_8": 60,
+    "coldgrape": 80,
+    "mug_7": 60,
+    "Mug_2": 80,
+    "minutemad": 60,
+    "cup_7": 80,
+    "top": 60,
+    "cocopalm": 60,
+    "acafela": 60,
+    "Mug_4": 60,
+    "letsbe": 100,
+    "biracsikhye": 60,
+    "cantata": 60,
+    "Cup_4": 60,
+    "Cup_2": 60
+  },
+  "blocker_asset_counts": {
+    "acafela": 60,
+    "Cup_4": 80,
+    "letsbe": 60,
+    "mug_7": 60,
+    "coldgrape": 60,
+    "minutemad": 60,
+    "Mug_2": 60,
+    "cup_7": 60,
+    "biracsikhye": 60,
+    "cantata": 80,
+    "top": 60,
+    "Mug_4": 100,
+    "cocopalm": 60,
+    "Cup_2": 80,
+    "cup_8": 60
+  },
+  "distance_bins": {
+    "medium": 400,
+    "long": 300,
+    "short": 300
+  },
+  "distance_cm_percentiles_0_25_50_75_100": [
+    2.1,
+    4.6,
+    6.6000000000000005,
+    10.0,
+    22.0
+  ],
+  "distance_bin_fallback_count": 0,
+  "distractor_counts": {
+    "2": 158,
+    "3": 163,
+    "4": 170,
+    "5": 179,
+    "6": 154,
+    "7": 176
+  },
+  "palette_counts": {
+    "light_oak": 192,
+    "ivory": 221,
+    "walnut": 194,
+    "slate": 194,
+    "sage": 199
+  },
+  "target_visible_fraction_range": [
+    0.4002145922746781,
+    0.7995796713794421
+  ],
+  "blocker_occlusion_fraction_range": [
+    0.2004203286205579,
+    0.5997854077253219
+  ],
+  "duplicate_rgb_count": 0,
+  "duplicate_exact_layout_count": 0,
+  "cross_split_coarse_layout_duplicates": [],
+  "coarse_duplicate_definition": "same complete role-labeled object set, XY rounded to 2cm and yaw rounded to 15deg; camera/material ignored",
+  "labels": "minimum static AABB target-front corridor clearing displacement; LEFT/RIGHT-only accepted labels; not grasp/executor success",
+  "scene_scope": "same shelf mesh, 15 object meshes; randomized identities/yaw/positions/clutter/materials/lighting/calibrated viewpoint",
+  "split_scope": "layout generalization, not unseen-object or unseen-pair generalization"
+}

@@ -1,0 +1,25 @@
+{
+  "best_epoch": 30,
+  "validation_metrics": {
+    "loss": 0.231408953666687,
+    "direction_accuracy": 0.7299999594688416,
+    "direction_correct_count": 73,
+    "distance_mae_mm": 32.21400833129883,
+    "signed_displacement_mae_mm": 67.13887023925781,
+    "safe_interval_hit_rate": 0.3799999952316284,
+    "safe_interval_hit_count": 38,
+    "safe_interval_violation_mae_mm": 59.32966232299805,
+    "proxy_valid_count": 63,
+    "proxy_valid_rate": 0.63,
+    "corridor_clear_count": 80,
+    "collision_free_count": 79
+  },
+  "selection_score": [
+    63,
+    73,
+    -67.13887023925781,
+    -0.231408953666687
+  ],
+  "checkpoint_sha256": "f9977563f051a30381f9737fc5d46cbe3b71f2af980de5c2f1736ad82d0d1cad",
+  "test_evaluated": false
+}

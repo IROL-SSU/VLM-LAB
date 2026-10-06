@@ -1,0 +1,72 @@
+{
+  "complete": true,
+  "best_epoch": 14,
+  "epochs_run": 44,
+  "best_validation_loss": 0.6895179748535156,
+  "training_seconds": 4.386819222941995,
+  "test_evaluations": 1,
+  "test": {
+    "loss": 0.7563058733940125,
+    "direction_loss": 0.582956075668335,
+    "distance_loss": 0.03466995805501938,
+    "direction_accuracy": 0.7400000095367432,
+    "distance_mae_mm": 25.599773406982422,
+    "gt_direction_head_distance_mae_mm": 10.982211112976074,
+    "sample_count": 100,
+    "checkpoint_epoch": 14,
+    "checkpoint_sha256": "d64e87452d400eb5c0cb5e3cba85750db7cb6f8b710b8239d55cf7a8a3d3602f",
+    "direction_correct_count": 74,
+    "distance_median_error_mm": 12.228948071599008,
+    "distance_p90_error_mm": 67.25575690567494,
+    "distance_max_error_mm": 127.9226326942444,
+    "displacement_mae_mm": 57.39811105102301,
+    "direction_and_5mm_count": 25,
+    "proxy_valid_count": 40,
+    "corridor_clear_count": 54,
+    "collision_free_count": 75,
+    "constant_baseline": {
+      "fitted_on": "training labels only",
+      "direction": "LEFT",
+      "direction_accuracy": 0.5,
+      "distance_m": 0.07513375,
+      "distance_mae_mm": 29.437450000000005
+    },
+    "protocol": "one final test evaluation; best checkpoint selected by validation loss; uncorrected predictions",
+    "limitations": "Same 15 assets and 50 role pairs across splits; only layouts held out. LEFT/RIGHT only. Static AABB goal proxy, not execution/grasp success.",
+    "by_direction": {
+      "LEFT": {
+        "count": 50,
+        "correct": 30,
+        "distance_mae_mm": 34.123745355606076
+      },
+      "RIGHT": {
+        "count": 50,
+        "correct": 44,
+        "distance_mae_mm": 17.075805894732476
+      }
+    },
+    "confusion_matrix": {
+      "LEFT": {
+        "BACK": 0,
+        "BACK_RIGHT": 0,
+        "RIGHT": 20,
+        "FRONT_RIGHT": 0,
+        "FRONT": 0,
+        "FRONT_LEFT": 0,
+        "LEFT": 30,
+        "BACK_LEFT": 0
+      },
+      "RIGHT": {
+        "BACK": 0,
+        "BACK_RIGHT": 0,
+        "RIGHT": 44,
+        "FRONT_RIGHT": 0,
+        "FRONT": 0,
+        "FRONT_LEFT": 0,
+        "LEFT": 6,
+        "BACK_LEFT": 0
+      }
+    },
+    "checkpoint_unchanged": true
+  }
+}

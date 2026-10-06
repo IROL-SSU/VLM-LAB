@@ -1,0 +1,28 @@
+{
+  "best_epoch": 13,
+  "validation_metrics": {
+    "loss": 1.330853819847107,
+    "acceptable_set_nll": 0.6066197156906128,
+    "ranking_loss": 0.2820076644420624,
+    "preferred_set_nll": 3.2686607837677,
+    "acceptable_probability_mass": 0.6550747752189636,
+    "safe_action_hit_rate": 0.800000011920929,
+    "safe_action_hit_count": 80,
+    "preferred_action_hit_rate": 0.09000000357627869,
+    "preferred_action_hit_count": 9,
+    "direction_accuracy": 0.7799999713897705,
+    "direction_correct_count": 78,
+    "distance_mae_mm": 33.37000274658203,
+    "signed_displacement_mae_mm": 61.94999694824219,
+    "mean_predicted_distance_mm": 104.93999481201172,
+    "direction_and_5mm_count": 11
+  },
+  "selection_score": [
+    80,
+    78,
+    -104.93999481201172,
+    -1.330853819847107
+  ],
+  "checkpoint_sha256": "7811653c02ce06de414ad442447fb05cecd05bcf19ba1aaa55bdc88b5634ec1f",
+  "test_evaluated": false
+}

@@ -1,0 +1,32 @@
+{
+  "best_epoch": 70,
+  "validation_metrics": {
+    "loss": 2.4436538219451904,
+    "direction_loss": 0.3893013894557953,
+    "canonical_safe_set_nll": 0.771403968334198,
+    "ranking_loss": 0.6449131965637207,
+    "preferred_set_nll": 7.324188232421875,
+    "acceptable_probability_mass": 0.661394476890564,
+    "safe_action_hit_rate": 0.699999988079071,
+    "safe_action_hit_count": 70,
+    "preferred_action_hit_rate": 0.029999999329447746,
+    "preferred_action_hit_count": 3,
+    "direction_accuracy": 0.8999999761581421,
+    "direction_correct_count": 90,
+    "direction_and_safe_rate": 0.699999988079071,
+    "direction_and_safe_count": 70,
+    "distance_mae_mm": 21.719999313354492,
+    "signed_displacement_mae_mm": 35.459999084472656,
+    "mean_predicted_distance_mm": 83.37000274658203,
+    "direction_and_5mm_count": 14
+  },
+  "selection_score": [
+    90,
+    70,
+    70,
+    -83.37000274658203,
+    -2.4436538219451904
+  ],
+  "checkpoint_sha256": "a6a50435c265dd6ab123b387bcbbb072f2644920808a2ac4ade4eb344fb8cbcd",
+  "test_evaluated": false
+}

@@ -1,0 +1,30 @@
+{
+  "first_step": {
+    "rgb_encoder": {
+      "grad_l2": 0.0,
+      "parameters_with_grad": 0
+    },
+    "geometry_encoder": {
+      "grad_l2": 0.08116761242110279,
+      "parameters_with_grad": 6
+    },
+    "rgb_projection": {
+      "grad_l2": 0.1701290396781748,
+      "parameters_with_grad": 4
+    },
+    "geo_projection": {
+      "grad_l2": 0.15143974545216202,
+      "parameters_with_grad": 4
+    },
+    "fusion": {
+      "grad_l2": 0.1428661132408519,
+      "parameters_with_grad": 4
+    },
+    "action_head": {
+      "grad_l2": 0.1315183195526644,
+      "parameters_with_grad": 2
+    }
+  },
+  "frozen_rgb_unchanged": true,
+  "rgb_state_sha256": "919c52be19989482baaa37c34d7043fab1364e3a874f28d3efb199a80d0065db"
+}
